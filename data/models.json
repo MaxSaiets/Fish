@@ -1,0 +1,5496 @@
+{
+  "stats": {
+    "total_variants": 228,
+    "total_models": 138,
+    "avg_variants_per_model": 1.65
+  },
+  "models": [
+    {
+      "parent_key": "bite_indicator__дзвіночок",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Дзвіночок",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Дзвіночок",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання",
+        "Підтип": "Дзвіночок"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "937",
+          "num": 211,
+          "name_raw": "Дзвіночок",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__конектор_швидкозмін_feima_під_сигнал",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Конектор швидкозмін.FEIMA(під сигнал.)",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Конектор швидкозмін.FEIMA(під сигнал.)",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "428",
+          "num": 232,
+          "name_raw": "Конектор швидкозмін.FEIMA(під сигнал.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__набір_свінгерів_megastrike_ланцюг",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Набір Свінгерів Megastrike ланцюг",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Набір Свінгерів Megastrike ланцюг",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання",
+        "Підтип": "Свінгер"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "2777",
+          "num": 230,
+          "name_raw": "Набір Свінгерів Megastrike ланцюг",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__набір_сигналізаторів_fa",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Набір Сигналізаторів FA-",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Набір Сигналізаторів FA-",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "3329",
+          "num": 228,
+          "name_raw": "Набір Сигналізаторів FA-02-4",
+          "test_min": 2.0,
+          "test_max": 4.0,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Тест": "2-4"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__набір_сигналізаторів_jy_k",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Набір Сигналізаторів JY- K",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Набір Сигналізаторів JY- K",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "3330",
+          "num": 226,
+          "name_raw": "Набір Сигналізаторів JY-57-4K",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__набір_сигналізаторів_jy_39",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Набір Сигналізаторів JY-39",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Набір Сигналізаторів JY-39",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "3331",
+          "num": 227,
+          "name_raw": "Набір Сигналізаторів JY-39",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__набір_сигналізаторів_sf23657",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Набір Сигналізаторів SF23657",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Набір Сигналізаторів SF23657",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "2093",
+          "num": 225,
+          "name_raw": "Набір Сигналізаторів SF23657",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__набір_сигналізаторів_sf23799",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Набір Сигналізаторів SF23799",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Набір Сигналізаторів SF23799",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "2092",
+          "num": 224,
+          "name_raw": "Набір Сигналізаторів SF23799",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__набір_свінгерів_carp_line_на_штанзі",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Набір свінгерів Carp Line на штанзі",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Набір свінгерів Carp Line на штанзі",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання",
+        "Підтип": "Свінгер"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4631",
+          "num": 231,
+          "name_raw": "Набір свінгерів Carp Line 11G на штанзі 4 шт",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Вага": "11 г",
+            "Кількість в упаковці": "4 шт"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__набір_сигналізаторів_carp_line_4_4_tli_07_swinger_02",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Набір сигналізаторів Carp Line 4+4 TLI-07 + Swinger 02",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Набір сигналізаторів Carp Line 4+4 TLI-07 + Swinger 02",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4632",
+          "num": 229,
+          "name_raw": "Набір сигналізаторів Carp Line 4+4 TLI-07 + Swinger 02",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__свінгер_faima_набір_штанга_синя",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Свінгер FAIMA набір штанга синя",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Свінгер FAIMA набір штанга синя",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання",
+        "Підтип": "Свінгер"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "409",
+          "num": 223,
+          "name_raw": "Свінгер FAIMA набір штанга синя",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__свінгер_feima_sw26",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Свінгер Feima SW26",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Свінгер Feima SW26",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання",
+        "Підтип": "Свінгер"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "3207",
+          "num": 222,
+          "name_raw": "Свінгер Feima SW26",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__свінгер_з_підк_ланцюг",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Свінгер з підк.ланцюг",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Свінгер з підк.ланцюг",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання",
+        "Підтип": "Свінгер"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "3208",
+          "num": 221,
+          "name_raw": "Свінгер з підк.ланцюг",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__свінгер_з_підк_штанга",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Свінгер з підк.штанга",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Свінгер з підк.штанга",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання",
+        "Підтип": "Свінгер"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "2173",
+          "num": 220,
+          "name_raw": "Свінгер з підк.штанга",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__свінгер_з_підключення_268_на_ланцюгу",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Свінгер з підключення 268 на ланцюгу",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Свінгер з підключення 268 на ланцюгу",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання",
+        "Підтип": "Свінгер"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "2216",
+          "num": 219,
+          "name_raw": "Свінгер з підключення 268 на ланцюгу",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__свінгер_штанга_з_підключенням",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Свінгер штанга з підключенням",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Свінгер штанга з підключенням",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання",
+        "Підтип": "Свінгер"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "410",
+          "num": 218,
+          "name_raw": "Свінгер штанга з підключенням",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__світлячок_4_5_38мм_sms",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Світлячок 4,5*38мм SMS",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Світлячок 4,5*38мм SMS",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання",
+        "Підтип": "Під світлячок"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "016900",
+          "num": 210,
+          "name_raw": "Світлячок 4,5*38мм SMS",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__світлячок_okean_sun",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Світлячок OKEAN SUN",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Світлячок OKEAN SUN",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання",
+        "Підтип": "Під світлячок"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "2086",
+          "num": 209,
+          "name_raw": "Світлячок OKEAN SUN d4.5*37 5шт",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Кількість в упаковці": "5 шт",
+            "Діаметр": "4.5 мм",
+            "Довжина": "37 мм"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__сигналізатор_carp_line_ts_tli_07",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Сигналізатор Carp Line TS TLI-07",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Сигналізатор Carp Line TS TLI-07",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "3188",
+          "num": 217,
+          "name_raw": "Сигналізатор Carp Line TS TLI-07",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__сигналізатор_sadey_jy_28",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Сигналізатор Sadey jy-28",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Сигналізатор Sadey jy-28",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4352",
+          "num": 215,
+          "name_raw": "Сигналізатор Sadey jy-28",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__сигналізатор_miracle_fish",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Сигналізатор miracle fish",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Сигналізатор miracle fish",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "8026",
+          "num": 216,
+          "name_raw": "Сигналізатор miracle fish 2 шт",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Кількість в упаковці": "2 шт"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__сигналізатор_клювання_довгий_під_світлячок",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Сигналізатор клювання довгий під світлячок",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Сигналізатор клювання довгий під світлячок",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання",
+        "Підтип": "Під світлячок"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4714",
+          "num": 214,
+          "name_raw": "Сигналізатор клювання довгий під світлячок",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "bite_indicator__сигналізатор_під_світлячок",
+      "family": "bite_indicator",
+      "display_name": "Сигналізатор клювання Сигналізатор під світлячок",
+      "type_word": "Сигналізатор клювання",
+      "brand": "",
+      "model_name": "Сигналізатор під світлячок",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Сигналізатор клювання",
+        "Підтип": "Під світлячок"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1316",
+          "num": 212,
+          "name_raw": "Сигналізатор під світлячок",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "float_rod__вудка_золотий_бамбук_herabunafishing_110_см_110_грам",
+      "family": "float_rod",
+      "display_name": "Вудка Вудка Золотий бамбук Herabunafishing 110 см 110 грам",
+      "type_word": "Вудка",
+      "brand": "",
+      "model_name": "Вудка Золотий бамбук Herabunafishing 110 см 110 грам",
+      "category_tip": 7,
+      "source_category": "Вудки",
+      "common_params": {
+        "Тип вудилища": "Махова / херабуна"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "00068",
+          "num": 92,
+          "name_raw": "Вудка Золотий бамбук Herabunafishing 5.4 м 110 см 110 грам",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 5.4,
+          "action": null,
+          "delta_params": {
+            "Довжина": "5.4 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "float_rod__вудка_золотий_бамбук_herabunafishing_110_см_57_грам",
+      "family": "float_rod",
+      "display_name": "Вудка Вудка Золотий бамбук Herabunafishing 110 см 57 грам",
+      "type_word": "Вудка",
+      "brand": "",
+      "model_name": "Вудка Золотий бамбук Herabunafishing 110 см 57 грам",
+      "category_tip": 7,
+      "source_category": "Вудки",
+      "common_params": {
+        "Тип вудилища": "Махова / херабуна"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "00066",
+          "num": 90,
+          "name_raw": "Вудка Золотий бамбук Herabunafishing 3,6 м 110 см 57 грам",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 3.6,
+          "action": null,
+          "delta_params": {
+            "Довжина": "3.6 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "float_rod__вудка_золотий_бамбук_herabunafishing_110_см_84_грам",
+      "family": "float_rod",
+      "display_name": "Вудка Вудка Золотий бамбук Herabunafishing 110 см 84 грам",
+      "type_word": "Вудка",
+      "brand": "",
+      "model_name": "Вудка Золотий бамбук Herabunafishing 110 см 84 грам",
+      "category_tip": 7,
+      "source_category": "Вудки",
+      "common_params": {
+        "Тип вудилища": "Махова / херабуна"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "00067",
+          "num": 91,
+          "name_raw": "Вудка Золотий бамбук Herabunafishing 4.5 м 110 см 84 грам",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 4.5,
+          "action": null,
+          "delta_params": {
+            "Довжина": "4.5 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "float_rod__кріплення_підставки_до_стула",
+      "family": "float_rod",
+      "display_name": "Вудка Кріплення підставки до стула",
+      "type_word": "Вудка",
+      "brand": "",
+      "model_name": "Кріплення підставки до стула",
+      "category_tip": 7,
+      "source_category": "Вудки",
+      "common_params": {
+        "Тип вудилища": "Махова / херабуна"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "000721",
+          "num": 96,
+          "name_raw": "Кріплення підставки до стула",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "float_rod__наконечник_для_махової_вудки_1_0_н_в",
+      "family": "float_rod",
+      "display_name": "Вудка Наконечник для махової вудки 1.0 н.в",
+      "type_word": "Вудка",
+      "brand": "",
+      "model_name": "Наконечник для махової вудки 1.0 н.в",
+      "category_tip": 7,
+      "source_category": "Вудки",
+      "common_params": {
+        "Тип вудилища": "Махова / херабуна"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "00108",
+          "num": 97,
+          "name_raw": "Наконечник для махової вудки 1.0 н.в",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "float_rod__страхувальник_резинка_для_вудки_сіра_herabunafishing",
+      "family": "float_rod",
+      "display_name": "Вудка Страхувальник резинка для вудки сіра (Herabunafishing)",
+      "type_word": "Вудка",
+      "brand": "",
+      "model_name": "Страхувальник резинка для вудки сіра (Herabunafishing)",
+      "category_tip": 7,
+      "source_category": "Вудки",
+      "common_params": {
+        "Тип вудилища": "Махова / херабуна"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "05.29",
+          "num": 98,
+          "name_raw": "Страхувальник резинка для вудки 5 м сіра (Herabunafishing)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 5.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "5 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "float_rod__чохол_карбоновий_perfect_koi_130_14_11_herabunafishing",
+      "family": "float_rod",
+      "display_name": "Вудка Чохол карбоновий Perfect Koi 130*14*11 (Herabunafishing)",
+      "type_word": "Вудка",
+      "brand": "",
+      "model_name": "Чохол карбоновий Perfect Koi 130*14*11 (Herabunafishing)",
+      "category_tip": 7,
+      "source_category": "Вудки",
+      "common_params": {
+        "Тип вудилища": "Махова / херабуна"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "000602",
+          "num": 99,
+          "name_raw": "Чохол карбоновий Perfect Koi 130*14*11 (Herabunafishing)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "float_rod_herabunafishing_вудка_black_gold",
+      "family": "float_rod",
+      "display_name": "Вудка Herabunafishing Вудка Black gold",
+      "type_word": "Вудка",
+      "brand": "Herabunafishing",
+      "model_name": "Вудка Black gold",
+      "category_tip": 7,
+      "source_category": "Вудки",
+      "common_params": {
+        "Тип вудилища": "Махова / херабуна"
+      },
+      "variant_count": 4,
+      "variants": [
+        {
+          "kod": "000839",
+          "num": 86,
+          "name_raw": "Вудка Black gold 3.6м 28 стрій Herabunafishing",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 3.6,
+          "action": "28",
+          "delta_params": {
+            "Довжина": "3.6 м",
+            "Стрій": "28"
+          },
+          "extras": []
+        },
+        {
+          "kod": "000840",
+          "num": 87,
+          "name_raw": "Вудка Black gold 4,5м 28 стрій Herabunafishing",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 4.5,
+          "action": "28",
+          "delta_params": {
+            "Довжина": "4.5 м",
+            "Стрій": "28"
+          },
+          "extras": []
+        },
+        {
+          "kod": "000841",
+          "num": 88,
+          "name_raw": "Вудка Black gold 5,4м 28 стрій Herabunafishing",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 5.4,
+          "action": "28",
+          "delta_params": {
+            "Довжина": "5.4 м",
+            "Стрій": "28"
+          },
+          "extras": []
+        },
+        {
+          "kod": "000842",
+          "num": 89,
+          "name_raw": "Вудка Black gold 6,3м 28 стрій Herabunafishing",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 6.3,
+          "action": "28",
+          "delta_params": {
+            "Довжина": "6.3 м",
+            "Стрій": "28"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "float_rod_herabunafishing_вудка_золотий_бамбук",
+      "family": "float_rod",
+      "display_name": "Вудка Herabunafishing Вудка Золотий бамбук",
+      "type_word": "Вудка",
+      "brand": "Herabunafishing",
+      "model_name": "Вудка Золотий бамбук",
+      "category_tip": 7,
+      "source_category": "Вудки",
+      "common_params": {
+        "Тип вудилища": "Махова / херабуна"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "000276",
+          "num": 93,
+          "name_raw": "Вудка Золотий бамбук Herabunafishing 6,3 м",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 6.3,
+          "action": null,
+          "delta_params": {
+            "Довжина": "6.3 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "float_rod_yuzhiyian_вудка_херабуна_chu_shou",
+      "family": "float_rod",
+      "display_name": "Вудка Yuzhiyian Вудка Херабуна Chu Shou",
+      "type_word": "Вудка",
+      "brand": "Yuzhiyian",
+      "model_name": "Вудка Херабуна Chu Shou",
+      "category_tip": 7,
+      "source_category": "Вудки",
+      "common_params": {
+        "Тип вудилища": "Махова / херабуна"
+      },
+      "variant_count": 2,
+      "variants": [
+        {
+          "kod": "000727",
+          "num": 94,
+          "name_raw": "Вудка Херабуна Chu Shou Yuzhiyian 5.4m",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 5.4,
+          "action": null,
+          "delta_params": {
+            "Довжина": "5.4 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "000728",
+          "num": 95,
+          "name_raw": "Вудка Херабуна Chu Shou Yuzhiyian 6.3m",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 6.3,
+          "action": null,
+          "delta_params": {
+            "Довжина": "6.3 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "fluorocarbon_ліска_feima_3d_stealth_0_12мм_флюрокарбон",
+      "family": "fluorocarbon",
+      "display_name": "Флюрокарбон Ліска FEIMA 3D STEALTH 0,12мм флюрокарбон",
+      "type_word": "Флюрокарбон",
+      "brand": "Ліска",
+      "model_name": "FEIMA 3D STEALTH 0,12мм флюрокарбон",
+      "category_tip": 9,
+      "source_category": "Волосінь",
+      "common_params": {
+        "Тип": "Флюрокарбон",
+        "Матеріал": "Флюрокарбон"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1633",
+          "num": 134,
+          "name_raw": "Ліска FEIMA 3D STEALTH 50м 0,12мм флюрокарбон",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 50.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "50 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "fluorocarbon_ліска_feima_3d_stealth_0_14мм_флюрокарбон",
+      "family": "fluorocarbon",
+      "display_name": "Флюрокарбон Ліска FEIMA 3D STEALTH 0,14мм флюрокарбон",
+      "type_word": "Флюрокарбон",
+      "brand": "Ліска",
+      "model_name": "FEIMA 3D STEALTH 0,14мм флюрокарбон",
+      "category_tip": 9,
+      "source_category": "Волосінь",
+      "common_params": {
+        "Тип": "Флюрокарбон",
+        "Матеріал": "Флюрокарбон"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1634",
+          "num": 133,
+          "name_raw": "Ліска FEIMA 3D STEALTH 50м 0,14мм флюрокарбон",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 50.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "50 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "fluorocarbon_ліска_feima_3d_stealth_0_16мм_флюрокарбон",
+      "family": "fluorocarbon",
+      "display_name": "Флюрокарбон Ліска FEIMA 3D STEALTH 0,16мм флюрокарбон",
+      "type_word": "Флюрокарбон",
+      "brand": "Ліска",
+      "model_name": "FEIMA 3D STEALTH 0,16мм флюрокарбон",
+      "category_tip": 9,
+      "source_category": "Волосінь",
+      "common_params": {
+        "Тип": "Флюрокарбон",
+        "Матеріал": "Флюрокарбон"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "X5051",
+          "num": 132,
+          "name_raw": "Ліска FEIMA 3D STEALTH 50м 0,16мм флюрокарбон",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 50.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "50 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "fluorocarbon_ліска_feima_3d_stealth_0_20мм_флюрокарбон",
+      "family": "fluorocarbon",
+      "display_name": "Флюрокарбон Ліска FEIMA 3D STEALTH 0,20мм флюрокарбон",
+      "type_word": "Флюрокарбон",
+      "brand": "Ліска",
+      "model_name": "FEIMA 3D STEALTH 0,20мм флюрокарбон",
+      "category_tip": 9,
+      "source_category": "Волосінь",
+      "common_params": {
+        "Тип": "Флюрокарбон",
+        "Матеріал": "Флюрокарбон"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "X5052",
+          "num": 136,
+          "name_raw": "Ліска FEIMA 3D STEALTH 150м 0,20мм флюрокарбон",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 150.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "150 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "fluorocarbon_ліска_feima_3d_stealth_0_25мм_флюрокарбон",
+      "family": "fluorocarbon",
+      "display_name": "Флюрокарбон Ліска FEIMA 3D STEALTH 0,25мм флюрокарбон",
+      "type_word": "Флюрокарбон",
+      "brand": "Ліска",
+      "model_name": "FEIMA 3D STEALTH 0,25мм флюрокарбон",
+      "category_tip": 9,
+      "source_category": "Волосінь",
+      "common_params": {
+        "Тип": "Флюрокарбон",
+        "Матеріал": "Флюрокарбон"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "2463",
+          "num": 137,
+          "name_raw": "Ліска FEIMA 3D STEALTH 150м 0,25мм флюрокарбон",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 150.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "150 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "fluorocarbon_ліска_feima_3d_stealth_0_28мм_флюрокарбон",
+      "family": "fluorocarbon",
+      "display_name": "Флюрокарбон Ліска FEIMA 3D STEALTH 0,28мм флюрокарбон",
+      "type_word": "Флюрокарбон",
+      "brand": "Ліска",
+      "model_name": "FEIMA 3D STEALTH 0,28мм флюрокарбон",
+      "category_tip": 9,
+      "source_category": "Волосінь",
+      "common_params": {
+        "Тип": "Флюрокарбон",
+        "Матеріал": "Флюрокарбон"
+      },
+      "variant_count": 2,
+      "variants": [
+        {
+          "kod": "3272",
+          "num": 131,
+          "name_raw": "Ліска FEIMA 3D STEALTH 600м 0,28мм флюрокарбон",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 600.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "600 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "3273",
+          "num": 135,
+          "name_raw": "Ліска FEIMA 3D STEALTH 300м 0,28мм флюрокарбон",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 300.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "300 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "fluorocarbon_ліска_feima_3d_stealth_0_30мм_флюрокарбон",
+      "family": "fluorocarbon",
+      "display_name": "Флюрокарбон Ліска FEIMA 3D STEALTH 0,30мм флюрокарбон",
+      "type_word": "Флюрокарбон",
+      "brand": "Ліска",
+      "model_name": "FEIMA 3D STEALTH 0,30мм флюрокарбон",
+      "category_tip": 9,
+      "source_category": "Волосінь",
+      "common_params": {
+        "Тип": "Флюрокарбон",
+        "Матеріал": "Флюрокарбон"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "3271",
+          "num": 130,
+          "name_raw": "Ліска FEIMA 3D STEALTH 600м 0,30мм флюрокарбон",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 600.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "600 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "fluorocarbon_поводок_predator_wolfram_leaders",
+      "family": "fluorocarbon",
+      "display_name": "Флюрокарбон Поводок PREDATOR WOLFRAM LEADERS",
+      "type_word": "Флюрокарбон",
+      "brand": "Поводок",
+      "model_name": "PREDATOR WOLFRAM LEADERS",
+      "category_tip": 11,
+      "source_category": "Флюрокарбон",
+      "common_params": {
+        "Тип": "Флюрокарбон",
+        "Матеріал": "Флюрокарбон"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "3302",
+          "num": 191,
+          "name_raw": "Поводок PREDATOR WOLFRAM LEADERS 25см",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 0.25,
+          "action": null,
+          "delta_params": {
+            "Довжина": "0.25 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "fluorocarbon_повідець_флюрокарбон_golden_fish_20см",
+      "family": "fluorocarbon",
+      "display_name": "Флюрокарбон Повідець флюрокарбон Golden Fish 20см",
+      "type_word": "Флюрокарбон",
+      "brand": "Повідець",
+      "model_name": "флюрокарбон Golden Fish 20см",
+      "category_tip": 11,
+      "source_category": "Флюрокарбон",
+      "common_params": {
+        "Тип": "Флюрокарбон",
+        "Матеріал": "Флюрокарбон"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "3435",
+          "num": 194,
+          "name_raw": "Повідець флюрокарбон Golden Fish 0.55m 20см",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 0.55,
+          "action": null,
+          "delta_params": {
+            "Довжина": "0.55 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "fluorocarbon_повідець_флюрокарбон_golden_fish_25см",
+      "family": "fluorocarbon",
+      "display_name": "Флюрокарбон Повідець флюрокарбон Golden Fish 25см",
+      "type_word": "Флюрокарбон",
+      "brand": "Повідець",
+      "model_name": "флюрокарбон Golden Fish 25см",
+      "category_tip": 11,
+      "source_category": "Флюрокарбон",
+      "common_params": {
+        "Тип": "Флюрокарбон",
+        "Матеріал": "Флюрокарбон"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "3436",
+          "num": 193,
+          "name_raw": "Повідець флюрокарбон Golden Fish 0.55m 25см",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 0.55,
+          "action": null,
+          "delta_params": {
+            "Довжина": "0.55 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "fluorocarbon_повідець_флюрокарбон_golden_fish_30см",
+      "family": "fluorocarbon",
+      "display_name": "Флюрокарбон Повідець флюрокарбон Golden Fish 30см",
+      "type_word": "Флюрокарбон",
+      "brand": "Повідець",
+      "model_name": "флюрокарбон Golden Fish 30см",
+      "category_tip": 11,
+      "source_category": "Флюрокарбон",
+      "common_params": {
+        "Тип": "Флюрокарбон",
+        "Матеріал": "Флюрокарбон"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "3437",
+          "num": 192,
+          "name_raw": "Повідець флюрокарбон Golden Fish 0.55m 30см",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 0.55,
+          "action": null,
+          "delta_params": {
+            "Довжина": "0.55 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "fluorocarbon_флюрокарбон_favorite_u1_fc",
+      "family": "fluorocarbon",
+      "display_name": "Флюрокарбон Флюрокарбон Favorite U1 FC \\ \\",
+      "type_word": "Флюрокарбон",
+      "brand": "Флюрокарбон",
+      "model_name": "Favorite U1 FC \\ \\",
+      "category_tip": 11,
+      "source_category": "Флюрокарбон",
+      "common_params": {
+        "Тип": "Флюрокарбон",
+        "Матеріал": "Флюрокарбон"
+      },
+      "variant_count": 16,
+      "variants": [
+        {
+          "kod": "1693.11.87",
+          "num": 158,
+          "name_raw": "Флюрокарбон  Favorite U1 FC 10m #8.0\\0.47mm 30.5lb\\13.84kg",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.47 мм",
+            "Розривне навантаження": "13.84 кг",
+            "Розривне навантаження (lb)": "30.5 lb",
+            "PE": "8",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1693.11.86",
+          "num": 159,
+          "name_raw": "Флюрокарбон  Favorite U1 FC 10m #7.0\\0.435mm 25.8lb\\11.68kg",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.435 мм",
+            "Розривне навантаження": "11.68 кг",
+            "Розривне навантаження (lb)": "25.8 lb",
+            "PE": "7",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1693.11.85",
+          "num": 160,
+          "name_raw": "Флюрокарбон  Favorite U1 FC 10m #6.0\\0.405mm 23.5lb\\10.67kg",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.405 мм",
+            "Розривне навантаження": "10.67 кг",
+            "Розривне навантаження (lb)": "23.5 lb",
+            "PE": "6",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1693.11.84",
+          "num": 161,
+          "name_raw": "Флюрокарбон  Favorite U1 FC 10m #5,0\\0.37mm 20.5lb\\9.31kg",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.37 мм",
+            "Розривне навантаження": "9.31 кг",
+            "Розривне навантаження (lb)": "20.5 lb",
+            "PE": "5",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1693.11.83",
+          "num": 162,
+          "name_raw": "Флюрокарбон  Favorite U1 FC 10m #4,0\\0.33mm 16,0lb\\7,25kg",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.33 мм",
+            "Розривне навантаження": "7.25 кг",
+            "Розривне навантаження (lb)": "16 lb",
+            "PE": "4",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1693.11.81",
+          "num": 163,
+          "name_raw": "Флюрокарбон  Favorite U1 FC 10m #3\\0.285mm 13.2lb\\5.97kg",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.285 мм",
+            "Розривне навантаження": "5.97 кг",
+            "Розривне навантаження (lb)": "13.2 lb",
+            "PE": "3",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1693.11.82",
+          "num": 164,
+          "name_raw": "Флюрокарбон  Favorite U1 FC 10m #3.5\\0.31mm 14.1lb\\6.38kg",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.31 мм",
+            "Розривне навантаження": "6.38 кг",
+            "Розривне навантаження (lb)": "14.1 lb",
+            "PE": "3.5",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1693.11.79",
+          "num": 165,
+          "name_raw": "Флюрокарбон  Favorite U1 FC 10m #2\\0.235mm 8.6lb\\3.89kg",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.235 мм",
+            "Розривне навантаження": "3.89 кг",
+            "Розривне навантаження (lb)": "8.6 lb",
+            "PE": "2",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1693.11.80",
+          "num": 166,
+          "name_raw": "Флюрокарбон  Favorite U1 FC 10m #2.5\\0.26mm 10.1lb\\4.58kg",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.26 мм",
+            "Розривне навантаження": "4.58 кг",
+            "Розривне навантаження (lb)": "10.1 lb",
+            "PE": "2.5",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1693.11.89",
+          "num": 167,
+          "name_raw": "Флюрокарбон  Favorite U1 FC 10m #12\\0.57mm 44.2lb\\19.98kg",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.57 мм",
+            "Розривне навантаження": "19.98 кг",
+            "Розривне навантаження (lb)": "44.2 lb",
+            "PE": "12",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1693.11.88",
+          "num": 168,
+          "name_raw": "Флюрокарбон  Favorite U1 FC 10m #10\\0.52mm 37.2lb\\16.86kg",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.52 мм",
+            "Розривне навантаження": "16.86 кг",
+            "Розривне навантаження (lb)": "37.2 lb",
+            "PE": "10",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1693.11.75",
+          "num": 169,
+          "name_raw": "Флюрокарбон  Favorite U1 FC 10m #1\\0.165mm 4,2lb\\1.92kg",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.165 мм",
+            "Розривне навантаження": "1.92 кг",
+            "Розривне навантаження (lb)": "4.2 lb",
+            "PE": "1",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1693.11.78",
+          "num": 170,
+          "name_raw": "Флюрокарбон  Favorite U1 FC 10m #1.75\\0.22mm 7.6lb\\3.46kg",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.22 мм",
+            "Розривне навантаження": "3.46 кг",
+            "Розривне навантаження (lb)": "7.6 lb",
+            "PE": "1.75",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1693.11.77",
+          "num": 171,
+          "name_raw": "Флюрокарбон  Favorite U1 FC 10m #1.5\\0.205mm 6.4lb\\2.89kg",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.205 мм",
+            "Розривне навантаження": "2.89 кг",
+            "Розривне навантаження (lb)": "6.4 lb",
+            "PE": "1.5",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1693.11.76",
+          "num": 172,
+          "name_raw": "Флюрокарбон  Favorite U1 FC 10m #1.2\\0.185mm 5.3lb\\2.42kg",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.185 мм",
+            "Розривне навантаження": "2.42 кг",
+            "Розривне навантаження (lb)": "5.3 lb",
+            "PE": "1.2",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1693.11.74",
+          "num": 173,
+          "name_raw": "Флюрокарбон  Favorite U1 FC 10m #0.8\\0.148mm 3.6lb\\1.65kg",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.148 мм",
+            "Розривне навантаження": "1.65 кг",
+            "Розривне навантаження (lb)": "3.6 lb",
+            "PE": "0.8",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_горох_ваніль",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Горох Ваніль",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Горох Ваніль",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Горох Ваніль \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4150",
+          "num": 122,
+          "name_raw": "Горох Ваніль 350мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "350 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_горох_конопля",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Горох Конопля",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Горох Конопля",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Горох Конопля \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4151",
+          "num": 121,
+          "name_raw": "Горох Конопля 350мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "350 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_горох_короп",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Горох Короп",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Горох Короп",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Горох Короп \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4153",
+          "num": 120,
+          "name_raw": "Горох Короп 350мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "350 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_горох_кріль",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Горох Кріль",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Горох Кріль",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Горох Кріль \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4436",
+          "num": 119,
+          "name_raw": "Горох Кріль 350мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "350 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_горох_кріп",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Горох Кріп",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Горох Кріп",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Горох Кріп \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4277",
+          "num": 118,
+          "name_raw": "Горох Кріп 350мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "350 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_горох_мед",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Горох Мед",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Горох Мед",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Горох Мед \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4152",
+          "num": 117,
+          "name_raw": "Горох Мед 350мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "350 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_горох_оригінал",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Горох Оригінал",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Горох Оригінал",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Горох Оригінал \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4276",
+          "num": 116,
+          "name_raw": "Горох Оригінал 350мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "350 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_горох_полуниця",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Горох Полуниця",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Горох Полуниця",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Горох Полуниця \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4149",
+          "num": 115,
+          "name_raw": "Горох Полуниця 350мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "350 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_горох_слива",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Горох Слива",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Горох Слива",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Горох Слива \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4435",
+          "num": 114,
+          "name_raw": "Горох Слива 350мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "350 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_горох_часник",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Горох Часник",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Горох Часник",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Горох Часник \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4437",
+          "num": 113,
+          "name_raw": "Горох Часник 350мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "350 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_зерно_варене_3л_банка_bigfish",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Зерно Варене 3л (банка) BigFish",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Зерно Варене 3л (банка) BigFish",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4054",
+          "num": 125,
+          "name_raw": "Зерно Варене 3л (банка) BigFish \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_зерно_варене_3л_банка_горох_кукурудза",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Зерно Варене 3л (банка) Горох- Кукурудза",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Зерно Варене 3л (банка) Горох- Кукурудза",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4331",
+          "num": 124,
+          "name_raw": "Зерно Варене 3л (банка) Горох- Кукурудза \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_зерно_варене_3л_банка_кукурудза_конопля",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Зерно Варене 3л (банка) Кукурудза - Конопля",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Зерно Варене 3л (банка) Кукурудза - Конопля",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4055",
+          "num": 123,
+          "name_raw": "Зерно Варене 3л (банка) Кукурудза - Конопля \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_конопля_суха",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Конопля суха",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Конопля суха",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Конопля суха \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4233",
+          "num": 112,
+          "name_raw": "Конопля суха 800г \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Вага": "800 г"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_кукуруза_цукрова_аніс",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Кукуруза Цукрова Аніс",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Кукуруза Цукрова Аніс",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Аніс \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4274",
+          "num": 111,
+          "name_raw": "Кукуруза Цукрова Аніс150мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "150 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_кукуруза_цукрова_ваніль",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Кукуруза Цукрова Ваніль",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Кукуруза Цукрова Ваніль",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Ваніль \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "3856",
+          "num": 110,
+          "name_raw": "Кукуруза Цукрова Ваніль150мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "150 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_кукуруза_цукрова_конопля",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Кукуруза Цукрова Конопля",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Кукуруза Цукрова Конопля",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Конопля \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4148",
+          "num": 109,
+          "name_raw": "Кукуруза Цукрова Конопля 150мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "150 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_кукуруза_цукрова_короп",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Кукуруза Цукрова Короп",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Кукуруза Цукрова Короп",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Короп \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "3852",
+          "num": 108,
+          "name_raw": "Кукуруза Цукрова Короп 150мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "150 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_кукуруза_цукрова_кріль",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Кукуруза Цукрова Кріль",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Кукуруза Цукрова Кріль",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Кріль \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4434",
+          "num": 107,
+          "name_raw": "Кукуруза Цукрова Кріль 150мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "150 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_кукуруза_цукрова_мед",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Кукуруза Цукрова Мед",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Кукуруза Цукрова Мед",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Мед \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "3854",
+          "num": 106,
+          "name_raw": "Кукуруза Цукрова Мед 150мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "150 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_кукуруза_цукрова_оригінал",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Кукуруза Цукрова Оригінал",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Кукуруза Цукрова Оригінал",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Оригінал \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "3853",
+          "num": 105,
+          "name_raw": "Кукуруза Цукрова Оригінал 150мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "150 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_кукуруза_цукрова_полуниця",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Кукуруза Цукрова Полуниця",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Кукуруза Цукрова Полуниця",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Полуниця \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4146",
+          "num": 104,
+          "name_raw": "Кукуруза Цукрова Полуниця 150мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "150 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_кукуруза_цукрова_слива",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Кукуруза Цукрова Слива",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Кукуруза Цукрова Слива",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Слива \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4147",
+          "num": 103,
+          "name_raw": "Кукуруза Цукрова Слива 150мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "150 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_кукуруза_цукрова_спеція",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Кукуруза Цукрова Спеція",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Кукуруза Цукрова Спеція",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Спеція \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4275",
+          "num": 102,
+          "name_raw": "Кукуруза Цукрова Спеція150мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "150 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_кукуруза_цукрова_часник",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Кукуруза Цукрова Часник",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Кукуруза Цукрова Часник",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "Часник \"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "3855",
+          "num": 101,
+          "name_raw": "Кукуруза Цукрова Часник150мл \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "150 мл"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "grain_bait_boom_тигровий_горіх",
+      "family": "grain_bait",
+      "display_name": "Зернова насадка BOOM Тигровий Горіх",
+      "type_word": "Зернова насадка",
+      "brand": "BOOM",
+      "model_name": "Тигровий Горіх",
+      "category_tip": 8,
+      "source_category": "Зернові",
+      "common_params": {
+        "Тип насадки": "Зернова",
+        "Призначення": "Коропова риболовля",
+        "Аромат": "\"\""
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4048",
+          "num": 100,
+          "name_raw": "Тигровий Горіх 900г \"BOOM\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Вага": "900 г"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "line_волосінь_cz_pitbull_high_uv_carp_line_fluo_orange",
+      "family": "line",
+      "display_name": "Волосінь Волосінь CZ Pitbull High UV Carp line fluo orange",
+      "type_word": "Волосінь",
+      "brand": "Волосінь",
+      "model_name": "CZ Pitbull High UV Carp line fluo orange",
+      "category_tip": 9,
+      "source_category": "Волосінь",
+      "common_params": {
+        "Тип": "Монофільна волосінь"
+      },
+      "variant_count": 3,
+      "variants": [
+        {
+          "kod": "CZ4999",
+          "num": 201,
+          "name_raw": "Волосінь CZ Pitbull High UV Carp line fluo orange 0.32mm 12.7kg 1000m",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 1000.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.32 мм",
+            "Розривне навантаження": "12.7 кг",
+            "Довжина": "1000 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "CZ4982",
+          "num": 202,
+          "name_raw": "Волосінь CZ Pitbull High UV Carp line fluo orange 0.29mm 10.8kg 1000m",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 1000.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.29 мм",
+            "Розривне навантаження": "10.8 кг",
+            "Довжина": "1000 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "CZ4975",
+          "num": 203,
+          "name_raw": "Волосінь CZ Pitbull High UV Carp line fluo orange 0.26mm 8.9kg 1000m",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 1000.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.26 мм",
+            "Розривне навантаження": "8.9 кг",
+            "Довжина": "1000 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "line_волосінь_carp_pro_fishing_fluo_orange",
+      "family": "line",
+      "display_name": "Волосінь Волосінь Carp Pro Fishing Fluo Orange",
+      "type_word": "Волосінь",
+      "brand": "Волосінь",
+      "model_name": "Carp Pro Fishing Fluo Orange",
+      "category_tip": 9,
+      "source_category": "Волосінь",
+      "common_params": {
+        "Тип": "Монофільна волосінь"
+      },
+      "variant_count": 2,
+      "variants": [
+        {
+          "kod": "CP5410-309",
+          "num": 204,
+          "name_raw": "Волосінь Carp Pro Fishing Fluo Orange 1000m 0.309mm",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 1000.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.309 мм",
+            "Довжина": "1000 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "CP5410-286",
+          "num": 205,
+          "name_raw": "Волосінь Carp Pro Fishing Fluo Orange 1000m 0.286mm",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 1000.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.286 мм",
+            "Довжина": "1000 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "line_волосінь_jaxon_intensa_premium",
+      "family": "line",
+      "display_name": "Волосінь Волосінь JAXON INTENSA PREMIUM",
+      "type_word": "Волосінь",
+      "brand": "Волосінь",
+      "model_name": "JAXON INTENSA PREMIUM",
+      "category_tip": 9,
+      "source_category": "Волосінь",
+      "common_params": {
+        "Тип": "Монофільна волосінь"
+      },
+      "variant_count": 11,
+      "variants": [
+        {
+          "kod": "ZJ-INP027А",
+          "num": 140,
+          "name_raw": "Волосінь JAXON INTENSA PREMIUM 0,27mm 150m",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 150.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.27 мм",
+            "Довжина": "150 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "ZJ-INP025А",
+          "num": 141,
+          "name_raw": "Волосінь JAXON INTENSA PREMIUM 0,25mm 150m",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 150.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.25 мм",
+            "Довжина": "150 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "ZJ-INP022C",
+          "num": 142,
+          "name_raw": "Волосінь JAXON INTENSA PREMIUM 0,22mm 25m",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 25.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.22 мм",
+            "Довжина": "25 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "ZJ-INP022А",
+          "num": 143,
+          "name_raw": "Волосінь JAXON INTENSA PREMIUM 0,22mm 150m",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 150.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.22 мм",
+            "Довжина": "150 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "ZJ-INP020C",
+          "num": 144,
+          "name_raw": "Волосінь JAXON INTENSA PREMIUM 0,20mm 25m",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 25.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.2 мм",
+            "Довжина": "25 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "ZJ-INP018C",
+          "num": 145,
+          "name_raw": "Волосінь JAXON INTENSA PREMIUM 0,18mm 25m",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 25.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.18 мм",
+            "Довжина": "25 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "ZJ-INP016C",
+          "num": 146,
+          "name_raw": "Волосінь JAXON INTENSA PREMIUM 0,16mm 25m",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 25.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.16 мм",
+            "Довжина": "25 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "ZJ-INP014C",
+          "num": 147,
+          "name_raw": "Волосінь JAXON INTENSA PREMIUM 0,14mm 25m",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 25.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.14 мм",
+            "Довжина": "25 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "ZJ-INP012C",
+          "num": 148,
+          "name_raw": "Волосінь JAXON INTENSA PREMIUM 0,12mm 25m",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 25.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.12 мм",
+            "Довжина": "25 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "ZJ-INP010C",
+          "num": 149,
+          "name_raw": "Волосінь JAXON INTENSA PREMIUM 0,10mm 25m",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 25.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.1 мм",
+            "Довжина": "25 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "ZJ-INP008C",
+          "num": 150,
+          "name_raw": "Волосінь JAXON INTENSA PREMIUM 0,08mm 25m",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 25.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.08 мм",
+            "Довжина": "25 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "line_волосінь_magigian_3d_afeima",
+      "family": "line",
+      "display_name": "Волосінь Волосінь Magigian 3D Afeima",
+      "type_word": "Волосінь",
+      "brand": "Волосінь",
+      "model_name": "Magigian 3D Afeima",
+      "category_tip": 9,
+      "source_category": "Волосінь",
+      "common_params": {
+        "Тип": "Монофільна волосінь"
+      },
+      "variant_count": 4,
+      "variants": [
+        {
+          "kod": "3032-35",
+          "num": 126,
+          "name_raw": "Волосінь Magigian 3D Afeima  150m 0.35mm",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 150.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.35 мм",
+            "Довжина": "150 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "3024-30",
+          "num": 127,
+          "name_raw": "Волосінь Magigian 3D Afeima  150m 0.30mm",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 150.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.3 мм",
+            "Довжина": "150 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "3032-30",
+          "num": 128,
+          "name_raw": "Волосінь Magigian 3D Afeima  150m 0.30mm",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 150.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.3 мм",
+            "Довжина": "150 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "3024-25",
+          "num": 129,
+          "name_raw": "Волосінь Magigian 3D Afeima  150m 0.25mm",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 150.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.25 мм",
+            "Довжина": "150 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "line_ліска_3d_invisible_0_30мм",
+      "family": "line",
+      "display_name": "Волосінь Ліска 3D INVISIBLE 0,30мм",
+      "type_word": "Волосінь",
+      "brand": "Ліска",
+      "model_name": "3D INVISIBLE 0,30мм",
+      "category_tip": 9,
+      "source_category": "Волосінь",
+      "common_params": {
+        "Тип": "Монофільна волосінь"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "X-5056",
+          "num": 139,
+          "name_raw": "Ліска  3D INVISIBLE 300м 0,30мм",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 300.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "300 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "line_ліска_big_fish_feeder",
+      "family": "line",
+      "display_name": "Волосінь Ліска Big Fish Feeder",
+      "type_word": "Волосінь",
+      "brand": "Ліска",
+      "model_name": "Big Fish Feeder",
+      "category_tip": 9,
+      "source_category": "Волосінь",
+      "common_params": {
+        "Тип": "Монофільна волосінь"
+      },
+      "variant_count": 6,
+      "variants": [
+        {
+          "kod": "3050-35",
+          "num": 195,
+          "name_raw": "Ліска Big Fish Feeder 150m 0.35mm 14.3kg 31.4lb",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 150.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.35 мм",
+            "Розривне навантаження": "14.3 кг",
+            "Розривне навантаження (lb)": "31.4 lb",
+            "Довжина": "150 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "3050-30",
+          "num": 196,
+          "name_raw": "Ліска Big Fish Feeder 150m 0.30mm 11.5kg 25.3lb",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 150.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.3 мм",
+            "Розривне навантаження": "11.5 кг",
+            "Розривне навантаження (lb)": "25.3 lb",
+            "Довжина": "150 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "3050-28",
+          "num": 197,
+          "name_raw": "Ліска Big Fish Feeder 150m 0.28mm 10.2kg 22.4lb",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 150.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.28 мм",
+            "Розривне навантаження": "10.2 кг",
+            "Розривне навантаження (lb)": "22.4 lb",
+            "Довжина": "150 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "3050-25",
+          "num": 198,
+          "name_raw": "Ліска Big Fish Feeder 150m 0.25mm 8.2kg 19.4lb",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 150.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.25 мм",
+            "Розривне навантаження": "8.2 кг",
+            "Розривне навантаження (lb)": "19.4 lb",
+            "Довжина": "150 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "3050-22",
+          "num": 199,
+          "name_raw": "Ліска Big Fish Feeder 150m 0.22mm 7.85kg 17.2lb",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 150.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.22 мм",
+            "Розривне навантаження": "7.85 кг",
+            "Розривне навантаження (lb)": "17.2 lb",
+            "Довжина": "150 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "3050-20",
+          "num": 200,
+          "name_raw": "Ліска Big Fish Feeder 150m 0.20mm 6.86kg 15.1lb",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 150.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.2 мм",
+            "Розривне навантаження": "6.86 кг",
+            "Розривне навантаження (lb)": "15.1 lb",
+            "Довжина": "150 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "line_ліска_feima_3d_invisible",
+      "family": "line",
+      "display_name": "Волосінь Ліска FEIMA 3D INVISIBLE",
+      "type_word": "Волосінь",
+      "brand": "Ліска",
+      "model_name": "FEIMA 3D INVISIBLE",
+      "category_tip": 9,
+      "source_category": "Волосінь",
+      "common_params": {
+        "Тип": "Монофільна волосінь"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "3000",
+          "num": 138,
+          "name_raw": "Ліска FEIMA 3D  INVISIBLE 50м",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 50.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "50 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "nod__кивок_vast_лавсан_зима_літо_test",
+      "family": "nod",
+      "display_name": "Кивок Кивок Vast лавсан Зима-Літо test",
+      "type_word": "Кивок",
+      "brand": "",
+      "model_name": "Кивок Vast лавсан Зима-Літо test",
+      "category_tip": 12,
+      "source_category": "Кивки",
+      "common_params": {
+        "Тип": "Кивок",
+        "Матеріал": "Лавсан",
+        "Сезон": "Зима / літо"
+      },
+      "variant_count": 3,
+      "variants": [
+        {
+          "kod": "2724",
+          "num": 206,
+          "name_raw": "Кивок Vast лавсан Зима-Літо №3 test 2.5-4.1",
+          "test_min": 2.5,
+          "test_max": 4.1,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Розмір": "3",
+            "Тест": "2.5-4.1"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2763",
+          "num": 207,
+          "name_raw": "Кивок Vast лавсан Зима- Літо №2 test 1.2-3.16",
+          "test_min": 1.2,
+          "test_max": 3.16,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Розмір": "2",
+            "Тест": "1.2-3.16"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2793",
+          "num": 208,
+          "name_raw": "Кивок Vast лавсан Зима- Літо №1 test 0.5-1.4",
+          "test_min": 0.5,
+          "test_max": 1.4,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Розмір": "1",
+            "Тест": "0.5-1.4"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "ready_leader__повідець_carp_fishing_sinking_braid_шт",
+      "family": "ready_leader",
+      "display_name": "Повідець Повідець Carp Fishing Sinking Braid (шт.)",
+      "type_word": "Повідець",
+      "brand": "",
+      "model_name": "Повідець Carp Fishing Sinking Braid (шт.)",
+      "category_tip": 10,
+      "source_category": "Повідці",
+      "common_params": {
+        "Тип": "Готовий повідець"
+      },
+      "variant_count": 3,
+      "variants": [
+        {
+          "kod": "940",
+          "num": 155,
+          "name_raw": "Повідець Carp Fishing Fast Sinking Braid 25lb №8 (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": "Fast",
+          "delta_params": {
+            "Розривне навантаження (lb)": "25 lb",
+            "Розмір": "8",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        },
+        {
+          "kod": "427",
+          "num": 156,
+          "name_raw": "Повідець Carp Fishing Fast Sinking Braid 25lb №6 (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": "Fast",
+          "delta_params": {
+            "Розривне навантаження (lb)": "25 lb",
+            "Розмір": "6",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        },
+        {
+          "kod": "941",
+          "num": 157,
+          "name_raw": "Повідець Carp Fishing Fast Sinking Braid 25lb №4 (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": "Fast",
+          "delta_params": {
+            "Розривне навантаження (lb)": "25 lb",
+            "Розмір": "4",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "ready_leader_баласт_повідець_карповий",
+      "family": "ready_leader",
+      "display_name": "Повідець Баласт Повідець Карповий",
+      "type_word": "Повідець",
+      "brand": "Баласт",
+      "model_name": "Повідець Карповий",
+      "category_tip": 10,
+      "source_category": "Повідці",
+      "common_params": {
+        "Тип": "Готовий повідець",
+        "Призначення": "Карпова риболовля"
+      },
+      "variant_count": 4,
+      "variants": [
+        {
+          "kod": "1814",
+          "num": 151,
+          "name_raw": "Повідець Карповий №8\" Баласт\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Розмір": "8"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1813",
+          "num": 152,
+          "name_raw": "Повідець Карповий №6\" Баласт\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Розмір": "6"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1812",
+          "num": 153,
+          "name_raw": "Повідець Карповий №4\" Баласт\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Розмір": "4"
+          },
+          "extras": []
+        },
+        {
+          "kod": "633",
+          "num": 154,
+          "name_raw": "Повідець Карповий №3\" Баласт\"",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Розмір": "3"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "rod_rest_accessory__сигналізатор_клювання_механічний_у_підставку",
+      "family": "rod_rest_accessory",
+      "display_name": "Аксесуар для підставки Сигналізатор клювання механічний у підставку",
+      "type_word": "Аксесуар для підставки",
+      "brand": "",
+      "model_name": "Сигналізатор клювання механічний у підставку",
+      "category_tip": 13,
+      "source_category": "Сигналізатори",
+      "common_params": {
+        "Тип": "Аксесуар для підставки"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4639",
+          "num": 213,
+          "name_raw": "Сигналізатор клювання механічний у підставку",
+          "test_min": null,
+          "test_max": null,
+          "length_m": null,
+          "action": null,
+          "delta_params": {},
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "shock_leader_флюорокарбон_intech_fc_shock_leader_шт",
+      "family": "shock_leader",
+      "display_name": "Шок-лідер Флюорокарбон Intech FC Shock Leader / (шт.)",
+      "type_word": "Шок-лідер",
+      "brand": "Флюорокарбон",
+      "model_name": "Intech FC Shock Leader / (шт.)",
+      "category_tip": 11,
+      "source_category": "Флюрокарбон",
+      "common_params": {
+        "Тип": "Шок-лідер"
+      },
+      "variant_count": 17,
+      "variants": [
+        {
+          "kod": "2496",
+          "num": 174,
+          "name_raw": "Флюорокарбон Intech FC Shock Leader 10м 0.738mm 24,6kg/54lb (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.738 мм",
+            "Розривне навантаження": "24.6 кг",
+            "Розривне навантаження (lb)": "54 lb",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2495",
+          "num": 175,
+          "name_raw": "Флюорокарбон Intech FC Shock Leader 10м 0.645mm 20,4kg/45lb (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.645 мм",
+            "Розривне навантаження": "20.4 кг",
+            "Розривне навантаження (lb)": "45 lb",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2716",
+          "num": 176,
+          "name_raw": "Флюорокарбон Intech FC Shock Leader 10м 0.555mm 15.9kg/354lb (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.555 мм",
+            "Розривне навантаження": "15.9 кг",
+            "Розривне навантаження (lb)": "354 lb",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1615",
+          "num": 177,
+          "name_raw": "Флюорокарбон Intech FC Shock Leader 10м 0.505mm 13.2kg/29lb (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.505 мм",
+            "Розривне навантаження": "13.2 кг",
+            "Розривне навантаження (lb)": "29 lb",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1614",
+          "num": 178,
+          "name_raw": "Флюорокарбон Intech FC Shock Leader 10м 0.455mm 10.7kg/24lb (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.455 мм",
+            "Розривне навантаження": "10.7 кг",
+            "Розривне навантаження (lb)": "24 lb",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1613",
+          "num": 179,
+          "name_raw": "Флюорокарбон Intech FC Shock Leader 10м 0.418mm 9.0kg/20lb (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.418 мм",
+            "Розривне навантаження": "9 кг",
+            "Розривне навантаження (lb)": "20 lb",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1612",
+          "num": 180,
+          "name_raw": "Флюорокарбон Intech FC Shock Leader 10м 0.373mm 7.7kg/17lb (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.373 мм",
+            "Розривне навантаження": "7.7 кг",
+            "Розривне навантаження (lb)": "17 lb",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2802",
+          "num": 181,
+          "name_raw": "Флюорокарбон Intech FC Shock Leader 10м 0.333mm 6,4kg/14lb (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.333 мм",
+            "Розривне навантаження": "6.4 кг",
+            "Розривне навантаження (lb)": "14 lb",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "921",
+          "num": 182,
+          "name_raw": "Флюорокарбон Intech FC Shock Leader 10м 0.298mm 4.9kg/11lb (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.298 мм",
+            "Розривне навантаження": "4.9 кг",
+            "Розривне навантаження (lb)": "11 lb",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "920",
+          "num": 183,
+          "name_raw": "Флюорокарбон Intech FC Shock Leader 10м 0.278mm 4.9kg/11lb (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.278 мм",
+            "Розривне навантаження": "4.9 кг",
+            "Розривне навантаження (lb)": "11 lb",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "919",
+          "num": 184,
+          "name_raw": "Флюорокарбон Intech FC Shock Leader 10м 0.257mm 4.2kg/9.3lb (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.257 мм",
+            "Розривне навантаження": "4.2 кг",
+            "Розривне навантаження (lb)": "9.3 lb",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "918",
+          "num": 185,
+          "name_raw": "Флюорокарбон Intech FC Shock Leader 10м 0.234mm 3.5kg/7.7lb (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.234 мм",
+            "Розривне навантаження": "3.5 кг",
+            "Розривне навантаження (lb)": "7.7 lb",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "917",
+          "num": 186,
+          "name_raw": "Флюорокарбон Intech FC Shock Leader 10м 0.218mm 3.1kg/6.8lb (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.218 мм",
+            "Розривне навантаження": "3.1 кг",
+            "Розривне навантаження (lb)": "6.8 lb",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "916",
+          "num": 187,
+          "name_raw": "Флюорокарбон Intech FC Shock Leader 10м 0.200mm 2.6kg/5,7lb (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.2 мм",
+            "Розривне навантаження": "2.6 кг",
+            "Розривне навантаження (lb)": "5.7 lb",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "915",
+          "num": 188,
+          "name_raw": "Флюорокарбон Intech FC Shock Leader 10м 0.178mm 2.1kg/4.6lb (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.178 мм",
+            "Розривне навантаження": "2.1 кг",
+            "Розривне навантаження (lb)": "4.6 lb",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "914",
+          "num": 189,
+          "name_raw": "Флюорокарбон Intech FC Shock Leader 10м 0.161mm 1.7kg/3.7lb (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.161 мм",
+            "Розривне навантаження": "1.7 кг",
+            "Розривне навантаження (lb)": "3.7 lb",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        },
+        {
+          "kod": "3692",
+          "num": 190,
+          "name_raw": "Флюорокарбон Intech FC Shock Leader 10м 0.123mm 1.0kg/2.2lb (шт.)",
+          "test_min": null,
+          "test_max": null,
+          "length_m": 10.0,
+          "action": null,
+          "delta_params": {
+            "Діаметр": "0.123 мм",
+            "Розривне навантаження": "1 кг",
+            "Розривне навантаження (lb)": "2.2 lb",
+            "Довжина": "10 м"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_afeima_jazz_sp_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Afeima Jazz -SP g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Afeima Jazz -SP g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "Y-5040-240",
+          "num": 25,
+          "name_raw": "Спінінг Afeima Jazz 802ML-SP 2.40m 7-21g",
+          "test_min": 7.0,
+          "test_max": 21.0,
+          "length_m": 2.4,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "802 мл",
+            "Довжина": "2.4 м",
+            "Тест": "7-21"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_aifeima_veteran_rario_rs_rdsp_2_18m_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Aifeima Veteran Rario Rs RDSP 2.18m g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Aifeima Veteran Rario Rs RDSP 2.18m g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "Y-5079-218",
+          "num": 27,
+          "name_raw": "Спінінг Aifeima  Veteran Rario Rs RDSP 722M 2.18m 5-20g",
+          "test_min": 5.0,
+          "test_max": 20.0,
+          "length_m": 722.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "722 м",
+            "Тест": "5-20"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_aifeima_veteran_rario_rs_rdsp_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Aifeima Veteran Rario Rs RDSP g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Aifeima Veteran Rario Rs RDSP g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 2,
+      "variants": [
+        {
+          "kod": "Y-5077-198",
+          "num": 26,
+          "name_raw": "Спінінг Aifeima Veteran Rario Rs RDSP 662ML 1.98m 1-8g",
+          "test_min": 1.0,
+          "test_max": 8.0,
+          "length_m": 1.98,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "662 мл",
+            "Довжина": "1.98 м",
+            "Тест": "1-8"
+          },
+          "extras": []
+        },
+        {
+          "kod": "Y-5078-218",
+          "num": 28,
+          "name_raw": "Спінінг Aifeima  Veteran Rario Rs RDSP 722ML 2.18m 3-16g",
+          "test_min": 3.0,
+          "test_max": 16.0,
+          "length_m": 2.18,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "722 мл",
+            "Довжина": "2.18 м",
+            "Тест": "3-16"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_eclipse_absolute_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг ECLIPSE ABSOLUTE g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "ECLIPSE ABSOLUTE g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 4,
+      "variants": [
+        {
+          "kod": "2183",
+          "num": 29,
+          "name_raw": "Спінінг ECLIPSE ABSOLUTE 2.10m 2-8g",
+          "test_min": 2.0,
+          "test_max": 8.0,
+          "length_m": 2.1,
+          "action": null,
+          "delta_params": {
+            "Довжина": "2.1 м",
+            "Тест": "2-8"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2184",
+          "num": 30,
+          "name_raw": "Спінінг ECLIPSE ABSOLUTE 2.10m 3-15g",
+          "test_min": 3.0,
+          "test_max": 15.0,
+          "length_m": 2.1,
+          "action": null,
+          "delta_params": {
+            "Довжина": "2.1 м",
+            "Тест": "3-15"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2185",
+          "num": 31,
+          "name_raw": "Спінінг ECLIPSE ABSOLUTE 2.10m 5-20g",
+          "test_min": 5.0,
+          "test_max": 20.0,
+          "length_m": 2.1,
+          "action": null,
+          "delta_params": {
+            "Довжина": "2.1 м",
+            "Тест": "5-20"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2186",
+          "num": 32,
+          "name_raw": "Спінінг ECLIPSE ABSOLUTE 2.40m 3-15g",
+          "test_min": 3.0,
+          "test_max": 15.0,
+          "length_m": 2.4,
+          "action": null,
+          "delta_params": {
+            "Довжина": "2.4 м",
+            "Тест": "3-15"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_eclipse_balance_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг ECLIPSE BALANCE g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "ECLIPSE BALANCE g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "2188",
+          "num": 33,
+          "name_raw": "Спінінг ECLIPSE BALANCE 2.40m 5-20g",
+          "test_min": 5.0,
+          "test_max": 20.0,
+          "length_m": 2.4,
+          "action": null,
+          "delta_params": {
+            "Довжина": "2.4 м",
+            "Тест": "5-20"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_eclipse_infiniti_inf_l_2",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг ECLIPSE INFINITI INF L 2-",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "ECLIPSE INFINITI INF L 2-",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "3187",
+          "num": 34,
+          "name_raw": "Спінінг ECLIPSE INFINITI INF2-702L 2.13m 2-10g",
+          "test_min": 2.0,
+          "test_max": 702.0,
+          "length_m": 2.13,
+          "action": null,
+          "delta_params": {
+            "Вага": "10 г",
+            "Довжина": "2.13 м",
+            "Тест": "2-702"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_eclipse_infiniti_inf_m_7",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг ECLIPSE INFINITI INF M 7-",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "ECLIPSE INFINITI INF M 7-",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "2196",
+          "num": 35,
+          "name_raw": "Спінінг ECLIPSE INFINITI INF2-702M 2.13m 7-21g",
+          "test_min": 2.0,
+          "test_max": 702.0,
+          "length_m": 2.13,
+          "action": null,
+          "delta_params": {
+            "Вага": "21 г",
+            "Довжина": "2.13 м",
+            "Тест": "2-702"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_eclipse_infiniti_inf_ml_3",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг ECLIPSE INFINITI INF ML 3-",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "ECLIPSE INFINITI INF ML 3-",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 2,
+      "variants": [
+        {
+          "kod": "2197",
+          "num": 36,
+          "name_raw": "Спінінг ECLIPSE INFINITI INF2-702ML 2.13m 3-18g",
+          "test_min": 2.0,
+          "test_max": 702.0,
+          "length_m": 2.13,
+          "action": null,
+          "delta_params": {
+            "Вага": "18 г",
+            "Довжина": "2.13 м",
+            "Тест": "2-702"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2195",
+          "num": 37,
+          "name_raw": "Спінінг ECLIPSE INFINITI INF2-802ML 2.44m 3-18g",
+          "test_min": 2.0,
+          "test_max": 802.0,
+          "length_m": 2.44,
+          "action": null,
+          "delta_params": {
+            "Вага": "18 г",
+            "Довжина": "2.44 м",
+            "Тест": "2-802"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_eclipse_infiniti_inf_ml_7",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг ECLIPSE INFINITI INF ML 7-",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "ECLIPSE INFINITI INF ML 7-",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "2194",
+          "num": 38,
+          "name_raw": "Спінінг ECLIPSE INFINITI INF2-802ML 2.44m 7-21g",
+          "test_min": 2.0,
+          "test_max": 802.0,
+          "length_m": 2.44,
+          "action": null,
+          "delta_params": {
+            "Вага": "21 г",
+            "Довжина": "2.44 м",
+            "Тест": "2-802"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_feima_navigator_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг FEIMA NAVIGATOR g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "FEIMA NAVIGATOR g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "2096",
+          "num": 39,
+          "name_raw": "Спінінг FEIMA NAVIGATOR 2.10 m 4-21g",
+          "test_min": 4.0,
+          "test_max": 21.0,
+          "length_m": 2.1,
+          "action": null,
+          "delta_params": {
+            "Довжина": "2.1 м",
+            "Тест": "4-21"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_favorit_u1",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Favorit U1",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Favorit U1",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 3,
+      "variants": [
+        {
+          "kod": "1693.06.07",
+          "num": 17,
+          "name_raw": "Спінінг  Favorit U1  702ML 2.13 4-16g  Fast",
+          "test_min": 4.0,
+          "test_max": 16.0,
+          "length_m": null,
+          "action": "Fast",
+          "delta_params": {
+            "Об'єм": "702 мл",
+            "Вага": "2.13 г",
+            "Тест": "4-16",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1693.06.11",
+          "num": 20,
+          "name_raw": "Спінінг  Favorit U1  762M 2.28 5-18g  Fast",
+          "test_min": 5.0,
+          "test_max": 18.0,
+          "length_m": 762.0,
+          "action": "Fast",
+          "delta_params": {
+            "Вага": "2.28 г",
+            "Довжина": "762 м",
+            "Тест": "5-18",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1693.06.12",
+          "num": 21,
+          "name_raw": "Спінінг  Favorit U1  762M 2.28 5-21g  Fast",
+          "test_min": 5.0,
+          "test_max": 21.0,
+          "length_m": 762.0,
+          "action": "Fast",
+          "delta_params": {
+            "Вага": "2.28 г",
+            "Довжина": "762 м",
+            "Тест": "5-21",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_favorit_u1_7102l_t",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Favorit U1 7102L-T",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Favorit U1 7102L-T",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1693.07.46",
+          "num": 18,
+          "name_raw": "Спінінг  Favorit U1  7102L-T 2.39 2-10g Fast",
+          "test_min": 2.0,
+          "test_max": 10.0,
+          "length_m": null,
+          "action": "Fast",
+          "delta_params": {
+            "Вага": "2.39 г",
+            "Тест": "2-10",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_favorit_u1_722_ul",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Favorit U1 722 UL",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Favorit U1 722 UL",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1693.07.43",
+          "num": 19,
+          "name_raw": "Спінінг  Favorit U1  722 UL 2.18 1.5-7g EX. Fast",
+          "test_min": 1.5,
+          "test_max": 7.0,
+          "length_m": null,
+          "action": "EX. Fast",
+          "delta_params": {
+            "Вага": "2.18 г",
+            "Тест": "1.5-7",
+            "Стрій": "EX. Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_favorit_u1_772_ul",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Favorit U1 772 UL",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Favorit U1 772 UL",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1693.07.45",
+          "num": 22,
+          "name_raw": "Спінінг  Favorit U1  772 UL 2.31 1.5-7g EX. Fast",
+          "test_min": 1.5,
+          "test_max": 7.0,
+          "length_m": null,
+          "action": "EX. Fast",
+          "delta_params": {
+            "Вага": "2.31 г",
+            "Тест": "1.5-7",
+            "Стрій": "EX. Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_favorit_u1_tip_692sul_s",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Favorit U1 TIP 692SUL-S",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Favorit U1 TIP 692SUL-S",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1693.07.42",
+          "num": 23,
+          "name_raw": "Спінінг  Favorit U1 TIP 692SUL-S 2.06 1-5g Ex Fast",
+          "test_min": 1.0,
+          "test_max": 5.0,
+          "length_m": null,
+          "action": "Ex Fast",
+          "delta_params": {
+            "Вага": "2.06 г",
+            "Тест": "1-5",
+            "Стрій": "Ex Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_favorit_x1_general_light_x_m_2_29_7",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Favorit X1 General Light X M 2.29 7-",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Favorit X1 General Light X M 2.29 7-",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1693.06.77",
+          "num": 24,
+          "name_raw": "Спінінг  Favorit X1 General Light X1.1- 762M 2.29 7-21g  Fast",
+          "test_min": 1.1,
+          "test_max": 762.0,
+          "length_m": null,
+          "action": "Fast",
+          "delta_params": {
+            "Вага": "21 г",
+            "Тест": "1.1-762",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_feima_wonderful",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Feima WONDERFUL",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Feima WONDERFUL",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 5,
+      "variants": [
+        {
+          "kod": "2455",
+          "num": 40,
+          "name_raw": "Спінінг Feima WONDERFUL 210 5-20g",
+          "test_min": 5.0,
+          "test_max": 20.0,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Вага": "210 г",
+            "Тест": "5-20"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2456",
+          "num": 41,
+          "name_raw": "Спінінг Feima WONDERFUL 210 7-28g",
+          "test_min": 7.0,
+          "test_max": 28.0,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Вага": "210 г",
+            "Тест": "7-28"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2458",
+          "num": 42,
+          "name_raw": "Спінінг Feima WONDERFUL 240 5-20g",
+          "test_min": 5.0,
+          "test_max": 20.0,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Вага": "240 г",
+            "Тест": "5-20"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2457",
+          "num": 43,
+          "name_raw": "Спінінг Feima WONDERFUL 240 7-28g",
+          "test_min": 7.0,
+          "test_max": 28.0,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Вага": "240 г",
+            "Тест": "7-28"
+          },
+          "extras": []
+        },
+        {
+          "kod": "3279",
+          "num": 44,
+          "name_raw": "Спінінг Feima WONDERFUL 270 7-28g",
+          "test_min": 7.0,
+          "test_max": 28.0,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Вага": "270 г",
+            "Тест": "7-28"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_gc_inquisitor_ins_2_44m_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг GC Inquisitor INS- 2.44m g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "GC Inquisitor INS- 2.44m g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 2,
+      "variants": [
+        {
+          "kod": "2039314",
+          "num": 10,
+          "name_raw": "Спінінг GC Inquisitor INS-802M 2.44m 3-15g",
+          "test_min": 3.0,
+          "test_max": 15.0,
+          "length_m": 802.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "802 м",
+            "Тест": "3-15"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2039304",
+          "num": 11,
+          "name_raw": "Спінінг GC Inquisitor INS-802M 2.44m 7-28g",
+          "test_min": 7.0,
+          "test_max": 28.0,
+          "length_m": 802.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "802 м",
+            "Тест": "7-28"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_gc_inquisitor_ins_2_51m_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг GC Inquisitor INS- 2.51m g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "GC Inquisitor INS- 2.51m g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "2039306",
+          "num": 12,
+          "name_raw": "Спінінг GC Inquisitor INS-832M 2.51m 6-24g",
+          "test_min": 6.0,
+          "test_max": 24.0,
+          "length_m": 832.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "832 м",
+            "Тест": "6-24"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_gc_inquisitor_ins_2_54m_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг GC Inquisitor INS- 2.54m g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "GC Inquisitor INS- 2.54m g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "2039307",
+          "num": 13,
+          "name_raw": "Спінінг GC Inquisitor INS-832M 2.54m 4-16g",
+          "test_min": 4.0,
+          "test_max": 16.0,
+          "length_m": 832.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "832 м",
+            "Тест": "4-16"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_gc_inquisitor_ins_2_59m_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг GC Inquisitor INS- 2.59m g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "GC Inquisitor INS- 2.59m g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 2,
+      "variants": [
+        {
+          "kod": "2039309",
+          "num": 14,
+          "name_raw": "Спінінг GC Inquisitor INS-862M 2.59m 5-21g",
+          "test_min": 5.0,
+          "test_max": 21.0,
+          "length_m": 862.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "862 м",
+            "Тест": "5-21"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2039308",
+          "num": 15,
+          "name_raw": "Спінінг GC Inquisitor INS-862M 2.59m 5-28g",
+          "test_min": 5.0,
+          "test_max": 28.0,
+          "length_m": 862.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "862 м",
+            "Тест": "5-28"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_gc_inquisitor_ins_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг GC Inquisitor INS- g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "GC Inquisitor INS- g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 2,
+      "variants": [
+        {
+          "kod": "2039313",
+          "num": 8,
+          "name_raw": "Спінінг GC Inquisitor INS-762ML 2-12g 2.29m",
+          "test_min": 2.0,
+          "test_max": 12.0,
+          "length_m": 2.29,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "762 мл",
+            "Довжина": "2.29 м",
+            "Тест": "2-12"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2039302",
+          "num": 9,
+          "name_raw": "Спінінг GC Inquisitor INS-762ML 4-18g 2.29m",
+          "test_min": 4.0,
+          "test_max": 18.0,
+          "length_m": 2.29,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "762 мл",
+            "Довжина": "2.29 м",
+            "Тест": "4-18"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_gc_vittor_vts_802mh_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг GC VITTOR VTS 802MH g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "GC VITTOR VTS 802MH g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "2039381",
+          "num": 16,
+          "name_raw": "Спінінг GC VITTOR VTS 802MH  2.44m 4-22g",
+          "test_min": 4.0,
+          "test_max": 22.0,
+          "length_m": 2.44,
+          "action": null,
+          "delta_params": {
+            "Довжина": "2.44 м",
+            "Тест": "4-22"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_microstar_carbon_im12_aifaima",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг MicroStar carbon IM12 AiFaima",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "MicroStar carbon IM12 AiFaima",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 4,
+      "variants": [
+        {
+          "kod": "3315",
+          "num": 45,
+          "name_raw": "Спінінг MicroStar 1.98 0.5-4g carbon IM12 AiFaima",
+          "test_min": 0.5,
+          "test_max": 4.0,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Вага": "1.98 г",
+            "Тест": "0.5-4"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2755",
+          "num": 46,
+          "name_raw": "Спінінг MicroStar 2.18 1-10g carbon IM12 AiFaima",
+          "test_min": 1.0,
+          "test_max": 10.0,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Вага": "2.18 г",
+            "Тест": "1-10"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2859",
+          "num": 47,
+          "name_raw": "Спінінг MicroStar 2.39 0,6-7g carbon IM12 AiFaima",
+          "test_min": 0.6,
+          "test_max": 7.0,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Вага": "2.39 г",
+            "Тест": "0.6-7"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2756",
+          "num": 48,
+          "name_raw": "Спінінг MicroStar 2.39 2-14g carbon IM12 AiFaima",
+          "test_min": 2.0,
+          "test_max": 14.0,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Вага": "2.39 г",
+            "Тест": "2-14"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_navigator_afeima",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Navigator Afeima",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Navigator Afeima",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 2,
+      "variants": [
+        {
+          "kod": "5030-210",
+          "num": 49,
+          "name_raw": "Спінінг Navigator 2.10 4-21g Afeima",
+          "test_min": 4.0,
+          "test_max": 21.0,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Вага": "2.1 г",
+            "Тест": "4-21"
+          },
+          "extras": []
+        },
+        {
+          "kod": "5030-240",
+          "num": 50,
+          "name_raw": "Спінінг Navigator 2.40 4-21g Afeima",
+          "test_min": 4.0,
+          "test_max": 21.0,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Вага": "2.4 г",
+            "Тест": "4-21"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_r_madrid_great_spin_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг R. Madrid Great Spin g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "R. Madrid Great Spin g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4444",
+          "num": 51,
+          "name_raw": "Спінінг R. Madrid Great Spin 240ML 2.40m 2-15g",
+          "test_min": 2.0,
+          "test_max": 15.0,
+          "length_m": 2.4,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "240 мл",
+            "Довжина": "2.4 м",
+            "Тест": "2-15"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_r_madrid_revin_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг R. Madrid Revin g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "R. Madrid Revin g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4445",
+          "num": 52,
+          "name_raw": "Спінінг R. Madrid Revin 240ML 2.40m 2-12g",
+          "test_min": 2.0,
+          "test_max": 12.0,
+          "length_m": 2.4,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "240 мл",
+            "Довжина": "2.4 м",
+            "Тест": "2-12"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_solaris_diamong_spin_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг SOLARIS DIAMONG SPIN g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "SOLARIS DIAMONG SPIN g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 2,
+      "variants": [
+        {
+          "kod": "2189",
+          "num": 73,
+          "name_raw": "Спінінг SOLARIS DIAMONG SPIN 2.10 m4-16g",
+          "test_min": 4.0,
+          "test_max": 16.0,
+          "length_m": 2.1,
+          "action": null,
+          "delta_params": {
+            "Довжина": "2.1 м",
+            "Тест": "4-16"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2190",
+          "num": 74,
+          "name_raw": "Спінінг SOLARIS DIAMONG SPIN 2.10 m4-24g",
+          "test_min": 4.0,
+          "test_max": 24.0,
+          "length_m": 2.1,
+          "action": null,
+          "delta_params": {
+            "Довжина": "2.1 м",
+            "Тест": "4-24"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_solaris_master_l_spin_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг SOLARIS Master L Spin g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "SOLARIS Master L Spin g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4422",
+          "num": 75,
+          "name_raw": "Спінінг SOLARIS Master L Spin 2.44m 1-7g",
+          "test_min": 1.0,
+          "test_max": 7.0,
+          "length_m": 2.44,
+          "action": null,
+          "delta_params": {
+            "Довжина": "2.44 м",
+            "Тест": "1-7"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_solaris_senzora_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг SOLARIS SENZORA g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "SOLARIS SENZORA g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 4,
+      "variants": [
+        {
+          "kod": "811210",
+          "num": 76,
+          "name_raw": "Спінінг SOLARIS SENZORA  2.13 m 06-7g",
+          "test_min": 6.0,
+          "test_max": 7.0,
+          "length_m": 2.13,
+          "action": null,
+          "delta_params": {
+            "Довжина": "2.13 м",
+            "Тест": "6-7"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2192",
+          "num": 77,
+          "name_raw": "Спінінг SOLARIS SENZORA  2.44 m 2-8g",
+          "test_min": 2.0,
+          "test_max": 8.0,
+          "length_m": 2.44,
+          "action": null,
+          "delta_params": {
+            "Довжина": "2.44 м",
+            "Тест": "2-8"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2191",
+          "num": 78,
+          "name_raw": "Спінінг SOLARIS SENZORA  2.44 m 4-16g",
+          "test_min": 4.0,
+          "test_max": 16.0,
+          "length_m": 2.44,
+          "action": null,
+          "delta_params": {
+            "Довжина": "2.44 м",
+            "Тест": "4-16"
+          },
+          "extras": []
+        },
+        {
+          "kod": "2193",
+          "num": 79,
+          "name_raw": "Спінінг SOLARIS SENZORA  2.44 m 7-24g",
+          "test_min": 7.0,
+          "test_max": 24.0,
+          "length_m": 2.44,
+          "action": null,
+          "delta_params": {
+            "Довжина": "2.44 м",
+            "Тест": "7-24"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_solaris_spectr_spin_2_13m_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг SOLARIS Spectr Spin 2.13m g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "SOLARIS Spectr Spin 2.13m g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4423",
+          "num": 80,
+          "name_raw": "Спінінг SOLARIS Spectr Spin 702M 2.13m 5-24g",
+          "test_min": 5.0,
+          "test_max": 24.0,
+          "length_m": 702.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "702 м",
+            "Тест": "5-24"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_solaris_turion_spin_2_13m_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг SOLARIS Turion Spin 2.13m g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "SOLARIS Turion Spin 2.13m g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4424",
+          "num": 81,
+          "name_raw": "Спінінг SOLARIS Turion Spin 702M 2.13m 4-24g",
+          "test_min": 4.0,
+          "test_max": 24.0,
+          "length_m": 702.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "702 м",
+            "Тест": "4-24"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_solaris_turion_spin_2_44m_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг SOLARIS Turion Spin 2.44m g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "SOLARIS Turion Spin 2.44m g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4425",
+          "num": 82,
+          "name_raw": "Спінінг SOLARIS Turion Spin 802M 2.44m 4-24g",
+          "test_min": 4.0,
+          "test_max": 24.0,
+          "length_m": 802.0,
+          "action": null,
+          "delta_params": {
+            "Довжина": "802 м",
+            "Тест": "4-24"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_solaris_turion_spin_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг SOLARIS Turion Spin g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "SOLARIS Turion Spin g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "4426",
+          "num": 83,
+          "name_raw": "Спінінг SOLARIS Turion Spin 802ML 2.44m 3-14g",
+          "test_min": 3.0,
+          "test_max": 14.0,
+          "length_m": 2.44,
+          "action": null,
+          "delta_params": {
+            "Об'єм": "802 мл",
+            "Довжина": "2.44 м",
+            "Тест": "3-14"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_select_force_frc",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Select Force FRC-",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Select Force FRC-",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1870.31.93",
+          "num": 59,
+          "name_raw": "Спінінг Select Force FRC-802ML 2.44m 4-16 Fast",
+          "test_min": 4.0,
+          "test_max": 16.0,
+          "length_m": 2.44,
+          "action": "Fast",
+          "delta_params": {
+            "Об'єм": "802 мл",
+            "Довжина": "2.44 м",
+            "Тест": "4-16",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_select_force_frc_2_13m_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Select Force FRC- 2.13m g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Select Force FRC- 2.13m g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 2,
+      "variants": [
+        {
+          "kod": "1870.31.87",
+          "num": 53,
+          "name_raw": "Спінінг Select Force FRC-762M 2.13m 3-14 g Fast",
+          "test_min": 3.0,
+          "test_max": 14.0,
+          "length_m": 762.0,
+          "action": "Fast",
+          "delta_params": {
+            "Довжина": "762 м",
+            "Тест": "3-14",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1870.31.88",
+          "num": 54,
+          "name_raw": "Спінінг Select Force FRC-762M 2.13m 5-24 g Fast",
+          "test_min": 5.0,
+          "test_max": 24.0,
+          "length_m": 762.0,
+          "action": "Fast",
+          "delta_params": {
+            "Довжина": "762 м",
+            "Тест": "5-24",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_select_force_frc_2_28m_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Select Force FRC- 2.28m g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Select Force FRC- 2.28m g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 3,
+      "variants": [
+        {
+          "kod": "1870.31.92",
+          "num": 55,
+          "name_raw": "Спінінг Select Force FRC-762M 2.28m 10-30 g Fast",
+          "test_min": 10.0,
+          "test_max": 30.0,
+          "length_m": 762.0,
+          "action": "Fast",
+          "delta_params": {
+            "Довжина": "762 м",
+            "Тест": "10-30",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1870.31.90",
+          "num": 56,
+          "name_raw": "Спінінг Select Force FRC-762M 2.28m 4-16 g Fast",
+          "test_min": 4.0,
+          "test_max": 16.0,
+          "length_m": 762.0,
+          "action": "Fast",
+          "delta_params": {
+            "Довжина": "762 м",
+            "Тест": "4-16",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1870.31.91",
+          "num": 57,
+          "name_raw": "Спінінг Select Force FRC-762M 2.28m 5-24 g Fast",
+          "test_min": 5.0,
+          "test_max": 24.0,
+          "length_m": 762.0,
+          "action": "Fast",
+          "delta_params": {
+            "Довжина": "762 м",
+            "Тест": "5-24",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_select_force_frc_2_44m",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Select Force FRC- 2.44m",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Select Force FRC- 2.44m",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1870.31.94",
+          "num": 58,
+          "name_raw": "Спінінг Select Force FRC-802M 2.44m 6-26 Fast",
+          "test_min": 6.0,
+          "test_max": 26.0,
+          "length_m": 802.0,
+          "action": "Fast",
+          "delta_params": {
+            "Довжина": "802 м",
+            "Тест": "6-26",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_select_reflex_frl",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Select Reflex FRL-",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Select Reflex FRL-",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1870.75.09",
+          "num": 63,
+          "name_raw": "Спінінг Select Reflex FRL-802ML 2.44m 4-16 Fast",
+          "test_min": 4.0,
+          "test_max": 16.0,
+          "length_m": 2.44,
+          "action": "Fast",
+          "delta_params": {
+            "Об'єм": "802 мл",
+            "Довжина": "2.44 м",
+            "Тест": "4-16",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_select_reflex_frl_702mh",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Select Reflex FRL-702MH",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Select Reflex FRL-702MH",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1870.75.06",
+          "num": 60,
+          "name_raw": "Спінінг Select Reflex FRL-702MH 2.13m 7-28 Fast",
+          "test_min": 7.0,
+          "test_max": 28.0,
+          "length_m": 2.13,
+          "action": "Fast",
+          "delta_params": {
+            "Довжина": "2.13 м",
+            "Тест": "7-28",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_select_reflex_frl_762mh_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Select Reflex FRL-762MH g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Select Reflex FRL-762MH g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 2,
+      "variants": [
+        {
+          "kod": "1870.75.07",
+          "num": 61,
+          "name_raw": "Спінінг Select Reflex FRL-762MH 2.30m 5-23g Fast",
+          "test_min": 5.0,
+          "test_max": 23.0,
+          "length_m": 2.3,
+          "action": "Fast",
+          "delta_params": {
+            "Довжина": "2.3 м",
+            "Тест": "5-23",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        },
+        {
+          "kod": "1870.75.08",
+          "num": 62,
+          "name_raw": "Спінінг Select Reflex FRL-762MH 2.30m 5-28g Fast",
+          "test_min": 5.0,
+          "test_max": 28.0,
+          "length_m": 2.3,
+          "action": "Fast",
+          "delta_params": {
+            "Довжина": "2.3 м",
+            "Тест": "5-28",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_select_retmix_702_ul_s_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Select Retmix 702-UL-S g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Select Retmix 702-UL-S g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1870.34.89",
+          "num": 64,
+          "name_raw": "Спінінг Select Retmix 702-UL-S 2.13m 0.5-5 g EX.Fast",
+          "test_min": 0.5,
+          "test_max": 5.0,
+          "length_m": 2.13,
+          "action": "EX.Fast",
+          "delta_params": {
+            "Довжина": "2.13 м",
+            "Тест": "0.5-5",
+            "Стрій": "EX.Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_select_retmix_782_ul_s_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Select Retmix 782-UL-S g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Select Retmix 782-UL-S g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1870.34.90",
+          "num": 65,
+          "name_raw": "Спінінг Select Retmix 782-UL-S 2.37m 1-7 g EX.Fast",
+          "test_min": 1.0,
+          "test_max": 7.0,
+          "length_m": 2.37,
+          "action": "EX.Fast",
+          "delta_params": {
+            "Довжина": "2.37 м",
+            "Тест": "1-7",
+            "Стрій": "EX.Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_select_retmix_782l_t_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Select Retmix 782L-T g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Select Retmix 782L-T g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1870.67.78",
+          "num": 66,
+          "name_raw": "Спінінг Select Retmix 782L-T 2.37m 3-15 g Fast",
+          "test_min": 3.0,
+          "test_max": 15.0,
+          "length_m": 2.37,
+          "action": "Fast",
+          "delta_params": {
+            "Довжина": "2.37 м",
+            "Тест": "3-15",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_select_retmix_842_l_s_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Select Retmix 842-L-S g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Select Retmix 842-L-S g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1870.34.91",
+          "num": 67,
+          "name_raw": "Спінінг Select Retmix 842-L-S 2.56m 2-10 g EX.Fast",
+          "test_min": 2.0,
+          "test_max": 10.0,
+          "length_m": 2.56,
+          "action": "EX.Fast",
+          "delta_params": {
+            "Довжина": "2.56 м",
+            "Тест": "2-10",
+            "Стрій": "EX.Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_select_retmix_842_m_l_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Select Retmix 842-M-L g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Select Retmix 842-M-L g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1870.67.79",
+          "num": 68,
+          "name_raw": "Спінінг Select Retmix 842-M-L 2.56m 4-18 g Fast",
+          "test_min": 4.0,
+          "test_max": 18.0,
+          "length_m": 2.56,
+          "action": "Fast",
+          "delta_params": {
+            "Довжина": "2.56 м",
+            "Тест": "4-18",
+            "Стрій": "Fast"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_select_sprint_spr_602xul_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Select Sprint SPR-602XUL g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Select Sprint SPR-602XUL g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1870.70.99",
+          "num": 69,
+          "name_raw": "Спінінг Select Sprint SPR-602XUL 1.80m 0.6-3 g",
+          "test_min": 0.6,
+          "test_max": 3.0,
+          "length_m": 1.8,
+          "action": null,
+          "delta_params": {
+            "Довжина": "1.8 м",
+            "Тест": "0.6-3"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_select_sprint_spr_622xul_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Select Sprint SPR-622XUL g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Select Sprint SPR-622XUL g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1870.71.00",
+          "num": 70,
+          "name_raw": "Спінінг Select Sprint SPR-622XUL 1.86m 0.8-3.5 g",
+          "test_min": 0.8,
+          "test_max": 3.5,
+          "length_m": 1.86,
+          "action": null,
+          "delta_params": {
+            "Довжина": "1.86 м",
+            "Тест": "0.8-3.5"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_select_sprint_spr_642xul_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Select Sprint SPR-642XUL g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Select Sprint SPR-642XUL g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1870.71.02",
+          "num": 71,
+          "name_raw": "Спінінг Select Sprint SPR-642XUL 1.92m 0.8-4 g",
+          "test_min": 0.8,
+          "test_max": 4.0,
+          "length_m": 1.92,
+          "action": null,
+          "delta_params": {
+            "Довжина": "1.92 м",
+            "Тест": "0.8-4"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_select_sprint_spr_662xul_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг Select Sprint SPR-662XUL g",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "Select Sprint SPR-662XUL g",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1870.71.03",
+          "num": 72,
+          "name_raw": "Спінінг Select Sprint SPR-662XUL 1.98m 1-5 g",
+          "test_min": 1.0,
+          "test_max": 5.0,
+          "length_m": 1.98,
+          "action": null,
+          "delta_params": {
+            "Довжина": "1.98 м",
+            "Тест": "1-5"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_weida_absolute_g",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг WEIDA ABSOLUTE G",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "WEIDA ABSOLUTE G",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "1888",
+          "num": 84,
+          "name_raw": "Спінінг WEIDA ABSOLUTE 3-12G",
+          "test_min": 3.0,
+          "test_max": 12.0,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Тест": "3-12"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_weida_absolute_g_240",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг WEIDA ABSOLUTE G 240",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "WEIDA ABSOLUTE G 240",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "528-0520",
+          "num": 85,
+          "name_raw": "Спінінг WEIDA ABSOLUTE 5-20G 240",
+          "test_min": 5.0,
+          "test_max": 20.0,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Тест": "5-20"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_штекер_kaida_exellence_м604_гр_2_1",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг штекер. KAIDA Exellence(м604) гр 2.1",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "штекер. KAIDA Exellence(м604) гр 2.1",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "302",
+          "num": 5,
+          "name_raw": "Спінінг  штекер. KAIDA Exellence(м604) 5-25гр 2.1",
+          "test_min": 5.0,
+          "test_max": 25.0,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Тест": "5-25"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_штекер_kaida_exellence_м604_гр_2_4",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг штекер. KAIDA Exellence(м604) гр 2.4",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "штекер. KAIDA Exellence(м604) гр 2.4",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "301",
+          "num": 6,
+          "name_raw": "Спінінг  штекер. KAIDA Exellence(м604) 5-25гр 2.4",
+          "test_min": 5.0,
+          "test_max": 25.0,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Тест": "5-25"
+          },
+          "extras": []
+        }
+      ]
+    },
+    {
+      "parent_key": "spinning_спінінг_штекер_kaida_exellence_м604_гр_2_7",
+      "family": "spinning",
+      "display_name": "Спінінг Спінінг штекер. KAIDA Exellence(м604) гр 2.7",
+      "type_word": "Спінінг",
+      "brand": "Спінінг",
+      "model_name": "штекер. KAIDA Exellence(м604) гр 2.7",
+      "category_tip": 6,
+      "source_category": "Спінінг",
+      "common_params": {
+        "Тип вудилища": "Спінінг"
+      },
+      "variant_count": 1,
+      "variants": [
+        {
+          "kod": "303",
+          "num": 7,
+          "name_raw": "Спінінг  штекер. KAIDA Exellence(м604) 5-25гр 2.7",
+          "test_min": 5.0,
+          "test_max": 25.0,
+          "length_m": null,
+          "action": null,
+          "delta_params": {
+            "Тест": "5-25"
+          },
+          "extras": []
+        }
+      ]
+    }
+  ]
+}

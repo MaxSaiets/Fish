@@ -1,0 +1,4255 @@
+{
+  "categories": [
+    {
+      "num": 1,
+      "name": "Ваш тип товарів чи послуг",
+      "parent": 0
+    },
+    {
+      "num": 2,
+      "name": "Ваша група товарів чи послуг",
+      "parent": 1
+    },
+    {
+      "num": 3,
+      "name": "Нова група",
+      "parent": 1
+    },
+    {
+      "num": 4,
+      "name": "Нова група",
+      "parent": 2
+    },
+    {
+      "num": 5,
+      "name": "Нова група",
+      "parent": 4
+    },
+    {
+      "num": 6,
+      "name": "Спінінг",
+      "parent": 1
+    },
+    {
+      "num": 7,
+      "name": "Вудки",
+      "parent": 1
+    },
+    {
+      "num": 8,
+      "name": "Зернові",
+      "parent": 1
+    },
+    {
+      "num": 9,
+      "name": "Волосінь",
+      "parent": 1
+    },
+    {
+      "num": 10,
+      "name": "Повідці",
+      "parent": 1
+    },
+    {
+      "num": 11,
+      "name": "Флюрокарбон",
+      "parent": 1
+    },
+    {
+      "num": 12,
+      "name": "Кивки",
+      "parent": 1
+    },
+    {
+      "num": 13,
+      "name": "Сигналізатори",
+      "parent": 1
+    }
+  ],
+  "products": [
+    {
+      "num": 1,
+      "kod": "К-0001",
+      "name": "Мій товар",
+      "tip": 2,
+      "cena_r": 110.0,
+      "cena_o": 105.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": -1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Ваша група товарів чи послуг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 2,
+      "kod": "1111",
+      "name": "test",
+      "tip": 2,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": -1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Ваша група товарів чи послуг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 3,
+      "kod": "1111",
+      "name": "tetg",
+      "tip": 2,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": -1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Ваша група товарів чи послуг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 4,
+      "kod": "Код",
+      "name": "Повна назва товару",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 5,
+      "kod": "302",
+      "name": "Спінінг  штекер. KAIDA Exellence(м604) 5-25гр 2.1",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 6,
+      "kod": "301",
+      "name": "Спінінг  штекер. KAIDA Exellence(м604) 5-25гр 2.4",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 7,
+      "kod": "303",
+      "name": "Спінінг  штекер. KAIDA Exellence(м604) 5-25гр 2.7",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 8,
+      "kod": "2039313",
+      "name": "Спінінг GC Inquisitor INS-762ML 2-12g 2.29m",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 9,
+      "kod": "2039302",
+      "name": "Спінінг GC Inquisitor INS-762ML 4-18g 2.29m",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 10,
+      "kod": "2039314",
+      "name": "Спінінг GC Inquisitor INS-802M 2.44m 3-15g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 11,
+      "kod": "2039304",
+      "name": "Спінінг GC Inquisitor INS-802M 2.44m 7-28g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 12,
+      "kod": "2039306",
+      "name": "Спінінг GC Inquisitor INS-832M 2.51m 6-24g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 13,
+      "kod": "2039307",
+      "name": "Спінінг GC Inquisitor INS-832M 2.54m 4-16g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 14,
+      "kod": "2039309",
+      "name": "Спінінг GC Inquisitor INS-862M 2.59m 5-21g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 15,
+      "kod": "2039308",
+      "name": "Спінінг GC Inquisitor INS-862M 2.59m 5-28g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 16,
+      "kod": "2039381",
+      "name": "Спінінг GC VITTOR VTS 802MH  2.44m 4-22g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 17,
+      "kod": "1693.06.07",
+      "name": "Спінінг  Favorit U1  702ML 2.13 4-16g  Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 18,
+      "kod": "1693.07.46",
+      "name": "Спінінг  Favorit U1  7102L-T 2.39 2-10g Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 19,
+      "kod": "1693.07.43",
+      "name": "Спінінг  Favorit U1  722 UL 2.18 1.5-7g EX. Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 20,
+      "kod": "1693.06.11",
+      "name": "Спінінг  Favorit U1  762M 2.28 5-18g  Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 21,
+      "kod": "1693.06.12",
+      "name": "Спінінг  Favorit U1  762M 2.28 5-21g  Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 22,
+      "kod": "1693.07.45",
+      "name": "Спінінг  Favorit U1  772 UL 2.31 1.5-7g EX. Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 23,
+      "kod": "1693.07.42",
+      "name": "Спінінг  Favorit U1 TIP 692SUL-S 2.06 1-5g Ex Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 24,
+      "kod": "1693.06.77",
+      "name": "Спінінг  Favorit X1 General Light X1.1- 762M 2.29 7-21g  Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 25,
+      "kod": "Y-5040-240",
+      "name": "Спінінг Afeima Jazz 802ML-SP 2.40m 7-21g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 26,
+      "kod": "Y-5077-198",
+      "name": "Спінінг Aifeima Veteran Rario Rs RDSP 662ML 1.98m 1-8g",
+      "tip": 6,
+      "cena_r": 88888.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 27,
+      "kod": "Y-5079-218",
+      "name": "Спінінг Aifeima  Veteran Rario Rs RDSP 722M 2.18m 5-20g",
+      "tip": 6,
+      "cena_r": 7358.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 28,
+      "kod": "Y-5078-218",
+      "name": "Спінінг Aifeima  Veteran Rario Rs RDSP 722ML 2.18m 3-16g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 29,
+      "kod": "2183",
+      "name": "Спінінг ECLIPSE ABSOLUTE 2.10m 2-8g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 30,
+      "kod": "2184",
+      "name": "Спінінг ECLIPSE ABSOLUTE 2.10m 3-15g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 31,
+      "kod": "2185",
+      "name": "Спінінг ECLIPSE ABSOLUTE 2.10m 5-20g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 32,
+      "kod": "2186",
+      "name": "Спінінг ECLIPSE ABSOLUTE 2.40m 3-15g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 33,
+      "kod": "2188",
+      "name": "Спінінг ECLIPSE BALANCE 2.40m 5-20g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 34,
+      "kod": "3187",
+      "name": "Спінінг ECLIPSE INFINITI INF2-702L 2.13m 2-10g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 35,
+      "kod": "2196",
+      "name": "Спінінг ECLIPSE INFINITI INF2-702M 2.13m 7-21g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 36,
+      "kod": "2197",
+      "name": "Спінінг ECLIPSE INFINITI INF2-702ML 2.13m 3-18g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 37,
+      "kod": "2195",
+      "name": "Спінінг ECLIPSE INFINITI INF2-802ML 2.44m 3-18g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 38,
+      "kod": "2194",
+      "name": "Спінінг ECLIPSE INFINITI INF2-802ML 2.44m 7-21g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 39,
+      "kod": "2096",
+      "name": "Спінінг FEIMA NAVIGATOR 2.10 m 4-21g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 40,
+      "kod": "2455",
+      "name": "Спінінг Feima WONDERFUL 210 5-20g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 41,
+      "kod": "2456",
+      "name": "Спінінг Feima WONDERFUL 210 7-28g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 42,
+      "kod": "2458",
+      "name": "Спінінг Feima WONDERFUL 240 5-20g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 43,
+      "kod": "2457",
+      "name": "Спінінг Feima WONDERFUL 240 7-28g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 44,
+      "kod": "3279",
+      "name": "Спінінг Feima WONDERFUL 270 7-28g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 45,
+      "kod": "3315",
+      "name": "Спінінг MicroStar 1.98 0.5-4g carbon IM12 AiFaima",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 46,
+      "kod": "2755",
+      "name": "Спінінг MicroStar 2.18 1-10g carbon IM12 AiFaima",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 47,
+      "kod": "2859",
+      "name": "Спінінг MicroStar 2.39 0,6-7g carbon IM12 AiFaima",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 48,
+      "kod": "2756",
+      "name": "Спінінг MicroStar 2.39 2-14g carbon IM12 AiFaima",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 49,
+      "kod": "5030-210",
+      "name": "Спінінг Navigator 2.10 4-21g Afeima",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 50,
+      "kod": "5030-240",
+      "name": "Спінінг Navigator 2.40 4-21g Afeima",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 51,
+      "kod": "4444",
+      "name": "Спінінг R. Madrid Great Spin 240ML 2.40m 2-15g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 52,
+      "kod": "4445",
+      "name": "Спінінг R. Madrid Revin 240ML 2.40m 2-12g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 53,
+      "kod": "1870.31.87",
+      "name": "Спінінг Select Force FRC-762M 2.13m 3-14 g Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 54,
+      "kod": "1870.31.88",
+      "name": "Спінінг Select Force FRC-762M 2.13m 5-24 g Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 55,
+      "kod": "1870.31.92",
+      "name": "Спінінг Select Force FRC-762M 2.28m 10-30 g Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 56,
+      "kod": "1870.31.90",
+      "name": "Спінінг Select Force FRC-762M 2.28m 4-16 g Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 57,
+      "kod": "1870.31.91",
+      "name": "Спінінг Select Force FRC-762M 2.28m 5-24 g Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 58,
+      "kod": "1870.31.94",
+      "name": "Спінінг Select Force FRC-802M 2.44m 6-26 Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 59,
+      "kod": "1870.31.93",
+      "name": "Спінінг Select Force FRC-802ML 2.44m 4-16 Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 60,
+      "kod": "1870.75.06",
+      "name": "Спінінг Select Reflex FRL-702MH 2.13m 7-28 Fast",
+      "tip": 6,
+      "cena_r": 34358.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 61,
+      "kod": "1870.75.07",
+      "name": "Спінінг Select Reflex FRL-762MH 2.30m 5-23g Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 62,
+      "kod": "1870.75.08",
+      "name": "Спінінг Select Reflex FRL-762MH 2.30m 5-28g Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 63,
+      "kod": "1870.75.09",
+      "name": "Спінінг Select Reflex FRL-802ML 2.44m 4-16 Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 64,
+      "kod": "1870.34.89",
+      "name": "Спінінг Select Retmix 702-UL-S 2.13m 0.5-5 g EX.Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 65,
+      "kod": "1870.34.90",
+      "name": "Спінінг Select Retmix 782-UL-S 2.37m 1-7 g EX.Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 66,
+      "kod": "1870.67.78",
+      "name": "Спінінг Select Retmix 782L-T 2.37m 3-15 g Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 67,
+      "kod": "1870.34.91",
+      "name": "Спінінг Select Retmix 842-L-S 2.56m 2-10 g EX.Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 68,
+      "kod": "1870.67.79",
+      "name": "Спінінг Select Retmix 842-M-L 2.56m 4-18 g Fast",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 69,
+      "kod": "1870.70.99",
+      "name": "Спінінг Select Sprint SPR-602XUL 1.80m 0.6-3 g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 70,
+      "kod": "1870.71.00",
+      "name": "Спінінг Select Sprint SPR-622XUL 1.86m 0.8-3.5 g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 71,
+      "kod": "1870.71.02",
+      "name": "Спінінг Select Sprint SPR-642XUL 1.92m 0.8-4 g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 72,
+      "kod": "1870.71.03",
+      "name": "Спінінг Select Sprint SPR-662XUL 1.98m 1-5 g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 73,
+      "kod": "2189",
+      "name": "Спінінг SOLARIS DIAMONG SPIN 2.10 m4-16g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 74,
+      "kod": "2190",
+      "name": "Спінінг SOLARIS DIAMONG SPIN 2.10 m4-24g",
+      "tip": 6,
+      "cena_r": 99999.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 75,
+      "kod": "4422",
+      "name": "Спінінг SOLARIS Master L Spin 2.44m 1-7g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 76,
+      "kod": "811210",
+      "name": "Спінінг SOLARIS SENZORA  2.13 m 06-7g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 77,
+      "kod": "2192",
+      "name": "Спінінг SOLARIS SENZORA  2.44 m 2-8g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 78,
+      "kod": "2191",
+      "name": "Спінінг SOLARIS SENZORA  2.44 m 4-16g",
+      "tip": 6,
+      "cena_r": 1900.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 79,
+      "kod": "2193",
+      "name": "Спінінг SOLARIS SENZORA  2.44 m 7-24g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 80,
+      "kod": "4423",
+      "name": "Спінінг SOLARIS Spectr Spin 702M 2.13m 5-24g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 81,
+      "kod": "4424",
+      "name": "Спінінг SOLARIS Turion Spin 702M 2.13m 4-24g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 82,
+      "kod": "4425",
+      "name": "Спінінг SOLARIS Turion Spin 802M 2.44m 4-24g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 83,
+      "kod": "4426",
+      "name": "Спінінг SOLARIS Turion Spin 802ML 2.44m 3-14g",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 84,
+      "kod": "1888",
+      "name": "Спінінг WEIDA ABSOLUTE 3-12G",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 85,
+      "kod": "528-0520",
+      "name": "Спінінг WEIDA ABSOLUTE 5-20G 240",
+      "tip": 6,
+      "cena_r": 0.0,
+      "cena_o": 0.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Спінінг"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 86,
+      "kod": "000839",
+      "name": "Вудка Black gold 3.6м 28 стрій Herabunafishing",
+      "tip": 7,
+      "cena_r": 1800.0,
+      "cena_o": 1260.0,
+      "proizv": "Herabunafishing",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Вудки"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 87,
+      "kod": "000840",
+      "name": "Вудка Black gold 4,5м 28 стрій Herabunafishing",
+      "tip": 7,
+      "cena_r": 2000.0,
+      "cena_o": 1400.0,
+      "proizv": "Herabunafishing",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 2.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Вудки"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 88,
+      "kod": "000841",
+      "name": "Вудка Black gold 5,4м 28 стрій Herabunafishing",
+      "tip": 7,
+      "cena_r": 2350.0,
+      "cena_o": 1645.0,
+      "proizv": "Herabunafishing",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Вудки"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 89,
+      "kod": "000842",
+      "name": "Вудка Black gold 6,3м 28 стрій Herabunafishing",
+      "tip": 7,
+      "cena_r": 2700.0,
+      "cena_o": 1890.0,
+      "proizv": "Herabunafishing",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 2.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Вудки"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 90,
+      "kod": "00066",
+      "name": "Вудка Золотий бамбук Herabunafishing 3,6 м 110 см 57 грам",
+      "tip": 7,
+      "cena_r": 1300.0,
+      "cena_o": 845.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 2.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Вудки"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 91,
+      "kod": "00067",
+      "name": "Вудка Золотий бамбук Herabunafishing 4.5 м 110 см 84 грам",
+      "tip": 7,
+      "cena_r": 1450.0,
+      "cena_o": 1015.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 3.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Вудки"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 92,
+      "kod": "00068",
+      "name": "Вудка Золотий бамбук Herabunafishing 5.4 м 110 см 110 грам",
+      "tip": 7,
+      "cena_r": 1550.0,
+      "cena_o": 1085.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 2.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Вудки"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 93,
+      "kod": "000276",
+      "name": "Вудка Золотий бамбук Herabunafishing 6,3 м",
+      "tip": 7,
+      "cena_r": 1650.0,
+      "cena_o": 1155.0,
+      "proizv": "Herabunafishing",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 2.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Вудки"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 94,
+      "kod": "000727",
+      "name": "Вудка Херабуна Chu Shou Yuzhiyian 5.4m",
+      "tip": 7,
+      "cena_r": 2700.0,
+      "cena_o": 1890.0,
+      "proizv": "Yuzhiyian",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Вудки"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 95,
+      "kod": "000728",
+      "name": "Вудка Херабуна Chu Shou Yuzhiyian 6.3m",
+      "tip": 7,
+      "cena_r": 2900.0,
+      "cena_o": 2030.0,
+      "proizv": "Yuzhiyian",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Вудки"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 96,
+      "kod": "000721",
+      "name": "Кріплення підставки до стула",
+      "tip": 7,
+      "cena_r": 260.0,
+      "cena_o": 182.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 2.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Вудки"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 97,
+      "kod": "00108",
+      "name": "Наконечник для махової вудки 1.0 н.в",
+      "tip": 7,
+      "cena_r": 240.0,
+      "cena_o": 168.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 10.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Вудки"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 98,
+      "kod": "05.29",
+      "name": "Страхувальник резинка для вудки 5 м сіра (Herabunafishing)",
+      "tip": 7,
+      "cena_r": 160.0,
+      "cena_o": 104.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 5.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Вудки"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 99,
+      "kod": "000602",
+      "name": "Чохол карбоновий Perfect Koi 130*14*11 (Herabunafishing)",
+      "tip": 7,
+      "cena_r": 2560.0,
+      "cena_o": 1664.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Вудки"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 100,
+      "kod": "4048",
+      "name": "Тигровий Горіх 900г \"BOOM\"",
+      "tip": 8,
+      "cena_r": 250.0,
+      "cena_o": 167.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 24.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 101,
+      "kod": "3855",
+      "name": "Кукуруза Цукрова Часник150мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 45.0,
+      "cena_o": 30.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 102,
+      "kod": "4275",
+      "name": "Кукуруза Цукрова Спеція150мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 45.0,
+      "cena_o": 30.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 103,
+      "kod": "4147",
+      "name": "Кукуруза Цукрова Слива 150мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 45.0,
+      "cena_o": 30.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 104,
+      "kod": "4146",
+      "name": "Кукуруза Цукрова Полуниця 150мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 45.0,
+      "cena_o": 30.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 105,
+      "kod": "3853",
+      "name": "Кукуруза Цукрова Оригінал 150мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 45.0,
+      "cena_o": 30.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 7.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 106,
+      "kod": "3854",
+      "name": "Кукуруза Цукрова Мед 150мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 45.0,
+      "cena_o": 30.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 2.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 107,
+      "kod": "4434",
+      "name": "Кукуруза Цукрова Кріль 150мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 45.0,
+      "cena_o": 30.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 108,
+      "kod": "3852",
+      "name": "Кукуруза Цукрова Короп 150мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 45.0,
+      "cena_o": 30.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 109,
+      "kod": "4148",
+      "name": "Кукуруза Цукрова Конопля 150мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 45.0,
+      "cena_o": 30.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 2.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 110,
+      "kod": "3856",
+      "name": "Кукуруза Цукрова Ваніль150мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 45.0,
+      "cena_o": 30.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 111,
+      "kod": "4274",
+      "name": "Кукуруза Цукрова Аніс150мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 45.0,
+      "cena_o": 30.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 112,
+      "kod": "4233",
+      "name": "Конопля суха 800г \"BOOM\"",
+      "tip": 8,
+      "cena_r": 156.0,
+      "cena_o": 99.75,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 3.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 113,
+      "kod": "4437",
+      "name": "Горох Часник 350мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 38.0,
+      "cena_o": 25.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 2.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 114,
+      "kod": "4435",
+      "name": "Горох Слива 350мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 38.0,
+      "cena_o": 25.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 4.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 115,
+      "kod": "4149",
+      "name": "Горох Полуниця 350мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 38.0,
+      "cena_o": 25.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 7.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 116,
+      "kod": "4276",
+      "name": "Горох Оригінал 350мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 38.0,
+      "cena_o": 25.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 117,
+      "kod": "4152",
+      "name": "Горох Мед 350мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 38.0,
+      "cena_o": 25.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 118,
+      "kod": "4277",
+      "name": "Горох Кріп 350мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 38.0,
+      "cena_o": 25.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 4.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 119,
+      "kod": "4436",
+      "name": "Горох Кріль 350мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 38.0,
+      "cena_o": 25.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 7.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 120,
+      "kod": "4153",
+      "name": "Горох Короп 350мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 38.0,
+      "cena_o": 25.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 2.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 121,
+      "kod": "4151",
+      "name": "Горох Конопля 350мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 38.0,
+      "cena_o": 25.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 5.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 122,
+      "kod": "4150",
+      "name": "Горох Ваніль 350мл \"BOOM\"",
+      "tip": 8,
+      "cena_r": 38.0,
+      "cena_o": 25.0,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 13.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 123,
+      "kod": "4055",
+      "name": "Зерно Варене 3л (банка) Кукурудза - Конопля \"BOOM\"",
+      "tip": 8,
+      "cena_r": 293.0,
+      "cena_o": 185.25,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 124,
+      "kod": "4331",
+      "name": "Зерно Варене 3л (банка) Горох- Кукурудза \"BOOM\"",
+      "tip": 8,
+      "cena_r": 250.0,
+      "cena_o": 156.75,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 125,
+      "kod": "4054",
+      "name": "Зерно Варене 3л (банка) BigFish \"BOOM\"",
+      "tip": 8,
+      "cena_r": 280.0,
+      "cena_o": 176.7,
+      "proizv": "BOOM",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Зернові"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 126,
+      "kod": "3032-35",
+      "name": "Волосінь Magigian 3D Afeima  150m 0.35mm",
+      "tip": 9,
+      "cena_r": 90.0,
+      "cena_o": 60.5,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 127,
+      "kod": "3024-30",
+      "name": "Волосінь Magigian 3D Afeima  150m 0.30mm",
+      "tip": 9,
+      "cena_r": 90.0,
+      "cena_o": 60.5,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 128,
+      "kod": "3032-30",
+      "name": "Волосінь Magigian 3D Afeima  150m 0.30mm",
+      "tip": 9,
+      "cena_r": 90.0,
+      "cena_o": 60.5,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 129,
+      "kod": "3024-25",
+      "name": "Волосінь Magigian 3D Afeima  150m 0.25mm",
+      "tip": 9,
+      "cena_r": 90.0,
+      "cena_o": 60.5,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 14.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 130,
+      "kod": "3271",
+      "name": "Ліска FEIMA 3D STEALTH 600м 0,30мм флюрокарбон",
+      "tip": 9,
+      "cena_r": 230.0,
+      "cena_o": 165.0,
+      "proizv": "Ліска",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 6.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 131,
+      "kod": "3272",
+      "name": "Ліска FEIMA 3D STEALTH 600м 0,28мм флюрокарбон",
+      "tip": 9,
+      "cena_r": 230.0,
+      "cena_o": 165.0,
+      "proizv": "Ліска",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 4.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 132,
+      "kod": "X5051",
+      "name": "Ліска FEIMA 3D STEALTH 50м 0,16мм флюрокарбон",
+      "tip": 9,
+      "cena_r": 45.0,
+      "cena_o": 26.22,
+      "proizv": "Ліска",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 20.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 133,
+      "kod": "1634",
+      "name": "Ліска FEIMA 3D STEALTH 50м 0,14мм флюрокарбон",
+      "tip": 9,
+      "cena_r": 45.0,
+      "cena_o": 26.22,
+      "proizv": "Ліска",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 6.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 134,
+      "kod": "1633",
+      "name": "Ліска FEIMA 3D STEALTH 50м 0,12мм флюрокарбон",
+      "tip": 9,
+      "cena_r": 45.0,
+      "cena_o": 26.22,
+      "proizv": "Ліска",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 8.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 135,
+      "kod": "3273",
+      "name": "Ліска FEIMA 3D STEALTH 300м 0,28мм флюрокарбон",
+      "tip": 9,
+      "cena_r": 140.0,
+      "cena_o": 100.0,
+      "proizv": "Ліска",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 136,
+      "kod": "X5052",
+      "name": "Ліска FEIMA 3D STEALTH 150м 0,20мм флюрокарбон",
+      "tip": 9,
+      "cena_r": 80.0,
+      "cena_o": 55.77,
+      "proizv": "Ліска",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 9.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 137,
+      "kod": "2463",
+      "name": "Ліска FEIMA 3D STEALTH 150м 0,25мм флюрокарбон",
+      "tip": 9,
+      "cena_r": 80.0,
+      "cena_o": 55.77,
+      "proizv": "Ліска",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 138,
+      "kod": "3000",
+      "name": "Ліска FEIMA 3D  INVISIBLE 50м",
+      "tip": 9,
+      "cena_r": 42.0,
+      "cena_o": 28.0,
+      "proizv": "Ліска",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 19.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 139,
+      "kod": "X-5056",
+      "name": "Ліска  3D INVISIBLE 300м 0,30мм",
+      "tip": 9,
+      "cena_r": 190.0,
+      "cena_o": 127.4,
+      "proizv": "Ліска",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 3.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 140,
+      "kod": "ZJ-INP027А",
+      "name": "Волосінь JAXON INTENSA PREMIUM 0,27mm 150m",
+      "tip": 9,
+      "cena_r": 170.0,
+      "cena_o": 115.86,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 2.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 141,
+      "kod": "ZJ-INP025А",
+      "name": "Волосінь JAXON INTENSA PREMIUM 0,25mm 150m",
+      "tip": 9,
+      "cena_r": 170.0,
+      "cena_o": 115.86,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 3.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 142,
+      "kod": "ZJ-INP022C",
+      "name": "Волосінь JAXON INTENSA PREMIUM 0,22mm 25m",
+      "tip": 9,
+      "cena_r": 57.0,
+      "cena_o": 40.38,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 143,
+      "kod": "ZJ-INP022А",
+      "name": "Волосінь JAXON INTENSA PREMIUM 0,22mm 150m",
+      "tip": 9,
+      "cena_r": 160.0,
+      "cena_o": 108.35,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 5.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 144,
+      "kod": "ZJ-INP020C",
+      "name": "Волосінь JAXON INTENSA PREMIUM 0,20mm 25m",
+      "tip": 9,
+      "cena_r": 67.0,
+      "cena_o": 45.0,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 16.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 145,
+      "kod": "ZJ-INP018C",
+      "name": "Волосінь JAXON INTENSA PREMIUM 0,18mm 25m",
+      "tip": 9,
+      "cena_r": 67.0,
+      "cena_o": 45.0,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 9.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 146,
+      "kod": "ZJ-INP016C",
+      "name": "Волосінь JAXON INTENSA PREMIUM 0,16mm 25m",
+      "tip": 9,
+      "cena_r": 67.0,
+      "cena_o": 45.0,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 11.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 147,
+      "kod": "ZJ-INP014C",
+      "name": "Волосінь JAXON INTENSA PREMIUM 0,14mm 25m",
+      "tip": 9,
+      "cena_r": 67.0,
+      "cena_o": 45.0,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 10.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 148,
+      "kod": "ZJ-INP012C",
+      "name": "Волосінь JAXON INTENSA PREMIUM 0,12mm 25m",
+      "tip": 9,
+      "cena_r": 67.0,
+      "cena_o": 45.0,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 17.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 149,
+      "kod": "ZJ-INP010C",
+      "name": "Волосінь JAXON INTENSA PREMIUM 0,10mm 25m",
+      "tip": 9,
+      "cena_r": 67.0,
+      "cena_o": 45.0,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 49.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 150,
+      "kod": "ZJ-INP008C",
+      "name": "Волосінь JAXON INTENSA PREMIUM 0,08mm 25m",
+      "tip": 9,
+      "cena_r": 67.0,
+      "cena_o": 45.0,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 4.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 195,
+      "kod": "3050-35",
+      "name": "Ліска Big Fish Feeder 150m 0.35mm 14.3kg 31.4lb",
+      "tip": 9,
+      "cena_r": 105.0,
+      "cena_o": 60.0,
+      "proizv": "Ліска",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 9.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 196,
+      "kod": "3050-30",
+      "name": "Ліска Big Fish Feeder 150m 0.30mm 11.5kg 25.3lb",
+      "tip": 9,
+      "cena_r": 105.0,
+      "cena_o": 60.0,
+      "proizv": "Ліска",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 9.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 197,
+      "kod": "3050-28",
+      "name": "Ліска Big Fish Feeder 150m 0.28mm 10.2kg 22.4lb",
+      "tip": 9,
+      "cena_r": 105.0,
+      "cena_o": 60.0,
+      "proizv": "Ліска",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 3.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 198,
+      "kod": "3050-25",
+      "name": "Ліска Big Fish Feeder 150m 0.25mm 8.2kg 19.4lb",
+      "tip": 9,
+      "cena_r": 105.0,
+      "cena_o": 60.0,
+      "proizv": "Ліска",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 8.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 199,
+      "kod": "3050-22",
+      "name": "Ліска Big Fish Feeder 150m 0.22mm 7.85kg 17.2lb",
+      "tip": 9,
+      "cena_r": 105.0,
+      "cena_o": 60.0,
+      "proizv": "Ліска",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 7.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 200,
+      "kod": "3050-20",
+      "name": "Ліска Big Fish Feeder 150m 0.20mm 6.86kg 15.1lb",
+      "tip": 9,
+      "cena_r": 105.0,
+      "cena_o": 60.0,
+      "proizv": "Ліска",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 8.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 201,
+      "kod": "CZ4999",
+      "name": "Волосінь CZ Pitbull High UV Carp line fluo orange 0.32mm 12.7kg 1000m",
+      "tip": 9,
+      "cena_r": 420.0,
+      "cena_o": 288.71,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 3.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 202,
+      "kod": "CZ4982",
+      "name": "Волосінь CZ Pitbull High UV Carp line fluo orange 0.29mm 10.8kg 1000m",
+      "tip": 9,
+      "cena_r": 420.0,
+      "cena_o": 288.71,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 3.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 203,
+      "kod": "CZ4975",
+      "name": "Волосінь CZ Pitbull High UV Carp line fluo orange 0.26mm 8.9kg 1000m",
+      "tip": 9,
+      "cena_r": 420.0,
+      "cena_o": 288.71,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 3.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 204,
+      "kod": "CP5410-309",
+      "name": "Волосінь Carp Pro Fishing Fluo Orange 1000m 0.309mm",
+      "tip": 9,
+      "cena_r": 650.0,
+      "cena_o": 450.0,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 2.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 205,
+      "kod": "CP5410-286",
+      "name": "Волосінь Carp Pro Fishing Fluo Orange 1000m 0.286mm",
+      "tip": 9,
+      "cena_r": 645.0,
+      "cena_o": 444.2,
+      "proizv": "Волосінь",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Волосінь"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 151,
+      "kod": "1814",
+      "name": "Повідець Карповий №8\" Баласт\"",
+      "tip": 10,
+      "cena_r": 14.0,
+      "cena_o": 8.0,
+      "proizv": "Баласт",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 53.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Повідці"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 152,
+      "kod": "1813",
+      "name": "Повідець Карповий №6\" Баласт\"",
+      "tip": 10,
+      "cena_r": 14.0,
+      "cena_o": 8.0,
+      "proizv": "Баласт",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 73.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Повідці"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 153,
+      "kod": "1812",
+      "name": "Повідець Карповий №4\" Баласт\"",
+      "tip": 10,
+      "cena_r": 16.0,
+      "cena_o": 8.0,
+      "proizv": "Баласт",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 55.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Повідці"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 154,
+      "kod": "633",
+      "name": "Повідець Карповий №3\" Баласт\"",
+      "tip": 10,
+      "cena_r": 14.0,
+      "cena_o": 8.0,
+      "proizv": "Баласт",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 68.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Повідці"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 155,
+      "kod": "940",
+      "name": "Повідець Carp Fishing Fast Sinking Braid 25lb №8 (шт.)",
+      "tip": 10,
+      "cena_r": 25.0,
+      "cena_o": 17.4,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 41.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Повідці"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 156,
+      "kod": "427",
+      "name": "Повідець Carp Fishing Fast Sinking Braid 25lb №6 (шт.)",
+      "tip": 10,
+      "cena_r": 25.0,
+      "cena_o": 17.4,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 50.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Повідці"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 157,
+      "kod": "941",
+      "name": "Повідець Carp Fishing Fast Sinking Braid 25lb №4 (шт.)",
+      "tip": 10,
+      "cena_r": 25.0,
+      "cena_o": 17.4,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 23.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Повідці"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 158,
+      "kod": "1693.11.87",
+      "name": "Флюрокарбон  Favorite U1 FC 10m #8.0\\0.47mm 30.5lb\\13.84kg",
+      "tip": 11,
+      "cena_r": 95.0,
+      "cena_o": 64.0,
+      "proizv": "Флюрокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 4.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 159,
+      "kod": "1693.11.86",
+      "name": "Флюрокарбон  Favorite U1 FC 10m #7.0\\0.435mm 25.8lb\\11.68kg",
+      "tip": 11,
+      "cena_r": 88.0,
+      "cena_o": 60.7,
+      "proizv": "Флюрокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 5.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 160,
+      "kod": "1693.11.85",
+      "name": "Флюрокарбон  Favorite U1 FC 10m #6.0\\0.405mm 23.5lb\\10.67kg",
+      "tip": 11,
+      "cena_r": 88.0,
+      "cena_o": 60.7,
+      "proizv": "Флюрокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 4.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 161,
+      "kod": "1693.11.84",
+      "name": "Флюрокарбон  Favorite U1 FC 10m #5,0\\0.37mm 20.5lb\\9.31kg",
+      "tip": 11,
+      "cena_r": 82.0,
+      "cena_o": 56.4,
+      "proizv": "Флюрокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 5.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 162,
+      "kod": "1693.11.83",
+      "name": "Флюрокарбон  Favorite U1 FC 10m #4,0\\0.33mm 16,0lb\\7,25kg",
+      "tip": 11,
+      "cena_r": 77.0,
+      "cena_o": 52.7,
+      "proizv": "Флюрокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 3.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 163,
+      "kod": "1693.11.81",
+      "name": "Флюрокарбон  Favorite U1 FC 10m #3\\0.285mm 13.2lb\\5.97kg",
+      "tip": 11,
+      "cena_r": 75.0,
+      "cena_o": 50.5,
+      "proizv": "Флюрокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 5.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 164,
+      "kod": "1693.11.82",
+      "name": "Флюрокарбон  Favorite U1 FC 10m #3.5\\0.31mm 14.1lb\\6.38kg",
+      "tip": 11,
+      "cena_r": 77.0,
+      "cena_o": 52.7,
+      "proizv": "Флюрокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 5.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 165,
+      "kod": "1693.11.79",
+      "name": "Флюрокарбон  Favorite U1 FC 10m #2\\0.235mm 8.6lb\\3.89kg",
+      "tip": 11,
+      "cena_r": 68.0,
+      "cena_o": 46.2,
+      "proizv": "Флюрокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 5.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 166,
+      "kod": "1693.11.80",
+      "name": "Флюрокарбон  Favorite U1 FC 10m #2.5\\0.26mm 10.1lb\\4.58kg",
+      "tip": 11,
+      "cena_r": 75.0,
+      "cena_o": 50.5,
+      "proizv": "Флюрокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 4.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 167,
+      "kod": "1693.11.89",
+      "name": "Флюрокарбон  Favorite U1 FC 10m #12\\0.57mm 44.2lb\\19.98kg",
+      "tip": 11,
+      "cena_r": 115.0,
+      "cena_o": 79.0,
+      "proizv": "Флюрокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 4.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 168,
+      "kod": "1693.11.88",
+      "name": "Флюрокарбон  Favorite U1 FC 10m #10\\0.52mm 37.2lb\\16.86kg",
+      "tip": 11,
+      "cena_r": 105.0,
+      "cena_o": 71.5,
+      "proizv": "Флюрокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 4.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 169,
+      "kod": "1693.11.75",
+      "name": "Флюрокарбон  Favorite U1 FC 10m #1\\0.165mm 4,2lb\\1.92kg",
+      "tip": 11,
+      "cena_r": 68.0,
+      "cena_o": 46.2,
+      "proizv": "Флюрокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 5.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 170,
+      "kod": "1693.11.78",
+      "name": "Флюрокарбон  Favorite U1 FC 10m #1.75\\0.22mm 7.6lb\\3.46kg",
+      "tip": 11,
+      "cena_r": 68.0,
+      "cena_o": 46.2,
+      "proizv": "Флюрокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 2.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 171,
+      "kod": "1693.11.77",
+      "name": "Флюрокарбон  Favorite U1 FC 10m #1.5\\0.205mm 6.4lb\\2.89kg",
+      "tip": 11,
+      "cena_r": 68.0,
+      "cena_o": 46.2,
+      "proizv": "Флюрокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 172,
+      "kod": "1693.11.76",
+      "name": "Флюрокарбон  Favorite U1 FC 10m #1.2\\0.185mm 5.3lb\\2.42kg",
+      "tip": 11,
+      "cena_r": 68.0,
+      "cena_o": 46.2,
+      "proizv": "Флюрокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 4.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 173,
+      "kod": "1693.11.74",
+      "name": "Флюрокарбон  Favorite U1 FC 10m #0.8\\0.148mm 3.6lb\\1.65kg",
+      "tip": 11,
+      "cena_r": 68.0,
+      "cena_o": 46.2,
+      "proizv": "Флюрокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 4.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 174,
+      "kod": "2496",
+      "name": "Флюорокарбон Intech FC Shock Leader 10м 0.738mm 24,6kg/54lb (шт.)",
+      "tip": 11,
+      "cena_r": 310.0,
+      "cena_o": 222.9,
+      "proizv": "Флюорокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 175,
+      "kod": "2495",
+      "name": "Флюорокарбон Intech FC Shock Leader 10м 0.645mm 20,4kg/45lb (шт.)",
+      "tip": 11,
+      "cena_r": 265.0,
+      "cena_o": 188.1,
+      "proizv": "Флюорокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 7.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 176,
+      "kod": "2716",
+      "name": "Флюорокарбон Intech FC Shock Leader 10м 0.555mm 15.9kg/354lb (шт.)",
+      "tip": 11,
+      "cena_r": 122.0,
+      "cena_o": 84.0,
+      "proizv": "Флюорокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 3.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 177,
+      "kod": "1615",
+      "name": "Флюорокарбон Intech FC Shock Leader 10м 0.505mm 13.2kg/29lb (шт.)",
+      "tip": 11,
+      "cena_r": 110.0,
+      "cena_o": 75.6,
+      "proizv": "Флюорокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 178,
+      "kod": "1614",
+      "name": "Флюорокарбон Intech FC Shock Leader 10м 0.455mm 10.7kg/24lb (шт.)",
+      "tip": 11,
+      "cena_r": 100.0,
+      "cena_o": 67.2,
+      "proizv": "Флюорокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 179,
+      "kod": "1613",
+      "name": "Флюорокарбон Intech FC Shock Leader 10м 0.418mm 9.0kg/20lb (шт.)",
+      "tip": 11,
+      "cena_r": 92.0,
+      "cena_o": 63.0,
+      "proizv": "Флюорокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 180,
+      "kod": "1612",
+      "name": "Флюорокарбон Intech FC Shock Leader 10м 0.373mm 7.7kg/17lb (шт.)",
+      "tip": 11,
+      "cena_r": 95.0,
+      "cena_o": 67.6,
+      "proizv": "Флюорокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 181,
+      "kod": "2802",
+      "name": "Флюорокарбон Intech FC Shock Leader 10м 0.333mm 6,4kg/14lb (шт.)",
+      "tip": 11,
+      "cena_r": 95.0,
+      "cena_o": 67.6,
+      "proizv": "Флюорокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 182,
+      "kod": "921",
+      "name": "Флюорокарбон Intech FC Shock Leader 10м 0.298mm 4.9kg/11lb (шт.)",
+      "tip": 11,
+      "cena_r": 85.0,
+      "cena_o": 61.3,
+      "proizv": "Флюорокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 4.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 183,
+      "kod": "920",
+      "name": "Флюорокарбон Intech FC Shock Leader 10м 0.278mm 4.9kg/11lb (шт.)",
+      "tip": 11,
+      "cena_r": 85.0,
+      "cena_o": 61.3,
+      "proizv": "Флюорокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 6.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 184,
+      "kod": "919",
+      "name": "Флюорокарбон Intech FC Shock Leader 10м 0.257mm 4.2kg/9.3lb (шт.)",
+      "tip": 11,
+      "cena_r": 66.0,
+      "cena_o": 45.2,
+      "proizv": "Флюорокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 9.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 185,
+      "kod": "918",
+      "name": "Флюорокарбон Intech FC Shock Leader 10м 0.234mm 3.5kg/7.7lb (шт.)",
+      "tip": 11,
+      "cena_r": 65.0,
+      "cena_o": 44.94,
+      "proizv": "Флюорокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 186,
+      "kod": "917",
+      "name": "Флюорокарбон Intech FC Shock Leader 10м 0.218mm 3.1kg/6.8lb (шт.)",
+      "tip": 11,
+      "cena_r": 63.0,
+      "cena_o": 43.1,
+      "proizv": "Флюорокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 187,
+      "kod": "916",
+      "name": "Флюорокарбон Intech FC Shock Leader 10м 0.200mm 2.6kg/5,7lb (шт.)",
+      "tip": 11,
+      "cena_r": 63.0,
+      "cena_o": 43.1,
+      "proizv": "Флюорокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 188,
+      "kod": "915",
+      "name": "Флюорокарбон Intech FC Shock Leader 10м 0.178mm 2.1kg/4.6lb (шт.)",
+      "tip": 11,
+      "cena_r": 60.0,
+      "cena_o": 42.8,
+      "proizv": "Флюорокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 189,
+      "kod": "914",
+      "name": "Флюорокарбон Intech FC Shock Leader 10м 0.161mm 1.7kg/3.7lb (шт.)",
+      "tip": 11,
+      "cena_r": 60.0,
+      "cena_o": 42.8,
+      "proizv": "Флюорокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 190,
+      "kod": "3692",
+      "name": "Флюорокарбон Intech FC Shock Leader 10м 0.123mm 1.0kg/2.2lb (шт.)",
+      "tip": 11,
+      "cena_r": 60.0,
+      "cena_o": 42.8,
+      "proizv": "Флюорокарбон",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 5.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 191,
+      "kod": "3302",
+      "name": "Поводок PREDATOR WOLFRAM LEADERS 25см",
+      "tip": 11,
+      "cena_r": 12.0,
+      "cena_o": 7.578,
+      "proizv": "Поводок",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 637.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 192,
+      "kod": "3437",
+      "name": "Повідець флюрокарбон Golden Fish 0.55m 30см",
+      "tip": 11,
+      "cena_r": 12.0,
+      "cena_o": 7.1,
+      "proizv": "Повідець",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 66.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 193,
+      "kod": "3436",
+      "name": "Повідець флюрокарбон Golden Fish 0.55m 25см",
+      "tip": 11,
+      "cena_r": 10.0,
+      "cena_o": 7.1,
+      "proizv": "Повідець",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 48.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 194,
+      "kod": "3435",
+      "name": "Повідець флюрокарбон Golden Fish 0.55m 20см",
+      "tip": 11,
+      "cena_r": 10.0,
+      "cena_o": 7.1,
+      "proizv": "Повідець",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 55.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Флюрокарбон"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 206,
+      "kod": "2724",
+      "name": "Кивок Vast лавсан Зима-Літо №3 test 2.5-4.1",
+      "tip": 12,
+      "cena_r": 150.0,
+      "cena_o": 93.1,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Кивки"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 207,
+      "kod": "2763",
+      "name": "Кивок Vast лавсан Зима- Літо №2 test 1.2-3.16",
+      "tip": 12,
+      "cena_r": 140.0,
+      "cena_o": 85.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Кивки"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 208,
+      "kod": "2793",
+      "name": "Кивок Vast лавсан Зима- Літо №1 test 0.5-1.4",
+      "tip": 12,
+      "cena_r": 150.0,
+      "cena_o": 95.99,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 6.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Кивки"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 209,
+      "kod": "2086",
+      "name": "Світлячок OKEAN SUN d4.5*37 5шт",
+      "tip": 13,
+      "cena_r": 12.0,
+      "cena_o": 8.5,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 66.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 210,
+      "kod": "016900",
+      "name": "Світлячок 4,5*38мм SMS",
+      "tip": 13,
+      "cena_r": 6.0,
+      "cena_o": 3.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 124.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 211,
+      "kod": "937",
+      "name": "Дзвіночок",
+      "tip": 13,
+      "cena_r": 4.5,
+      "cena_o": 3.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 181.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 212,
+      "kod": "1316",
+      "name": "Сигналізатор під світлячок",
+      "tip": 13,
+      "cena_r": 12.0,
+      "cena_o": 6.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 17.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 213,
+      "kod": "4639",
+      "name": "Сигналізатор клювання механічний у підставку",
+      "tip": 13,
+      "cena_r": 80.0,
+      "cena_o": 50.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 21.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 214,
+      "kod": "4714",
+      "name": "Сигналізатор клювання довгий під світлячок",
+      "tip": 13,
+      "cena_r": 20.0,
+      "cena_o": 13.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 35.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 215,
+      "kod": "4352",
+      "name": "Сигналізатор Sadey jy-28",
+      "tip": 13,
+      "cena_r": 470.0,
+      "cena_o": 325.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 8.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 216,
+      "kod": "8026",
+      "name": "Сигналізатор miracle fish 2 шт",
+      "tip": 13,
+      "cena_r": 65.0,
+      "cena_o": 45.53,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 6.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 217,
+      "kod": "3188",
+      "name": "Сигналізатор Carp Line TS TLI-07",
+      "tip": 13,
+      "cena_r": 250.0,
+      "cena_o": 164.58,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 19.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 218,
+      "kod": "410",
+      "name": "Свінгер штанга з підключенням",
+      "tip": 13,
+      "cena_r": 95.0,
+      "cena_o": 65.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 6.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 219,
+      "kod": "2216",
+      "name": "Свінгер з підключення 268 на ланцюгу",
+      "tip": 13,
+      "cena_r": 100.0,
+      "cena_o": 70.82,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 220,
+      "kod": "2173",
+      "name": "Свінгер з підк.штанга",
+      "tip": 13,
+      "cena_r": 110.0,
+      "cena_o": 76.8,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 12.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 221,
+      "kod": "3208",
+      "name": "Свінгер з підк.ланцюг",
+      "tip": 13,
+      "cena_r": 95.0,
+      "cena_o": 66.56,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 11.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 222,
+      "kod": "3207",
+      "name": "Свінгер Feima SW26",
+      "tip": 13,
+      "cena_r": 270.0,
+      "cena_o": 190.61,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 17.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 223,
+      "kod": "409",
+      "name": "Свінгер FAIMA набір штанга синя",
+      "tip": 13,
+      "cena_r": 210.0,
+      "cena_o": 140.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 0.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 224,
+      "kod": "2092",
+      "name": "Набір Сигналізаторів SF23799",
+      "tip": 13,
+      "cena_r": 4130.0,
+      "cena_o": 2850.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 2.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 225,
+      "kod": "2093",
+      "name": "Набір Сигналізаторів SF23657",
+      "tip": 13,
+      "cena_r": 3260.0,
+      "cena_o": 2250.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 226,
+      "kod": "3330",
+      "name": "Набір Сигналізаторів JY-57-4K",
+      "tip": 13,
+      "cena_r": 3520.0,
+      "cena_o": 2600.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 227,
+      "kod": "3331",
+      "name": "Набір Сигналізаторів JY-39",
+      "tip": 13,
+      "cena_r": 3110.0,
+      "cena_o": 2300.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 1.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 228,
+      "kod": "3329",
+      "name": "Набір Сигналізаторів FA-02-4",
+      "tip": 13,
+      "cena_r": 2750.0,
+      "cena_o": 2000.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 2.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 229,
+      "kod": "4632",
+      "name": "Набір сигналізаторів Carp Line 4+4 TLI-07 + Swinger 02",
+      "tip": 13,
+      "cena_r": 2000.0,
+      "cena_o": 1357.8,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 3.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 230,
+      "kod": "2777",
+      "name": "Набір Свінгерів Megastrike ланцюг",
+      "tip": 13,
+      "cena_r": 790.0,
+      "cena_o": 550.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 5.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 231,
+      "kod": "4631",
+      "name": "Набір свінгерів Carp Line 11G на штанзі 4 шт",
+      "tip": 13,
+      "cena_r": 1550.0,
+      "cena_o": 1051.2,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 3.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    },
+    {
+      "num": 232,
+      "kod": "428",
+      "name": "Конектор швидкозмін.FEIMA(під сигнал.)",
+      "tip": 13,
+      "cena_r": 465.0,
+      "cena_o": 219.0,
+      "proizv": "",
+      "ves": 0.0,
+      "descr_big": "",
+      "visible": 1,
+      "stock": 4.0,
+      "category_path": [
+        "Ваш тип товарів чи послуг",
+        "Сигналізатори"
+      ],
+      "image_count": 0
+    }
+  ],
+  "stats": {
+    "categories": 13,
+    "products": 232,
+    "with_stock": 119,
+    "with_images": 0,
+    "with_price": 153,
+    "with_descr": 0
+  }
+}

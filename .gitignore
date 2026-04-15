@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+logs/
+tmp/*.fdb
+tmp/*.sql
+tmp/fb3x64/
+tmp/fb3x64.zip
+data/meta_store.sqlite
+public/photos/
+fixtures/photos/
