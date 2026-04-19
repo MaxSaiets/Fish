@@ -1,0 +1,3669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-04-16 00:44">
+  <shop>
+    <name>Все для рибалки</name>
+    <company>Все для рибалки (Раково)</company>
+    <currencies><currency id="UAH" rate="1"/></currencies>
+    <categories>
+      <category id="6">Спінінг</category>
+      <category id="7">Вудки</category>
+      <category id="8">Зернові</category>
+      <category id="9">Волосінь</category>
+      <category id="10">Повідці</category>
+      <category id="11">Флюрокарбон</category>
+      <category id="12">Кивки</category>
+      <category id="13">Сигналізатори</category>
+    </categories>
+    <offers>
+      <offer id="302" available="false">
+        <name>Спінінг Спінінг штекер. KAIDA Exellence(м604) гр 2.1</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>302</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг  штекер. KAIDA Exellence(м604) 5-25гр 2.1</p>]]></description>
+        <param name="Кастинг-тест" unit="г">5-25</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Тест">5-25</param>
+      </offer>
+      <offer id="301" available="false">
+        <name>Спінінг Спінінг штекер. KAIDA Exellence(м604) гр 2.4</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>301</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг  штекер. KAIDA Exellence(м604) 5-25гр 2.4</p>]]></description>
+        <param name="Кастинг-тест" unit="г">5-25</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Тест">5-25</param>
+      </offer>
+      <offer id="303" available="false">
+        <name>Спінінг Спінінг штекер. KAIDA Exellence(м604) гр 2.7</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>303</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг  штекер. KAIDA Exellence(м604) 5-25гр 2.7</p>]]></description>
+        <param name="Кастинг-тест" unit="г">5-25</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Тест">5-25</param>
+      </offer>
+      <offer id="2039313" available="false">
+        <name>Спінінг Спінінг GC Inquisitor INS- g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2039313</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/2039313/1.jpg</picture>
+        <picture>http://localhost:8080/photos/2039313/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг GC Inquisitor INS-762ML 2-12g 2.29m</p>]]></description>
+        <param name="Кастинг-тест" unit="г">2-12</param>
+        <param name="Довжина" unit="м">2.29</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Об&apos;єм" unit="мл">762</param>
+        <param name="Довжина" unit="м">2.29</param>
+        <param name="Тест">2-12</param>
+      </offer>
+      <offer id="2039302" available="false">
+        <name>Спінінг Спінінг GC Inquisitor INS- g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2039302</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/2039302/1.jpg</picture>
+        <picture>http://localhost:8080/photos/2039302/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг GC Inquisitor INS-762ML 4-18g 2.29m</p>]]></description>
+        <param name="Кастинг-тест" unit="г">4-18</param>
+        <param name="Довжина" unit="м">2.29</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Об&apos;єм" unit="мл">762</param>
+        <param name="Довжина" unit="м">2.29</param>
+        <param name="Тест">4-18</param>
+      </offer>
+      <offer id="2039314" available="false">
+        <name>Спінінг Спінінг GC Inquisitor INS- 2.44m g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2039314</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг GC Inquisitor INS-802M 2.44m 3-15g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">3-15</param>
+        <param name="Довжина" unit="м">802</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">802</param>
+        <param name="Тест">3-15</param>
+      </offer>
+      <offer id="2039304" available="false">
+        <name>Спінінг Спінінг GC Inquisitor INS- 2.44m g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2039304</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг GC Inquisitor INS-802M 2.44m 7-28g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">7-28</param>
+        <param name="Довжина" unit="м">802</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">802</param>
+        <param name="Тест">7-28</param>
+      </offer>
+      <offer id="2039306" available="false">
+        <name>Спінінг Спінінг GC Inquisitor INS- 2.51m g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2039306</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг GC Inquisitor INS-832M 2.51m 6-24g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">6-24</param>
+        <param name="Довжина" unit="м">832</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">832</param>
+        <param name="Тест">6-24</param>
+      </offer>
+      <offer id="2039307" available="false">
+        <name>Спінінг Спінінг GC Inquisitor INS- 2.54m g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2039307</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг GC Inquisitor INS-832M 2.54m 4-16g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">4-16</param>
+        <param name="Довжина" unit="м">832</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">832</param>
+        <param name="Тест">4-16</param>
+      </offer>
+      <offer id="2039309" available="false">
+        <name>Спінінг Спінінг GC Inquisitor INS- 2.59m g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2039309</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг GC Inquisitor INS-862M 2.59m 5-21g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">5-21</param>
+        <param name="Довжина" unit="м">862</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">862</param>
+        <param name="Тест">5-21</param>
+      </offer>
+      <offer id="2039308" available="false">
+        <name>Спінінг Спінінг GC Inquisitor INS- 2.59m g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2039308</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг GC Inquisitor INS-862M 2.59m 5-28g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">5-28</param>
+        <param name="Довжина" unit="м">862</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">862</param>
+        <param name="Тест">5-28</param>
+      </offer>
+      <offer id="2039381" available="false">
+        <name>Спінінг Спінінг GC VITTOR VTS 802MH g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2039381</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг GC VITTOR VTS 802MH  2.44m 4-22g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">4-22</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Тест">4-22</param>
+      </offer>
+      <offer id="1693.06.07" available="false">
+        <name>Спінінг Спінінг Favorit U1</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1693.06.07</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/1693.06.07/1.jpg</picture>
+        <picture>http://localhost:8080/photos/1693.06.07/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг  Favorit U1  702ML 2.13 4-16g  Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">4-16</param>
+        <param name="Лад">Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Об&apos;єм" unit="мл">702</param>
+        <param name="Вага" unit="г">2.13</param>
+        <param name="Тест">4-16</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="1693.07.46" available="false">
+        <name>Спінінг Спінінг Favorit U1 7102L-T</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1693.07.46</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/1693.07.46/1.jpg</picture>
+        <picture>http://localhost:8080/photos/1693.07.46/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг  Favorit U1  7102L-T 2.39 2-10g Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">2-10</param>
+        <param name="Лад">Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">2.39</param>
+        <param name="Тест">2-10</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="1693.07.43" available="false">
+        <name>Спінінг Спінінг Favorit U1 722 UL</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1693.07.43</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/1693.07.43/1.jpg</picture>
+        <picture>http://localhost:8080/photos/1693.07.43/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг  Favorit U1  722 UL 2.18 1.5-7g EX. Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">1.5-7</param>
+        <param name="Лад">EX. Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">2.18</param>
+        <param name="Тест">1.5-7</param>
+        <param name="Стрій">EX. Fast</param>
+      </offer>
+      <offer id="1693.06.11" available="false">
+        <name>Спінінг Спінінг Favorit U1</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1693.06.11</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/1693.06.11/1.jpg</picture>
+        <picture>http://localhost:8080/photos/1693.06.11/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг  Favorit U1  762M 2.28 5-18g  Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">5-18</param>
+        <param name="Довжина" unit="м">762</param>
+        <param name="Лад">Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">2.28</param>
+        <param name="Довжина" unit="м">762</param>
+        <param name="Тест">5-18</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="1693.06.12" available="false">
+        <name>Спінінг Спінінг Favorit U1</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1693.06.12</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/1693.06.12/1.jpg</picture>
+        <picture>http://localhost:8080/photos/1693.06.12/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг  Favorit U1  762M 2.28 5-21g  Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">5-21</param>
+        <param name="Довжина" unit="м">762</param>
+        <param name="Лад">Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">2.28</param>
+        <param name="Довжина" unit="м">762</param>
+        <param name="Тест">5-21</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="1693.07.45" available="false">
+        <name>Спінінг Спінінг Favorit U1 772 UL</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1693.07.45</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/1693.07.45/1.jpg</picture>
+        <picture>http://localhost:8080/photos/1693.07.45/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг  Favorit U1  772 UL 2.31 1.5-7g EX. Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">1.5-7</param>
+        <param name="Лад">EX. Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">2.31</param>
+        <param name="Тест">1.5-7</param>
+        <param name="Стрій">EX. Fast</param>
+      </offer>
+      <offer id="1693.07.42" available="false">
+        <name>Спінінг Спінінг Favorit U1 TIP 692SUL-S</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1693.07.42</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/1693.07.42/1.jpg</picture>
+        <picture>http://localhost:8080/photos/1693.07.42/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг  Favorit U1 TIP 692SUL-S 2.06 1-5g Ex Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">1-5</param>
+        <param name="Лад">Ex Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">2.06</param>
+        <param name="Тест">1-5</param>
+        <param name="Стрій">Ex Fast</param>
+      </offer>
+      <offer id="1693.06.77" available="false">
+        <name>Спінінг Спінінг Favorit X1 General Light X M 2.29 7-</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1693.06.77</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/1693.06.77/1.jpg</picture>
+        <picture>http://localhost:8080/photos/1693.06.77/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг  Favorit X1 General Light X1.1- 762M 2.29 7-21g  Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">1.1-762</param>
+        <param name="Лад">Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">21</param>
+        <param name="Тест">1.1-762</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="Y-5040-240" available="false">
+        <name>Спінінг Спінінг Afeima Jazz -SP g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>Y-5040-240</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/Y-5040-240/1.jpg</picture>
+        <picture>http://localhost:8080/photos/Y-5040-240/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Afeima Jazz 802ML-SP 2.40m 7-21g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">7-21</param>
+        <param name="Довжина" unit="м">2.4</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Об&apos;єм" unit="мл">802</param>
+        <param name="Довжина" unit="м">2.4</param>
+        <param name="Тест">7-21</param>
+      </offer>
+      <offer id="Y-5077-198" available="false">
+        <name>Спінінг Спінінг Aifeima Veteran Rario Rs RDSP g</name>
+        <price>88888.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>Y-5077-198</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/Y-5077-198/1.jpg</picture>
+        <picture>http://localhost:8080/photos/Y-5077-198/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Aifeima Veteran Rario Rs RDSP 662ML 1.98m 1-8g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">1-8</param>
+        <param name="Довжина" unit="м">1.98</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Об&apos;єм" unit="мл">662</param>
+        <param name="Довжина" unit="м">1.98</param>
+        <param name="Тест">1-8</param>
+      </offer>
+      <offer id="Y-5079-218" available="true">
+        <name>Спінінг Спінінг Aifeima Veteran Rario Rs RDSP 2.18m g</name>
+        <price>7358.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>1</stock_quantity>
+        <vendorCode>Y-5079-218</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/Y-5079-218/1.jpg</picture>
+        <picture>http://localhost:8080/photos/Y-5079-218/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Aifeima  Veteran Rario Rs RDSP 722M 2.18m 5-20g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">5-20</param>
+        <param name="Довжина" unit="м">722</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">722</param>
+        <param name="Тест">5-20</param>
+      </offer>
+      <offer id="Y-5078-218" available="false">
+        <name>Спінінг Спінінг Aifeima Veteran Rario Rs RDSP g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>Y-5078-218</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/Y-5078-218/1.jpg</picture>
+        <picture>http://localhost:8080/photos/Y-5078-218/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Aifeima  Veteran Rario Rs RDSP 722ML 2.18m 3-16g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">3-16</param>
+        <param name="Довжина" unit="м">2.18</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Об&apos;єм" unit="мл">722</param>
+        <param name="Довжина" unit="м">2.18</param>
+        <param name="Тест">3-16</param>
+      </offer>
+      <offer id="2183" available="false">
+        <name>Спінінг Спінінг ECLIPSE ABSOLUTE g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2183</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/2183/1.jpg</picture>
+        <picture>http://localhost:8080/photos/2183/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг ECLIPSE ABSOLUTE 2.10m 2-8g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">2-8</param>
+        <param name="Довжина" unit="м">2.1</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.1</param>
+        <param name="Тест">2-8</param>
+      </offer>
+      <offer id="2184" available="false">
+        <name>Спінінг Спінінг ECLIPSE ABSOLUTE g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2184</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/2184/1.jpg</picture>
+        <picture>http://localhost:8080/photos/2184/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг ECLIPSE ABSOLUTE 2.10m 3-15g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">3-15</param>
+        <param name="Довжина" unit="м">2.1</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.1</param>
+        <param name="Тест">3-15</param>
+      </offer>
+      <offer id="2185" available="false">
+        <name>Спінінг Спінінг ECLIPSE ABSOLUTE g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2185</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/2185/1.jpg</picture>
+        <picture>http://localhost:8080/photos/2185/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг ECLIPSE ABSOLUTE 2.10m 5-20g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">5-20</param>
+        <param name="Довжина" unit="м">2.1</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.1</param>
+        <param name="Тест">5-20</param>
+      </offer>
+      <offer id="2186" available="false">
+        <name>Спінінг Спінінг ECLIPSE ABSOLUTE g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2186</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/2186/1.jpg</picture>
+        <picture>http://localhost:8080/photos/2186/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг ECLIPSE ABSOLUTE 2.40m 3-15g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">3-15</param>
+        <param name="Довжина" unit="м">2.4</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.4</param>
+        <param name="Тест">3-15</param>
+      </offer>
+      <offer id="2188" available="false">
+        <name>Спінінг Спінінг ECLIPSE BALANCE g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2188</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/2188/1.jpg</picture>
+        <picture>http://localhost:8080/photos/2188/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг ECLIPSE BALANCE 2.40m 5-20g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">5-20</param>
+        <param name="Довжина" unit="м">2.4</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.4</param>
+        <param name="Тест">5-20</param>
+      </offer>
+      <offer id="3187" available="false">
+        <name>Спінінг Спінінг ECLIPSE INFINITI INF L 2-</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>3187</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/3187/1.jpg</picture>
+        <picture>http://localhost:8080/photos/3187/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг ECLIPSE INFINITI INF2-702L 2.13m 2-10g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">2-702</param>
+        <param name="Довжина" unit="м">2.13</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">10</param>
+        <param name="Довжина" unit="м">2.13</param>
+        <param name="Тест">2-702</param>
+      </offer>
+      <offer id="2196" available="false">
+        <name>Спінінг Спінінг ECLIPSE INFINITI INF M 7-</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2196</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/2196/1.jpg</picture>
+        <picture>http://localhost:8080/photos/2196/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг ECLIPSE INFINITI INF2-702M 2.13m 7-21g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">2-702</param>
+        <param name="Довжина" unit="м">2.13</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">21</param>
+        <param name="Довжина" unit="м">2.13</param>
+        <param name="Тест">2-702</param>
+      </offer>
+      <offer id="2197" available="false">
+        <name>Спінінг Спінінг ECLIPSE INFINITI INF ML 3-</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2197</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/2197/1.jpg</picture>
+        <picture>http://localhost:8080/photos/2197/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг ECLIPSE INFINITI INF2-702ML 2.13m 3-18g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">2-702</param>
+        <param name="Довжина" unit="м">2.13</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">18</param>
+        <param name="Довжина" unit="м">2.13</param>
+        <param name="Тест">2-702</param>
+      </offer>
+      <offer id="2195" available="false">
+        <name>Спінінг Спінінг ECLIPSE INFINITI INF ML 3-</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2195</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/2195/1.jpg</picture>
+        <picture>http://localhost:8080/photos/2195/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг ECLIPSE INFINITI INF2-802ML 2.44m 3-18g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">2-802</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">18</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Тест">2-802</param>
+      </offer>
+      <offer id="2194" available="false">
+        <name>Спінінг Спінінг ECLIPSE INFINITI INF ML 7-</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2194</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/2194/1.jpg</picture>
+        <picture>http://localhost:8080/photos/2194/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг ECLIPSE INFINITI INF2-802ML 2.44m 7-21g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">2-802</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">21</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Тест">2-802</param>
+      </offer>
+      <offer id="2096" available="false">
+        <name>Спінінг Спінінг FEIMA NAVIGATOR g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2096</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/2096/1.jpg</picture>
+        <picture>http://localhost:8080/photos/2096/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг FEIMA NAVIGATOR 2.10 m 4-21g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">4-21</param>
+        <param name="Довжина" unit="м">2.1</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.1</param>
+        <param name="Тест">4-21</param>
+      </offer>
+      <offer id="2455" available="false">
+        <name>Спінінг Спінінг Feima WONDERFUL</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2455</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/2455/1.jpg</picture>
+        <picture>http://localhost:8080/photos/2455/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Feima WONDERFUL 210 5-20g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">5-20</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">210</param>
+        <param name="Тест">5-20</param>
+      </offer>
+      <offer id="2456" available="false">
+        <name>Спінінг Спінінг Feima WONDERFUL</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2456</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/2456/1.jpg</picture>
+        <picture>http://localhost:8080/photos/2456/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Feima WONDERFUL 210 7-28g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">7-28</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">210</param>
+        <param name="Тест">7-28</param>
+      </offer>
+      <offer id="2458" available="false">
+        <name>Спінінг Спінінг Feima WONDERFUL</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2458</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/2458/1.jpg</picture>
+        <picture>http://localhost:8080/photos/2458/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Feima WONDERFUL 240 5-20g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">5-20</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">240</param>
+        <param name="Тест">5-20</param>
+      </offer>
+      <offer id="2457" available="false">
+        <name>Спінінг Спінінг Feima WONDERFUL</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2457</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/2457/1.jpg</picture>
+        <picture>http://localhost:8080/photos/2457/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Feima WONDERFUL 240 7-28g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">7-28</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">240</param>
+        <param name="Тест">7-28</param>
+      </offer>
+      <offer id="3279" available="false">
+        <name>Спінінг Спінінг Feima WONDERFUL</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>3279</vendorCode>
+        <vendor>Спінінг</vendor>
+        <picture>http://localhost:8080/photos/3279/1.jpg</picture>
+        <picture>http://localhost:8080/photos/3279/2.jpg</picture>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Feima WONDERFUL 270 7-28g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">7-28</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">270</param>
+        <param name="Тест">7-28</param>
+      </offer>
+      <offer id="3315" available="false">
+        <name>Спінінг Спінінг MicroStar carbon IM12 AiFaima</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>3315</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг MicroStar 1.98 0.5-4g carbon IM12 AiFaima</p>]]></description>
+        <param name="Кастинг-тест" unit="г">0.5-4</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">1.98</param>
+        <param name="Тест">0.5-4</param>
+      </offer>
+      <offer id="2755" available="false">
+        <name>Спінінг Спінінг MicroStar carbon IM12 AiFaima</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2755</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг MicroStar 2.18 1-10g carbon IM12 AiFaima</p>]]></description>
+        <param name="Кастинг-тест" unit="г">1-10</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">2.18</param>
+        <param name="Тест">1-10</param>
+      </offer>
+      <offer id="2859" available="false">
+        <name>Спінінг Спінінг MicroStar carbon IM12 AiFaima</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2859</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг MicroStar 2.39 0,6-7g carbon IM12 AiFaima</p>]]></description>
+        <param name="Кастинг-тест" unit="г">0.6-7</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">2.39</param>
+        <param name="Тест">0.6-7</param>
+      </offer>
+      <offer id="2756" available="false">
+        <name>Спінінг Спінінг MicroStar carbon IM12 AiFaima</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2756</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг MicroStar 2.39 2-14g carbon IM12 AiFaima</p>]]></description>
+        <param name="Кастинг-тест" unit="г">2-14</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">2.39</param>
+        <param name="Тест">2-14</param>
+      </offer>
+      <offer id="5030-210" available="false">
+        <name>Спінінг Спінінг Navigator Afeima</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>5030-210</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Navigator 2.10 4-21g Afeima</p>]]></description>
+        <param name="Кастинг-тест" unit="г">4-21</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">2.1</param>
+        <param name="Тест">4-21</param>
+      </offer>
+      <offer id="5030-240" available="false">
+        <name>Спінінг Спінінг Navigator Afeima</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>5030-240</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Navigator 2.40 4-21g Afeima</p>]]></description>
+        <param name="Кастинг-тест" unit="г">4-21</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Вага" unit="г">2.4</param>
+        <param name="Тест">4-21</param>
+      </offer>
+      <offer id="4444" available="false">
+        <name>Спінінг Спінінг R. Madrid Great Spin g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>4444</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг R. Madrid Great Spin 240ML 2.40m 2-15g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">2-15</param>
+        <param name="Довжина" unit="м">2.4</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Об&apos;єм" unit="мл">240</param>
+        <param name="Довжина" unit="м">2.4</param>
+        <param name="Тест">2-15</param>
+      </offer>
+      <offer id="4445" available="false">
+        <name>Спінінг Спінінг R. Madrid Revin g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>4445</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг R. Madrid Revin 240ML 2.40m 2-12g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">2-12</param>
+        <param name="Довжина" unit="м">2.4</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Об&apos;єм" unit="мл">240</param>
+        <param name="Довжина" unit="м">2.4</param>
+        <param name="Тест">2-12</param>
+      </offer>
+      <offer id="1870.31.87" available="false">
+        <name>Спінінг Спінінг Select Force FRC- 2.13m g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.31.87</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Force FRC-762M 2.13m 3-14 g Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">3-14</param>
+        <param name="Довжина" unit="м">762</param>
+        <param name="Лад">Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">762</param>
+        <param name="Тест">3-14</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="1870.31.88" available="false">
+        <name>Спінінг Спінінг Select Force FRC- 2.13m g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.31.88</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Force FRC-762M 2.13m 5-24 g Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">5-24</param>
+        <param name="Довжина" unit="м">762</param>
+        <param name="Лад">Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">762</param>
+        <param name="Тест">5-24</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="1870.31.92" available="false">
+        <name>Спінінг Спінінг Select Force FRC- 2.28m g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.31.92</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Force FRC-762M 2.28m 10-30 g Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">10-30</param>
+        <param name="Довжина" unit="м">762</param>
+        <param name="Лад">Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">762</param>
+        <param name="Тест">10-30</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="1870.31.90" available="false">
+        <name>Спінінг Спінінг Select Force FRC- 2.28m g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.31.90</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Force FRC-762M 2.28m 4-16 g Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">4-16</param>
+        <param name="Довжина" unit="м">762</param>
+        <param name="Лад">Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">762</param>
+        <param name="Тест">4-16</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="1870.31.91" available="false">
+        <name>Спінінг Спінінг Select Force FRC- 2.28m g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.31.91</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Force FRC-762M 2.28m 5-24 g Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">5-24</param>
+        <param name="Довжина" unit="м">762</param>
+        <param name="Лад">Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">762</param>
+        <param name="Тест">5-24</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="1870.31.94" available="false">
+        <name>Спінінг Спінінг Select Force FRC- 2.44m</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.31.94</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Force FRC-802M 2.44m 6-26 Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">6-26</param>
+        <param name="Довжина" unit="м">802</param>
+        <param name="Лад">Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">802</param>
+        <param name="Тест">6-26</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="1870.31.93" available="false">
+        <name>Спінінг Спінінг Select Force FRC-</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.31.93</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Force FRC-802ML 2.44m 4-16 Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">4-16</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Лад">Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Об&apos;єм" unit="мл">802</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Тест">4-16</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="1870.75.06" available="true">
+        <name>Спінінг Спінінг Select Reflex FRL-702MH</name>
+        <price>34358.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>1</stock_quantity>
+        <vendorCode>1870.75.06</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Reflex FRL-702MH 2.13m 7-28 Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">7-28</param>
+        <param name="Довжина" unit="м">2.13</param>
+        <param name="Лад">Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.13</param>
+        <param name="Тест">7-28</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="1870.75.07" available="false">
+        <name>Спінінг Спінінг Select Reflex FRL-762MH g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.75.07</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Reflex FRL-762MH 2.30m 5-23g Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">5-23</param>
+        <param name="Довжина" unit="м">2.3</param>
+        <param name="Лад">Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.3</param>
+        <param name="Тест">5-23</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="1870.75.08" available="false">
+        <name>Спінінг Спінінг Select Reflex FRL-762MH g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.75.08</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Reflex FRL-762MH 2.30m 5-28g Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">5-28</param>
+        <param name="Довжина" unit="м">2.3</param>
+        <param name="Лад">Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.3</param>
+        <param name="Тест">5-28</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="1870.75.09" available="false">
+        <name>Спінінг Спінінг Select Reflex FRL-</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.75.09</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Reflex FRL-802ML 2.44m 4-16 Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">4-16</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Лад">Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Об&apos;єм" unit="мл">802</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Тест">4-16</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="1870.34.89" available="false">
+        <name>Спінінг Спінінг Select Retmix 702-UL-S g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.34.89</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Retmix 702-UL-S 2.13m 0.5-5 g EX.Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">0.5-5</param>
+        <param name="Довжина" unit="м">2.13</param>
+        <param name="Лад">EX.Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.13</param>
+        <param name="Тест">0.5-5</param>
+        <param name="Стрій">EX.Fast</param>
+      </offer>
+      <offer id="1870.34.90" available="false">
+        <name>Спінінг Спінінг Select Retmix 782-UL-S g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.34.90</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Retmix 782-UL-S 2.37m 1-7 g EX.Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">1-7</param>
+        <param name="Довжина" unit="м">2.37</param>
+        <param name="Лад">EX.Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.37</param>
+        <param name="Тест">1-7</param>
+        <param name="Стрій">EX.Fast</param>
+      </offer>
+      <offer id="1870.67.78" available="false">
+        <name>Спінінг Спінінг Select Retmix 782L-T g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.67.78</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Retmix 782L-T 2.37m 3-15 g Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">3-15</param>
+        <param name="Довжина" unit="м">2.37</param>
+        <param name="Лад">Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.37</param>
+        <param name="Тест">3-15</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="1870.34.91" available="false">
+        <name>Спінінг Спінінг Select Retmix 842-L-S g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.34.91</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Retmix 842-L-S 2.56m 2-10 g EX.Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">2-10</param>
+        <param name="Довжина" unit="м">2.56</param>
+        <param name="Лад">EX.Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.56</param>
+        <param name="Тест">2-10</param>
+        <param name="Стрій">EX.Fast</param>
+      </offer>
+      <offer id="1870.67.79" available="false">
+        <name>Спінінг Спінінг Select Retmix 842-M-L g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.67.79</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Retmix 842-M-L 2.56m 4-18 g Fast</p>]]></description>
+        <param name="Кастинг-тест" unit="г">4-18</param>
+        <param name="Довжина" unit="м">2.56</param>
+        <param name="Лад">Fast</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.56</param>
+        <param name="Тест">4-18</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="1870.70.99" available="false">
+        <name>Спінінг Спінінг Select Sprint SPR-602XUL g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.70.99</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Sprint SPR-602XUL 1.80m 0.6-3 g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">0.6-3</param>
+        <param name="Довжина" unit="м">1.8</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">1.8</param>
+        <param name="Тест">0.6-3</param>
+      </offer>
+      <offer id="1870.71.00" available="false">
+        <name>Спінінг Спінінг Select Sprint SPR-622XUL g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.71.00</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Sprint SPR-622XUL 1.86m 0.8-3.5 g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">0.8-3.5</param>
+        <param name="Довжина" unit="м">1.86</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">1.86</param>
+        <param name="Тест">0.8-3.5</param>
+      </offer>
+      <offer id="1870.71.02" available="false">
+        <name>Спінінг Спінінг Select Sprint SPR-642XUL g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.71.02</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Sprint SPR-642XUL 1.92m 0.8-4 g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">0.8-4</param>
+        <param name="Довжина" unit="м">1.92</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">1.92</param>
+        <param name="Тест">0.8-4</param>
+      </offer>
+      <offer id="1870.71.03" available="false">
+        <name>Спінінг Спінінг Select Sprint SPR-662XUL g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1870.71.03</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг Select Sprint SPR-662XUL 1.98m 1-5 g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">1-5</param>
+        <param name="Довжина" unit="м">1.98</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">1.98</param>
+        <param name="Тест">1-5</param>
+      </offer>
+      <offer id="2189" available="false">
+        <name>Спінінг Спінінг SOLARIS DIAMONG SPIN g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2189</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг SOLARIS DIAMONG SPIN 2.10 m4-16g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">4-16</param>
+        <param name="Довжина" unit="м">2.1</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.1</param>
+        <param name="Тест">4-16</param>
+      </offer>
+      <offer id="2190" available="false">
+        <name>Спінінг Спінінг SOLARIS DIAMONG SPIN g</name>
+        <price>99999.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2190</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг SOLARIS DIAMONG SPIN 2.10 m4-24g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">4-24</param>
+        <param name="Довжина" unit="м">2.1</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.1</param>
+        <param name="Тест">4-24</param>
+      </offer>
+      <offer id="4422" available="false">
+        <name>Спінінг Спінінг SOLARIS Master L Spin g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>4422</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг SOLARIS Master L Spin 2.44m 1-7g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">1-7</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Тест">1-7</param>
+      </offer>
+      <offer id="811210" available="false">
+        <name>Спінінг Спінінг SOLARIS SENZORA g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>811210</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг SOLARIS SENZORA  2.13 m 06-7g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">6-7</param>
+        <param name="Довжина" unit="м">2.13</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.13</param>
+        <param name="Тест">6-7</param>
+      </offer>
+      <offer id="2192" available="false">
+        <name>Спінінг Спінінг SOLARIS SENZORA g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2192</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг SOLARIS SENZORA  2.44 m 2-8g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">2-8</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Тест">2-8</param>
+      </offer>
+      <offer id="2191" available="true">
+        <name>Спінінг Спінінг SOLARIS SENZORA g</name>
+        <price>1900.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>1</stock_quantity>
+        <vendorCode>2191</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг SOLARIS SENZORA  2.44 m 4-16g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">4-16</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Тест">4-16</param>
+      </offer>
+      <offer id="2193" available="false">
+        <name>Спінінг Спінінг SOLARIS SENZORA g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2193</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг SOLARIS SENZORA  2.44 m 7-24g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">7-24</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Тест">7-24</param>
+      </offer>
+      <offer id="4423" available="false">
+        <name>Спінінг Спінінг SOLARIS Spectr Spin 2.13m g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>4423</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг SOLARIS Spectr Spin 702M 2.13m 5-24g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">5-24</param>
+        <param name="Довжина" unit="м">702</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">702</param>
+        <param name="Тест">5-24</param>
+      </offer>
+      <offer id="4424" available="false">
+        <name>Спінінг Спінінг SOLARIS Turion Spin 2.13m g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>4424</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг SOLARIS Turion Spin 702M 2.13m 4-24g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">4-24</param>
+        <param name="Довжина" unit="м">702</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">702</param>
+        <param name="Тест">4-24</param>
+      </offer>
+      <offer id="4425" available="false">
+        <name>Спінінг Спінінг SOLARIS Turion Spin 2.44m g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>4425</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг SOLARIS Turion Spin 802M 2.44m 4-24g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">4-24</param>
+        <param name="Довжина" unit="м">802</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Довжина" unit="м">802</param>
+        <param name="Тест">4-24</param>
+      </offer>
+      <offer id="4426" available="false">
+        <name>Спінінг Спінінг SOLARIS Turion Spin g</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>4426</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг SOLARIS Turion Spin 802ML 2.44m 3-14g</p>]]></description>
+        <param name="Кастинг-тест" unit="г">3-14</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Об&apos;єм" unit="мл">802</param>
+        <param name="Довжина" unit="м">2.44</param>
+        <param name="Тест">3-14</param>
+      </offer>
+      <offer id="1888" available="false">
+        <name>Спінінг Спінінг WEIDA ABSOLUTE G</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1888</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг WEIDA ABSOLUTE 3-12G</p>]]></description>
+        <param name="Кастинг-тест" unit="г">3-12</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Тест">3-12</param>
+      </offer>
+      <offer id="528-0520" available="false">
+        <name>Спінінг Спінінг WEIDA ABSOLUTE G 240</name>
+        <price>0.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>6</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>528-0520</vendorCode>
+        <vendor>Спінінг</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Спінінг WEIDA ABSOLUTE 5-20G 240</p>]]></description>
+        <param name="Кастинг-тест" unit="г">5-20</param>
+        <param name="Тип вудилища">Спінінг</param>
+        <param name="Тест">5-20</param>
+      </offer>
+      <offer id="000839" available="true">
+        <name>Вудка Herabunafishing Вудка Black gold</name>
+        <price>1800.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>7</categoryId>
+        <stock_quantity>1</stock_quantity>
+        <vendorCode>000839</vendorCode>
+        <vendor>Herabunafishing</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Вудка Black gold 3.6м 28 стрій Herabunafishing</p>]]></description>
+        <param name="Довжина" unit="м">3.6</param>
+        <param name="Лад">28</param>
+        <param name="Тип вудилища">Махова / херабуна</param>
+        <param name="Довжина" unit="м">3.6</param>
+        <param name="Стрій">28</param>
+      </offer>
+      <offer id="000840" available="true">
+        <name>Вудка Herabunafishing Вудка Black gold</name>
+        <price>2000.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>7</categoryId>
+        <stock_quantity>2</stock_quantity>
+        <vendorCode>000840</vendorCode>
+        <vendor>Herabunafishing</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Вудка Black gold 4,5м 28 стрій Herabunafishing</p>]]></description>
+        <param name="Довжина" unit="м">4.5</param>
+        <param name="Лад">28</param>
+        <param name="Тип вудилища">Махова / херабуна</param>
+        <param name="Довжина" unit="м">4.5</param>
+        <param name="Стрій">28</param>
+      </offer>
+      <offer id="000841" available="true">
+        <name>Вудка Herabunafishing Вудка Black gold</name>
+        <price>2350.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>7</categoryId>
+        <stock_quantity>1</stock_quantity>
+        <vendorCode>000841</vendorCode>
+        <vendor>Herabunafishing</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Вудка Black gold 5,4м 28 стрій Herabunafishing</p>]]></description>
+        <param name="Довжина" unit="м">5.4</param>
+        <param name="Лад">28</param>
+        <param name="Тип вудилища">Махова / херабуна</param>
+        <param name="Довжина" unit="м">5.4</param>
+        <param name="Стрій">28</param>
+      </offer>
+      <offer id="000842" available="true">
+        <name>Вудка Herabunafishing Вудка Black gold</name>
+        <price>2700.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>7</categoryId>
+        <stock_quantity>2</stock_quantity>
+        <vendorCode>000842</vendorCode>
+        <vendor>Herabunafishing</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Вудка Black gold 6,3м 28 стрій Herabunafishing</p>]]></description>
+        <param name="Довжина" unit="м">6.3</param>
+        <param name="Лад">28</param>
+        <param name="Тип вудилища">Махова / херабуна</param>
+        <param name="Довжина" unit="м">6.3</param>
+        <param name="Стрій">28</param>
+      </offer>
+      <offer id="00066" available="true">
+        <name>Вудка Вудка Золотий бамбук Herabunafishing 110 см 57 грам</name>
+        <price>1300.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>7</categoryId>
+        <stock_quantity>2</stock_quantity>
+        <vendorCode>00066</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Вудка Золотий бамбук Herabunafishing 3,6 м 110 см 57 грам</p>]]></description>
+        <param name="Довжина" unit="м">3.6</param>
+        <param name="Тип вудилища">Махова / херабуна</param>
+        <param name="Довжина" unit="м">3.6</param>
+      </offer>
+      <offer id="00067" available="true">
+        <name>Вудка Вудка Золотий бамбук Herabunafishing 110 см 84 грам</name>
+        <price>1450.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>7</categoryId>
+        <stock_quantity>3</stock_quantity>
+        <vendorCode>00067</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Вудка Золотий бамбук Herabunafishing 4.5 м 110 см 84 грам</p>]]></description>
+        <param name="Довжина" unit="м">4.5</param>
+        <param name="Тип вудилища">Махова / херабуна</param>
+        <param name="Довжина" unit="м">4.5</param>
+      </offer>
+      <offer id="00068" available="true">
+        <name>Вудка Вудка Золотий бамбук Herabunafishing 110 см 110 грам</name>
+        <price>1550.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>7</categoryId>
+        <stock_quantity>2</stock_quantity>
+        <vendorCode>00068</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Вудка Золотий бамбук Herabunafishing 5.4 м 110 см 110 грам</p>]]></description>
+        <param name="Довжина" unit="м">5.4</param>
+        <param name="Тип вудилища">Махова / херабуна</param>
+        <param name="Довжина" unit="м">5.4</param>
+      </offer>
+      <offer id="000276" available="true">
+        <name>Вудка Herabunafishing Вудка Золотий бамбук</name>
+        <price>1650.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>7</categoryId>
+        <stock_quantity>2</stock_quantity>
+        <vendorCode>000276</vendorCode>
+        <vendor>Herabunafishing</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Вудка Золотий бамбук Herabunafishing 6,3 м</p>]]></description>
+        <param name="Довжина" unit="м">6.3</param>
+        <param name="Тип вудилища">Махова / херабуна</param>
+        <param name="Довжина" unit="м">6.3</param>
+      </offer>
+      <offer id="000727" available="false">
+        <name>Вудка Yuzhiyian Вудка Херабуна Chu Shou</name>
+        <price>2700.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>7</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>000727</vendorCode>
+        <vendor>Yuzhiyian</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Вудка Херабуна Chu Shou Yuzhiyian 5.4m</p>]]></description>
+        <param name="Довжина" unit="м">5.4</param>
+        <param name="Тип вудилища">Махова / херабуна</param>
+        <param name="Довжина" unit="м">5.4</param>
+      </offer>
+      <offer id="000728" available="false">
+        <name>Вудка Yuzhiyian Вудка Херабуна Chu Shou</name>
+        <price>2900.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>7</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>000728</vendorCode>
+        <vendor>Yuzhiyian</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Вудка Херабуна Chu Shou Yuzhiyian 6.3m</p>]]></description>
+        <param name="Довжина" unit="м">6.3</param>
+        <param name="Тип вудилища">Махова / херабуна</param>
+        <param name="Довжина" unit="м">6.3</param>
+      </offer>
+      <offer id="000721" available="true">
+        <name>Вудка Кріплення підставки до стула</name>
+        <price>260.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>7</categoryId>
+        <stock_quantity>2</stock_quantity>
+        <vendorCode>000721</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Кріплення підставки до стула</p>]]></description>
+        <param name="Тип вудилища">Махова / херабуна</param>
+        <param name="Тип товару">Вудка</param>
+        <param name="Стан">Новий</param>
+      </offer>
+      <offer id="00108" available="true">
+        <name>Вудка Наконечник для махової вудки 1.0 н.в</name>
+        <price>240.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>7</categoryId>
+        <stock_quantity>10</stock_quantity>
+        <vendorCode>00108</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Наконечник для махової вудки 1.0 н.в</p>]]></description>
+        <param name="Тип вудилища">Махова / херабуна</param>
+        <param name="Тип товару">Вудка</param>
+        <param name="Стан">Новий</param>
+      </offer>
+      <offer id="05.29" available="true">
+        <name>Вудка Страхувальник резинка для вудки сіра (Herabunafishing)</name>
+        <price>160.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>7</categoryId>
+        <stock_quantity>5</stock_quantity>
+        <vendorCode>05.29</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Страхувальник резинка для вудки 5 м сіра (Herabunafishing)</p>]]></description>
+        <param name="Довжина" unit="м">5</param>
+        <param name="Тип вудилища">Махова / херабуна</param>
+        <param name="Довжина" unit="м">5</param>
+      </offer>
+      <offer id="000602" available="true">
+        <name>Вудка Чохол карбоновий Perfect Koi 130*14*11 (Herabunafishing)</name>
+        <price>2560.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>7</categoryId>
+        <stock_quantity>1</stock_quantity>
+        <vendorCode>000602</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Чохол карбоновий Perfect Koi 130*14*11 (Herabunafishing)</p>]]></description>
+        <param name="Тип вудилища">Махова / херабуна</param>
+        <param name="Тип товару">Вудка</param>
+        <param name="Стан">Новий</param>
+      </offer>
+      <offer id="4048" available="true">
+        <name>Зернова насадка BOOM Тигровий Горіх</name>
+        <price>250.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>24</stock_quantity>
+        <vendorCode>4048</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Тигровий Горіх 900г &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">&quot;&quot;</param>
+        <param name="Вага" unit="г">900</param>
+      </offer>
+      <offer id="3855" available="false">
+        <name>Зернова насадка BOOM Кукуруза Цукрова Часник</name>
+        <price>45.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>3855</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Кукуруза Цукрова Часник150мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Часник &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">150</param>
+      </offer>
+      <offer id="4275" available="false">
+        <name>Зернова насадка BOOM Кукуруза Цукрова Спеція</name>
+        <price>45.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>4275</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Кукуруза Цукрова Спеція150мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Спеція &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">150</param>
+      </offer>
+      <offer id="4147" available="true">
+        <name>Зернова насадка BOOM Кукуруза Цукрова Слива</name>
+        <price>45.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>1</stock_quantity>
+        <vendorCode>4147</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Кукуруза Цукрова Слива 150мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Слива &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">150</param>
+      </offer>
+      <offer id="4146" available="false">
+        <name>Зернова насадка BOOM Кукуруза Цукрова Полуниця</name>
+        <price>45.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>4146</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Кукуруза Цукрова Полуниця 150мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Полуниця &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">150</param>
+      </offer>
+      <offer id="3853" available="true">
+        <name>Зернова насадка BOOM Кукуруза Цукрова Оригінал</name>
+        <price>45.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>7</stock_quantity>
+        <vendorCode>3853</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Кукуруза Цукрова Оригінал 150мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Оригінал &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">150</param>
+      </offer>
+      <offer id="3854" available="true">
+        <name>Зернова насадка BOOM Кукуруза Цукрова Мед</name>
+        <price>45.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>2</stock_quantity>
+        <vendorCode>3854</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Кукуруза Цукрова Мед 150мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Мед &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">150</param>
+      </offer>
+      <offer id="4434" available="false">
+        <name>Зернова насадка BOOM Кукуруза Цукрова Кріль</name>
+        <price>45.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>4434</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Кукуруза Цукрова Кріль 150мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Кріль &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">150</param>
+      </offer>
+      <offer id="3852" available="true">
+        <name>Зернова насадка BOOM Кукуруза Цукрова Короп</name>
+        <price>45.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>1</stock_quantity>
+        <vendorCode>3852</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Кукуруза Цукрова Короп 150мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Короп &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">150</param>
+      </offer>
+      <offer id="4148" available="true">
+        <name>Зернова насадка BOOM Кукуруза Цукрова Конопля</name>
+        <price>45.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>2</stock_quantity>
+        <vendorCode>4148</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Кукуруза Цукрова Конопля 150мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Конопля &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">150</param>
+      </offer>
+      <offer id="3856" available="false">
+        <name>Зернова насадка BOOM Кукуруза Цукрова Ваніль</name>
+        <price>45.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>3856</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Кукуруза Цукрова Ваніль150мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Ваніль &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">150</param>
+      </offer>
+      <offer id="4274" available="false">
+        <name>Зернова насадка BOOM Кукуруза Цукрова Аніс</name>
+        <price>45.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>4274</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Кукуруза Цукрова Аніс150мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Аніс &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">150</param>
+      </offer>
+      <offer id="4233" available="true">
+        <name>Зернова насадка BOOM Конопля суха</name>
+        <price>156.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>3</stock_quantity>
+        <vendorCode>4233</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Конопля суха 800г &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Конопля суха &quot;&quot;</param>
+        <param name="Вага" unit="г">800</param>
+      </offer>
+      <offer id="4437" available="true">
+        <name>Зернова насадка BOOM Горох Часник</name>
+        <price>38.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>2</stock_quantity>
+        <vendorCode>4437</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Горох Часник 350мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Горох Часник &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">350</param>
+      </offer>
+      <offer id="4435" available="true">
+        <name>Зернова насадка BOOM Горох Слива</name>
+        <price>38.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>4</stock_quantity>
+        <vendorCode>4435</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Горох Слива 350мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Горох Слива &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">350</param>
+      </offer>
+      <offer id="4149" available="true">
+        <name>Зернова насадка BOOM Горох Полуниця</name>
+        <price>38.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>7</stock_quantity>
+        <vendorCode>4149</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Горох Полуниця 350мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Горох Полуниця &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">350</param>
+      </offer>
+      <offer id="4276" available="false">
+        <name>Зернова насадка BOOM Горох Оригінал</name>
+        <price>38.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>4276</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Горох Оригінал 350мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Горох Оригінал &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">350</param>
+      </offer>
+      <offer id="4152" available="false">
+        <name>Зернова насадка BOOM Горох Мед</name>
+        <price>38.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>4152</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Горох Мед 350мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Горох Мед &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">350</param>
+      </offer>
+      <offer id="4277" available="true">
+        <name>Зернова насадка BOOM Горох Кріп</name>
+        <price>38.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>4</stock_quantity>
+        <vendorCode>4277</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Горох Кріп 350мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Горох Кріп &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">350</param>
+      </offer>
+      <offer id="4436" available="true">
+        <name>Зернова насадка BOOM Горох Кріль</name>
+        <price>38.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>7</stock_quantity>
+        <vendorCode>4436</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Горох Кріль 350мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Горох Кріль &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">350</param>
+      </offer>
+      <offer id="4153" available="true">
+        <name>Зернова насадка BOOM Горох Короп</name>
+        <price>38.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>2</stock_quantity>
+        <vendorCode>4153</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Горох Короп 350мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Горох Короп &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">350</param>
+      </offer>
+      <offer id="4151" available="true">
+        <name>Зернова насадка BOOM Горох Конопля</name>
+        <price>38.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>5</stock_quantity>
+        <vendorCode>4151</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Горох Конопля 350мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Горох Конопля &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">350</param>
+      </offer>
+      <offer id="4150" available="true">
+        <name>Зернова насадка BOOM Горох Ваніль</name>
+        <price>38.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>13</stock_quantity>
+        <vendorCode>4150</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Горох Ваніль 350мл &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Аромат">Горох Ваніль &quot;&quot;</param>
+        <param name="Об&apos;єм" unit="мл">350</param>
+      </offer>
+      <offer id="4055" available="false">
+        <name>Зернова насадка BOOM Зерно Варене 3л (банка) Кукурудза - Конопля</name>
+        <price>293.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>4055</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Зерно Варене 3л (банка) Кукурудза - Конопля &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Бренд">BOOM</param>
+      </offer>
+      <offer id="4331" available="false">
+        <name>Зернова насадка BOOM Зерно Варене 3л (банка) Горох- Кукурудза</name>
+        <price>250.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>4331</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Зерно Варене 3л (банка) Горох- Кукурудза &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Бренд">BOOM</param>
+      </offer>
+      <offer id="4054" available="false">
+        <name>Зернова насадка BOOM Зерно Варене 3л (банка) BigFish</name>
+        <price>280.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>8</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>4054</vendorCode>
+        <vendor>BOOM</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Зерно Варене 3л (банка) BigFish &quot;BOOM&quot;</p>]]></description>
+        <param name="Тип насадки">Зернова</param>
+        <param name="Призначення">Коропова риболовля</param>
+        <param name="Бренд">BOOM</param>
+      </offer>
+      <offer id="3032-35" available="false">
+        <name>Волосінь Волосінь Magigian 3D Afeima</name>
+        <price>90.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>3032-35</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь Magigian 3D Afeima  150m 0.35mm</p>]]></description>
+        <param name="Довжина" unit="м">150</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.35</param>
+        <param name="Довжина" unit="м">150</param>
+      </offer>
+      <offer id="3024-30" available="false">
+        <name>Волосінь Волосінь Magigian 3D Afeima</name>
+        <price>90.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>3024-30</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь Magigian 3D Afeima  150m 0.30mm</p>]]></description>
+        <param name="Довжина" unit="м">150</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.3</param>
+        <param name="Довжина" unit="м">150</param>
+      </offer>
+      <offer id="3032-30" available="true">
+        <name>Волосінь Волосінь Magigian 3D Afeima</name>
+        <price>90.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>1</stock_quantity>
+        <vendorCode>3032-30</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь Magigian 3D Afeima  150m 0.30mm</p>]]></description>
+        <param name="Довжина" unit="м">150</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.3</param>
+        <param name="Довжина" unit="м">150</param>
+      </offer>
+      <offer id="3024-25" available="true">
+        <name>Волосінь Волосінь Magigian 3D Afeima</name>
+        <price>90.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>14</stock_quantity>
+        <vendorCode>3024-25</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь Magigian 3D Afeima  150m 0.25mm</p>]]></description>
+        <param name="Довжина" unit="м">150</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.25</param>
+        <param name="Довжина" unit="м">150</param>
+      </offer>
+      <offer id="3271" available="true">
+        <name>Флюрокарбон Ліска FEIMA 3D STEALTH 0,30мм флюрокарбон</name>
+        <price>230.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>6</stock_quantity>
+        <vendorCode>3271</vendorCode>
+        <vendor>Ліска</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Ліска FEIMA 3D STEALTH 600м 0,30мм флюрокарбон</p>]]></description>
+        <param name="Довжина" unit="м">600</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Довжина" unit="м">600</param>
+      </offer>
+      <offer id="3272" available="true">
+        <name>Флюрокарбон Ліска FEIMA 3D STEALTH 0,28мм флюрокарбон</name>
+        <price>230.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>4</stock_quantity>
+        <vendorCode>3272</vendorCode>
+        <vendor>Ліска</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Ліска FEIMA 3D STEALTH 600м 0,28мм флюрокарбон</p>]]></description>
+        <param name="Довжина" unit="м">600</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Довжина" unit="м">600</param>
+      </offer>
+      <offer id="X5051" available="true">
+        <name>Флюрокарбон Ліска FEIMA 3D STEALTH 0,16мм флюрокарбон</name>
+        <price>45.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>20</stock_quantity>
+        <vendorCode>X5051</vendorCode>
+        <vendor>Ліска</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Ліска FEIMA 3D STEALTH 50м 0,16мм флюрокарбон</p>]]></description>
+        <param name="Довжина" unit="м">50</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Довжина" unit="м">50</param>
+      </offer>
+      <offer id="1634" available="true">
+        <name>Флюрокарбон Ліска FEIMA 3D STEALTH 0,14мм флюрокарбон</name>
+        <price>45.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>6</stock_quantity>
+        <vendorCode>1634</vendorCode>
+        <vendor>Ліска</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Ліска FEIMA 3D STEALTH 50м 0,14мм флюрокарбон</p>]]></description>
+        <param name="Довжина" unit="м">50</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Довжина" unit="м">50</param>
+      </offer>
+      <offer id="1633" available="true">
+        <name>Флюрокарбон Ліска FEIMA 3D STEALTH 0,12мм флюрокарбон</name>
+        <price>45.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>8</stock_quantity>
+        <vendorCode>1633</vendorCode>
+        <vendor>Ліска</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Ліска FEIMA 3D STEALTH 50м 0,12мм флюрокарбон</p>]]></description>
+        <param name="Довжина" unit="м">50</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Довжина" unit="м">50</param>
+      </offer>
+      <offer id="3273" available="true">
+        <name>Флюрокарбон Ліска FEIMA 3D STEALTH 0,28мм флюрокарбон</name>
+        <price>140.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>1</stock_quantity>
+        <vendorCode>3273</vendorCode>
+        <vendor>Ліска</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Ліска FEIMA 3D STEALTH 300м 0,28мм флюрокарбон</p>]]></description>
+        <param name="Довжина" unit="м">300</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Довжина" unit="м">300</param>
+      </offer>
+      <offer id="X5052" available="true">
+        <name>Флюрокарбон Ліска FEIMA 3D STEALTH 0,20мм флюрокарбон</name>
+        <price>80.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>9</stock_quantity>
+        <vendorCode>X5052</vendorCode>
+        <vendor>Ліска</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Ліска FEIMA 3D STEALTH 150м 0,20мм флюрокарбон</p>]]></description>
+        <param name="Довжина" unit="м">150</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Довжина" unit="м">150</param>
+      </offer>
+      <offer id="2463" available="false">
+        <name>Флюрокарбон Ліска FEIMA 3D STEALTH 0,25мм флюрокарбон</name>
+        <price>80.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2463</vendorCode>
+        <vendor>Ліска</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Ліска FEIMA 3D STEALTH 150м 0,25мм флюрокарбон</p>]]></description>
+        <param name="Довжина" unit="м">150</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Довжина" unit="м">150</param>
+      </offer>
+      <offer id="3000" available="true">
+        <name>Волосінь Ліска FEIMA 3D INVISIBLE</name>
+        <price>42.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>19</stock_quantity>
+        <vendorCode>3000</vendorCode>
+        <vendor>Ліска</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Ліска FEIMA 3D  INVISIBLE 50м</p>]]></description>
+        <param name="Довжина" unit="м">50</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Довжина" unit="м">50</param>
+      </offer>
+      <offer id="X-5056" available="true">
+        <name>Волосінь Ліска 3D INVISIBLE 0,30мм</name>
+        <price>190.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>3</stock_quantity>
+        <vendorCode>X-5056</vendorCode>
+        <vendor>Ліска</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Ліска  3D INVISIBLE 300м 0,30мм</p>]]></description>
+        <param name="Довжина" unit="м">300</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Довжина" unit="м">300</param>
+      </offer>
+      <offer id="ZJ-INP027А" available="true">
+        <name>Волосінь Волосінь JAXON INTENSA PREMIUM</name>
+        <price>170.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>2</stock_quantity>
+        <vendorCode>ZJ-INP027А</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь JAXON INTENSA PREMIUM 0,27mm 150m</p>]]></description>
+        <param name="Довжина" unit="м">150</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.27</param>
+        <param name="Довжина" unit="м">150</param>
+      </offer>
+      <offer id="ZJ-INP025А" available="true">
+        <name>Волосінь Волосінь JAXON INTENSA PREMIUM</name>
+        <price>170.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>3</stock_quantity>
+        <vendorCode>ZJ-INP025А</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь JAXON INTENSA PREMIUM 0,25mm 150m</p>]]></description>
+        <param name="Довжина" unit="м">150</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.25</param>
+        <param name="Довжина" unit="м">150</param>
+      </offer>
+      <offer id="ZJ-INP022C" available="false">
+        <name>Волосінь Волосінь JAXON INTENSA PREMIUM</name>
+        <price>57.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>ZJ-INP022C</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь JAXON INTENSA PREMIUM 0,22mm 25m</p>]]></description>
+        <param name="Довжина" unit="м">25</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.22</param>
+        <param name="Довжина" unit="м">25</param>
+      </offer>
+      <offer id="ZJ-INP022А" available="true">
+        <name>Волосінь Волосінь JAXON INTENSA PREMIUM</name>
+        <price>160.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>5</stock_quantity>
+        <vendorCode>ZJ-INP022А</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь JAXON INTENSA PREMIUM 0,22mm 150m</p>]]></description>
+        <param name="Довжина" unit="м">150</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.22</param>
+        <param name="Довжина" unit="м">150</param>
+      </offer>
+      <offer id="ZJ-INP020C" available="true">
+        <name>Волосінь Волосінь JAXON INTENSA PREMIUM</name>
+        <price>67.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>16</stock_quantity>
+        <vendorCode>ZJ-INP020C</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь JAXON INTENSA PREMIUM 0,20mm 25m</p>]]></description>
+        <param name="Довжина" unit="м">25</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.2</param>
+        <param name="Довжина" unit="м">25</param>
+      </offer>
+      <offer id="ZJ-INP018C" available="true">
+        <name>Волосінь Волосінь JAXON INTENSA PREMIUM</name>
+        <price>67.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>9</stock_quantity>
+        <vendorCode>ZJ-INP018C</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь JAXON INTENSA PREMIUM 0,18mm 25m</p>]]></description>
+        <param name="Довжина" unit="м">25</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.18</param>
+        <param name="Довжина" unit="м">25</param>
+      </offer>
+      <offer id="ZJ-INP016C" available="true">
+        <name>Волосінь Волосінь JAXON INTENSA PREMIUM</name>
+        <price>67.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>11</stock_quantity>
+        <vendorCode>ZJ-INP016C</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь JAXON INTENSA PREMIUM 0,16mm 25m</p>]]></description>
+        <param name="Довжина" unit="м">25</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.16</param>
+        <param name="Довжина" unit="м">25</param>
+      </offer>
+      <offer id="ZJ-INP014C" available="true">
+        <name>Волосінь Волосінь JAXON INTENSA PREMIUM</name>
+        <price>67.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>10</stock_quantity>
+        <vendorCode>ZJ-INP014C</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь JAXON INTENSA PREMIUM 0,14mm 25m</p>]]></description>
+        <param name="Довжина" unit="м">25</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.14</param>
+        <param name="Довжина" unit="м">25</param>
+      </offer>
+      <offer id="ZJ-INP012C" available="true">
+        <name>Волосінь Волосінь JAXON INTENSA PREMIUM</name>
+        <price>67.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>17</stock_quantity>
+        <vendorCode>ZJ-INP012C</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь JAXON INTENSA PREMIUM 0,12mm 25m</p>]]></description>
+        <param name="Довжина" unit="м">25</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.12</param>
+        <param name="Довжина" unit="м">25</param>
+      </offer>
+      <offer id="ZJ-INP010C" available="true">
+        <name>Волосінь Волосінь JAXON INTENSA PREMIUM</name>
+        <price>67.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>49</stock_quantity>
+        <vendorCode>ZJ-INP010C</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь JAXON INTENSA PREMIUM 0,10mm 25m</p>]]></description>
+        <param name="Довжина" unit="м">25</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.1</param>
+        <param name="Довжина" unit="м">25</param>
+      </offer>
+      <offer id="ZJ-INP008C" available="true">
+        <name>Волосінь Волосінь JAXON INTENSA PREMIUM</name>
+        <price>67.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>4</stock_quantity>
+        <vendorCode>ZJ-INP008C</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь JAXON INTENSA PREMIUM 0,08mm 25m</p>]]></description>
+        <param name="Довжина" unit="м">25</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.08</param>
+        <param name="Довжина" unit="м">25</param>
+      </offer>
+      <offer id="3050-35" available="true">
+        <name>Волосінь Ліска Big Fish Feeder</name>
+        <price>105.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>9</stock_quantity>
+        <vendorCode>3050-35</vendorCode>
+        <vendor>Ліска</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Ліска Big Fish Feeder 150m 0.35mm 14.3kg 31.4lb</p>]]></description>
+        <param name="Довжина" unit="м">150</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.35</param>
+        <param name="Розривне навантаження" unit="кг">14.3</param>
+        <param name="Розривне навантаження (lb)" unit="lb">31.4</param>
+        <param name="Довжина" unit="м">150</param>
+      </offer>
+      <offer id="3050-30" available="true">
+        <name>Волосінь Ліска Big Fish Feeder</name>
+        <price>105.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>9</stock_quantity>
+        <vendorCode>3050-30</vendorCode>
+        <vendor>Ліска</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Ліска Big Fish Feeder 150m 0.30mm 11.5kg 25.3lb</p>]]></description>
+        <param name="Довжина" unit="м">150</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.3</param>
+        <param name="Розривне навантаження" unit="кг">11.5</param>
+        <param name="Розривне навантаження (lb)" unit="lb">25.3</param>
+        <param name="Довжина" unit="м">150</param>
+      </offer>
+      <offer id="3050-28" available="true">
+        <name>Волосінь Ліска Big Fish Feeder</name>
+        <price>105.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>3</stock_quantity>
+        <vendorCode>3050-28</vendorCode>
+        <vendor>Ліска</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Ліска Big Fish Feeder 150m 0.28mm 10.2kg 22.4lb</p>]]></description>
+        <param name="Довжина" unit="м">150</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.28</param>
+        <param name="Розривне навантаження" unit="кг">10.2</param>
+        <param name="Розривне навантаження (lb)" unit="lb">22.4</param>
+        <param name="Довжина" unit="м">150</param>
+      </offer>
+      <offer id="3050-25" available="true">
+        <name>Волосінь Ліска Big Fish Feeder</name>
+        <price>105.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>8</stock_quantity>
+        <vendorCode>3050-25</vendorCode>
+        <vendor>Ліска</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Ліска Big Fish Feeder 150m 0.25mm 8.2kg 19.4lb</p>]]></description>
+        <param name="Довжина" unit="м">150</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.25</param>
+        <param name="Розривне навантаження" unit="кг">8.2</param>
+        <param name="Розривне навантаження (lb)" unit="lb">19.4</param>
+        <param name="Довжина" unit="м">150</param>
+      </offer>
+      <offer id="3050-22" available="true">
+        <name>Волосінь Ліска Big Fish Feeder</name>
+        <price>105.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>7</stock_quantity>
+        <vendorCode>3050-22</vendorCode>
+        <vendor>Ліска</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Ліска Big Fish Feeder 150m 0.22mm 7.85kg 17.2lb</p>]]></description>
+        <param name="Довжина" unit="м">150</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.22</param>
+        <param name="Розривне навантаження" unit="кг">7.85</param>
+        <param name="Розривне навантаження (lb)" unit="lb">17.2</param>
+        <param name="Довжина" unit="м">150</param>
+      </offer>
+      <offer id="3050-20" available="true">
+        <name>Волосінь Ліска Big Fish Feeder</name>
+        <price>105.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>8</stock_quantity>
+        <vendorCode>3050-20</vendorCode>
+        <vendor>Ліска</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Ліска Big Fish Feeder 150m 0.20mm 6.86kg 15.1lb</p>]]></description>
+        <param name="Довжина" unit="м">150</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.2</param>
+        <param name="Розривне навантаження" unit="кг">6.86</param>
+        <param name="Розривне навантаження (lb)" unit="lb">15.1</param>
+        <param name="Довжина" unit="м">150</param>
+      </offer>
+      <offer id="CZ4999" available="true">
+        <name>Волосінь Волосінь CZ Pitbull High UV Carp line fluo orange</name>
+        <price>420.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>3</stock_quantity>
+        <vendorCode>CZ4999</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь CZ Pitbull High UV Carp line fluo orange 0.32mm 12.7kg 1000m</p>]]></description>
+        <param name="Довжина" unit="м">1000</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.32</param>
+        <param name="Розривне навантаження" unit="кг">12.7</param>
+        <param name="Довжина" unit="м">1000</param>
+      </offer>
+      <offer id="CZ4982" available="true">
+        <name>Волосінь Волосінь CZ Pitbull High UV Carp line fluo orange</name>
+        <price>420.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>3</stock_quantity>
+        <vendorCode>CZ4982</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь CZ Pitbull High UV Carp line fluo orange 0.29mm 10.8kg 1000m</p>]]></description>
+        <param name="Довжина" unit="м">1000</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.29</param>
+        <param name="Розривне навантаження" unit="кг">10.8</param>
+        <param name="Довжина" unit="м">1000</param>
+      </offer>
+      <offer id="CZ4975" available="true">
+        <name>Волосінь Волосінь CZ Pitbull High UV Carp line fluo orange</name>
+        <price>420.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>3</stock_quantity>
+        <vendorCode>CZ4975</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь CZ Pitbull High UV Carp line fluo orange 0.26mm 8.9kg 1000m</p>]]></description>
+        <param name="Довжина" unit="м">1000</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.26</param>
+        <param name="Розривне навантаження" unit="кг">8.9</param>
+        <param name="Довжина" unit="м">1000</param>
+      </offer>
+      <offer id="CP5410-309" available="true">
+        <name>Волосінь Волосінь Carp Pro Fishing Fluo Orange</name>
+        <price>650.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>2</stock_quantity>
+        <vendorCode>CP5410-309</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь Carp Pro Fishing Fluo Orange 1000m 0.309mm</p>]]></description>
+        <param name="Довжина" unit="м">1000</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.309</param>
+        <param name="Довжина" unit="м">1000</param>
+      </offer>
+      <offer id="CP5410-286" available="true">
+        <name>Волосінь Волосінь Carp Pro Fishing Fluo Orange</name>
+        <price>645.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>9</categoryId>
+        <stock_quantity>1</stock_quantity>
+        <vendorCode>CP5410-286</vendorCode>
+        <vendor>Волосінь</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Волосінь Carp Pro Fishing Fluo Orange 1000m 0.286mm</p>]]></description>
+        <param name="Довжина" unit="м">1000</param>
+        <param name="Тип">Монофільна волосінь</param>
+        <param name="Діаметр" unit="мм">0.286</param>
+        <param name="Довжина" unit="м">1000</param>
+      </offer>
+      <offer id="1814" available="true">
+        <name>Повідець Баласт Повідець Карповий</name>
+        <price>14.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>10</categoryId>
+        <stock_quantity>53</stock_quantity>
+        <vendorCode>1814</vendorCode>
+        <vendor>Баласт</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Повідець Карповий №8&quot; Баласт&quot;</p>]]></description>
+        <param name="Тип">Готовий повідець</param>
+        <param name="Призначення">Карпова риболовля</param>
+        <param name="Розмір">8</param>
+      </offer>
+      <offer id="1813" available="true">
+        <name>Повідець Баласт Повідець Карповий</name>
+        <price>14.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>10</categoryId>
+        <stock_quantity>73</stock_quantity>
+        <vendorCode>1813</vendorCode>
+        <vendor>Баласт</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Повідець Карповий №6&quot; Баласт&quot;</p>]]></description>
+        <param name="Тип">Готовий повідець</param>
+        <param name="Призначення">Карпова риболовля</param>
+        <param name="Розмір">6</param>
+      </offer>
+      <offer id="1812" available="true">
+        <name>Повідець Баласт Повідець Карповий</name>
+        <price>16.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>10</categoryId>
+        <stock_quantity>55</stock_quantity>
+        <vendorCode>1812</vendorCode>
+        <vendor>Баласт</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Повідець Карповий №4&quot; Баласт&quot;</p>]]></description>
+        <param name="Тип">Готовий повідець</param>
+        <param name="Призначення">Карпова риболовля</param>
+        <param name="Розмір">4</param>
+      </offer>
+      <offer id="633" available="true">
+        <name>Повідець Баласт Повідець Карповий</name>
+        <price>14.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>10</categoryId>
+        <stock_quantity>68</stock_quantity>
+        <vendorCode>633</vendorCode>
+        <vendor>Баласт</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Повідець Карповий №3&quot; Баласт&quot;</p>]]></description>
+        <param name="Тип">Готовий повідець</param>
+        <param name="Призначення">Карпова риболовля</param>
+        <param name="Розмір">3</param>
+      </offer>
+      <offer id="940" available="true">
+        <name>Повідець Повідець Carp Fishing Sinking Braid (шт.)</name>
+        <price>25.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>10</categoryId>
+        <stock_quantity>41</stock_quantity>
+        <vendorCode>940</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Повідець Carp Fishing Fast Sinking Braid 25lb №8 (шт.)</p>]]></description>
+        <param name="Лад">Fast</param>
+        <param name="Тип">Готовий повідець</param>
+        <param name="Розривне навантаження (lb)" unit="lb">25</param>
+        <param name="Розмір">8</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="427" available="true">
+        <name>Повідець Повідець Carp Fishing Sinking Braid (шт.)</name>
+        <price>25.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>10</categoryId>
+        <stock_quantity>50</stock_quantity>
+        <vendorCode>427</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Повідець Carp Fishing Fast Sinking Braid 25lb №6 (шт.)</p>]]></description>
+        <param name="Лад">Fast</param>
+        <param name="Тип">Готовий повідець</param>
+        <param name="Розривне навантаження (lb)" unit="lb">25</param>
+        <param name="Розмір">6</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="941" available="true">
+        <name>Повідець Повідець Carp Fishing Sinking Braid (шт.)</name>
+        <price>25.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>10</categoryId>
+        <stock_quantity>23</stock_quantity>
+        <vendorCode>941</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Повідець Carp Fishing Fast Sinking Braid 25lb №4 (шт.)</p>]]></description>
+        <param name="Лад">Fast</param>
+        <param name="Тип">Готовий повідець</param>
+        <param name="Розривне навантаження (lb)" unit="lb">25</param>
+        <param name="Розмір">4</param>
+        <param name="Стрій">Fast</param>
+      </offer>
+      <offer id="1693.11.87" available="true">
+        <name>Флюрокарбон Флюрокарбон Favorite U1 FC \ \</name>
+        <price>95.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>4</stock_quantity>
+        <vendorCode>1693.11.87</vendorCode>
+        <vendor>Флюрокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюрокарбон  Favorite U1 FC 10m #8.0\0.47mm 30.5lb\13.84kg</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Діаметр" unit="мм">0.47</param>
+        <param name="Розривне навантаження" unit="кг">13.84</param>
+        <param name="Розривне навантаження (lb)" unit="lb">30.5</param>
+        <param name="PE">8</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1693.11.86" available="true">
+        <name>Флюрокарбон Флюрокарбон Favorite U1 FC \ \</name>
+        <price>88.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>5</stock_quantity>
+        <vendorCode>1693.11.86</vendorCode>
+        <vendor>Флюрокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюрокарбон  Favorite U1 FC 10m #7.0\0.435mm 25.8lb\11.68kg</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Діаметр" unit="мм">0.435</param>
+        <param name="Розривне навантаження" unit="кг">11.68</param>
+        <param name="Розривне навантаження (lb)" unit="lb">25.8</param>
+        <param name="PE">7</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1693.11.85" available="true">
+        <name>Флюрокарбон Флюрокарбон Favorite U1 FC \ \</name>
+        <price>88.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>4</stock_quantity>
+        <vendorCode>1693.11.85</vendorCode>
+        <vendor>Флюрокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюрокарбон  Favorite U1 FC 10m #6.0\0.405mm 23.5lb\10.67kg</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Діаметр" unit="мм">0.405</param>
+        <param name="Розривне навантаження" unit="кг">10.67</param>
+        <param name="Розривне навантаження (lb)" unit="lb">23.5</param>
+        <param name="PE">6</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1693.11.84" available="true">
+        <name>Флюрокарбон Флюрокарбон Favorite U1 FC \ \</name>
+        <price>82.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>5</stock_quantity>
+        <vendorCode>1693.11.84</vendorCode>
+        <vendor>Флюрокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюрокарбон  Favorite U1 FC 10m #5,0\0.37mm 20.5lb\9.31kg</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Діаметр" unit="мм">0.37</param>
+        <param name="Розривне навантаження" unit="кг">9.31</param>
+        <param name="Розривне навантаження (lb)" unit="lb">20.5</param>
+        <param name="PE">5</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1693.11.83" available="true">
+        <name>Флюрокарбон Флюрокарбон Favorite U1 FC \ \</name>
+        <price>77.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>3</stock_quantity>
+        <vendorCode>1693.11.83</vendorCode>
+        <vendor>Флюрокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюрокарбон  Favorite U1 FC 10m #4,0\0.33mm 16,0lb\7,25kg</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Діаметр" unit="мм">0.33</param>
+        <param name="Розривне навантаження" unit="кг">7.25</param>
+        <param name="Розривне навантаження (lb)" unit="lb">16</param>
+        <param name="PE">4</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1693.11.81" available="true">
+        <name>Флюрокарбон Флюрокарбон Favorite U1 FC \ \</name>
+        <price>75.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>5</stock_quantity>
+        <vendorCode>1693.11.81</vendorCode>
+        <vendor>Флюрокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюрокарбон  Favorite U1 FC 10m #3\0.285mm 13.2lb\5.97kg</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Діаметр" unit="мм">0.285</param>
+        <param name="Розривне навантаження" unit="кг">5.97</param>
+        <param name="Розривне навантаження (lb)" unit="lb">13.2</param>
+        <param name="PE">3</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1693.11.82" available="true">
+        <name>Флюрокарбон Флюрокарбон Favorite U1 FC \ \</name>
+        <price>77.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>5</stock_quantity>
+        <vendorCode>1693.11.82</vendorCode>
+        <vendor>Флюрокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюрокарбон  Favorite U1 FC 10m #3.5\0.31mm 14.1lb\6.38kg</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Діаметр" unit="мм">0.31</param>
+        <param name="Розривне навантаження" unit="кг">6.38</param>
+        <param name="Розривне навантаження (lb)" unit="lb">14.1</param>
+        <param name="PE">3.5</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1693.11.79" available="true">
+        <name>Флюрокарбон Флюрокарбон Favorite U1 FC \ \</name>
+        <price>68.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>5</stock_quantity>
+        <vendorCode>1693.11.79</vendorCode>
+        <vendor>Флюрокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюрокарбон  Favorite U1 FC 10m #2\0.235mm 8.6lb\3.89kg</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Діаметр" unit="мм">0.235</param>
+        <param name="Розривне навантаження" unit="кг">3.89</param>
+        <param name="Розривне навантаження (lb)" unit="lb">8.6</param>
+        <param name="PE">2</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1693.11.80" available="true">
+        <name>Флюрокарбон Флюрокарбон Favorite U1 FC \ \</name>
+        <price>75.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>4</stock_quantity>
+        <vendorCode>1693.11.80</vendorCode>
+        <vendor>Флюрокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюрокарбон  Favorite U1 FC 10m #2.5\0.26mm 10.1lb\4.58kg</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Діаметр" unit="мм">0.26</param>
+        <param name="Розривне навантаження" unit="кг">4.58</param>
+        <param name="Розривне навантаження (lb)" unit="lb">10.1</param>
+        <param name="PE">2.5</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1693.11.89" available="true">
+        <name>Флюрокарбон Флюрокарбон Favorite U1 FC \ \</name>
+        <price>115.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>4</stock_quantity>
+        <vendorCode>1693.11.89</vendorCode>
+        <vendor>Флюрокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюрокарбон  Favorite U1 FC 10m #12\0.57mm 44.2lb\19.98kg</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Діаметр" unit="мм">0.57</param>
+        <param name="Розривне навантаження" unit="кг">19.98</param>
+        <param name="Розривне навантаження (lb)" unit="lb">44.2</param>
+        <param name="PE">12</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1693.11.88" available="true">
+        <name>Флюрокарбон Флюрокарбон Favorite U1 FC \ \</name>
+        <price>105.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>4</stock_quantity>
+        <vendorCode>1693.11.88</vendorCode>
+        <vendor>Флюрокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюрокарбон  Favorite U1 FC 10m #10\0.52mm 37.2lb\16.86kg</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Діаметр" unit="мм">0.52</param>
+        <param name="Розривне навантаження" unit="кг">16.86</param>
+        <param name="Розривне навантаження (lb)" unit="lb">37.2</param>
+        <param name="PE">10</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1693.11.75" available="true">
+        <name>Флюрокарбон Флюрокарбон Favorite U1 FC \ \</name>
+        <price>68.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>5</stock_quantity>
+        <vendorCode>1693.11.75</vendorCode>
+        <vendor>Флюрокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюрокарбон  Favorite U1 FC 10m #1\0.165mm 4,2lb\1.92kg</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Діаметр" unit="мм">0.165</param>
+        <param name="Розривне навантаження" unit="кг">1.92</param>
+        <param name="Розривне навантаження (lb)" unit="lb">4.2</param>
+        <param name="PE">1</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1693.11.78" available="true">
+        <name>Флюрокарбон Флюрокарбон Favorite U1 FC \ \</name>
+        <price>68.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>2</stock_quantity>
+        <vendorCode>1693.11.78</vendorCode>
+        <vendor>Флюрокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюрокарбон  Favorite U1 FC 10m #1.75\0.22mm 7.6lb\3.46kg</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Діаметр" unit="мм">0.22</param>
+        <param name="Розривне навантаження" unit="кг">3.46</param>
+        <param name="Розривне навантаження (lb)" unit="lb">7.6</param>
+        <param name="PE">1.75</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1693.11.77" available="true">
+        <name>Флюрокарбон Флюрокарбон Favorite U1 FC \ \</name>
+        <price>68.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>1</stock_quantity>
+        <vendorCode>1693.11.77</vendorCode>
+        <vendor>Флюрокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюрокарбон  Favorite U1 FC 10m #1.5\0.205mm 6.4lb\2.89kg</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Діаметр" unit="мм">0.205</param>
+        <param name="Розривне навантаження" unit="кг">2.89</param>
+        <param name="Розривне навантаження (lb)" unit="lb">6.4</param>
+        <param name="PE">1.5</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1693.11.76" available="true">
+        <name>Флюрокарбон Флюрокарбон Favorite U1 FC \ \</name>
+        <price>68.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>4</stock_quantity>
+        <vendorCode>1693.11.76</vendorCode>
+        <vendor>Флюрокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюрокарбон  Favorite U1 FC 10m #1.2\0.185mm 5.3lb\2.42kg</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Діаметр" unit="мм">0.185</param>
+        <param name="Розривне навантаження" unit="кг">2.42</param>
+        <param name="Розривне навантаження (lb)" unit="lb">5.3</param>
+        <param name="PE">1.2</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1693.11.74" available="true">
+        <name>Флюрокарбон Флюрокарбон Favorite U1 FC \ \</name>
+        <price>68.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>4</stock_quantity>
+        <vendorCode>1693.11.74</vendorCode>
+        <vendor>Флюрокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюрокарбон  Favorite U1 FC 10m #0.8\0.148mm 3.6lb\1.65kg</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Діаметр" unit="мм">0.148</param>
+        <param name="Розривне навантаження" unit="кг">1.65</param>
+        <param name="Розривне навантаження (lb)" unit="lb">3.6</param>
+        <param name="PE">0.8</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="2496" available="false">
+        <name>Шок-лідер Флюорокарбон Intech FC Shock Leader / (шт.)</name>
+        <price>310.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2496</vendorCode>
+        <vendor>Флюорокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюорокарбон Intech FC Shock Leader 10м 0.738mm 24,6kg/54lb (шт.)</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Шок-лідер</param>
+        <param name="Діаметр" unit="мм">0.738</param>
+        <param name="Розривне навантаження" unit="кг">24.6</param>
+        <param name="Розривне навантаження (lb)" unit="lb">54</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="2495" available="true">
+        <name>Шок-лідер Флюорокарбон Intech FC Shock Leader / (шт.)</name>
+        <price>265.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>7</stock_quantity>
+        <vendorCode>2495</vendorCode>
+        <vendor>Флюорокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюорокарбон Intech FC Shock Leader 10м 0.645mm 20,4kg/45lb (шт.)</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Шок-лідер</param>
+        <param name="Діаметр" unit="мм">0.645</param>
+        <param name="Розривне навантаження" unit="кг">20.4</param>
+        <param name="Розривне навантаження (lb)" unit="lb">45</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="2716" available="true">
+        <name>Шок-лідер Флюорокарбон Intech FC Shock Leader / (шт.)</name>
+        <price>122.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>3</stock_quantity>
+        <vendorCode>2716</vendorCode>
+        <vendor>Флюорокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюорокарбон Intech FC Shock Leader 10м 0.555mm 15.9kg/354lb (шт.)</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Шок-лідер</param>
+        <param name="Діаметр" unit="мм">0.555</param>
+        <param name="Розривне навантаження" unit="кг">15.9</param>
+        <param name="Розривне навантаження (lb)" unit="lb">354</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1615" available="false">
+        <name>Шок-лідер Флюорокарбон Intech FC Shock Leader / (шт.)</name>
+        <price>110.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1615</vendorCode>
+        <vendor>Флюорокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюорокарбон Intech FC Shock Leader 10м 0.505mm 13.2kg/29lb (шт.)</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Шок-лідер</param>
+        <param name="Діаметр" unit="мм">0.505</param>
+        <param name="Розривне навантаження" unit="кг">13.2</param>
+        <param name="Розривне навантаження (lb)" unit="lb">29</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1614" available="false">
+        <name>Шок-лідер Флюорокарбон Intech FC Shock Leader / (шт.)</name>
+        <price>100.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1614</vendorCode>
+        <vendor>Флюорокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюорокарбон Intech FC Shock Leader 10м 0.455mm 10.7kg/24lb (шт.)</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Шок-лідер</param>
+        <param name="Діаметр" unit="мм">0.455</param>
+        <param name="Розривне навантаження" unit="кг">10.7</param>
+        <param name="Розривне навантаження (lb)" unit="lb">24</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1613" available="false">
+        <name>Шок-лідер Флюорокарбон Intech FC Shock Leader / (шт.)</name>
+        <price>92.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1613</vendorCode>
+        <vendor>Флюорокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюорокарбон Intech FC Shock Leader 10м 0.418mm 9.0kg/20lb (шт.)</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Шок-лідер</param>
+        <param name="Діаметр" unit="мм">0.418</param>
+        <param name="Розривне навантаження" unit="кг">9</param>
+        <param name="Розривне навантаження (lb)" unit="lb">20</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="1612" available="false">
+        <name>Шок-лідер Флюорокарбон Intech FC Shock Leader / (шт.)</name>
+        <price>95.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>1612</vendorCode>
+        <vendor>Флюорокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюорокарбон Intech FC Shock Leader 10м 0.373mm 7.7kg/17lb (шт.)</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Шок-лідер</param>
+        <param name="Діаметр" unit="мм">0.373</param>
+        <param name="Розривне навантаження" unit="кг">7.7</param>
+        <param name="Розривне навантаження (lb)" unit="lb">17</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="2802" available="false">
+        <name>Шок-лідер Флюорокарбон Intech FC Shock Leader / (шт.)</name>
+        <price>95.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2802</vendorCode>
+        <vendor>Флюорокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюорокарбон Intech FC Shock Leader 10м 0.333mm 6,4kg/14lb (шт.)</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Шок-лідер</param>
+        <param name="Діаметр" unit="мм">0.333</param>
+        <param name="Розривне навантаження" unit="кг">6.4</param>
+        <param name="Розривне навантаження (lb)" unit="lb">14</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="921" available="true">
+        <name>Шок-лідер Флюорокарбон Intech FC Shock Leader / (шт.)</name>
+        <price>85.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>4</stock_quantity>
+        <vendorCode>921</vendorCode>
+        <vendor>Флюорокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюорокарбон Intech FC Shock Leader 10м 0.298mm 4.9kg/11lb (шт.)</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Шок-лідер</param>
+        <param name="Діаметр" unit="мм">0.298</param>
+        <param name="Розривне навантаження" unit="кг">4.9</param>
+        <param name="Розривне навантаження (lb)" unit="lb">11</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="920" available="true">
+        <name>Шок-лідер Флюорокарбон Intech FC Shock Leader / (шт.)</name>
+        <price>85.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>6</stock_quantity>
+        <vendorCode>920</vendorCode>
+        <vendor>Флюорокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюорокарбон Intech FC Shock Leader 10м 0.278mm 4.9kg/11lb (шт.)</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Шок-лідер</param>
+        <param name="Діаметр" unit="мм">0.278</param>
+        <param name="Розривне навантаження" unit="кг">4.9</param>
+        <param name="Розривне навантаження (lb)" unit="lb">11</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="919" available="true">
+        <name>Шок-лідер Флюорокарбон Intech FC Shock Leader / (шт.)</name>
+        <price>66.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>9</stock_quantity>
+        <vendorCode>919</vendorCode>
+        <vendor>Флюорокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюорокарбон Intech FC Shock Leader 10м 0.257mm 4.2kg/9.3lb (шт.)</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Шок-лідер</param>
+        <param name="Діаметр" unit="мм">0.257</param>
+        <param name="Розривне навантаження" unit="кг">4.2</param>
+        <param name="Розривне навантаження (lb)" unit="lb">9.3</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="918" available="false">
+        <name>Шок-лідер Флюорокарбон Intech FC Shock Leader / (шт.)</name>
+        <price>65.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>918</vendorCode>
+        <vendor>Флюорокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюорокарбон Intech FC Shock Leader 10м 0.234mm 3.5kg/7.7lb (шт.)</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Шок-лідер</param>
+        <param name="Діаметр" unit="мм">0.234</param>
+        <param name="Розривне навантаження" unit="кг">3.5</param>
+        <param name="Розривне навантаження (lb)" unit="lb">7.7</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="917" available="false">
+        <name>Шок-лідер Флюорокарбон Intech FC Shock Leader / (шт.)</name>
+        <price>63.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>917</vendorCode>
+        <vendor>Флюорокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюорокарбон Intech FC Shock Leader 10м 0.218mm 3.1kg/6.8lb (шт.)</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Шок-лідер</param>
+        <param name="Діаметр" unit="мм">0.218</param>
+        <param name="Розривне навантаження" unit="кг">3.1</param>
+        <param name="Розривне навантаження (lb)" unit="lb">6.8</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="916" available="false">
+        <name>Шок-лідер Флюорокарбон Intech FC Shock Leader / (шт.)</name>
+        <price>63.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>916</vendorCode>
+        <vendor>Флюорокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюорокарбон Intech FC Shock Leader 10м 0.200mm 2.6kg/5,7lb (шт.)</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Шок-лідер</param>
+        <param name="Діаметр" unit="мм">0.2</param>
+        <param name="Розривне навантаження" unit="кг">2.6</param>
+        <param name="Розривне навантаження (lb)" unit="lb">5.7</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="915" available="false">
+        <name>Шок-лідер Флюорокарбон Intech FC Shock Leader / (шт.)</name>
+        <price>60.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>915</vendorCode>
+        <vendor>Флюорокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюорокарбон Intech FC Shock Leader 10м 0.178mm 2.1kg/4.6lb (шт.)</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Шок-лідер</param>
+        <param name="Діаметр" unit="мм">0.178</param>
+        <param name="Розривне навантаження" unit="кг">2.1</param>
+        <param name="Розривне навантаження (lb)" unit="lb">4.6</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="914" available="false">
+        <name>Шок-лідер Флюорокарбон Intech FC Shock Leader / (шт.)</name>
+        <price>60.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>914</vendorCode>
+        <vendor>Флюорокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюорокарбон Intech FC Shock Leader 10м 0.161mm 1.7kg/3.7lb (шт.)</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Шок-лідер</param>
+        <param name="Діаметр" unit="мм">0.161</param>
+        <param name="Розривне навантаження" unit="кг">1.7</param>
+        <param name="Розривне навантаження (lb)" unit="lb">3.7</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="3692" available="true">
+        <name>Шок-лідер Флюорокарбон Intech FC Shock Leader / (шт.)</name>
+        <price>60.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>5</stock_quantity>
+        <vendorCode>3692</vendorCode>
+        <vendor>Флюорокарбон</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Флюорокарбон Intech FC Shock Leader 10м 0.123mm 1.0kg/2.2lb (шт.)</p>]]></description>
+        <param name="Довжина" unit="м">10</param>
+        <param name="Тип">Шок-лідер</param>
+        <param name="Діаметр" unit="мм">0.123</param>
+        <param name="Розривне навантаження" unit="кг">1</param>
+        <param name="Розривне навантаження (lb)" unit="lb">2.2</param>
+        <param name="Довжина" unit="м">10</param>
+      </offer>
+      <offer id="3302" available="true">
+        <name>Флюрокарбон Поводок PREDATOR WOLFRAM LEADERS</name>
+        <price>12.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>637</stock_quantity>
+        <vendorCode>3302</vendorCode>
+        <vendor>Поводок</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Поводок PREDATOR WOLFRAM LEADERS 25см</p>]]></description>
+        <param name="Довжина" unit="м">0.25</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Довжина" unit="м">0.25</param>
+      </offer>
+      <offer id="3437" available="true">
+        <name>Флюрокарбон Повідець флюрокарбон Golden Fish 30см</name>
+        <price>12.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>66</stock_quantity>
+        <vendorCode>3437</vendorCode>
+        <vendor>Повідець</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Повідець флюрокарбон Golden Fish 0.55m 30см</p>]]></description>
+        <param name="Довжина" unit="м">0.55</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Довжина" unit="м">0.55</param>
+      </offer>
+      <offer id="3436" available="true">
+        <name>Флюрокарбон Повідець флюрокарбон Golden Fish 25см</name>
+        <price>10.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>48</stock_quantity>
+        <vendorCode>3436</vendorCode>
+        <vendor>Повідець</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Повідець флюрокарбон Golden Fish 0.55m 25см</p>]]></description>
+        <param name="Довжина" unit="м">0.55</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Довжина" unit="м">0.55</param>
+      </offer>
+      <offer id="3435" available="true">
+        <name>Флюрокарбон Повідець флюрокарбон Golden Fish 20см</name>
+        <price>10.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>11</categoryId>
+        <stock_quantity>55</stock_quantity>
+        <vendorCode>3435</vendorCode>
+        <vendor>Повідець</vendor>
+        <state>new</state>
+        <description><![CDATA[<p>Повідець флюрокарбон Golden Fish 0.55m 20см</p>]]></description>
+        <param name="Довжина" unit="м">0.55</param>
+        <param name="Тип">Флюрокарбон</param>
+        <param name="Матеріал">Флюрокарбон</param>
+        <param name="Довжина" unit="м">0.55</param>
+      </offer>
+      <offer id="2724" available="false">
+        <name>Кивок Кивок Vast лавсан Зима-Літо test</name>
+        <price>150.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>12</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2724</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Кивок Vast лавсан Зима-Літо №3 test 2.5-4.1</p>]]></description>
+        <param name="Кастинг-тест" unit="г">2.5-4.1</param>
+        <param name="Тип">Кивок</param>
+        <param name="Матеріал">Лавсан</param>
+        <param name="Сезон">Зима / літо</param>
+        <param name="Розмір">3</param>
+        <param name="Тест">2.5-4.1</param>
+      </offer>
+      <offer id="2763" available="false">
+        <name>Кивок Кивок Vast лавсан Зима-Літо test</name>
+        <price>140.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>12</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>2763</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Кивок Vast лавсан Зима- Літо №2 test 1.2-3.16</p>]]></description>
+        <param name="Кастинг-тест" unit="г">1.2-3.16</param>
+        <param name="Тип">Кивок</param>
+        <param name="Матеріал">Лавсан</param>
+        <param name="Сезон">Зима / літо</param>
+        <param name="Розмір">2</param>
+        <param name="Тест">1.2-3.16</param>
+      </offer>
+      <offer id="2793" available="true">
+        <name>Кивок Кивок Vast лавсан Зима-Літо test</name>
+        <price>150.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>12</categoryId>
+        <stock_quantity>6</stock_quantity>
+        <vendorCode>2793</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Кивок Vast лавсан Зима- Літо №1 test 0.5-1.4</p>]]></description>
+        <param name="Кастинг-тест" unit="г">0.5-1.4</param>
+        <param name="Тип">Кивок</param>
+        <param name="Матеріал">Лавсан</param>
+        <param name="Сезон">Зима / літо</param>
+        <param name="Розмір">1</param>
+        <param name="Тест">0.5-1.4</param>
+      </offer>
+      <offer id="2086" available="true">
+        <name>Сигналізатор клювання Світлячок OKEAN SUN</name>
+        <price>12.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>66</stock_quantity>
+        <vendorCode>2086</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Світлячок OKEAN SUN d4.5*37 5шт</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Підтип">Під світлячок</param>
+        <param name="Кількість в упаковці" unit="шт">5</param>
+        <param name="Діаметр" unit="мм">4.5</param>
+        <param name="Довжина" unit="мм">37</param>
+      </offer>
+      <offer id="016900" available="true">
+        <name>Сигналізатор клювання Світлячок 4,5*38мм SMS</name>
+        <price>6.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>124</stock_quantity>
+        <vendorCode>016900</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Світлячок 4,5*38мм SMS</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Підтип">Під світлячок</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+      </offer>
+      <offer id="937" available="true">
+        <name>Сигналізатор клювання Дзвіночок</name>
+        <price>4.50</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>181</stock_quantity>
+        <vendorCode>937</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Дзвіночок</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Підтип">Дзвіночок</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+      </offer>
+      <offer id="1316" available="true">
+        <name>Сигналізатор клювання Сигналізатор під світлячок</name>
+        <price>12.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>17</stock_quantity>
+        <vendorCode>1316</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Сигналізатор під світлячок</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Підтип">Під світлячок</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+      </offer>
+      <offer id="4639" available="true">
+        <name>Аксесуар для підставки Сигналізатор клювання механічний у підставку</name>
+        <price>80.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>21</stock_quantity>
+        <vendorCode>4639</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Сигналізатор клювання механічний у підставку</p>]]></description>
+        <param name="Тип">Аксесуар для підставки</param>
+        <param name="Тип товару">Аксесуар для підставки</param>
+        <param name="Стан">Новий</param>
+      </offer>
+      <offer id="4714" available="true">
+        <name>Сигналізатор клювання Сигналізатор клювання довгий під світлячок</name>
+        <price>20.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>35</stock_quantity>
+        <vendorCode>4714</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Сигналізатор клювання довгий під світлячок</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Підтип">Під світлячок</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+      </offer>
+      <offer id="4352" available="true">
+        <name>Сигналізатор клювання Сигналізатор Sadey jy-28</name>
+        <price>470.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>8</stock_quantity>
+        <vendorCode>4352</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Сигналізатор Sadey jy-28</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+        <param name="Стан">Новий</param>
+      </offer>
+      <offer id="8026" available="true">
+        <name>Сигналізатор клювання Сигналізатор miracle fish</name>
+        <price>65.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>6</stock_quantity>
+        <vendorCode>8026</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Сигналізатор miracle fish 2 шт</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Кількість в упаковці" unit="шт">2</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+      </offer>
+      <offer id="3188" available="true">
+        <name>Сигналізатор клювання Сигналізатор Carp Line TS TLI-07</name>
+        <price>250.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>19</stock_quantity>
+        <vendorCode>3188</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Сигналізатор Carp Line TS TLI-07</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+        <param name="Стан">Новий</param>
+      </offer>
+      <offer id="410" available="true">
+        <name>Сигналізатор клювання Свінгер штанга з підключенням</name>
+        <price>95.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>6</stock_quantity>
+        <vendorCode>410</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Свінгер штанга з підключенням</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Підтип">Свінгер</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+      </offer>
+      <offer id="2216" available="true">
+        <name>Сигналізатор клювання Свінгер з підключення 268 на ланцюгу</name>
+        <price>100.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>1</stock_quantity>
+        <vendorCode>2216</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Свінгер з підключення 268 на ланцюгу</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Підтип">Свінгер</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+      </offer>
+      <offer id="2173" available="true">
+        <name>Сигналізатор клювання Свінгер з підк.штанга</name>
+        <price>110.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>12</stock_quantity>
+        <vendorCode>2173</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Свінгер з підк.штанга</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Підтип">Свінгер</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+      </offer>
+      <offer id="3208" available="true">
+        <name>Сигналізатор клювання Свінгер з підк.ланцюг</name>
+        <price>95.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>11</stock_quantity>
+        <vendorCode>3208</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Свінгер з підк.ланцюг</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Підтип">Свінгер</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+      </offer>
+      <offer id="3207" available="true">
+        <name>Сигналізатор клювання Свінгер Feima SW26</name>
+        <price>270.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>17</stock_quantity>
+        <vendorCode>3207</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Свінгер Feima SW26</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Підтип">Свінгер</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+      </offer>
+      <offer id="409" available="false">
+        <name>Сигналізатор клювання Свінгер FAIMA набір штанга синя</name>
+        <price>210.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>0</stock_quantity>
+        <vendorCode>409</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Свінгер FAIMA набір штанга синя</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Підтип">Свінгер</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+      </offer>
+      <offer id="2092" available="true">
+        <name>Сигналізатор клювання Набір Сигналізаторів SF23799</name>
+        <price>4130.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>2</stock_quantity>
+        <vendorCode>2092</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Набір Сигналізаторів SF23799</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+        <param name="Стан">Новий</param>
+      </offer>
+      <offer id="2093" available="true">
+        <name>Сигналізатор клювання Набір Сигналізаторів SF23657</name>
+        <price>3260.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>1</stock_quantity>
+        <vendorCode>2093</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Набір Сигналізаторів SF23657</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+        <param name="Стан">Новий</param>
+      </offer>
+      <offer id="3330" available="true">
+        <name>Сигналізатор клювання Набір Сигналізаторів JY- K</name>
+        <price>3520.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>1</stock_quantity>
+        <vendorCode>3330</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Набір Сигналізаторів JY-57-4K</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+        <param name="Стан">Новий</param>
+      </offer>
+      <offer id="3331" available="true">
+        <name>Сигналізатор клювання Набір Сигналізаторів JY-39</name>
+        <price>3110.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>1</stock_quantity>
+        <vendorCode>3331</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Набір Сигналізаторів JY-39</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+        <param name="Стан">Новий</param>
+      </offer>
+      <offer id="3329" available="true">
+        <name>Сигналізатор клювання Набір Сигналізаторів FA-</name>
+        <price>2750.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>2</stock_quantity>
+        <vendorCode>3329</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Набір Сигналізаторів FA-02-4</p>]]></description>
+        <param name="Кастинг-тест" unit="г">2-4</param>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Тест">2-4</param>
+      </offer>
+      <offer id="4632" available="true">
+        <name>Сигналізатор клювання Набір сигналізаторів Carp Line 4+4 TLI-07 + Swinger 02</name>
+        <price>2000.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>3</stock_quantity>
+        <vendorCode>4632</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Набір сигналізаторів Carp Line 4+4 TLI-07 + Swinger 02</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+        <param name="Стан">Новий</param>
+      </offer>
+      <offer id="2777" available="true">
+        <name>Сигналізатор клювання Набір Свінгерів Megastrike ланцюг</name>
+        <price>790.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>5</stock_quantity>
+        <vendorCode>2777</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Набір Свінгерів Megastrike ланцюг</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Підтип">Свінгер</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+      </offer>
+      <offer id="4631" available="true">
+        <name>Сигналізатор клювання Набір свінгерів Carp Line на штанзі</name>
+        <price>1550.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>3</stock_quantity>
+        <vendorCode>4631</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Набір свінгерів Carp Line 11G на штанзі 4 шт</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Підтип">Свінгер</param>
+        <param name="Вага" unit="г">11</param>
+        <param name="Кількість в упаковці" unit="шт">4</param>
+      </offer>
+      <offer id="428" available="true">
+        <name>Сигналізатор клювання Конектор швидкозмін.FEIMA(під сигнал.)</name>
+        <price>465.00</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>13</categoryId>
+        <stock_quantity>4</stock_quantity>
+        <vendorCode>428</vendorCode>
+        <state>new</state>
+        <description><![CDATA[<p>Конектор швидкозмін.FEIMA(під сигнал.)</p>]]></description>
+        <param name="Тип">Сигналізатор клювання</param>
+        <param name="Тип товару">Сигналізатор клювання</param>
+        <param name="Стан">Новий</param>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
