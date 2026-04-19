@@ -24,6 +24,8 @@ from datetime import datetime
 from pathlib import Path
 from xml.sax.saxutils import escape
 
+from feed_content import build_unique_titles, resolve_description_html
+
 PRODUCTS_JSON = Path(r"D:\FISH\fish-sync\data\products.json")
 META_DB = Path(r"D:\FISH\fish-sync\data\meta_store.sqlite")
 OUT_XML = Path(r"D:\FISH\fish-sync\public\rozetka.xml")
@@ -54,6 +56,7 @@ def load_meta() -> dict[str, dict]:
         rows = conn.execute(
             """
             SELECT v.kod, v.name_raw, v.test_min, v.test_max, v.length_m, v.action,
+                   COUNT(*) OVER (PARTITION BY v.parent_key) AS variant_count,
                    v.delta_params_json, v.pictures_json,
                    m.parent_key, m.family, m.brand, m.model_name, m.display_name, m.type_word,
                    m.source_category,
@@ -75,6 +78,7 @@ def load_meta() -> dict[str, dict]:
                 "test_max": r["test_max"],
                 "length_m": r["length_m"],
                 "action": r["action"],
+                "variant_count": r["variant_count"],
                 "name_raw": r["name_raw"],
                 "pictures": json.loads(r["pictures_json"] or "[]"),
             }
@@ -148,11 +152,18 @@ def pad_params(params: list[tuple[str, str, str | None]], display_name: str, bra
     return params
 
 
-def render() -> Path:
-    data = json.loads(PRODUCTS_JSON.read_text(encoding="utf-8"))
+def render(
+    products_json: Path = PRODUCTS_JSON,
+    out_xml: Path = OUT_XML,
+    product_filter: set[str] | None = None,
+) -> Path:
+    data = json.loads(products_json.read_text(encoding="utf-8"))
     cats = data["categories"]
     products = data["products"]
+    if product_filter is not None:
+        products = [p for p in products if str(p.get("kod") or "").strip() in product_filter]
     meta = load_meta()
+    titles = build_unique_titles(products, meta)
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
 
     L: list[str] = []
@@ -186,8 +197,8 @@ def render() -> Path:
 
         m = meta.get(kod, {})
         brand = m.get("brand") or p.get("proizv") or ""
-        display_name = m.get("display_name") or name
-        description = m.get("description_html") or f"<p>{_xe(name)}</p>"
+        display_name = titles.get(kod) or (m.get("display_name") or name)
+        description = resolve_description_html(m, name)
 
         price = p.get("cena_r") or p.get("cena_o") or 0
         stock = p.get("stock") or 0
@@ -221,11 +232,11 @@ def render() -> Path:
     L.append("  </shop>")
     L.append("</yml_catalog>")
 
-    OUT_XML.parent.mkdir(parents=True, exist_ok=True)
-    OUT_XML.write_text("\n".join(L), encoding="utf-8")
+    out_xml.parent.mkdir(parents=True, exist_ok=True)
+    out_xml.write_text("\n".join(L), encoding="utf-8")
     print(f"OK: written={written} skipped={skipped} padded={padded}")
-    print(f"-> {OUT_XML}")
-    return OUT_XML
+    print(f"-> {out_xml}")
+    return out_xml
 
 
 if __name__ == "__main__":
