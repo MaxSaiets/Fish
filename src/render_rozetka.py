@@ -35,14 +35,22 @@ SKIP_NAMES = {"Повна назва товару", "test", "tetg", "Мій то
 MIN_PARAMS = 3
 
 
+import re as _re
+_INVALID_XML_RE = _re.compile(r"[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]")
+
+
+def _sanitize(s: str) -> str:
+    return _INVALID_XML_RE.sub("", s or "")
+
+
 def _xe(s: str) -> str:
-    return escape(s or "", {'"': "&quot;", "'": "&apos;"})
+    return escape(_sanitize(s), {'"': "&quot;", "'": "&apos;"})
 
 
 def _cdata(s: str) -> str:
     if not s:
         return ""
-    safe = s.replace("]]>", "]]]]><![CDATA[>")
+    safe = _sanitize(s).replace("]]>", "]]]]><![CDATA[>")
     return f"<![CDATA[{safe}]]>"
 
 

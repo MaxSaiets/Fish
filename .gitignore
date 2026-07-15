@@ -1,11 +1,27 @@
 __pycache__/
 *.pyc
 .env
+.venv/
 logs/
-tmp/*.fdb
-tmp/*.sql
-tmp/fb3x64/
-tmp/fb3x64.zip
-data/meta_store.sqlite
-public/photos/
+tmp/
+public/
 fixtures/photos/
+data/meta_store.sqlite
+
+# Робочі/тимчасові файли з коренем репозиторію (debug, скретчі) — не в git
+scratch_*
+spy_console.txt
+verify_seo.txt
+tmp_home_live.html
+read_cookies.py
+get_chrome_cookies.py
+get_all_form_fields.py
+get_template_id.py
+inspect_form.py
+inspect_form2.py
+main.js
+setup_task_scheduler.ps1
+*.tmp
+
+# Telegram токен — секрет, лишається локально
+src/telegram_bot/config.json

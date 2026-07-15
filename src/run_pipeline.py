@@ -121,13 +121,46 @@ def main() -> int:
                 log_step("ai", f"SKIPPED: {e}")
 
         # 6. Render
+        rendered = []
         from render_horoshop import render as render_horoshop
-        from render_rozetka import render as render_rozetka
-        from render_facebook import render as render_facebook
         render_horoshop()
-        render_rozetka()
-        render_facebook()
-        log_step("render", "OK (3 feeds)")
+        rendered.append("horoshop")
+        try:
+            from generate_import_xls import main as generate_import_xls
+            generate_import_xls()
+            rendered.append("horoshop_import.xlsx")
+        except Exception as e:
+            log_step("generate_import_xls", f"SKIPPED: {e}")
+        try:
+            from generate_import_yml import main as generate_import_yml
+            generate_import_yml()
+            rendered.append("horoshop_import.yml")
+        except Exception as e:
+            log_step("generate_import_yml", f"SKIPPED: {e}")
+        try:
+            from render_rozetka import render as render_rozetka
+            render_rozetka()
+            rendered.append("rozetka")
+        except Exception as e:
+            log_step("render_rozetka", f"SKIPPED: {e}")
+        try:
+            from render_facebook import render as render_facebook
+            render_facebook()
+            rendered.append("facebook")
+        except Exception as e:
+            log_step("render_facebook", f"SKIPPED: {e}")
+        log_step("render", f"OK ({', '.join(rendered)})")
+
+        # 6.5. Audit canonical Horoshop catalog quality
+        try:
+            from audit_horoshop_catalog import run_audit
+            audit = run_audit()
+            audit["quarantine_report"] = str(ROOT / "data" / "horoshop_quarantine_report.json")
+            report["steps"]["horoshop_audit"] = audit
+            log_step("horoshop_audit", audit)
+        except Exception as e:
+            report["steps"]["horoshop_audit"] = {"error": str(e)}
+            log_step("horoshop_audit", f"SKIPPED: {e}")
 
         # 7. Horoshop sync (price + stock via official API)
         if not getattr(args, "skip_horoshop", False):

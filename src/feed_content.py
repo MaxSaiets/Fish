@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import re
 
-from description_templates import build_description_html
+from description_templates import build_description_html, build_variant_description_html
 
 TAG_RE = re.compile(r"<[^>]+>")
 
@@ -48,18 +48,43 @@ def build_unique_titles(products: list[dict], meta_map: dict[str, dict]) -> dict
     for title, kods in buckets.items():
         if len(kods) < 2:
             continue
+        # Спершу пробуємо людський суфікс (номер гачка з kod виду "A6006#9" → "№9"),
+        # і лише якщо все одно є колізія — технічний "[kod]".
+        proposed: dict[str, str] = {}
         for kod in kods:
-            titles[kod] = f"{title} [{kod}]"
+            m = re.search(r"#(\d+(?:/\d+)?)$", kod)
+            if m:
+                proposed[kod] = f"{title} №{m.group(1)}"
+            else:
+                proposed[kod] = f"{title} [{kod}]"
+        if len(set(proposed.values())) == len(kods):
+            titles.update(proposed)
+        else:
+            for kod in kods:
+                titles[kod] = f"{title} [{kod}]"
     return titles
 
 
 def resolve_description_html(meta: dict, fallback_name: str) -> str:
-    custom = str(meta.get("description_html") or "").strip()
-    if custom:
-        return custom
+    """
+    Повертає опис для конкретного варіанту товару.
+    Якщо є AI-опис батьківської моделі — бере його та додає
+    параграф з унікальними параметрами цього варіанту.
+    """
+    parent_html = str(meta.get("description_html") or "").strip()
+    delta = meta.get("delta_params") or {}
+
+    if parent_html:
+        # Є AI/ручний опис — додаємо унікальні параметри варіанту
+        return build_variant_description_html(meta, delta)
+
+    # Немає опису — генеруємо шаблонний
     generated = build_description_html(meta).strip()
     if generated:
+        if delta:
+            return build_variant_description_html({**meta, "description_html": generated}, delta)
         return generated
+
     return f"<p>{fallback_name}</p>"
 
 

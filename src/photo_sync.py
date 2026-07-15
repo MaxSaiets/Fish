@@ -26,7 +26,10 @@ import os
 import re
 import shutil
 import sqlite3
+import subprocess
 import sys
+import tempfile
+import unicodedata
 from pathlib import Path
 
 try:
@@ -47,13 +50,74 @@ load_dotenv(ROOT / ".env")
 PUBLIC_BASE = os.environ.get("PUBLIC_BASE_URL", "http://localhost:8080")
 
 ALLOWED_EXT = {".jpg", ".jpeg", ".png", ".webp"}
+ARCHIVE_EXT = {".rar"}
 KOD_RE = re.compile(r"(?<!\d)(\d{2,7})(?!\d)")
 # Артикули з крапками типу "1693.06.07"
 KOD_DOTTED_RE = re.compile(r"(\d{2,5}(?:\.\d{1,3}){1,4})")
 FUZZ_THRESHOLD = 75
+GENERIC_STOPWORDS = {
+    "спінінг", "вудилище", "вудочка", "пелетс", "поп", "апи", "ап", "pop", "up",
+    "прикормка", "бойли", "матеріали", "аксесуари", "карпове", "махове", "болонські",
+    "bolonski", "махові", "коропове", "насадочний", "інструменти", "та", "для",
+    "аксессуары", "материалы",
+}
+BRANDING_HINTS = {"лого", "logo", "банер", "banner"}
+CATEGORY_ASSET_HINTS = {
+    "категор", "category", "банер", "banner"
+}
+ARCHIVE_COVER_HINTS = {"обкладинка", "cover", "preview"}
+SHARED_ARCHIVE_HINTS = {
+    "вудилище brain apex traveller",
+    "вудочка magician mifine",
+    "вудочка marksman mifine",
+    "вудочка бк mikado princess",
+    "вудочка джокер boya bu",
+    "вудочка feima premacy",
+    "вудочка new hunter",
+    "вудочка sport niht",
+    "вудочка titan",
+    "вудочка weida orion polo",
+    "вудочка weida orion",
+    "вудочка weida titan",
+    "вудочка weida",
+    "карпове вудлище kyogi",
+    "спінінг kalipso navigator pro 2",
+}
+ARCHIVE_CONTEXT_OVERRIDES = {
+    "вудилище brain apex traveller": ["1858.44.61", "1858.44.62"],
+    "вудочка weida titan": ["2939", "3046", "1968", "1886"],
+    "вудочка weida orion polo": ["3091", "3047", "1971"],
+    "вудочка weida orion": ["4616", "4617", "4618"],
+    "вудочка weida": ["2371", "1662", "1663"],
+    "вудочка titan": ["4621", "4622", "4623"],
+    "вудочка sport niht": ["3277", "3278"],
+    "вудочка feima premacy": ["2531", "2532"],
+    "вудочка new hunter": ["1877", "1880", "4084", "4095", "4071-600"],
+    "вудочка джокер boya bu": ["3748", "1154", "1155", "1156", "1157"],
+    "вудочка бк mikado princess": ["1235", "1236", "1237"],
+    "карпове вудлище kyogi": ["1262", "1263", "1264", "1265", "4735"],
+    "спінінг kalipso navigator pro 2": ["2006101", "4158", "2006103", "2368", "2369"],
+}
+NORMALIZE_REPLACEMENTS = {
+    "3-к": "3k",
+    "3 к": "3k",
+    "3k baits": "3k baits",
+    "robinred": "robin red",
+    "krillhalibut": "krill halibut",
+    "salmonstrawberry": "salmon strawberry",
+    "squidoctopus": "squid octopus",
+    "doube garlic": "double garlic",
+    "doublegarlic": "double garlic",
+    "honeystravberry": "honey strawberry",
+    "tigernutcorn": "tiger nut corn",
+    "pineapplepear": "pineapple pear",
+    "tunaextract": "tuna extract",
+    "popp up": "pop up",
+    "pop-up": "pop up",
+}
 
 
-def load_index(conn: sqlite3.Connection) -> tuple[dict[str, str], dict[str, list[str]]]:
+def load_index(conn: sqlite3.Connection) -> tuple[dict[str, str], dict[str, dict], dict[str, dict]]:
     """
     Returns:
       kod_set:   {kod: parent_key}
@@ -71,7 +135,22 @@ def load_index(conn: sqlite3.Connection) -> tuple[dict[str, str], dict[str, list
         kod, pk, dn = r
         kod_to_parent[kod] = pk
         model_kods.setdefault(pk, {"display_name": dn, "kods": []})["kods"].append(kod)
-    return kod_to_parent, model_kods
+    variant_rows = conn.execute(
+        """
+        SELECT v.kod, COALESCE(NULLIF(v.name_raw, ''), m.display_name)
+        FROM variants v JOIN models m ON m.parent_key = v.parent_key
+        """
+    ).fetchall()
+    variant_index: dict[str, dict] = {}
+    for kod, name in variant_rows:
+        name = str(name or "")
+        variant_index[kod] = {
+            "name": name,
+            "norm": normalize_text(name),
+            "compact": compact_text(name),
+            "tokens": token_set(name),
+        }
+    return kod_to_parent, model_kods, variant_index
 
 
 def load_overrides() -> dict[str, str]:
@@ -80,17 +159,283 @@ def load_overrides() -> dict[str, str]:
     return {}
 
 
+def normalize_text(value: str) -> str:
+    value = unicodedata.normalize("NFKC", value).casefold()
+    value = value.replace("’", "'").replace("`", "'")
+    value = value.replace(",", ".").replace("\\", " ").replace("/", " ")
+    value = re.sub(r"(?<=[^\W\d_])(?=\d)", " ", value, flags=re.UNICODE)
+    value = re.sub(r"(?<=\d)(?=[^\W\d_])", " ", value, flags=re.UNICODE)
+    for src, dst in NORMALIZE_REPLACEMENTS.items():
+        value = value.replace(src, dst)
+    value = re.sub(r"[^\w\s\.]+", " ", value, flags=re.UNICODE)
+    value = re.sub(r"\s+", " ", value).strip()
+    return value
+
+
+def compact_text(value: str) -> str:
+    return re.sub(r"\s+", "", normalize_text(value))
+
+
+def token_set(value: str) -> set[str]:
+    return {
+        t for t in normalize_text(value).split()
+        if len(t) > 1 and t not in GENERIC_STOPWORDS
+    }
+
+
+def is_branding_asset(path: Path) -> bool:
+    stem = normalize_text(path.stem)
+    return any(hint in stem for hint in BRANDING_HINTS)
+
+
+def is_category_asset(path: Path) -> bool:
+    stem = normalize_text(path.stem)
+    return any(hint in stem for hint in CATEGORY_ASSET_HINTS)
+
+
+def is_archive_cover_asset(path: Path) -> bool:
+    stem = normalize_text(path.stem)
+    return any(hint in stem for hint in ARCHIVE_COVER_HINTS)
+
+
+def is_shared_archive(context: str | None) -> bool:
+    if not context:
+        return False
+    norm = normalize_text(context)
+    return any(hint in norm for hint in SHARED_ARCHIVE_HINTS)
+
+
+def archive_override_kods(context: str | None) -> list[str]:
+    if not context:
+        return []
+    norm = normalize_text(context)
+    for hint, kods in ARCHIVE_CONTEXT_OVERRIDES.items():
+        if hint in norm:
+            return kods
+    return []
+
+
+def strip_image_sequence(stem: str) -> str:
+    stem = re.sub(r"([,_-]\d{1,3})$", "", stem).strip()
+    return stem
+
+
+def has_letter(value: str) -> bool:
+    return bool(re.search(r"[^\W\d_]", value, flags=re.UNICODE))
+
+
+def extract_archive(archive: Path, dest_root: Path) -> Path:
+    dest = dest_root / archive.stem
+    dest.mkdir(parents=True, exist_ok=True)
+    subprocess.run(
+        ["tar", "-xf", str(archive), "-C", str(dest)],
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    return dest
+
+
+def iter_image_sources(src: Path) -> tuple[list[dict], list[str], list[str], int, Path | None]:
+    sources: list[dict] = []
+    branding_assets: list[str] = []
+    category_assets: list[str] = []
+    archives_scanned = 0
+    temp_root: Path | None = None
+
+    ignored_dirs = {"_contact_sheets", "__macosx"}
+    ignored_files = {
+        "_extract_report.json",
+        "_image_analysis_report.json",
+        "_image_inventory.csv",
+        "_archive_summary.csv",
+        "_contact_sheets_report.json",
+    }
+    direct_files = [
+        f for f in src.rglob("*")
+        if f.is_file()
+        and f.name.lower() not in ignored_files
+        and not any(part.lower() in ignored_dirs for part in f.relative_to(src).parts[:-1])
+    ]
+    for f in direct_files:
+        if is_branding_asset(f):
+            branding_assets.append(str(f))
+            continue
+        if f.suffix.lower() not in ALLOWED_EXT and f.suffix.lower() != ".svg":
+            continue
+        if is_category_asset(f):
+            category_assets.append(str(f))
+            continue
+        if f.suffix.lower() not in ALLOWED_EXT:
+            continue
+        sources.append({
+            "path": f,
+            "context": f.parent.name if f.parent != src else f.stem,
+            "container": f.parent.name if f.parent != src else f.stem,
+            "origin": "direct",
+        })
+
+    archives = sorted(
+        f for f in src.iterdir()
+        if f.is_file() and f.suffix.lower() in ARCHIVE_EXT
+    )
+    if archives:
+        temp_root = Path(tempfile.mkdtemp(prefix="fish_photo_archives_"))
+        for archive in archives:
+            archives_scanned += 1
+            try:
+                extracted = extract_archive(archive, temp_root)
+            except subprocess.CalledProcessError as exc:
+                print(f"[WARN] archive extraction failed: {archive.name}: {exc.stderr.strip()}")
+                continue
+            images = [
+                f for f in extracted.rglob("*")
+                if f.is_file() and f.suffix.lower() in ALLOWED_EXT and not is_archive_cover_asset(f)
+            ]
+            for image in images:
+                parent_name = image.parent.name if image.parent != extracted else archive.stem
+                sources.append({
+                    "path": image,
+                    "context": archive.stem,
+                    "container": parent_name,
+                    "origin": "archive",
+                    "archive": archive.name,
+                })
+    return sources, branding_assets, category_assets, archives_scanned, temp_root
+
+
+def match_context_to_model_kods(context: str, model_kods: dict[str, dict]) -> list[str]:
+    norm_context = normalize_text(context)
+    compact_context = compact_text(context)
+    ctx_tokens = token_set(context)
+    if not norm_context:
+        return []
+
+    exact_like: list[str] = []
+    fuzzy_candidates: list[tuple[int, str]] = []
+    for pk, info in model_kods.items():
+        display_name = info["display_name"]
+        norm_model = normalize_text(display_name)
+        compact_model = compact_text(display_name)
+        model_tokens = token_set(display_name)
+
+        if compact_context and compact_context in compact_model:
+            exact_like.extend(info["kods"])
+            continue
+        if ctx_tokens and ctx_tokens.issubset(model_tokens):
+            exact_like.extend(info["kods"])
+            continue
+        if HAS_FUZZ:
+            score = fuzz.partial_ratio(norm_context, norm_model)
+            if ctx_tokens:
+                overlap = len(ctx_tokens & model_tokens)
+                if overlap == 0:
+                    continue
+                score += min(overlap * 3, 12)
+            fuzzy_candidates.append((score, pk))
+
+    if exact_like:
+        return sorted(set(exact_like))
+
+    if not fuzzy_candidates:
+        return []
+    fuzzy_candidates.sort(reverse=True)
+    best_score = fuzzy_candidates[0][0]
+    if best_score < FUZZ_THRESHOLD:
+        return []
+
+    matched: list[str] = []
+    for score, pk in fuzzy_candidates:
+        if score < max(FUZZ_THRESHOLD, best_score - 6):
+            break
+        matched.extend(model_kods[pk]["kods"])
+    return sorted(set(matched))
+
+
+def match_variant_to_kods(
+    hint: str,
+    variant_index: dict[str, dict],
+    candidate_kods: list[str] | None = None,
+) -> list[str]:
+    norm_hint = normalize_text(hint)
+    compact_hint = compact_text(hint)
+    hint_tokens = token_set(hint)
+    if not norm_hint or not hint_tokens:
+        return []
+
+    candidate_set = set(candidate_kods or [])
+    scores: list[tuple[int, str]] = []
+    num_tokens = {t for t in hint_tokens if t.isdigit()}
+    alpha_tokens = hint_tokens - num_tokens
+
+    for kod, info in variant_index.items():
+        if candidate_set and kod not in candidate_set:
+            continue
+        variant_tokens = info["tokens"]
+        if not variant_tokens:
+            continue
+
+        overlap = hint_tokens & variant_tokens
+        if not overlap:
+            continue
+
+        missing_alpha = alpha_tokens - variant_tokens
+        missing_num = num_tokens - variant_tokens
+        if alpha_tokens and len(missing_alpha) > max(1, len(alpha_tokens) // 2):
+            continue
+        if num_tokens and len(missing_num) == len(num_tokens):
+            continue
+
+        score = len(overlap) * 20
+        score -= len(missing_alpha) * 16
+        score -= len(missing_num) * 22
+        if not missing_alpha:
+            score += 35
+        if num_tokens and not missing_num:
+            score += 20
+        if compact_hint and compact_hint in info["compact"]:
+            score += 25
+        if HAS_FUZZ:
+            score += int(fuzz.token_set_ratio(norm_hint, info["norm"]) * 0.45)
+            score += int(fuzz.partial_ratio(norm_hint, info["norm"]) * 0.25)
+
+        scores.append((score, kod))
+
+    if not scores:
+        return []
+
+    scores.sort(reverse=True)
+    best_score = scores[0][0]
+    min_score = 95 if len(hint_tokens) >= 3 else 85
+    if best_score < min_score:
+        return []
+
+    matched = [kod for score, kod in scores if score >= max(min_score, best_score - 8)]
+    return sorted(set(matched))
+
+
 def match_file(
     filepath: Path,
     kod_to_parent: dict[str, str],
     model_kods: dict[str, dict],
+    variant_index: dict[str, dict],
     overrides: dict[str, str],
+    context_hint: str | None = None,
+    container_hint: str | None = None,
 ) -> list[str]:
     """Повертає список kods, до яких належить фото."""
     name = filepath.stem
+    family_kods = archive_override_kods(context_hint) or (
+        match_context_to_model_kods(context_hint, model_kods) if context_hint else []
+    )
+    name_has_letters = has_letter(name)
+    if not name_has_letters and family_kods and is_shared_archive(context_hint):
+        return family_kods
     # 0. manual override
     if filepath.name in overrides:
         return [overrides[filepath.name]]
+    if context_hint and context_hint in overrides:
+        return [overrides[context_hint]]
     # 1a. цілий stem як kod (точний матч "302.jpg" → "302")
     if name in kod_to_parent:
         return [name]
@@ -100,28 +445,61 @@ def match_file(
         return [no_suffix]
     # 1b. артикули з крапками (1693.06.07)
     for m in KOD_DOTTED_RE.finditer(name):
-        if m.group(1) in kod_to_parent:
-            return [m.group(1)]
+        candidate = m.group(1)
+        if candidate in kod_to_parent and (not name_has_letters or name.startswith(candidate)):
+            return [candidate]
     # 1c. суфіксний trim (302_1, 302-front)
     stripped = re.split(r"[_\-\s]", name, maxsplit=1)[0]
-    if stripped in kod_to_parent:
+    if stripped in kod_to_parent and (not name_has_letters or name.startswith(stripped)):
         return [stripped]
     # 1d. чисто цифровий artikul
-    for m in KOD_RE.finditer(name):
-        candidate = m.group(1)
-        if candidate in kod_to_parent:
-            return [candidate]
+    if not name_has_letters:
+        for m in KOD_RE.finditer(name):
+            candidate = m.group(1)
+            if candidate in kod_to_parent:
+                return [candidate]
+    else:
+        for m in KOD_RE.finditer(name):
+            candidate = m.group(1)
+            if candidate in kod_to_parent and m.start() == 0 and len(candidate) >= 4:
+                return [candidate]
+
+    base_name = strip_image_sequence(name)
+    file_hint = base_name if has_letter(base_name) else ""
+    if file_hint:
+        matched = match_variant_to_kods(file_hint, variant_index, family_kods or None)
+        if matched:
+            return matched
+        if container_hint and has_letter(container_hint):
+            matched = match_variant_to_kods(
+                f"{container_hint} {file_hint}",
+                variant_index,
+                family_kods or None,
+            )
+            if matched:
+                return matched
+        matched = match_variant_to_kods(file_hint, variant_index, None)
+        if matched:
+            return matched
+        if container_hint and has_letter(container_hint):
+            matched = match_variant_to_kods(
+                f"{container_hint} {file_hint}",
+                variant_index,
+                None,
+            )
+            if matched:
+                return matched
+        if family_kods and is_shared_archive(context_hint):
+            return family_kods
+        return []
+
+    if family_kods:
+        return family_kods
+
     # 2. fuzzy match against model display_name → assign to all variants
-    if HAS_FUZZ:
-        best_pk, best_score = None, 0
-        # очищаємо назву файлу від службових слів
-        clean = re.sub(r"[_\-]+", " ", name).strip()
-        for pk, info in model_kods.items():
-            score = fuzz.partial_ratio(clean.lower(), info["display_name"].lower())
-            if score > best_score:
-                best_pk, best_score = pk, score
-        if best_score >= FUZZ_THRESHOLD and best_pk:
-            return model_kods[best_pk]["kods"]
+    matched = match_context_to_model_kods(name, model_kods)
+    if matched:
+        return matched
     return []
 
 
@@ -165,7 +543,7 @@ def sync_folder(src: Path, dry_run: bool = False, clear: bool = False) -> dict:
         sys.exit(f"Source folder not found: {src}")
 
     conn = sqlite3.connect(META_DB)
-    kod_to_parent, model_kods = load_index(conn)
+    kod_to_parent, model_kods, variant_index = load_index(conn)
     overrides = load_overrides()
 
     if clear and not dry_run:
@@ -175,40 +553,62 @@ def sync_folder(src: Path, dry_run: bool = False, clear: bool = False) -> dict:
         conn.execute("UPDATE variants SET pictures_json = '[]'")
         conn.commit()
 
-    files = [f for f in src.rglob("*") if f.is_file() and f.suffix.lower() in ALLOWED_EXT]
-    print(f"Scanning {len(files)} files in {src}...")
+    sources, branding_assets, category_assets, archives_scanned, temp_root = iter_image_sources(src)
+    print(f"Scanning {len(sources)} image sources in {src}...")
 
     kod_to_urls: dict[str, list[str]] = {}
     seq_per_kod: dict[str, int] = {}
     matched = unmatched = 0
     unmatched_samples: list[str] = []
+    archive_match_count = 0
 
-    for f in files:
-        kods = match_file(f, kod_to_parent, model_kods, overrides)
-        if not kods:
-            unmatched += 1
-            if len(unmatched_samples) < 10:
-                unmatched_samples.append(f.name)
-            continue
-        results = copy_and_register(f, kods, seq_per_kod, dry_run)
-        for kod, url in results:
-            kod_to_urls.setdefault(kod, []).append(url)
-        matched += 1
+    try:
+        for item in sources:
+            f = item["path"]
+            kods = match_file(
+                f,
+                kod_to_parent,
+                model_kods,
+                variant_index,
+                overrides,
+                context_hint=item.get("context"),
+                container_hint=item.get("container"),
+            )
+            if not kods:
+                unmatched += 1
+                if len(unmatched_samples) < 10:
+                    sample = item.get("archive", f.name)
+                    unmatched_samples.append(sample)
+                continue
+            results = copy_and_register(f, kods, seq_per_kod, dry_run)
+            for kod, url in results:
+                kod_to_urls.setdefault(kod, []).append(url)
+            matched += 1
+            if item.get("origin") == "archive":
+                archive_match_count += 1
 
-    written = 0
-    if not dry_run and kod_to_urls:
-        written = update_meta(conn, kod_to_urls)
-
-    conn.close()
+        written = 0
+        if not dry_run and kod_to_urls:
+            written = update_meta(conn, kod_to_urls)
+    finally:
+        conn.close()
+        if temp_root and temp_root.exists():
+            shutil.rmtree(temp_root, ignore_errors=True)
 
     summary = {
-        "scanned": len(files),
+        "scanned": len(sources),
+        "archives_scanned": archives_scanned,
+        "archive_matched_files": archive_match_count,
         "matched_files": matched,
         "unmatched_files": unmatched,
         "kods_with_photos": len(kod_to_urls),
         "total_kods_in_db": len(kod_to_parent),
         "coverage_pct": round(100 * len(kod_to_urls) / max(len(kod_to_parent), 1), 1),
         "rows_updated": written,
+        "branding_assets_detected": len(branding_assets),
+        "category_assets_detected": len(category_assets),
+        "branding_asset_samples": branding_assets[:5],
+        "category_asset_samples": category_assets[:5],
         "unmatched_samples": unmatched_samples,
         "dry_run": dry_run,
     }

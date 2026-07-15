@@ -175,10 +175,17 @@ def import_from_models_json(models_json: Path) -> dict:
                 )
                 inserted_variants += 1
 
+    # Прибираємо моделі без варіантів (старі parent_key після рекласифікації)
+    with get_conn() as c:
+        deleted = c.execute(
+            "DELETE FROM models WHERE NOT EXISTS (SELECT 1 FROM variants v WHERE v.parent_key = models.parent_key)"
+        ).rowcount
+
     return {
         "models_inserted": inserted_models,
         "models_updated": updated_models,
         "variants_upserted": inserted_variants,
+        "orphaned_deleted": deleted,
     }
 
 

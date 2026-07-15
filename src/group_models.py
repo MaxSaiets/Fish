@@ -16,7 +16,7 @@ from collections import defaultdict
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 
-from catalog_rules import SKIP_NAMES, normalize_key, parse_product
+from catalog_rules import PLACEHOLDER_CATEGORIES, SKIP_NAMES, normalize_key, parse_product
 
 PRODUCTS_JSON = Path(r"D:\FISH\fish-sync\data\products.json")
 MODELS_JSON = Path(r"D:\FISH\fish-sync\data\models.json")
@@ -57,7 +57,7 @@ def should_skip(product: dict) -> bool:
     if not name or name in SKIP_NAMES:
         return True
     category_path = [str(item).strip() for item in product.get("category_path") or [] if str(item).strip()]
-    real_categories = [item for item in category_path if item not in {"Ваш тип товарів чи послуг", "Ваша група товарів чи послуг", "Нова група"}]
+    real_categories = [item for item in category_path if item not in PLACEHOLDER_CATEGORIES]
     return not real_categories
 
 
@@ -82,7 +82,7 @@ def group_products(products: list[dict]) -> list[Model]:
         real_categories = [
             str(item).strip()
             for item in product.get("category_path") or []
-            if str(item).strip() and str(item).strip() not in {"Ваш тип товарів чи послуг", "Ваша група товарів чи послуг", "Нова група"}
+            if str(item).strip() and str(item).strip() not in PLACEHOLDER_CATEGORIES
         ]
         source_category = real_categories[-1] if real_categories else ""
         model = Model(
