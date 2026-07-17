@@ -43,14 +43,23 @@ function Set-FishTask {
     param(
         [string]$Name,
         [string]$ScriptRelPath,
-        [int]$IntervalHours,
+        [int]$IntervalHours = 0,
+        [int]$IntervalMinutes = 0,
+        [string]$ScriptArgs = "",
         [string]$StartTime
     )
-    # Запуск через обгортку run_task.ps1 — вона робить git pull (авто-оновлення) перед синхронізацією
-    $psExe = (Get-Command powershell.exe).Source
-    $wrapperArgs = "-ExecutionPolicy Bypass -NonInteractive -File `"$projectRoot\docs\run_task.ps1`" -Script `"$ScriptRelPath`""
-    $action = New-ScheduledTaskAction -Execute $psExe -Argument $wrapperArgs -WorkingDirectory $projectRoot
-    $trigger = New-ScheduledTaskTrigger -Once -At $StartTime -RepetitionInterval (New-TimeSpan -Hours $IntervalHours) -RepetitionDuration ([TimeSpan]::MaxValue)
+    # Запуск через прихований VBS-launcher (run_hidden.vbs), щоб НЕ зʼявлялось вікно
+    # PowerShell/CMD. Launcher викликає run_task.ps1 (git pull → python) у фоні.
+    $wscript = "$env:SystemRoot\System32\wscript.exe"
+    $launchArgs = "//Nologo `"$projectRoot\docs\run_hidden.vbs`" `"$ScriptRelPath`""
+    if ($ScriptArgs) { $launchArgs += " `"$ScriptArgs`"" }
+    $action = New-ScheduledTaskAction -Execute $wscript -Argument $launchArgs -WorkingDirectory $projectRoot
+    if ($IntervalMinutes -gt 0) {
+        $repeat = New-TimeSpan -Minutes $IntervalMinutes
+    } else {
+        $repeat = New-TimeSpan -Hours $IntervalHours
+    }
+    $trigger = New-ScheduledTaskTrigger -Once -At $StartTime -RepetitionInterval $repeat -RepetitionDuration ([TimeSpan]::MaxValue)
 
     if (Get-ScheduledTask -TaskName $Name -ErrorAction SilentlyContinue) {
         Set-ScheduledTask -TaskName $Name -Action $action -Trigger $trigger -Settings $settings | Out-Null
@@ -65,6 +74,8 @@ function Set-FishTask {
 $today = Get-Date
 Set-FishTask -Name "UkrSkladToHoroshop_StockSync" -ScriptRelPath "src\sync_stock_playwright.py" -IntervalHours 2 -StartTime ($today.Date.AddHours(3).AddMinutes(11))
 Set-FishTask -Name "HoroshopOrders_ToUkrSklad" -ScriptRelPath "src\sync_orders.py" -IntervalHours 1 -StartTime ($today.Date.AddHours(7).AddMinutes(5))
+# Сповіщення в Telegram про НОВІ замовлення — кожні 10 хв (потребує src\telegram_bot\config.json)
+Set-FishTask -Name "HoroshopOrders_TelegramNotify" -ScriptRelPath "src\notify_new_orders.py" -IntervalMinutes 10 -StartTime ($today.Date.AddHours(0).AddMinutes(2))
 
 Write-Host ""
 Write-Host "Готово. Перевірка:"

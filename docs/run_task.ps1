@@ -8,7 +8,8 @@ fast-forward; якщо офлайн або є розбіжності — про�
   powershell -ExecutionPolicy Bypass -File docs\run_task.ps1 -Script "src\sync_stock_playwright.py"
 #>
 param(
-    [Parameter(Mandatory=$true)][string]$Script
+    [Parameter(Mandatory=$true)][string]$Script,
+    [string]$ScriptArgs = ""
 )
 
 $root = "D:\FISH\fish-sync"
@@ -26,5 +27,9 @@ try {
 $py = (Get-Command python -ErrorAction SilentlyContinue).Source
 if (-not $py) { Write-Error "python не знайдено в PATH"; exit 1 }
 
-& $py "$root\$Script"
+if ($ScriptArgs) {
+    & $py "$root\$Script" $ScriptArgs.Split(" ")
+} else {
+    & $py "$root\$Script"
+}
 exit $LASTEXITCODE
