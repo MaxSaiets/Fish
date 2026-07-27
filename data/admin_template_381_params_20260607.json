@@ -1,0 +1,866 @@
+{
+  "bodyText": "КАТАЛОГ: Товар\nДодати параметр\nМодифіковані параметри\n \tНазва\tName\tТип\tУправління\n;\n\tМодифікація (Модифікації)\t\n\tTEST_CHAR_DELETE\ttestCharDelete\tРядок\t\nДодати\n\tХарактеристики (Основна)\t\n\tТип вудилища\ttyp_vudy\tРядок\t\n\tТип насадки\ttyp_nasadky\tРядок\t\n\tТип суміші\ttyp_sumishi\tРядок\t\n\tТип атрактанту\ttyp_atraktantu\tРядок\t\n\tТип\ttyp\tРядок\t\n\tПідтип\tpidtyp\tРядок\t\n\tДовжина\tdovzhyna\tРядок\t\n\tТест\ttest\tРядок\t\n\tСтрій\tstriy\tРядок\t\n\tДіаметр\tdiametr\tРядок\t\n\tРозривне навантаження\trozryvne_nav\tРядок\t\n\tPE\tpe\tРядок\t\n\tВага\tvaga\tРядок\t\n\tКількість в упаковці\tkilkist_upak\tРядок\t\n\tПризначення\tpryznachennya\tРядок\t\n\tАромат\taromat\tРядок\t\n\tМатеріал\tmaterial\tРядок\t\n\tПлавучість\tplavuchist\tРядок\t\n\tКастинг-тест\tcasting_test\tРядок\t\n\tЛад\tlad\tРядок\t\n\tОб'єм\tobem_r\tРядок\t\n\tРозмір\trozmir_r\tРядок\t\n\tTEST_CAPTURE2\ttestCapture2\tРядок\t\n\tКраїна-виробник\tkranaVirobnik\tРядок\t\n\tКолір\tkolr\tРядок\t\n\tТип приманки\ttipPrimanki\tРядок\t\n\tКількість секцій\tklkstSekcy\tРядок\t\n\tТип рукояті\ttipRukojat\tРядок\t\n\tКолір/покриття\tkolrpokrittja\tРядок\t\n\tТранспортна довжина\ttransportnaDovzhina\tРядок\t\n\tТип пропускних кілець\ttipPropusknixKlec\tРядок\t\n\tФорма\tforma\tРядок\t\n\tКількість гачків\tklkstGachkv\tРядок\t\n\tПокриття\tpokrittja\tРядок\t\n\tТип блешні\ttipBleshn\tРядок\t\n\tМатеріал корпусу\tmateralKorpusu\tРядок\t\n\tТип котушки\ttipKotushki\tРядок\t\n\tПередаточне число\tperedatochneChislo\tРядок\t\n\tСистема гальма\tsistemaGalma\tРядок\t\n\tМодель\tmodel\tРядок\t\n\tТип кріплення\ttipKrplennja\tРядок\t\n\tСклад/аромат\tskladaromat\tРядок\t\n\tТип воблера\ttipVoblera\tРядок\t\n\tВиробник\tvirobnik\tРядок\t\n\tКраїна виробництва\tkranaVirobnictva\tРядок\t\n\tРозривне навантаження (lb)\trozrivneNavantazhennjaLb\tРядок\t\n\tСклад\tsklad\tРядок\t\n\tТип з'єднання секцій\ttipZednannjaSekcy\tРядок\t\n\tКількість відділень\tklkstVddlen\tРядок\t\n\tМатеріал повідця\tmateralPovdcja\tРядок\t\n\tРозміри\trozmri\tРядок\t\n\tТип повідця\ttipPovdcja\tРядок\t\n\tКолір підсвічування\tkolrPdsvchuvannja\tРядок\t\n\tАромат/склад\taromatsklad\tРядок\t\n\tПідшипники\tpdshipniki\tРядок\t\n\tКолір/розмальовка\tkolrrozmalovka\tРядок\t\n\tТип хвоста\ttipXvosta\tРядок\t\n\tКріплення\tkrplennja\tРядок\t\n\tСтиль\tstil\tРядок\t\n\tУпаковка\tupakovka\tРядок\t\n\tГлибина занурення\tglibinaZanurennja\tРядок\t\n\tКольори\tkolori\tРядок\t\n\tТранспортна довжина (см)\ttransportnaDovzhinaSm\tРядок\t\n\tФорма джиг-головки\tformaDzhigGolovki\tРядок\t\n\tМатеріал гачка\tmat_gacha\tТекстове поле\t\n\tМаксимальне навантаження\tmax_navant\tТекстове поле\t\n\tВодонепроникність\tvodon\tТекстове поле\t\n\tВикористання\tvykory\tТекстове поле\t\n\tКонсистенція\tkonsyst\tТекстове поле\t\n\tСумісність\tsumisn\tТекстове поле\t\n\tЖивлення\tzhyvl\tТекстове поле\t\n\tЗастосування\tzastos\tТекстове поле\t\n\tСезон\tsezon\tТекстове поле\t\n\tФініш\tfinsh\tТекстове поле\t\n\tДовговічність\tdovgov\tТекстове поле\t\n\tКлас\tklas\tВибір зі списку (Шаблон: Термін відвантаження зі складу)\t\n\tПідходить для\tpdhod\tВибір зі списку (Шаблон: Термін відвантаження зі складу)\t\nДодати\n1",
+  "params": [
+    {
+      "cells": [
+        "TEST_CHAR_DELETE",
+        "testCharDelete",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6611); return false;",
+      "paramId": "6611",
+      "text": "TEST_CHAR_DELETE\ttestCharDelete\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Тип вудилища",
+        "typ_vudy",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6588); return false;",
+      "paramId": "6588",
+      "text": "Тип вудилища\ttyp_vudy\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Тип насадки",
+        "typ_nasadky",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6589); return false;",
+      "paramId": "6589",
+      "text": "Тип насадки\ttyp_nasadky\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Тип суміші",
+        "typ_sumishi",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6590); return false;",
+      "paramId": "6590",
+      "text": "Тип суміші\ttyp_sumishi\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Тип атрактанту",
+        "typ_atraktantu",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6591); return false;",
+      "paramId": "6591",
+      "text": "Тип атрактанту\ttyp_atraktantu\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Тип",
+        "typ",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6592); return false;",
+      "paramId": "6592",
+      "text": "Тип\ttyp\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Підтип",
+        "pidtyp",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6593); return false;",
+      "paramId": "6593",
+      "text": "Підтип\tpidtyp\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Довжина",
+        "dovzhyna",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6594); return false;",
+      "paramId": "6594",
+      "text": "Довжина\tdovzhyna\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Тест",
+        "test",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6595); return false;",
+      "paramId": "6595",
+      "text": "Тест\ttest\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Стрій",
+        "striy",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6596); return false;",
+      "paramId": "6596",
+      "text": "Стрій\tstriy\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Діаметр",
+        "diametr",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6597); return false;",
+      "paramId": "6597",
+      "text": "Діаметр\tdiametr\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Розривне навантаження",
+        "rozryvne_nav",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6598); return false;",
+      "paramId": "6598",
+      "text": "Розривне навантаження\trozryvne_nav\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "PE",
+        "pe",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6599); return false;",
+      "paramId": "6599",
+      "text": "PE\tpe\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Вага",
+        "vaga",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6600); return false;",
+      "paramId": "6600",
+      "text": "Вага\tvaga\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Кількість в упаковці",
+        "kilkist_upak",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6601); return false;",
+      "paramId": "6601",
+      "text": "Кількість в упаковці\tkilkist_upak\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Призначення",
+        "pryznachennya",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6602); return false;",
+      "paramId": "6602",
+      "text": "Призначення\tpryznachennya\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Аромат",
+        "aromat",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6603); return false;",
+      "paramId": "6603",
+      "text": "Аромат\taromat\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Матеріал",
+        "material",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6604); return false;",
+      "paramId": "6604",
+      "text": "Матеріал\tmaterial\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Плавучість",
+        "plavuchist",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6605); return false;",
+      "paramId": "6605",
+      "text": "Плавучість\tplavuchist\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Кастинг-тест",
+        "casting_test",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6606); return false;",
+      "paramId": "6606",
+      "text": "Кастинг-тест\tcasting_test\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Лад",
+        "lad",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6607); return false;",
+      "paramId": "6607",
+      "text": "Лад\tlad\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Об'єм",
+        "obem_r",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6609); return false;",
+      "paramId": "6609",
+      "text": "Об'єм\tobem_r\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Розмір",
+        "rozmir_r",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6610); return false;",
+      "paramId": "6610",
+      "text": "Розмір\trozmir_r\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "TEST_CAPTURE2",
+        "testCapture2",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6612); return false;",
+      "paramId": "6612",
+      "text": "TEST_CAPTURE2\ttestCapture2\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Країна-виробник",
+        "kranaVirobnik",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6613); return false;",
+      "paramId": "6613",
+      "text": "Країна-виробник\tkranaVirobnik\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Колір",
+        "kolr",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6614); return false;",
+      "paramId": "6614",
+      "text": "Колір\tkolr\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Тип приманки",
+        "tipPrimanki",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6615); return false;",
+      "paramId": "6615",
+      "text": "Тип приманки\ttipPrimanki\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Кількість секцій",
+        "klkstSekcy",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6616); return false;",
+      "paramId": "6616",
+      "text": "Кількість секцій\tklkstSekcy\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Тип рукояті",
+        "tipRukojat",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6617); return false;",
+      "paramId": "6617",
+      "text": "Тип рукояті\ttipRukojat\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Колір/покриття",
+        "kolrpokrittja",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6618); return false;",
+      "paramId": "6618",
+      "text": "Колір/покриття\tkolrpokrittja\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Транспортна довжина",
+        "transportnaDovzhina",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6619); return false;",
+      "paramId": "6619",
+      "text": "Транспортна довжина\ttransportnaDovzhina\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Тип пропускних кілець",
+        "tipPropusknixKlec",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6620); return false;",
+      "paramId": "6620",
+      "text": "Тип пропускних кілець\ttipPropusknixKlec\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Форма",
+        "forma",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6621); return false;",
+      "paramId": "6621",
+      "text": "Форма\tforma\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Кількість гачків",
+        "klkstGachkv",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6622); return false;",
+      "paramId": "6622",
+      "text": "Кількість гачків\tklkstGachkv\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Покриття",
+        "pokrittja",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6623); return false;",
+      "paramId": "6623",
+      "text": "Покриття\tpokrittja\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Тип блешні",
+        "tipBleshn",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6624); return false;",
+      "paramId": "6624",
+      "text": "Тип блешні\ttipBleshn\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Матеріал корпусу",
+        "materalKorpusu",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6625); return false;",
+      "paramId": "6625",
+      "text": "Матеріал корпусу\tmateralKorpusu\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Тип котушки",
+        "tipKotushki",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6626); return false;",
+      "paramId": "6626",
+      "text": "Тип котушки\ttipKotushki\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Передаточне число",
+        "peredatochneChislo",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6627); return false;",
+      "paramId": "6627",
+      "text": "Передаточне число\tperedatochneChislo\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Система гальма",
+        "sistemaGalma",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6628); return false;",
+      "paramId": "6628",
+      "text": "Система гальма\tsistemaGalma\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Модель",
+        "model",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6629); return false;",
+      "paramId": "6629",
+      "text": "Модель\tmodel\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Тип кріплення",
+        "tipKrplennja",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6630); return false;",
+      "paramId": "6630",
+      "text": "Тип кріплення\ttipKrplennja\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Склад/аромат",
+        "skladaromat",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6631); return false;",
+      "paramId": "6631",
+      "text": "Склад/аромат\tskladaromat\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Тип воблера",
+        "tipVoblera",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6632); return false;",
+      "paramId": "6632",
+      "text": "Тип воблера\ttipVoblera\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Виробник",
+        "virobnik",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6633); return false;",
+      "paramId": "6633",
+      "text": "Виробник\tvirobnik\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Країна виробництва",
+        "kranaVirobnictva",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6634); return false;",
+      "paramId": "6634",
+      "text": "Країна виробництва\tkranaVirobnictva\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Розривне навантаження (lb)",
+        "rozrivneNavantazhennjaLb",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6635); return false;",
+      "paramId": "6635",
+      "text": "Розривне навантаження (lb)\trozrivneNavantazhennjaLb\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Склад",
+        "sklad",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6636); return false;",
+      "paramId": "6636",
+      "text": "Склад\tsklad\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Тип з'єднання секцій",
+        "tipZednannjaSekcy",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6637); return false;",
+      "paramId": "6637",
+      "text": "Тип з'єднання секцій\ttipZednannjaSekcy\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Кількість відділень",
+        "klkstVddlen",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6638); return false;",
+      "paramId": "6638",
+      "text": "Кількість відділень\tklkstVddlen\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Матеріал повідця",
+        "materalPovdcja",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6639); return false;",
+      "paramId": "6639",
+      "text": "Матеріал повідця\tmateralPovdcja\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Розміри",
+        "rozmri",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6640); return false;",
+      "paramId": "6640",
+      "text": "Розміри\trozmri\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Тип повідця",
+        "tipPovdcja",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6641); return false;",
+      "paramId": "6641",
+      "text": "Тип повідця\ttipPovdcja\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Колір підсвічування",
+        "kolrPdsvchuvannja",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6642); return false;",
+      "paramId": "6642",
+      "text": "Колір підсвічування\tkolrPdsvchuvannja\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Аромат/склад",
+        "aromatsklad",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6643); return false;",
+      "paramId": "6643",
+      "text": "Аромат/склад\taromatsklad\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Підшипники",
+        "pdshipniki",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6644); return false;",
+      "paramId": "6644",
+      "text": "Підшипники\tpdshipniki\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Колір/розмальовка",
+        "kolrrozmalovka",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6645); return false;",
+      "paramId": "6645",
+      "text": "Колір/розмальовка\tkolrrozmalovka\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Тип хвоста",
+        "tipXvosta",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6646); return false;",
+      "paramId": "6646",
+      "text": "Тип хвоста\ttipXvosta\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Кріплення",
+        "krplennja",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6647); return false;",
+      "paramId": "6647",
+      "text": "Кріплення\tkrplennja\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Стиль",
+        "stil",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6648); return false;",
+      "paramId": "6648",
+      "text": "Стиль\tstil\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Упаковка",
+        "upakovka",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6649); return false;",
+      "paramId": "6649",
+      "text": "Упаковка\tupakovka\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Глибина занурення",
+        "glibinaZanurennja",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6650); return false;",
+      "paramId": "6650",
+      "text": "Глибина занурення\tglibinaZanurennja\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Кольори",
+        "kolori",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6651); return false;",
+      "paramId": "6651",
+      "text": "Кольори\tkolori\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Транспортна довжина (см)",
+        "transportnaDovzhinaSm",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6652); return false;",
+      "paramId": "6652",
+      "text": "Транспортна довжина (см)\ttransportnaDovzhinaSm\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Форма джиг-головки",
+        "formaDzhigGolovki",
+        "Рядок",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6653); return false;",
+      "paramId": "6653",
+      "text": "Форма джиг-головки\tformaDzhigGolovki\tРядок\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Матеріал гачка",
+        "mat_gacha",
+        "Текстове поле",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6774); return false;",
+      "paramId": "6774",
+      "text": "Матеріал гачка\tmat_gacha\tТекстове поле\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Максимальне навантаження",
+        "max_navant",
+        "Текстове поле",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6775); return false;",
+      "paramId": "6775",
+      "text": "Максимальне навантаження\tmax_navant\tТекстове поле\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Водонепроникність",
+        "vodon",
+        "Текстове поле",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6776); return false;",
+      "paramId": "6776",
+      "text": "Водонепроникність\tvodon\tТекстове поле\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Використання",
+        "vykory",
+        "Текстове поле",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6777); return false;",
+      "paramId": "6777",
+      "text": "Використання\tvykory\tТекстове поле\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Консистенція",
+        "konsyst",
+        "Текстове поле",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6778); return false;",
+      "paramId": "6778",
+      "text": "Консистенція\tkonsyst\tТекстове поле\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Сумісність",
+        "sumisn",
+        "Текстове поле",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6779); return false;",
+      "paramId": "6779",
+      "text": "Сумісність\tsumisn\tТекстове поле\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Живлення",
+        "zhyvl",
+        "Текстове поле",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6780); return false;",
+      "paramId": "6780",
+      "text": "Живлення\tzhyvl\tТекстове поле\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Застосування",
+        "zastos",
+        "Текстове поле",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6781); return false;",
+      "paramId": "6781",
+      "text": "Застосування\tzastos\tТекстове поле\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Сезон",
+        "sezon",
+        "Текстове поле",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6782); return false;",
+      "paramId": "6782",
+      "text": "Сезон\tsezon\tТекстове поле\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Фініш",
+        "finsh",
+        "Текстове поле",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6783); return false;",
+      "paramId": "6783",
+      "text": "Фініш\tfinsh\tТекстове поле\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Довговічність",
+        "dovgov",
+        "Текстове поле",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6784); return false;",
+      "paramId": "6784",
+      "text": "Довговічність\tdovgov\tТекстове поле\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Клас",
+        "klas",
+        "Вибір зі списку (Шаблон: Термін відвантаження зі складу)",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6794); return false;",
+      "paramId": "6794",
+      "text": "Клас\tklas\tВибір зі списку (Шаблон: Термін відвантаження зі складу)\tВ датагріді"
+    },
+    {
+      "cells": [
+        "Підходить для",
+        "pdhod",
+        "Вибір зі списку (Шаблон: Термін відвантаження зі складу)",
+        "В датагріді"
+      ],
+      "editOnclick": "showParamConfigForm(this, 381, 6795); return false;",
+      "paramId": "6795",
+      "text": "Підходить для\tpdhod\tВибір зі списку (Шаблон: Термін відвантаження зі складу)\tВ датагріді"
+    }
+  ],
+  "paramsCount": 78,
+  "title": "КАТАЛОГ: Товар - vsedliarybalky.com.ua",
+  "url": "https://vsedliarybalky.com.ua/adminLegacy/forms/handlers.php?edit=381"
+}

@@ -1,0 +1,29 @@
+{
+  "search_get": {
+    "status": 200,
+    "url": "https://vsedliarybalky.com.ua/adminLegacy/data.php?handler=17&showPages&datagrid-fast-search=3762",
+    "file": "D:\\FISH\\fish-sync\\data\\admin_probe_product_3762_search_get_20260607.html",
+    "has_3762": true,
+    "has_title": false,
+    "edit_matches": [],
+    "length": 510464
+  },
+  "search_filter": {
+    "status": 200,
+    "url": "https://vsedliarybalky.com.ua/adminLegacy/data.php?handler=17&showPages&filter[article]=3762",
+    "file": "D:\\FISH\\fish-sync\\data\\admin_probe_product_3762_search_filter_20260607.html",
+    "has_3762": true,
+    "has_title": false,
+    "edit_matches": [],
+    "length": 511280
+  },
+  "parent_pva": {
+    "status": 200,
+    "url": "https://vsedliarybalky.com.ua/adminLegacy/data.php?parent=475&handler=381&showPages",
+    "file": "D:\\FISH\\fish-sync\\data\\admin_probe_product_3762_parent_pva_20260607.html",
+    "has_3762": false,
+    "has_title": false,
+    "edit_matches": [],
+    "length": 318682
+  }
+}

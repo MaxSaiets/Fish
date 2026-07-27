@@ -1,0 +1,34 @@
+{
+  "utility_root": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility",
+  "metadata_dump": "D:\\FISH\\metadata-dump.md",
+  "articles_total": 1,
+  "clean_gallery": false,
+  "dry_run": false,
+  "uploaded_articles": [
+    {
+      "article": "013590",
+      "file_count": 16,
+      "filenames": [
+        "013590@gallery_common.jpg",
+        "013590@gallery_common@2.jpg",
+        "013590@gallery_common@3.jpg",
+        "013590@gallery_common@4.jpg",
+        "013590@gallery_common@5.jpg",
+        "013590@gallery_common@6.jpg",
+        "013590@gallery_common@7.jpg",
+        "013590@gallery_common@8.jpg",
+        "013590@gallery_common@9.jpg",
+        "013590@gallery_common@10.jpg",
+        "013590@gallery_common@11.jpg",
+        "013590@gallery_common@12.jpg",
+        "013590@gallery_common@13.jpg",
+        "013590@gallery_common@14.jpg",
+        "013590@gallery_common@15.jpg",
+        "013590@gallery_common@16.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    }
+  ],
+  "failed_articles": []
+}

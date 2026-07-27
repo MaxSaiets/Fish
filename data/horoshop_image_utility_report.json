@@ -1,0 +1,17 @@
+{
+  "source_workbook": "D:\\FISH\\fish-sync\\public\\horoshop_photo_import.xlsx",
+  "output_root": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility",
+  "public_base_url": "https://vsedliarybalky.com.ua",
+  "articles_prepared": 271,
+  "files_prepared": 454,
+  "batch_limit_files": 500,
+  "batch_limit_bytes": 251658240,
+  "batches": [
+    {
+      "name": "batch-001",
+      "file_count": 454,
+      "total_bytes": 173039941
+    }
+  ],
+  "missing_sources": []
+}

@@ -1,0 +1,110 @@
+{
+  "results": [
+    {
+      "id": "135",
+      "title": "Балансир взимку: як розловити і не розчаруватись",
+      "hero_source": "art135v2_4.jpg",
+      "body_source": "art135v2_1.jpg",
+      "hero_uploaded": "https://vsedliarybalky.com.ua/images/editor/2/art135v2_4.jpg",
+      "body_uploaded": "https://vsedliarybalky.com.ua/images/editor/7/art135v2_1.jpg",
+      "status": 200
+    },
+    {
+      "id": "136",
+      "title": "Силікон на судака і окуня: розмір, колір і їстівність",
+      "hero_source": "art_sauger.jpg",
+      "body_source": "art136v2_1.jpg",
+      "hero_uploaded": "https://vsedliarybalky.com.ua/images/editor/1/art_sauger.jpg",
+      "body_uploaded": "https://vsedliarybalky.com.ua/images/editor/6/art136v2_1.jpg",
+      "status": 200
+    },
+    {
+      "id": "137",
+      "title": "PVA-сітка і стіки: точкова подача, яка реально працює",
+      "hero_source": "art137_pick_thornwick.jpg",
+      "body_source": "art137_pick_andes.jpg",
+      "hero_uploaded": "https://vsedliarybalky.com.ua/images/editor/4/art137_pick_thornwick.jpg",
+      "body_uploaded": "https://vsedliarybalky.com.ua/images/editor/2/art137_pick_andes.jpg",
+      "status": 200
+    },
+    {
+      "id": "138",
+      "title": "Підсак, мат і антисептик: культура поводження з трофеєм",
+      "hero_source": "art138_carpnet.jpg",
+      "body_source": "art_crappie_net.jpg",
+      "hero_uploaded": "https://vsedliarybalky.com.ua/images/editor/2/art138_carpnet.jpg",
+      "body_uploaded": "https://vsedliarybalky.com.ua/images/editor/4/art_crappie_net.jpg",
+      "status": 200
+    },
+    {
+      "id": "139",
+      "title": "Волосінь, шнур чи флюорокарбон: що ставити і коли",
+      "hero_source": "art139v2_3.jpg",
+      "body_source": "art139v2_4.jpg",
+      "hero_uploaded": "https://vsedliarybalky.com.ua/images/editor/9/art139v2_3.jpg",
+      "body_uploaded": "https://vsedliarybalky.com.ua/images/editor/2/art139v2_4.jpg",
+      "status": 200
+    },
+    {
+      "id": "140",
+      "title": "Електронний сигналізатор чи свінгер: що обрати на коропову сесію",
+      "hero_source": "art_andes_10.jpg",
+      "body_source": "art141_2.jpg",
+      "hero_uploaded": "https://vsedliarybalky.com.ua/images/editor/4/art_andes_10.jpg",
+      "body_uploaded": "https://vsedliarybalky.com.ua/images/editor/5/art141_2.jpg",
+      "status": 200
+    },
+    {
+      "id": "141",
+      "title": "Крісло, столик і порядок на точці: облаштування місця рибалки",
+      "hero_source": "art141v2_5.jpg",
+      "body_source": "art_bluelake.jpg",
+      "hero_uploaded": "https://vsedliarybalky.com.ua/images/editor/7/art141v2_5.jpg",
+      "body_uploaded": "https://vsedliarybalky.com.ua/images/editor/4/art_bluelake.jpg",
+      "status": 200
+    },
+    {
+      "id": "142",
+      "title": "Перший лід без помилок: спорядження і безпека зимової риболовлі",
+      "hero_source": "art142_1.jpg",
+      "body_source": "art142_3.jpg",
+      "hero_uploaded": "https://vsedliarybalky.com.ua/images/editor/10/art142_1.jpg",
+      "body_uploaded": "https://vsedliarybalky.com.ua/images/editor/4/art142_3.jpg",
+      "status": 200
+    }
+  ],
+  "verify": [
+    {
+      "id": "135",
+      "preview_set": true
+    },
+    {
+      "id": "136",
+      "preview_set": true
+    },
+    {
+      "id": "137",
+      "preview_set": true
+    },
+    {
+      "id": "138",
+      "preview_set": true
+    },
+    {
+      "id": "139",
+      "preview_set": true
+    },
+    {
+      "id": "140",
+      "preview_set": true
+    },
+    {
+      "id": "141",
+      "preview_set": true
+    },
+    {
+      "id": "142",
+      "preview_set": true
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "base_url": "https://vsedliarybalky.com.ua",
+  "pages_updated": [
+    {
+      "slug": "pro-nas",
+      "id": "927",
+      "status": 200,
+      "chars": 3386
+    },
+    {
+      "slug": "oplata-i-dostavka",
+      "id": "928",
+      "status": 200,
+      "chars": 3311
+    },
+    {
+      "slug": "obmin-ta-povernennya",
+      "id": "573",
+      "status": 200,
+      "chars": 2643
+    },
+    {
+      "slug": "kontaktna-informatsiya",
+      "id": "686",
+      "status": 200,
+      "chars": 1859
+    },
+    {
+      "slug": "privacypolicy",
+      "id": "1052",
+      "status": 200,
+      "chars": 3533
+    },
+    {
+      "slug": "store-reviews",
+      "id": "1053",
+      "status": 200,
+      "chars": 2439
+    }
+  ],
+  "blog_posts_updated": [
+    {
+      "title": "Як вибрати перший спінінг для річки та озера",
+      "id": "",
+      "slug": "yak-vybraty-pershyi-spininh-dlia-richky-ta-ozera",
+      "status": 200,
+      "mode": "created",
+      "chars": 4037
+    },
+    {
+      "title": "Фідер для початківця: що потрібно для першої риболовлі",
+      "id": "",
+      "slug": "fider-dlia-pochatkivtsia-shcho-potribno-dlia-pershoi-rybolovli",
+      "status": 200,
+      "mode": "created",
+      "chars": 3750
+    },
+    {
+      "title": "Коропова риболовля: базове оснащення без зайвого",
+      "id": "",
+      "slug": "koropova-rybolovlia-bazove-osnashchennia-bez-zaivoho",
+      "status": 200,
+      "mode": "created",
+      "chars": 3672
+    },
+    {
+      "title": "Як підібрати прикормку під карася, ляща і коропа",
+      "id": "",
+      "slug": "yak-pidibraty-prykormku-pid-karasia-liashcha-i-koropa",
+      "status": 200,
+      "mode": "created",
+      "chars": 3591
+    },
+    {
+      "title": "Пелетс, бойли і pop-up: як скласти робочу програму насадок",
+      "id": "",
+      "slug": "pelets-boily-i-pop-up-yak-sklasty-robochu-prohramu-nasadok",
+      "status": 200,
+      "mode": "created",
+      "chars": 4033
+    },
+    {
+      "title": "Гачки для риболовлі: форма, дріт, жало і правильний розмір",
+      "id": "",
+      "slug": "hachky-dlia-rybolovli-forma-drit-zhalo-i-pravylnyi-rozmir",
+      "status": 200,
+      "mode": "created",
+      "chars": 4015
+    },
+    {
+      "title": "Волосінь, шнур і флюорокарбон: як вибрати без помилки",
+      "id": "",
+      "slug": "volosin-shnur-i-fliuorokarbon-yak-vybraty-bez-pomylky",
+      "status": 200,
+      "mode": "created",
+      "chars": 4021
+    },
+    {
+      "title": "PVA матеріали: пакети, сітка, стіки і типові помилки",
+      "id": "",
+      "slug": "pva-materialy-pakety-sitka-stiky-i-typovi-pomylky",
+      "status": 200,
+      "mode": "created",
+      "chars": 4004
+    },
+    {
+      "title": "Зимова риболовля: спорядження, безпека і підготовка до льоду",
+      "id": "",
+      "slug": "zymova-rybolovlia-sporiadzhennia-bezpeka-i-pidhotovka-do-lodu",
+      "status": 200,
+      "mode": "created",
+      "chars": 4017
+    },
+    {
+      "title": "Як доглядати за котушкою після риболовлі",
+      "id": "",
+      "slug": "yak-dohliadaty-za-kotushkoiu-pislia-rybolovli",
+      "status": 200,
+      "mode": "created",
+      "chars": 4003
+    },
+    {
+      "title": "Органайзери, коробки та сумки: як навести порядок у снастях",
+      "id": "",
+      "slug": "orhanaizery-korobky-ta-sumky-yak-navesty-poriadok-u-snastiakh",
+      "status": 200,
+      "mode": "created",
+      "chars": 4062
+    },
+    {
+      "title": "Самовивіз чи доставка: як безпечно отримати рибальські товари",
+      "id": "",
+      "slug": "samovyviz-chy-dostavka-yak-bezpechno-otrymaty-rybalski-tovary",
+      "status": 200,
+      "mode": "created",
+      "chars": 4028
+    },
+    {
+      "title": "Воблери, блешні і силікон: як підібрати приманку під хижака",
+      "id": "",
+      "slug": "voblery-bleshni-i-sylikon-yak-pidibraty-prymanku-pid-khyzhaka",
+      "status": 200,
+      "mode": "created",
+      "chars": 4030
+    },
+    {
+      "title": "Монтажі, вертлюги і грузила: дрібниці, які впливають на клювання",
+      "id": "",
+      "slug": "montazhi-vertliuhy-i-hruzyla-dribnytsi-yaki-vplyvaiut-na-kliuvannia",
+      "status": 200,
+      "mode": "created",
+      "chars": 4069
+    },
+    {
+      "title": "Підсаки, садки і кукани: як зберегти рибу та снасті",
+      "id": "",
+      "slug": "pidsaky-sadky-i-kukany-yak-zberehty-rybu-ta-snasti",
+      "status": 200,
+      "mode": "created",
+      "chars": 4014
+    },
+    {
+      "title": "Крісла, столи і туристичне спорядження для довгої риболовлі",
+      "id": "",
+      "slug": "krisla-stoly-i-turystychne-sporiadzhennia-dlia-dovhoi-rybolovli",
+      "status": 200,
+      "mode": "created",
+      "chars": 4098
+    }
+  ],
+  "page_verification": {
+    "pro-nas": {
+      "status_code": 200,
+      "has_h1": true,
+      "has_demo_text": false,
+      "text_chars": 14197,
+      "image_count": 5
+    },
+    "oplata-i-dostavka": {
+      "status_code": 200,
+      "has_h1": true,
+      "has_demo_text": false,
+      "text_chars": 14104,
+      "image_count": 5
+    },
+    "obmin-ta-povernennya": {
+      "status_code": 200,
+      "has_h1": true,
+      "has_demo_text": false,
+      "text_chars": 13671,
+      "image_count": 4
+    },
+    "kontaktna-informatsiya": {
+      "status_code": 200,
+      "has_h1": true,
+      "has_demo_text": false,
+      "text_chars": 13961,
+      "image_count": 4
+    },
+    "privacypolicy": {
+      "status_code": 200,
+      "has_h1": true,
+      "has_demo_text": false,
+      "text_chars": 14834,
+      "image_count": 3
+    },
+    "store-reviews": {
+      "status_code": 200,
+      "has_h1": true,
+      "has_demo_text": false,
+      "text_chars": 14325,
+      "image_count": 4
+    }
+  },
+  "blog_verification": {
+    "yak-vybraty-pershyi-spininh-dlia-richky-ta-ozera": {
+      "status_code": 200,
+      "has_title": true,
+      "text_chars": 17572,
+      "image_count": 5
+    },
+    "fider-dlia-pochatkivtsia-shcho-potribno-dlia-pershoi-rybolovli": {
+      "status_code": 200,
+      "has_title": true,
+      "text_chars": 17499,
+      "image_count": 5
+    },
+    "koropova-rybolovlia-bazove-osnashchennia-bez-zaivoho": {
+      "status_code": 200,
+      "has_title": true,
+      "text_chars": 17468,
+      "image_count": 5
+    },
+    "yak-pidibraty-prykormku-pid-karasia-liashcha-i-koropa": {
+      "status_code": 200,
+      "has_title": true,
+      "text_chars": 17489,
+      "image_count": 5
+    },
+    "pelets-boily-i-pop-up-yak-sklasty-robochu-prohramu-nasadok": {
+      "status_code": 200,
+      "has_title": true,
+      "text_chars": 20372,
+      "image_count": 7
+    },
+    "hachky-dlia-rybolovli-forma-drit-zhalo-i-pravylnyi-rozmir": {
+      "status_code": 200,
+      "has_title": true,
+      "text_chars": 20366,
+      "image_count": 7
+    },
+    "volosin-shnur-i-fliuorokarbon-yak-vybraty-bez-pomylky": {
+      "status_code": 200,
+      "has_title": true,
+      "text_chars": 20366,
+      "image_count": 7
+    },
+    "pva-materialy-pakety-sitka-stiky-i-typovi-pomylky": {
+      "status_code": 200,
+      "has_title": true,
+      "text_chars": 20330,
+      "image_count": 7
+    },
+    "zymova-rybolovlia-sporiadzhennia-bezpeka-i-pidhotovka-do-lodu": {
+      "status_code": 200,
+      "has_title": true,
+      "text_chars": 20368,
+      "image_count": 7
+    },
+    "yak-dohliadaty-za-kotushkoiu-pislia-rybolovli": {
+      "status_code": 200,
+      "has_title": true,
+      "text_chars": 17465,
+      "image_count": 5
+    },
+    "orhanaizery-korobky-ta-sumky-yak-navesty-poriadok-u-snastiakh": {
+      "status_code": 200,
+      "has_title": true,
+      "text_chars": 20390,
+      "image_count": 7
+    },
+    "samovyviz-chy-dostavka-yak-bezpechno-otrymaty-rybalski-tovary": {
+      "status_code": 200,
+      "has_title": true,
+      "text_chars": 20382,
+      "image_count": 7
+    },
+    "voblery-bleshni-i-sylikon-yak-pidibraty-prymanku-pid-khyzhaka": {
+      "status_code": 200,
+      "has_title": true,
+      "text_chars": 20382,
+      "image_count": 7
+    },
+    "montazhi-vertliuhy-i-hruzyla-dribnytsi-yaki-vplyvaiut-na-kliuvannia": {
+      "status_code": 200,
+      "has_title": true,
+      "text_chars": 20406,
+      "image_count": 7
+    },
+    "pidsaky-sadky-i-kukany-yak-zberehty-rybu-ta-snasti": {
+      "status_code": 200,
+      "has_title": true,
+      "text_chars": 20346,
+      "image_count": 7
+    },
+    "krisla-stoly-i-turystychne-sporiadzhennia-dlia-dovhoi-rybolovli": {
+      "status_code": 200,
+      "has_title": true,
+      "text_chars": 20450,
+      "image_count": 7
+    }
+  },
+  "image_policy": {
+    "provider": "Unsplash and already uploaded free stock assets",
+    "license_page": "https://unsplash.com/license",
+    "note": "No watermarked images, no competitor scraping, no fake product photos in content pages."
+  }
+}

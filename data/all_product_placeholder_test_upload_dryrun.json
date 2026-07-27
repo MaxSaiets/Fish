@@ -1,0 +1,90 @@
+{
+  "utility_root": "tmp\\all-product-placeholder-test",
+  "token_source": "admin-import-metadata",
+  "articles_total": 10,
+  "clean_gallery": false,
+  "dry_run": true,
+  "uploaded_articles": [
+    {
+      "article": "#001",
+      "file_count": 1,
+      "filenames": [
+        "#001@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "#003",
+      "file_count": 1,
+      "filenames": [
+        "#003@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "#005",
+      "file_count": 1,
+      "filenames": [
+        "#005@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "#006",
+      "file_count": 1,
+      "filenames": [
+        "#006@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "#017",
+      "file_count": 1,
+      "filenames": [
+        "#017@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "#020",
+      "file_count": 1,
+      "filenames": [
+        "#020@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "#021",
+      "file_count": 1,
+      "filenames": [
+        "#021@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "#022 1.6",
+      "file_count": 1,
+      "filenames": [
+        "#022 1.6@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "#023",
+      "file_count": 1,
+      "filenames": [
+        "#023@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "#80164",
+      "file_count": 1,
+      "filenames": [
+        "#80164@gallery_common.jpg"
+      ],
+      "status": "validated"
+    }
+  ],
+  "failed_articles": []
+}

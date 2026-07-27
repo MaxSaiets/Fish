@@ -1,0 +1,1322 @@
+{
+  "products": 7942,
+  "import_param_headers": 196,
+  "template_params": 78,
+  "matched": 64,
+  "missing": 132,
+  "unused_template_params": 12,
+  "matched_rows": [
+    {
+      "import_header": "Тип вудилища",
+      "nonempty_products": 753,
+      "template_name": "Тип вудилища",
+      "alias": "typ_vudy",
+      "type": "Рядок",
+      "id": "6588",
+      "status": "matched"
+    },
+    {
+      "import_header": "Тип насадки",
+      "nonempty_products": 1356,
+      "template_name": "Тип насадки",
+      "alias": "typ_nasadky",
+      "type": "Рядок",
+      "id": "6589",
+      "status": "matched"
+    },
+    {
+      "import_header": "Тип суміші",
+      "nonempty_products": 21,
+      "template_name": "Тип суміші",
+      "alias": "typ_sumishi",
+      "type": "Рядок",
+      "id": "6590",
+      "status": "matched"
+    },
+    {
+      "import_header": "Тип атрактанту",
+      "nonempty_products": 154,
+      "template_name": "Тип атрактанту",
+      "alias": "typ_atraktantu",
+      "type": "Рядок",
+      "id": "6591",
+      "status": "matched"
+    },
+    {
+      "import_header": "Тип",
+      "nonempty_products": 6449,
+      "template_name": "Тип",
+      "alias": "typ",
+      "type": "Рядок",
+      "id": "6592",
+      "status": "matched"
+    },
+    {
+      "import_header": "Підтип",
+      "nonempty_products": 177,
+      "template_name": "Підтип",
+      "alias": "pidtyp",
+      "type": "Рядок",
+      "id": "6593",
+      "status": "matched"
+    },
+    {
+      "import_header": "Форма",
+      "nonempty_products": 686,
+      "template_name": "Форма",
+      "alias": "forma",
+      "type": "Рядок",
+      "id": "6621",
+      "status": "matched"
+    },
+    {
+      "import_header": "Матеріал",
+      "nonempty_products": 4924,
+      "template_name": "Матеріал",
+      "alias": "material",
+      "type": "Рядок",
+      "id": "6604",
+      "status": "matched"
+    },
+    {
+      "import_header": "Плавучість",
+      "nonempty_products": 918,
+      "template_name": "Плавучість",
+      "alias": "plavuchist",
+      "type": "Рядок",
+      "id": "6605",
+      "status": "matched"
+    },
+    {
+      "import_header": "Довжина",
+      "nonempty_products": 957,
+      "template_name": "Довжина",
+      "alias": "dovzhyna",
+      "type": "Рядок",
+      "id": "6594",
+      "status": "matched"
+    },
+    {
+      "import_header": "Стрій",
+      "nonempty_products": 34,
+      "template_name": "Стрій",
+      "alias": "striy",
+      "type": "Рядок",
+      "id": "6596",
+      "status": "matched"
+    },
+    {
+      "import_header": "Діаметр",
+      "nonempty_products": 984,
+      "template_name": "Діаметр",
+      "alias": "diametr",
+      "type": "Рядок",
+      "id": "6597",
+      "status": "matched"
+    },
+    {
+      "import_header": "PE",
+      "nonempty_products": 66,
+      "template_name": "PE",
+      "alias": "pe",
+      "type": "Рядок",
+      "id": "6599",
+      "status": "matched"
+    },
+    {
+      "import_header": "Розривне навантаження",
+      "nonempty_products": 98,
+      "template_name": "Розривне навантаження",
+      "alias": "rozryvne_nav",
+      "type": "Рядок",
+      "id": "6598",
+      "status": "matched"
+    },
+    {
+      "import_header": "Розривне навантаження (lb)",
+      "nonempty_products": 102,
+      "template_name": "Розривне навантаження (lb)",
+      "alias": "rozrivneNavantazhennjaLb",
+      "type": "Рядок",
+      "id": "6635",
+      "status": "matched"
+    },
+    {
+      "import_header": "Об'єм",
+      "nonempty_products": 390,
+      "template_name": "Об'єм",
+      "alias": "obem_r",
+      "type": "Рядок",
+      "id": "6609",
+      "status": "matched"
+    },
+    {
+      "import_header": "Вага",
+      "nonempty_products": 2106,
+      "template_name": "Вага",
+      "alias": "vaga",
+      "type": "Рядок",
+      "id": "6600",
+      "status": "matched"
+    },
+    {
+      "import_header": "Розмір",
+      "nonempty_products": 1449,
+      "template_name": "Розмір",
+      "alias": "rozmir_r",
+      "type": "Рядок",
+      "id": "6610",
+      "status": "matched"
+    },
+    {
+      "import_header": "Підшипники",
+      "nonempty_products": 51,
+      "template_name": "Підшипники",
+      "alias": "pdshipniki",
+      "type": "Рядок",
+      "id": "6644",
+      "status": "matched"
+    },
+    {
+      "import_header": "Кількість в упаковці",
+      "nonempty_products": 554,
+      "template_name": "Кількість в упаковці",
+      "alias": "kilkist_upak",
+      "type": "Рядок",
+      "id": "6601",
+      "status": "matched"
+    },
+    {
+      "import_header": "Призначення",
+      "nonempty_products": 4504,
+      "template_name": "Призначення",
+      "alias": "pryznachennya",
+      "type": "Рядок",
+      "id": "6602",
+      "status": "matched"
+    },
+    {
+      "import_header": "Аромат",
+      "nonempty_products": 878,
+      "template_name": "Аромат",
+      "alias": "aromat",
+      "type": "Рядок",
+      "id": "6603",
+      "status": "matched"
+    },
+    {
+      "import_header": "Кастинг-тест",
+      "nonempty_products": 354,
+      "template_name": "Кастинг-тест",
+      "alias": "casting_test",
+      "type": "Рядок",
+      "id": "6606",
+      "status": "matched"
+    },
+    {
+      "import_header": "Глибина занурення",
+      "nonempty_products": 31,
+      "template_name": "Глибина занурення",
+      "alias": "glibinaZanurennja",
+      "type": "Рядок",
+      "id": "6650",
+      "status": "matched"
+    },
+    {
+      "import_header": "Аромат/склад",
+      "nonempty_products": 324,
+      "template_name": "Аромат/склад",
+      "alias": "aromatsklad",
+      "type": "Рядок",
+      "id": "6643",
+      "status": "matched"
+    },
+    {
+      "import_header": "Використання",
+      "nonempty_products": 22,
+      "template_name": "Використання",
+      "alias": "vykory",
+      "type": "Текстове поле",
+      "id": "6777",
+      "status": "matched"
+    },
+    {
+      "import_header": "Водонепроникність",
+      "nonempty_products": 21,
+      "template_name": "Водонепроникність",
+      "alias": "vodon",
+      "type": "Текстове поле",
+      "id": "6776",
+      "status": "matched"
+    },
+    {
+      "import_header": "Довговічність",
+      "nonempty_products": 2,
+      "template_name": "Довговічність",
+      "alias": "dovgov",
+      "type": "Текстове поле",
+      "id": "6784",
+      "status": "matched"
+    },
+    {
+      "import_header": "Живлення",
+      "nonempty_products": 14,
+      "template_name": "Живлення",
+      "alias": "zhyvl",
+      "type": "Текстове поле",
+      "id": "6780",
+      "status": "matched"
+    },
+    {
+      "import_header": "Застосування",
+      "nonempty_products": 13,
+      "template_name": "Застосування",
+      "alias": "zastos",
+      "type": "Текстове поле",
+      "id": "6781",
+      "status": "matched"
+    },
+    {
+      "import_header": "Колір",
+      "nonempty_products": 2918,
+      "template_name": "Колір",
+      "alias": "kolr",
+      "type": "Рядок",
+      "id": "6614",
+      "status": "matched"
+    },
+    {
+      "import_header": "Колір підсвічування",
+      "nonempty_products": 74,
+      "template_name": "Колір підсвічування",
+      "alias": "kolrPdsvchuvannja",
+      "type": "Рядок",
+      "id": "6642",
+      "status": "matched"
+    },
+    {
+      "import_header": "Консистенція",
+      "nonempty_products": 451,
+      "template_name": "Консистенція",
+      "alias": "konsyst",
+      "type": "Текстове поле",
+      "id": "6778",
+      "status": "matched"
+    },
+    {
+      "import_header": "Країна-виробник",
+      "nonempty_products": 5782,
+      "template_name": "Країна-виробник",
+      "alias": "kranaVirobnik",
+      "type": "Рядок",
+      "id": "6613",
+      "status": "matched"
+    },
+    {
+      "import_header": "Кріплення",
+      "nonempty_products": 51,
+      "template_name": "Кріплення",
+      "alias": "krplennja",
+      "type": "Рядок",
+      "id": "6647",
+      "status": "matched"
+    },
+    {
+      "import_header": "Кількість відділень",
+      "nonempty_products": 95,
+      "template_name": "Кількість відділень",
+      "alias": "klkstVddlen",
+      "type": "Рядок",
+      "id": "6638",
+      "status": "matched"
+    },
+    {
+      "import_header": "Кількість гачків",
+      "nonempty_products": 569,
+      "template_name": "Кількість гачків",
+      "alias": "klkstGachkv",
+      "type": "Рядок",
+      "id": "6622",
+      "status": "matched"
+    },
+    {
+      "import_header": "Кількість секцій",
+      "nonempty_products": 747,
+      "template_name": "Кількість секцій",
+      "alias": "klkstSekcy",
+      "type": "Рядок",
+      "id": "6616",
+      "status": "matched"
+    },
+    {
+      "import_header": "Максимальне навантаження",
+      "nonempty_products": 26,
+      "template_name": "Максимальне навантаження",
+      "alias": "max_navant",
+      "type": "Текстове поле",
+      "id": "6775",
+      "status": "matched"
+    },
+    {
+      "import_header": "Матеріал гачка",
+      "nonempty_products": 28,
+      "template_name": "Матеріал гачка",
+      "alias": "mat_gacha",
+      "type": "Текстове поле",
+      "id": "6774",
+      "status": "matched"
+    },
+    {
+      "import_header": "Матеріал корпусу",
+      "nonempty_products": 293,
+      "template_name": "Матеріал корпусу",
+      "alias": "materalKorpusu",
+      "type": "Рядок",
+      "id": "6625",
+      "status": "matched"
+    },
+    {
+      "import_header": "Матеріал повідця",
+      "nonempty_products": 83,
+      "template_name": "Матеріал повідця",
+      "alias": "materalPovdcja",
+      "type": "Рядок",
+      "id": "6639",
+      "status": "matched"
+    },
+    {
+      "import_header": "Передаточне число",
+      "nonempty_products": 289,
+      "template_name": "Передаточне число",
+      "alias": "peredatochneChislo",
+      "type": "Рядок",
+      "id": "6627",
+      "status": "matched"
+    },
+    {
+      "import_header": "Покриття",
+      "nonempty_products": 497,
+      "template_name": "Покриття",
+      "alias": "pokrittja",
+      "type": "Рядок",
+      "id": "6623",
+      "status": "matched"
+    },
+    {
+      "import_header": "Підходить для",
+      "nonempty_products": 19,
+      "template_name": "Підходить для",
+      "alias": "pdhod",
+      "type": "Вибір зі списку (Шаблон: Термін відвантаження зі складу)",
+      "id": "6795",
+      "status": "matched"
+    },
+    {
+      "import_header": "Сезон",
+      "nonempty_products": 132,
+      "template_name": "Сезон",
+      "alias": "sezon",
+      "type": "Текстове поле",
+      "id": "6782",
+      "status": "matched"
+    },
+    {
+      "import_header": "Система гальма",
+      "nonempty_products": 292,
+      "template_name": "Система гальма",
+      "alias": "sistemaGalma",
+      "type": "Рядок",
+      "id": "6628",
+      "status": "matched"
+    },
+    {
+      "import_header": "Склад",
+      "nonempty_products": 118,
+      "template_name": "Склад",
+      "alias": "sklad",
+      "type": "Рядок",
+      "id": "6636",
+      "status": "matched"
+    },
+    {
+      "import_header": "Стиль",
+      "nonempty_products": 37,
+      "template_name": "Стиль",
+      "alias": "stil",
+      "type": "Рядок",
+      "id": "6648",
+      "status": "matched"
+    },
+    {
+      "import_header": "Сумісність",
+      "nonempty_products": 20,
+      "template_name": "Сумісність",
+      "alias": "sumisn",
+      "type": "Текстове поле",
+      "id": "6779",
+      "status": "matched"
+    },
+    {
+      "import_header": "Тип блешні",
+      "nonempty_products": 399,
+      "template_name": "Тип блешні",
+      "alias": "tipBleshn",
+      "type": "Рядок",
+      "id": "6624",
+      "status": "matched"
+    },
+    {
+      "import_header": "Тип воблера",
+      "nonempty_products": 229,
+      "template_name": "Тип воблера",
+      "alias": "tipVoblera",
+      "type": "Рядок",
+      "id": "6632",
+      "status": "matched"
+    },
+    {
+      "import_header": "Тип з'єднання секцій",
+      "nonempty_products": 92,
+      "template_name": "Тип з'єднання секцій",
+      "alias": "tipZednannjaSekcy",
+      "type": "Рядок",
+      "id": "6637",
+      "status": "matched"
+    },
+    {
+      "import_header": "Тип котушки",
+      "nonempty_products": 292,
+      "template_name": "Тип котушки",
+      "alias": "tipKotushki",
+      "type": "Рядок",
+      "id": "6626",
+      "status": "matched"
+    },
+    {
+      "import_header": "Тип кріплення",
+      "nonempty_products": 264,
+      "template_name": "Тип кріплення",
+      "alias": "tipKrplennja",
+      "type": "Рядок",
+      "id": "6630",
+      "status": "matched"
+    },
+    {
+      "import_header": "Тип повідця",
+      "nonempty_products": 78,
+      "template_name": "Тип повідця",
+      "alias": "tipPovdcja",
+      "type": "Рядок",
+      "id": "6641",
+      "status": "matched"
+    },
+    {
+      "import_header": "Тип приманки",
+      "nonempty_products": 851,
+      "template_name": "Тип приманки",
+      "alias": "tipPrimanki",
+      "type": "Рядок",
+      "id": "6615",
+      "status": "matched"
+    },
+    {
+      "import_header": "Тип пропускних кілець",
+      "nonempty_products": 645,
+      "template_name": "Тип пропускних кілець",
+      "alias": "tipPropusknixKlec",
+      "type": "Рядок",
+      "id": "6620",
+      "status": "matched"
+    },
+    {
+      "import_header": "Тип рукояті",
+      "nonempty_products": 741,
+      "template_name": "Тип рукояті",
+      "alias": "tipRukojat",
+      "type": "Рядок",
+      "id": "6617",
+      "status": "matched"
+    },
+    {
+      "import_header": "Тип хвоста",
+      "nonempty_products": 50,
+      "template_name": "Тип хвоста",
+      "alias": "tipXvosta",
+      "type": "Рядок",
+      "id": "6646",
+      "status": "matched"
+    },
+    {
+      "import_header": "Транспортна довжина",
+      "nonempty_products": 675,
+      "template_name": "Транспортна довжина",
+      "alias": "transportnaDovzhina",
+      "type": "Рядок",
+      "id": "6619",
+      "status": "matched"
+    },
+    {
+      "import_header": "Транспортна довжина (см)",
+      "nonempty_products": 22,
+      "template_name": "Транспортна довжина (см)",
+      "alias": "transportnaDovzhinaSm",
+      "type": "Рядок",
+      "id": "6652",
+      "status": "matched"
+    },
+    {
+      "import_header": "Упаковка",
+      "nonempty_products": 39,
+      "template_name": "Упаковка",
+      "alias": "upakovka",
+      "type": "Рядок",
+      "id": "6649",
+      "status": "matched"
+    },
+    {
+      "import_header": "Форма джиг-головки",
+      "nonempty_products": 28,
+      "template_name": "Форма джиг-головки",
+      "alias": "formaDzhigGolovki",
+      "type": "Рядок",
+      "id": "6653",
+      "status": "matched"
+    }
+  ],
+  "missing_rows": [
+    {
+      "import_header": "Ємність",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Аромат/варіант",
+      "nonempty_products": 40,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Вид",
+      "nonempty_products": 190,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Вид монтажу",
+      "nonempty_products": 36,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Висота",
+      "nonempty_products": 7,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Витримує навантаження",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Водостійкість",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Відділення",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Габарити",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Гачки",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Гачок",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Голова",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Гучність сигналу",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Джерело живлення",
+      "nonempty_products": 24,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Джерело світла",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Довжина в розкладеному вигляді",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Довжина в складеному вигляді",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Довжина оснастки",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Довжина поводка",
+      "nonempty_products": 6,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Довжина рукоятки",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Довжина ручки",
+      "nonempty_products": 4,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Довжина шнура",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Додаткові особливості",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Додаткові функції",
+      "nonempty_products": 3,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Діаметр голови",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Діаметр кошика",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Діаметр рами",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Діаметр сітки",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Діапазон температур",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Запалювання",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Застібка",
+      "nonempty_products": 8,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Захист",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Категорія",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Клімат",
+      "nonempty_products": 4,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кліматичний режим",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кліматичні умови",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Комплектація",
+      "nonempty_products": 144,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Комфорт",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Конструкція",
+      "nonempty_products": 76,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Користування",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Користувацька група",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кут",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кут нахилу",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кут освітлення",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кількість вудок",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кількість відводів",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кількість елементів",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кількість елементів у комплекті",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кількість застібок",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кількість конфорок",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кількість кріплень",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кількість кілець",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кількість місць",
+      "nonempty_products": 3,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кількість оснасток",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кількість поводків",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кількість полиць",
+      "nonempty_products": 10,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кількість предметів",
+      "nonempty_products": 5,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кількість пружин",
+      "nonempty_products": 4,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кількість підлокітників",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кількість режимів",
+      "nonempty_products": 7,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кількість частин",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кількість шипів",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Кільця",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Максимальна довжина",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Матеріал бланка",
+      "nonempty_products": 741,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Матеріал голови",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Матеріал каркасу",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Матеріал оббивки",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Матеріал ручки",
+      "nonempty_products": 3,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Матеріал сітки",
+      "nonempty_products": 6,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Напруга",
+      "nonempty_products": 11,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Номінал",
+      "nonempty_products": 9,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Особливості",
+      "nonempty_products": 4,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Особливість",
+      "nonempty_products": 5,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Потужність",
+      "nonempty_products": 5,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Підошва",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Регулювання",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Режими роботи",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Розбірний",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Розмір (мм)",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Розмір в розкладеному вигляді",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Розмір в складеному вигляді",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Розмір гачка",
+      "nonempty_products": 3,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Розмір гачків",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Розмір сітки",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Розмір у складеному вигляді",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Розмір частинок",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Розміри в складеному вигляді",
+      "nonempty_products": 6,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Ручка",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Рік випуску",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Світловий потік",
+      "nonempty_products": 3,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Сегмент",
+      "nonempty_products": 304,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Сезонність",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Система",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Складність",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Смак",
+      "nonempty_products": 7,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Спосіб використання",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Спосіб зарядки",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Стать",
+      "nonempty_products": 3,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Ступінь вологості",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Ступінь теплоізоляції",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Ступінь тесту",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Ступінь утеплення",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Сфера використання",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Сфера застосування",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Сітка",
+      "nonempty_products": 6,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Телескопічна",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Телескопічний",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Температурний режим",
+      "nonempty_products": 4,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Теплоізоляція",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Термін придатності",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Технологія",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Тип грузила",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Тип живлення",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Тип замка",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Тип підошви",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Тип товару",
+      "nonempty_products": 6,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Умови використання",
+      "nonempty_products": 4,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Утеплення",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Фарбування",
+      "nonempty_products": 3,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Фасування",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Форм-фактор",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Форма голови",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Форма грузила",
+      "nonempty_products": 74,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Форма рами",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Форма упаковки",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Формат",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Час роботи",
+      "nonempty_products": 3,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Чохол",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Ширина",
+      "nonempty_products": 3,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Ширина сітки",
+      "nonempty_products": 1,
+      "status": "missing_in_template"
+    },
+    {
+      "import_header": "Яскравість",
+      "nonempty_products": 2,
+      "status": "missing_in_template"
+    }
+  ],
+  "unused_template_rows": [
+    {
+      "name": "Тест",
+      "alias": "test",
+      "type": "Рядок",
+      "id": "6595"
+    },
+    {
+      "name": "Лад",
+      "alias": "lad",
+      "type": "Рядок",
+      "id": "6607"
+    },
+    {
+      "name": "Колір/покриття",
+      "alias": "kolrpokrittja",
+      "type": "Рядок",
+      "id": "6618"
+    },
+    {
+      "name": "Модель",
+      "alias": "model",
+      "type": "Рядок",
+      "id": "6629"
+    },
+    {
+      "name": "Склад/аромат",
+      "alias": "skladaromat",
+      "type": "Рядок",
+      "id": "6631"
+    },
+    {
+      "name": "Виробник",
+      "alias": "virobnik",
+      "type": "Рядок",
+      "id": "6633"
+    },
+    {
+      "name": "Країна виробництва",
+      "alias": "kranaVirobnictva",
+      "type": "Рядок",
+      "id": "6634"
+    },
+    {
+      "name": "Розміри",
+      "alias": "rozmri",
+      "type": "Рядок",
+      "id": "6640"
+    },
+    {
+      "name": "Колір/розмальовка",
+      "alias": "kolrrozmalovka",
+      "type": "Рядок",
+      "id": "6645"
+    },
+    {
+      "name": "Кольори",
+      "alias": "kolori",
+      "type": "Рядок",
+      "id": "6651"
+    },
+    {
+      "name": "Фініш",
+      "alias": "finsh",
+      "type": "Текстове поле",
+      "id": "6783"
+    },
+    {
+      "name": "Клас",
+      "alias": "klas",
+      "type": "Вибір зі списку (Шаблон: Термін відвантаження зі складу)",
+      "id": "6794"
+    }
+  ]
+}

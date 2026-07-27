@@ -1,0 +1,49 @@
+{
+  "base_url": "https://unsulphurized-unmakable-luci.ngrok-free.dev",
+  "total_images_found": 418,
+  "rows_in_xlsx": 418,
+  "skipped_already_done": 0,
+  "output_xlsx": "D:\\FISH\\fish-sync\\public\\horoshop_mass_photo_import.xlsx",
+  "sample": [
+    {
+      "article": "#001",
+      "url": "https://unsulphurized-unmakable-luci.ngrok-free.dev/mass-photo-utility/#001@gallery_common.jpg"
+    },
+    {
+      "article": "#003",
+      "url": "https://unsulphurized-unmakable-luci.ngrok-free.dev/mass-photo-utility/#003@gallery_common.jpg"
+    },
+    {
+      "article": "#005",
+      "url": "https://unsulphurized-unmakable-luci.ngrok-free.dev/mass-photo-utility/#005@gallery_common.jpg"
+    },
+    {
+      "article": "#017",
+      "url": "https://unsulphurized-unmakable-luci.ngrok-free.dev/mass-photo-utility/#017@gallery_common.jpg"
+    },
+    {
+      "article": "#023",
+      "url": "https://unsulphurized-unmakable-luci.ngrok-free.dev/mass-photo-utility/#023@gallery_common.jpg"
+    },
+    {
+      "article": "0120008",
+      "url": "https://unsulphurized-unmakable-luci.ngrok-free.dev/mass-photo-utility/0120008@gallery_common.jpg"
+    },
+    {
+      "article": "1113",
+      "url": "https://unsulphurized-unmakable-luci.ngrok-free.dev/mass-photo-utility/1113@gallery_common.jpg"
+    },
+    {
+      "article": "1114",
+      "url": "https://unsulphurized-unmakable-luci.ngrok-free.dev/mass-photo-utility/1114@gallery_common.jpg"
+    },
+    {
+      "article": "1115",
+      "url": "https://unsulphurized-unmakable-luci.ngrok-free.dev/mass-photo-utility/1115@gallery_common.jpg"
+    },
+    {
+      "article": "1117",
+      "url": "https://unsulphurized-unmakable-luci.ngrok-free.dev/mass-photo-utility/1117@gallery_common.jpg"
+    }
+  ]
+}

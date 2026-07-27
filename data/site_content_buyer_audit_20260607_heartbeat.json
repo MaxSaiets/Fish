@@ -1,0 +1,123 @@
+{
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "chars": 223,
+      "image_count": 0,
+      "bad_patterns": [],
+      "title": ""
+    },
+    {
+      "path": "/pro-nas/",
+      "status": 200,
+      "chars": 12174,
+      "image_count": 3,
+      "bad_patterns": [
+        "placeholder"
+      ],
+      "title": "Про нас — Все для рибалки"
+    },
+    {
+      "path": "/oplata-i-dostavka/",
+      "status": 200,
+      "chars": 12378,
+      "image_count": 3,
+      "bad_patterns": [
+        "placeholder"
+      ],
+      "title": "Оплата і доставка — Все для рибалки"
+    },
+    {
+      "path": "/obmin-ta-povernennya/",
+      "status": 200,
+      "chars": 12023,
+      "image_count": 3,
+      "bad_patterns": [
+        "placeholder"
+      ],
+      "title": "Обмін та повернення — Все для рибалки"
+    },
+    {
+      "path": "/kontaktna-informatsiya/",
+      "status": 200,
+      "chars": 12749,
+      "image_count": 3,
+      "bad_patterns": [
+        "placeholder"
+      ],
+      "title": "Контактна інформація — Все для рибалки"
+    },
+    {
+      "path": "/privacypolicy/",
+      "status": 200,
+      "chars": 13905,
+      "image_count": 3,
+      "bad_patterns": [
+        "placeholder"
+      ],
+      "title": "Угода користувача та політика конфіденційності — Все для рибалки"
+    },
+    {
+      "path": "/store-reviews/",
+      "status": 200,
+      "chars": 14295,
+      "image_count": 3,
+      "bad_patterns": [
+        "placeholder"
+      ],
+      "title": "Відгуки про магазин — Все для рибалки"
+    },
+    {
+      "path": "/blog/",
+      "status": 200,
+      "chars": 13083,
+      "image_count": 23,
+      "bad_patterns": [
+        "placeholder"
+      ],
+      "title": "Vsedliarybalky Блог — купити в інтернет магазині Vsedliarybalky"
+    }
+  ],
+  "blog": {
+    "list_links": 3,
+    "checked_articles": 3,
+    "articles": [
+      {
+        "url": "https://vsedliarybalky.com.ua/blog/filter/page=2/",
+        "title": "2",
+        "status": 200,
+        "chars": 223,
+        "image_count": 0,
+        "first_image": "",
+        "bad_patterns": []
+      },
+      {
+        "url": "https://vsedliarybalky.com.ua/blog/filter/page=3/",
+        "title": "3",
+        "status": 200,
+        "chars": 223,
+        "image_count": 0,
+        "first_image": "",
+        "bad_patterns": []
+      },
+      {
+        "url": "https://vsedliarybalky.com.ua/blog/.?v=mobile",
+        "title": "Мобільна версія",
+        "status": 200,
+        "chars": 13083,
+        "image_count": 23,
+        "first_image": "/content/images/2/200x100l90nn0/44894923255780.jpg",
+        "bad_patterns": [
+          "placeholder"
+        ]
+      }
+    ],
+    "duplicate_first_images": {}
+  },
+  "summary": {
+    "page_bad_count": 7,
+    "blog_bad_count": 1,
+    "blog_duplicate_first_image_count": 0
+  }
+}

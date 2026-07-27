@@ -1,0 +1,14 @@
+<script>
+    (function () {
+        const defaultHash = "bc8969cec1cf450df0a4144bc6a4550d99f97a15d9e4b30e0d827b34ae170cc0";
+        const start = performance.now();
+        const duration = 800 + Math.random() * 500;
+        let x = 0;
+        while (performance.now() - start < duration) {
+            x = (x * 1664525 + 1013904223) & 0xffffffff;
+        }
+        document.cookie = "challenge_passed=" + defaultHash +
+            "; max-age=1800; path=/; samesite=Lax";
+        location.reload();
+    })();
+</script>

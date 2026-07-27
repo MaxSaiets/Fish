@@ -1,0 +1,2549 @@
+{
+  "total_products": 8333,
+  "rare_param_count": 178,
+  "explicitly_noisy_count": 0,
+  "noisy_value_count": 0,
+  "rare_params": [
+    {
+      "family": "bag",
+      "param": "Відділення",
+      "count": 1,
+      "family_param_total": 439,
+      "examples": [
+        {
+          "article": "4187",
+          "title": "Сумка рибальська Сумка для аксесуарів TAN LOOK",
+          "value": "Багато"
+        }
+      ]
+    },
+    {
+      "family": "bag",
+      "param": "Застібка",
+      "count": 1,
+      "family_param_total": 439,
+      "examples": [
+        {
+          "article": "4187",
+          "title": "Сумка рибальська Сумка для аксесуарів TAN LOOK",
+          "value": "Блискавка"
+        }
+      ]
+    },
+    {
+      "family": "battery",
+      "param": "Типорозмір",
+      "count": 1,
+      "family_param_total": 71,
+      "examples": [
+        {
+          "article": "000207",
+          "title": "Батарейка cr425",
+          "value": "CR425"
+        }
+      ]
+    },
+    {
+      "family": "battery",
+      "param": "Форм-фактор",
+      "count": 2,
+      "family_param_total": 71,
+      "examples": [
+        {
+          "article": "1639",
+          "title": "Батарейка Крона KODAK 9вв",
+          "value": "Крона"
+        },
+        {
+          "article": "4181",
+          "title": "Батарейка Крона Videx (арт. 4181)",
+          "value": "6LR61"
+        }
+      ]
+    },
+    {
+      "family": "battery",
+      "param": "Ємність",
+      "count": 2,
+      "family_param_total": 71,
+      "examples": [
+        {
+          "article": "1640",
+          "title": "Батарейка Крона VIDEX 9вв (арт. 1640)",
+          "value": "не менше 500 мАг"
+        },
+        {
+          "article": "2940",
+          "title": "Батарейка Крона VIDEX 9вв (арт. 2940)",
+          "value": "не менше 500 мАг"
+        }
+      ]
+    },
+    {
+      "family": "battery",
+      "param": "Форма",
+      "count": 1,
+      "family_param_total": 71,
+      "examples": [
+        {
+          "article": "4180",
+          "title": "Батарейка Крона Varta",
+          "value": "Циліндрична"
+        }
+      ]
+    },
+    {
+      "family": "bite_indicator",
+      "param": "Гучність сигналу",
+      "count": 1,
+      "family_param_total": 533,
+      "examples": [
+        {
+          "article": "3978",
+          "title": "Сигналізатор клювання Набір Сигналізаторів Boya By",
+          "value": "Регульована"
+        }
+      ]
+    },
+    {
+      "family": "bite_indicator",
+      "param": "Кріплення",
+      "count": 1,
+      "family_param_total": 533,
+      "examples": [
+        {
+          "article": "3978",
+          "title": "Сигналізатор клювання Набір Сигналізаторів Boya By",
+          "value": "Стандартне різьбове"
+        }
+      ]
+    },
+    {
+      "family": "camping_fuel",
+      "param": "Кількість конфорок",
+      "count": 1,
+      "family_param_total": 63,
+      "examples": [
+        {
+          "article": "7705",
+          "title": "Паливо для туризму Плитка Kovar K-202 газова",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "family": "camping_fuel",
+      "param": "Потужність",
+      "count": 1,
+      "family_param_total": 63,
+      "examples": [
+        {
+          "article": "UTRG-052",
+          "title": "Паливо для туризму Різак Tramp газовий з пєзо.",
+          "value": "Регульована"
+        }
+      ]
+    },
+    {
+      "family": "camping_fuel",
+      "param": "Запалювання",
+      "count": 1,
+      "family_param_total": 63,
+      "examples": [
+        {
+          "article": "UTRG-052",
+          "title": "Паливо для туризму Різак Tramp газовий з пєзо.",
+          "value": "Пєзоелектричне"
+        }
+      ]
+    },
+    {
+      "family": "chair",
+      "param": "Розмір в складеному вигляді",
+      "count": 1,
+      "family_param_total": 295,
+      "examples": [
+        {
+          "article": "389.03.62",
+          "title": "Крісло/стілець Skif Outdoor Tower olive",
+          "value": "100 x 15 x 15 см"
+        }
+      ]
+    },
+    {
+      "family": "chair",
+      "param": "Матеріал оббивки",
+      "count": 2,
+      "family_param_total": 295,
+      "examples": [
+        {
+          "article": "2110005",
+          "title": "Крісло/стілець Вояж Комфорт Крісло d16 мм (Оксфорд Дубок)",
+          "value": "Оксфорд"
+        },
+        {
+          "article": "4397",
+          "title": "Крісло/стілець Крісло Carp Magellan TFC-052 рег.спинка, ніжки",
+          "value": "Текстиль"
+        }
+      ]
+    },
+    {
+      "family": "chair",
+      "param": "Матеріал каркасу",
+      "count": 1,
+      "family_param_total": 295,
+      "examples": [
+        {
+          "article": "2110005",
+          "title": "Крісло/стілець Вояж Комфорт Крісло d16 мм (Оксфорд Дубок)",
+          "value": "Метал"
+        }
+      ]
+    },
+    {
+      "family": "chair",
+      "param": "Розмір в розкладеному вигляді",
+      "count": 1,
+      "family_param_total": 295,
+      "examples": [
+        {
+          "article": "2110005",
+          "title": "Крісло/стілець Вояж Комфорт Крісло d16 мм (Оксфорд Дубок)",
+          "value": "стандартний"
+        }
+      ]
+    },
+    {
+      "family": "chair",
+      "param": "Кількість підлокітників",
+      "count": 1,
+      "family_param_total": 295,
+      "examples": [
+        {
+          "article": "4592",
+          "title": "Крісло/стілець Крісло Eclipse Comfort XL+ 1010-МS складне короп.підлок, регул.нахил+чехол",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "family": "chair",
+      "param": "Складність",
+      "count": 1,
+      "family_param_total": 295,
+      "examples": [
+        {
+          "article": "2141",
+          "title": "Крісло/стілець Крісло Режисер Кременчуг 20мм без полки (20 мм)",
+          "value": "Складне"
+        }
+      ]
+    },
+    {
+      "family": "chair",
+      "param": "Витримує навантаження",
+      "count": 1,
+      "family_param_total": 295,
+      "examples": [
+        {
+          "article": "3997",
+          "title": "Крісло/стілець Пікні Стіл 4 стілці посилений розкладний",
+          "value": "до 120 кг"
+        }
+      ]
+    },
+    {
+      "family": "chair",
+      "param": "Комфорт",
+      "count": 1,
+      "family_param_total": 295,
+      "examples": [
+        {
+          "article": "2010067",
+          "title": "Крісло/стілець Режисер з мякою полицею Крісло d (25 мм)",
+          "value": "М'яке сидіння"
+        }
+      ]
+    },
+    {
+      "family": "chair",
+      "param": "Висота",
+      "count": 1,
+      "family_param_total": 295,
+      "examples": [
+        {
+          "article": "2110123",
+          "title": "Крісло/стілець Режисер з полицею Крісло d (25 мм)",
+          "value": "Регульована"
+        }
+      ]
+    },
+    {
+      "family": "chair",
+      "param": "Застосування",
+      "count": 1,
+      "family_param_total": 295,
+      "examples": [
+        {
+          "article": "2110123",
+          "title": "Крісло/стілець Режисер з полицею Крісло d (25 мм)",
+          "value": "Для дому та офісу"
+        }
+      ]
+    },
+    {
+      "family": "chair",
+      "param": "Використання",
+      "count": 2,
+      "family_param_total": 295,
+      "examples": [
+        {
+          "article": "2010012",
+          "title": "Крісло/стілець Рибак Економ Стілецьсірий d16 мм",
+          "value": "Для риболовлі та активного відпочинку"
+        },
+        {
+          "article": "4399",
+          "title": "Крісло/стілець Стіл Короповий монтажний ніжки телескоп RP-02 37*27*28 (37x27x28 см)",
+          "value": "Для риболовлі"
+        }
+      ]
+    },
+    {
+      "family": "clothing",
+      "param": "Регулювання",
+      "count": 1,
+      "family_param_total": 859,
+      "examples": [
+        {
+          "article": "4598",
+          "title": "Одяг/взуття для риболовлі Жилет Sky Fish рятівний помаранчевий (60-80 г)",
+          "value": "Так"
+        }
+      ]
+    },
+    {
+      "family": "clothing",
+      "param": "Утеплення",
+      "count": 2,
+      "family_param_total": 859,
+      "examples": [
+        {
+          "article": "3733",
+          "title": "Одяг/взуття для риболовлі Наколінники Fagman зимові",
+          "value": "Так"
+        },
+        {
+          "article": "59",
+          "title": "Одяг/взуття для риболовлі Сапоги LEMIGO GRENLANDER(-30*C) 44р",
+          "value": "Так"
+        }
+      ]
+    },
+    {
+      "family": "clothing",
+      "param": "Упаковка",
+      "count": 1,
+      "family_param_total": 859,
+      "examples": [
+        {
+          "article": "AK-OKX08SM",
+          "title": "Одяг/взуття для риболовлі Окуляри JAXON поляризаціоні AK-OKX08SM",
+          "value": "Чохол для зберігання"
+        }
+      ]
+    },
+    {
+      "family": "clothing",
+      "param": "Захист",
+      "count": 2,
+      "family_param_total": 859,
+      "examples": [
+        {
+          "article": "AK-OKX17SM",
+          "title": "Одяг/взуття для риболовлі Окуляри JAXON поляризаціоні AK-OKX17SM",
+          "value": "UV400"
+        },
+        {
+          "article": "AK-OKX44AM",
+          "title": "Одяг/взуття для риболовлі Окуляри JAXON поляризаціоні AK-OKX44AM",
+          "value": "UV400"
+        }
+      ]
+    },
+    {
+      "family": "clothing",
+      "param": "Умови використання",
+      "count": 1,
+      "family_param_total": 859,
+      "examples": [
+        {
+          "article": "1870.24.83",
+          "title": "Одяг/взуття для риболовлі Окуляри SEECT поляризаціоні SPS2-SBG-Y",
+          "value": "На відкритому повітрі"
+        }
+      ]
+    },
+    {
+      "family": "clothing",
+      "param": "Технологія",
+      "count": 1,
+      "family_param_total": 859,
+      "examples": [
+        {
+          "article": "2767",
+          "title": "Одяг/взуття для риболовлі Рукавички Thinsulate захисні фліс",
+          "value": "Thinsulate"
+        }
+      ]
+    },
+    {
+      "family": "clothing",
+      "param": "Теплоізоляція",
+      "count": 2,
+      "family_param_total": 859,
+      "examples": [
+        {
+          "article": "58",
+          "title": "Одяг/взуття для риболовлі Сапоги LEMIGO GRENLANDER(-30*C) 43р",
+          "value": "До -30°C"
+        },
+        {
+          "article": "60",
+          "title": "Одяг/взуття для риболовлі Сапоги LEMIGO GRENLANDER(-30*C) 45р",
+          "value": "Так"
+        }
+      ]
+    },
+    {
+      "family": "clothing",
+      "param": "Тип підошви",
+      "count": 1,
+      "family_param_total": 859,
+      "examples": [
+        {
+          "article": "62",
+          "title": "Одяг/взуття для риболовлі Сапоги LEMIGO GRENLANDER(-30*C) 47р",
+          "value": "Протекторна"
+        }
+      ]
+    },
+    {
+      "family": "clothing",
+      "param": "Підошва",
+      "count": 1,
+      "family_param_total": 859,
+      "examples": [
+        {
+          "article": "63",
+          "title": "Одяг/взуття для риболовлі Сапоги LEMIGO GRENLANDER(-30*C) 48р",
+          "value": "Протекторна"
+        }
+      ]
+    },
+    {
+      "family": "clothing",
+      "param": "Ступінь утеплення",
+      "count": 2,
+      "family_param_total": 859,
+      "examples": [
+        {
+          "article": "3025003-L",
+          "title": "Одяг/взуття для риболовлі Термобілизна Activity leve L (MODERATE REIN)",
+          "value": "Середній"
+        },
+        {
+          "article": "3025004-XL",
+          "title": "Одяг/взуття для риболовлі Термобілизна Activity leve XL (MODERATE REIN)",
+          "value": "Середня"
+        }
+      ]
+    },
+    {
+      "family": "clothing",
+      "param": "Ступінь теплоізоляції",
+      "count": 1,
+      "family_param_total": 859,
+      "examples": [
+        {
+          "article": "3007104-XL",
+          "title": "Одяг/взуття для риболовлі Термобілизна Activity leve PASSIVE XL (REIN)",
+          "value": "Середня"
+        }
+      ]
+    },
+    {
+      "family": "clothing",
+      "param": "Сезонність",
+      "count": 1,
+      "family_param_total": 859,
+      "examples": [
+        {
+          "article": "3025004-XL",
+          "title": "Одяг/взуття для риболовлі Термобілизна Activity leve XL (MODERATE REIN)",
+          "value": "Зимова"
+        }
+      ]
+    },
+    {
+      "family": "clothing",
+      "param": "Кліматичні умови",
+      "count": 1,
+      "family_param_total": 859,
+      "examples": [
+        {
+          "article": "3007104- XL",
+          "title": "Одяг/взуття для риболовлі Термобілизна Cosi Line # XL (rfin)",
+          "value": "Прохолодна погода"
+        }
+      ]
+    },
+    {
+      "family": "clothing",
+      "param": "Підходить для",
+      "count": 1,
+      "family_param_total": 859,
+      "examples": [
+        {
+          "article": "3493",
+          "title": "Одяг/взуття для риболовлі Термобілизна Хм.",
+          "value": "Чоловіків та жінок"
+        }
+      ]
+    },
+    {
+      "family": "flashlight",
+      "param": "Стиль",
+      "count": 1,
+      "family_param_total": 166,
+      "examples": [
+        {
+          "article": "2998",
+          "title": "Ліхтар Кепка Winner з ліхтарем",
+          "value": "Спортивний"
+        }
+      ]
+    },
+    {
+      "family": "flashlight",
+      "param": "Водостійкість",
+      "count": 2,
+      "family_param_total": 166,
+      "examples": [
+        {
+          "article": "ME-4511",
+          "title": "Ліхтар Ліхтарик SENSON ME-4511",
+          "value": "Так"
+        },
+        {
+          "article": "LL-6651A",
+          "title": "Ліхтар Ліхтарик налобний LL-6651A акамул.",
+          "value": "Так"
+        }
+      ]
+    },
+    {
+      "family": "flashlight",
+      "param": "Тип живлення",
+      "count": 1,
+      "family_param_total": 166,
+      "examples": [
+        {
+          "article": "ME-4519",
+          "title": "Ліхтар Ліхтарик SENSON ME-4519",
+          "value": "Акумулятор/батарейки"
+        }
+      ]
+    },
+    {
+      "family": "flashlight",
+      "param": "Яскравість",
+      "count": 2,
+      "family_param_total": 166,
+      "examples": [
+        {
+          "article": "ME-4520",
+          "title": "Ліхтар Ліхтарик SENSON ME-4520",
+          "value": "До 300 люмен"
+        },
+        {
+          "article": "4130",
+          "title": "Ліхтар Портативний ручний ліхтарик",
+          "value": "До 500 люмен"
+        }
+      ]
+    },
+    {
+      "family": "flashlight",
+      "param": "Режими роботи",
+      "count": 1,
+      "family_param_total": 166,
+      "examples": [
+        {
+          "article": "ME-4520",
+          "title": "Ліхтар Ліхтарик SENSON ME-4520",
+          "value": "Основний, мигаючий"
+        }
+      ]
+    },
+    {
+      "family": "flashlight",
+      "param": "Кут освітлення",
+      "count": 1,
+      "family_param_total": 166,
+      "examples": [
+        {
+          "article": "ME-4521",
+          "title": "Ліхтар Ліхтарик SENSON ME-4521",
+          "value": "120 градусів"
+        }
+      ]
+    },
+    {
+      "family": "flashlight",
+      "param": "Матеріал корпусу",
+      "count": 1,
+      "family_param_total": 166,
+      "examples": [
+        {
+          "article": "1536",
+          "title": "Ліхтар Ліхтарик налобний Strong Light сенсорний USB зарядка",
+          "value": "Пластик"
+        }
+      ]
+    },
+    {
+      "family": "flashlight",
+      "param": "Джерело світла",
+      "count": 1,
+      "family_param_total": 166,
+      "examples": [
+        {
+          "article": "1536",
+          "title": "Ліхтар Ліхтарик налобний Strong Light сенсорний USB зарядка",
+          "value": "Світлодіоди"
+        }
+      ]
+    },
+    {
+      "family": "flashlight",
+      "param": "Спосіб зарядки",
+      "count": 1,
+      "family_param_total": 166,
+      "examples": [
+        {
+          "article": "3247",
+          "title": "Ліхтар Ліхтарик налобний WH 1707(1 акамулятори)USB",
+          "value": "USB"
+        }
+      ]
+    },
+    {
+      "family": "flashlight",
+      "param": "Кут нахилу",
+      "count": 1,
+      "family_param_total": 166,
+      "examples": [
+        {
+          "article": "4510",
+          "title": "Ліхтар налобний SQ-805",
+          "value": "Регульований"
+        }
+      ]
+    },
+    {
+      "family": "float",
+      "param": "Застосування",
+      "count": 1,
+      "family_param_total": 1549,
+      "examples": [
+        {
+          "article": "1523",
+          "title": "Поплавок EXPERT -025",
+          "value": "Риболовля в річках, озерах та водоймах"
+        }
+      ]
+    },
+    {
+      "family": "float",
+      "param": "Сумісність",
+      "count": 1,
+      "family_param_total": 1549,
+      "examples": [
+        {
+          "article": "3211",
+          "title": "Поплавок Батарейка під поплавок",
+          "value": "Універсальна"
+        }
+      ]
+    },
+    {
+      "family": "foam_paste",
+      "param": "Склад",
+      "count": 2,
+      "family_param_total": 332,
+      "examples": [
+        {
+          "article": "3177",
+          "title": "Пінотісто/макуха Пластилін RealFish Горох",
+          "value": "Натуральні інгредієнти"
+        },
+        {
+          "article": "3078",
+          "title": "Пінотісто/макуха Пластилін RealFish Слива",
+          "value": "Пінотісто, аромати"
+        }
+      ]
+    },
+    {
+      "family": "foam_paste",
+      "param": "Смак",
+      "count": 2,
+      "family_param_total": 332,
+      "examples": [
+        {
+          "article": "3179",
+          "title": "Пінотісто/макуха Пластилін RealFish Часник",
+          "value": "Часник"
+        },
+        {
+          "article": "3074",
+          "title": "Пінотісто/макуха Пластилін RealFish Чебрець - Часник",
+          "value": "Чебрець - Часник"
+        }
+      ]
+    },
+    {
+      "family": "foam_paste",
+      "param": "Ступінь вологості",
+      "count": 1,
+      "family_param_total": 332,
+      "examples": [
+        {
+          "article": "3074",
+          "title": "Пінотісто/макуха Пластилін RealFish Чебрець - Часник",
+          "value": "Середня"
+        }
+      ]
+    },
+    {
+      "family": "gift_certificate",
+      "param": "Формат",
+      "count": 1,
+      "family_param_total": 54,
+      "examples": [
+        {
+          "article": "3686",
+          "title": "Подарунковий сертифікат Сертифкат. (арт. 3686)",
+          "value": "Електронний"
+        }
+      ]
+    },
+    {
+      "family": "gift_certificate",
+      "param": "Сфера використання",
+      "count": 1,
+      "family_param_total": 54,
+      "examples": [
+        {
+          "article": "3688",
+          "title": "Подарунковий сертифікат Сертифкат. (арт. 3688)",
+          "value": "Риболовля"
+        }
+      ]
+    },
+    {
+      "family": "gift_certificate",
+      "param": "Користування",
+      "count": 1,
+      "family_param_total": 54,
+      "examples": [
+        {
+          "article": "3690",
+          "title": "Подарунковий сертифікат Сертифкат. (арт. 3690)",
+          "value": "Онлайн-замовлення"
+        }
+      ]
+    },
+    {
+      "family": "gift_certificate",
+      "param": "Спосіб використання",
+      "count": 1,
+      "family_param_total": 54,
+      "examples": [
+        {
+          "article": "3510",
+          "title": "Подарунковий сертифікат. (арт. 3510)",
+          "value": "Онлайн покупка"
+        }
+      ]
+    },
+    {
+      "family": "grain_bait",
+      "param": "Склад",
+      "count": 1,
+      "family_param_total": 1670,
+      "examples": [
+        {
+          "article": "2159",
+          "title": "Зернова насадка Тигровий горіх XXL натур (XXL 100 г)",
+          "value": "Натуральні інгредієнти"
+        }
+      ]
+    },
+    {
+      "family": "groundbait",
+      "param": "Фасування",
+      "count": 2,
+      "family_param_total": 3671,
+      "examples": [
+        {
+          "article": "3821",
+          "title": "Прикормка Fanatik AMNESIA Слива-Шоколад Короп",
+          "value": "Пакет"
+        },
+        {
+          "article": "2573",
+          "title": "Прикормка Method Mix Stic 1кг Anvi Fishing",
+          "value": "Пакет"
+        }
+      ]
+    },
+    {
+      "family": "groundbait",
+      "param": "Форма упаковки",
+      "count": 1,
+      "family_param_total": 3671,
+      "examples": [
+        {
+          "article": "620",
+          "title": "Прикормка Cukk Mix 1, 5кг (арт. 620)",
+          "value": "Пакет"
+        }
+      ]
+    },
+    {
+      "family": "groundbait",
+      "param": "Розмір частинок",
+      "count": 2,
+      "family_param_total": 3671,
+      "examples": [
+        {
+          "article": "4237",
+          "title": "Прикормка puffi Тісто Cukkmidi 3-6мм Ананас (6 мм 30 г)",
+          "value": "3-6мм"
+        },
+        {
+          "article": "68",
+          "title": "Прикормка puffi Тісто Cukkmidi 3-6мм Шоколад - апельсин (6 мм 30 г 50 )",
+          "value": "3-6 мм"
+        }
+      ]
+    },
+    {
+      "family": "hook",
+      "param": "Форма",
+      "count": 1,
+      "family_param_total": 3452,
+      "examples": [
+        {
+          "article": "1740",
+          "title": "Гачок звичайний",
+          "value": "Звичайна"
+        }
+      ]
+    },
+    {
+      "family": "keepnet",
+      "param": "Кількість кілець",
+      "count": 1,
+      "family_param_total": 502,
+      "examples": [
+        {
+          "article": "4259",
+          "title": "Садок 50*70 з поплавками 3 кільця",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "family": "keepnet",
+      "param": "Підходить для",
+      "count": 1,
+      "family_param_total": 502,
+      "examples": [
+        {
+          "article": "3022739",
+          "title": "Садок Carp Line Black чорн. кіл. прогум. (3.5 м)",
+          "value": "Карпів та інших видів риби"
+        }
+      ]
+    },
+    {
+      "family": "keepnet",
+      "param": "Чохол",
+      "count": 1,
+      "family_param_total": 502,
+      "examples": [
+        {
+          "article": "3744",
+          "title": "Садок Faima прогум. сітка в чохлі (2.5 м)",
+          "value": "є"
+        }
+      ]
+    },
+    {
+      "family": "keepnet",
+      "param": "Кількість гачків",
+      "count": 1,
+      "family_param_total": 502,
+      "examples": [
+        {
+          "article": "235",
+          "title": "Садок Кукан (5 крючков)",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "family": "keepnet",
+      "param": "Застосування",
+      "count": 1,
+      "family_param_total": 502,
+      "examples": [
+        {
+          "article": "235",
+          "title": "Садок Кукан (5 крючков)",
+          "value": "Для риболовлі"
+        }
+      ]
+    },
+    {
+      "family": "keepnet",
+      "param": "Кількість застібок",
+      "count": 2,
+      "family_param_total": 502,
+      "examples": [
+        {
+          "article": "3955",
+          "title": "Садок Кукан ЖукАн 10 застібок шнур (2 м)",
+          "value": "10"
+        },
+        {
+          "article": "3954",
+          "title": "Садок Кукан ЖукАн 7 застібок шнур (2 м)",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "family": "keepnet",
+      "param": "Довжина шнура",
+      "count": 1,
+      "family_param_total": 502,
+      "examples": [
+        {
+          "article": "3954",
+          "title": "Садок Кукан ЖукАн 7 застібок шнур (2 м)",
+          "value": "2 м"
+        }
+      ]
+    },
+    {
+      "family": "keepnet",
+      "param": "Сітка",
+      "count": 1,
+      "family_param_total": 502,
+      "examples": [
+        {
+          "article": "2182",
+          "title": "Садок Ручка метал сітка прорез (1.5 м)",
+          "value": "Прорез"
+        }
+      ]
+    },
+    {
+      "family": "keepnet",
+      "param": "Діаметр сітки",
+      "count": 1,
+      "family_param_total": 502,
+      "examples": [
+        {
+          "article": "2979",
+          "title": "Садок відро прогум.сітка 0, 65мм круглий (0.4 м 0.65 мм)",
+          "value": "0,65 мм"
+        }
+      ]
+    },
+    {
+      "family": "keepnet",
+      "param": "Застібка",
+      "count": 1,
+      "family_param_total": 502,
+      "examples": [
+        {
+          "article": "2785",
+          "title": "Садок з ручками на застібці прогум. сітка (0.01 м)",
+          "value": "Так"
+        }
+      ]
+    },
+    {
+      "family": "keepnet",
+      "param": "Кільця",
+      "count": 1,
+      "family_param_total": 502,
+      "examples": [
+        {
+          "article": "2218",
+          "title": "Садок короп 40 круглий прогум. метал кільця (2.5 м)",
+          "value": "Металеві"
+        }
+      ]
+    },
+    {
+      "family": "keepnet",
+      "param": "Сезон",
+      "count": 1,
+      "family_param_total": 502,
+      "examples": [
+        {
+          "article": "2588",
+          "title": "Садок не прорез 1, 60 круглий",
+          "value": "Універсальний"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Діаметр рами",
+      "count": 1,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "Y-226055-JW",
+          "title": "Підсак Breeze 55см прогум. сітка зелена, телескоп пятикут. (1.7 м)",
+          "value": "55 см"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Максимальна довжина",
+      "count": 2,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "Y-226055-JW",
+          "title": "Підсак Breeze 55см прогум. сітка зелена, телескоп пятикут. (1.7 м)",
+          "value": "1.7 м"
+        },
+        {
+          "article": "HY-370170-GJ",
+          "title": "Підсак Breeze п'ятикутна цільна голова 70 см, прогумована тонуча сітка, кругла металева телескоп ручка (1.7 м)",
+          "value": "1.7 м"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Форма рами",
+      "count": 1,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "Y-226055-JW",
+          "title": "Підсак Breeze 55см прогум. сітка зелена, телескоп пятикут. (1.7 м)",
+          "value": "П'ятикутна"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Тип замка",
+      "count": 1,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "HH-270170-GJ",
+          "title": "Підсак Breeze HH-270170-GJ трикут. прогум. сітка, телескоп. посил.замок (0.7 м)",
+          "value": "Телескопічний посилений"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Форма голови",
+      "count": 2,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "HY-GJ-L",
+          "title": "Підсак Breeze HY-GJ-L бортовий, синя овальна голова (0.45 м L)",
+          "value": "Овальна"
+        },
+        {
+          "article": "HY-380170-GJ",
+          "title": "Підсак Breeze п'ятикутна цільна голова 80 см, прогумована тонуча сітка, кругла металева телескоп ручка (1.7 м)",
+          "value": "П'ятикутна"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Ручка",
+      "count": 2,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "4283",
+          "title": "Підсак Breeze голова складається навпіл прогум.сітка ручка телескоп (0.7 м)",
+          "value": "Телескопічна"
+        },
+        {
+          "article": "4402",
+          "title": "Підсак Суми алюм корд. овал корд ручка телескоп 1, 9",
+          "value": "Телескопічна"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Матеріал ручки",
+      "count": 2,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "HY-370170-GJ",
+          "title": "Підсак Breeze п'ятикутна цільна голова 70 см, прогумована тонуча сітка, кругла металева телескоп ручка (1.7 м)",
+          "value": "Метал"
+        },
+        {
+          "article": "HY-380170-GJ",
+          "title": "Підсак Breeze п'ятикутна цільна голова 80 см, прогумована тонуча сітка, кругла металева телескоп ручка (1.7 м)",
+          "value": "Метал"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Діаметр голови",
+      "count": 1,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "HY-370170-GJ",
+          "title": "Підсак Breeze п'ятикутна цільна голова 70 см, прогумована тонуча сітка, кругла металева телескоп ручка (1.7 м)",
+          "value": "70 см"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Матеріал голови",
+      "count": 1,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "HY-380170-GJ",
+          "title": "Підсак Breeze п'ятикутна цільна голова 80 см, прогумована тонуча сітка, кругла металева телескоп ручка (1.7 м)",
+          "value": "Метал"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Телескопічна",
+      "count": 1,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "HY-380170-GJ",
+          "title": "Підсак Breeze п'ятикутна цільна голова 80 см, прогумована тонуча сітка, кругла металева телескоп ручка (1.7 м)",
+          "value": "Так"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Голова",
+      "count": 2,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "HH-260170-GJ",
+          "title": "Підсак Breeze трикут.голова прогум. сітка посил.замок речка телескоп (0.6 м)",
+          "value": "Трикутна"
+        },
+        {
+          "article": "000746",
+          "title": "Підсак карбоновий Yeyingzhe + голова 40см (3 м)",
+          "value": "40 см"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Розбірний",
+      "count": 1,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "2221",
+          "title": "Підсак CARP ручка карбон телескоп розбірний (0.8 м)",
+          "value": "Так"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Розмір сітки",
+      "count": 2,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "SF23744",
+          "title": "Підсак SAMS FISH SF23744",
+          "value": "приблизно 50 см"
+        },
+        {
+          "article": "2222",
+          "title": "Підсак Короп",
+          "value": "60 см"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Ширина",
+      "count": 1,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "2291",
+          "title": "Підсак Бортовий 30*50",
+          "value": "30 см"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Довжина рукоятки",
+      "count": 1,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "2222",
+          "title": "Підсак Короп",
+          "value": "1.5 м"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Ширина сітки",
+      "count": 1,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "1147",
+          "title": "Підсак ПРОСТИЙ ВЕЛИКИЙ",
+          "value": "80 см"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Діаметр кошика",
+      "count": 1,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "1266",
+          "title": "Підсак ПРОСТИЙ Червоний",
+          "value": "40 см"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Система",
+      "count": 1,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "2026",
+          "title": "Підсак Суми алюм корд. квадрат телескоп 88*73 (1.9 м)",
+          "value": "Телескопічна"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Телескопічний",
+      "count": 2,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "2027",
+          "title": "Підсак Суми алюм корд. комп квадрат корд телескоп 1, 90 (57-74 г)",
+          "value": "Так"
+        },
+        {
+          "article": "3497",
+          "title": "Підсак Суми алюм корд. круглий корд телескоп 100",
+          "value": "Так"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Довжина в складеному вигляді",
+      "count": 1,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "2276",
+          "title": "Підсак Ручка Суми до Підсаку телескоп 2, 4",
+          "value": "1,2 м"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Довжина в розкладеному вигляді",
+      "count": 1,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "2276",
+          "title": "Підсак Ручка Суми до Підсаку телескоп 2, 4",
+          "value": "2,4 м"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Діаметр",
+      "count": 1,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "3014",
+          "title": "Підсак Сітка для Підсака прорез. J-70",
+          "value": "60 см"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Сумісність",
+      "count": 1,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "4756",
+          "title": "Підсак Голова до підсака Perfect Koi (Herabunafishing) (0.5 м)",
+          "value": "Різні ручки підсаків"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Максимальне навантаження",
+      "count": 1,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "000038",
+          "title": "Підсак Підставка для вудилищ Siechi LUX (Herabunafishing) (2.4 м)",
+          "value": "10 кг"
+        }
+      ]
+    },
+    {
+      "family": "landing_net",
+      "param": "Застосування",
+      "count": 1,
+      "family_param_total": 643,
+      "examples": [
+        {
+          "article": "000149",
+          "title": "Підсак Стул Херабуна Perfect Koi (Herabunafishing)",
+          "value": "Риболовля на карпа та інших великих риб"
+        }
+      ]
+    },
+    {
+      "family": "nod",
+      "param": "Тип з'єднання секцій",
+      "count": 1,
+      "family_param_total": 253,
+      "examples": [
+        {
+          "article": "RBS-3R-R",
+          "title": "Кивок Вудочка Flagman Балалайка кивок 38.см вага (1-3.6 г 17 г)",
+          "value": "Телескоп"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Максимальне навантаження",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "4633",
+          "title": "Рибальський товар Вага риболовна з рулеткою до 50кг (1 м)",
+          "value": "50 кг"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Додаткові функції",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "4633",
+          "title": "Рибальський товар Вага риболовна з рулеткою до 50кг (1 м)",
+          "value": "Рулетка"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Тип товару",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "1926",
+          "title": "Рибальський товар Прес форма силіконова під флет in-line (вел)",
+          "value": "Прес-форма"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Склад",
+      "count": 2,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "1958",
+          "title": "Рибальський товар Горох Варений",
+          "value": "Горох"
+        },
+        {
+          "article": "4017",
+          "title": "Рибальський товар Горох Риболовний сухий",
+          "value": "Натуральний горох"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Термін придатності",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "1958",
+          "title": "Рибальський товар Горох Варений",
+          "value": "24 місяці"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Упаковка",
+      "count": 2,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "4017",
+          "title": "Рибальський товар Горох Риболовний сухий",
+          "value": "Пакет"
+        },
+        {
+          "article": "4613",
+          "title": "Рибальський товар Живець в.",
+          "value": "Контейнер"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Використання",
+      "count": 2,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "4613",
+          "title": "Рибальський товар Живець в.",
+          "value": "Для ловлі хижих риб"
+        },
+        {
+          "article": "000736",
+          "title": "Рибальський товар Конектор для поплавка 45°",
+          "value": "Риболовля"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Вид",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "2593",
+          "title": "Рибальський товар Мотиль",
+          "value": "Мотиль"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Категорія",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "2738",
+          "title": "Рибальський товар Мотиль пів порції",
+          "value": "Мотиль"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Форма",
+      "count": 2,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "1906",
+          "title": "Рибальський товар Опариш",
+          "value": "Живий"
+        },
+        {
+          "article": "2942",
+          "title": "Рибальський товар Миттєвий Клей ультра гель",
+          "value": "Гель"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Формат",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "1641",
+          "title": "Рибальський товар Батарейки KODAK міні пальчик",
+          "value": "AA (міні пальчик)"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Напруга",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "1641",
+          "title": "Рибальський товар Батарейки KODAK міні пальчик",
+          "value": "1.5 В"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Кількість частин",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "3056",
+          "title": "Рибальський товар Весло (1.4 м)",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Кліматичний режим",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "1286",
+          "title": "Рибальський товар Кокон Спальник",
+          "value": "3-сезонний"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Розміри в складеному вигляді",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "1286",
+          "title": "Рибальський товар Кокон Спальник",
+          "value": "40x15 см"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Кількість предметів",
+      "count": 2,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "FRT-229",
+          "title": "Рибальський товар Набір посуду FORREST Camp Set X3",
+          "value": "3"
+        },
+        {
+          "article": "FRT-K7",
+          "title": "Рибальський товар Набір посуду FORREST Camp Set X4",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Сезонність",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "1996",
+          "title": "Рибальський товар Намет",
+          "value": "Літній/зимовий"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Водонепроникність",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "389.00.81",
+          "title": "Рибальський товар Намет Skif Outdoor Adventure Auto 1.200* green 2-х місцева (1.5 м)",
+          "value": "2000 мм"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Розмір у складеному вигляді",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "389.00.81",
+          "title": "Рибальський товар Намет Skif Outdoor Adventure Auto 1.200* green 2-х місцева (1.5 м)",
+          "value": "компактний"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Конструкція",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "389.00.90",
+          "title": "Рибальський товар Намет Skif Outdoor Adventure Auto 1.200* green 3-х місцева (2 м)",
+          "value": "Автоматична"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Потужність",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "4016",
+          "title": "Рибальський товар Насос електричний CZ-208",
+          "value": "приблизно 100-200 Вт"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Живлення",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "4016",
+          "title": "Рибальський товар Насос електричний CZ-208",
+          "value": "мережа 220 В"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Висота",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "UTRC-111",
+          "title": "Рибальський товар Термос Tramp Basic червоний (0.5 л)",
+          "value": "20 см"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Кут",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "000736",
+          "title": "Рибальський товар Конектор для поплавка 45°",
+          "value": "45°"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Кількість оснасток",
+      "count": 2,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "4700",
+          "title": "Рибальський товар Набір Херабуна Perfect Koi паплавок, 2 оснастки, гачки мікс (5.4 м)",
+          "value": "2"
+        },
+        {
+          "article": "4699",
+          "title": "Рибальський товар Набір Херабуна Perfect Koi паплавок, 2 оснастки, гачки мікс (6.3 м)",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Гачки",
+      "count": 2,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "4700",
+          "title": "Рибальський товар Набір Херабуна Perfect Koi паплавок, 2 оснастки, гачки мікс (5.4 м)",
+          "value": "мікс"
+        },
+        {
+          "article": "4699",
+          "title": "Рибальський товар Набір Херабуна Perfect Koi паплавок, 2 оснастки, гачки мікс (6.3 м)",
+          "value": "мікс"
+        }
+      ]
+    },
+    {
+      "family": "other",
+      "param": "Ступінь тесту",
+      "count": 1,
+      "family_param_total": 578,
+      "examples": [
+        {
+          "article": "05.52",
+          "title": "Рибальський товар Оснастка фірмова 3.6",
+          "value": "До 10 кг"
+        }
+      ]
+    },
+    {
+      "family": "pellets",
+      "param": "Упаковка",
+      "count": 2,
+      "family_param_total": 1663,
+      "examples": [
+        {
+          "article": "CZ7873",
+          "title": "Пелетс Carp zoom Sweet Baby Corn Pellets (кукур.-натур) (800 г)",
+          "value": "800 г"
+        },
+        {
+          "article": "328",
+          "title": "Пелетс FISH SPORT PELLETS Кукурудза (8 мм)",
+          "value": "Пакет"
+        }
+      ]
+    },
+    {
+      "family": "pop_up_bait",
+      "param": "Склад",
+      "count": 2,
+      "family_param_total": 3014,
+      "examples": [
+        {
+          "article": "159",
+          "title": "Поп-ап FISH SPORT POP-UP Кукурудза PELLETS",
+          "value": "Кукурудзяне борошно, ароматизатори"
+        },
+        {
+          "article": "161",
+          "title": "Поп-ап FISH SPORT POP-UP Палтус PELLETS",
+          "value": "Природні інгредієнти"
+        }
+      ]
+    },
+    {
+      "family": "pva_material",
+      "param": "Склад",
+      "count": 1,
+      "family_param_total": 255,
+      "examples": [
+        {
+          "article": "4183",
+          "title": "ПВА матеріал Миттєвий клей 505",
+          "value": "Полівініловий спирт"
+        }
+      ]
+    },
+    {
+      "family": "pva_material",
+      "param": "Ширина",
+      "count": 1,
+      "family_param_total": 255,
+      "examples": [
+        {
+          "article": "79595",
+          "title": "ПВА матеріал Сітка Tex PVA швидкорозчинна 24мм, (5 м 24 мм карп)",
+          "value": "24 мм"
+        }
+      ]
+    },
+    {
+      "family": "ready_leader",
+      "param": "Розривне навантаження",
+      "count": 1,
+      "family_param_total": 790,
+      "examples": [
+        {
+          "article": "4065011",
+          "title": "Повідець Матеріал GC G.Carp повідцевий 35ib (20 м 17 кг)",
+          "value": "17 кг"
+        }
+      ]
+    },
+    {
+      "family": "ready_rig",
+      "param": "Кількість елементів",
+      "count": 1,
+      "family_param_total": 914,
+      "examples": [
+        {
+          "article": "1501",
+          "title": "Готовий монтаж 3п..ж.о. (001 3 г)",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "family": "ready_rig",
+      "param": "Кількість відводів",
+      "count": 2,
+      "family_param_total": 914,
+      "examples": [
+        {
+          "article": "3991",
+          "title": "Готовий монтаж Арбуз 20гр на 1 відвід пластик (2 г)",
+          "value": "1"
+        },
+        {
+          "article": "3020",
+          "title": "Готовий монтаж Фідер.пуля на 1 відв 2к",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "family": "ready_rig",
+      "param": "Кількість елементів у комплекті",
+      "count": 2,
+      "family_param_total": 914,
+      "examples": [
+        {
+          "article": "3202",
+          "title": "Готовий монтаж Донка монтаж готовий (арт. 3202)",
+          "value": "5"
+        },
+        {
+          "article": "647",
+          "title": "Готовий монтаж Донка монтаж готовий (арт. 647)",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "family": "ready_rig",
+      "param": "Особливості",
+      "count": 1,
+      "family_param_total": 914,
+      "examples": [
+        {
+          "article": "1503",
+          "title": "Готовий монтаж Макушатник Ластівки Хвіст кліпса 3 гачка",
+          "value": "Зручна кліпса для швидкої зміни монтажу"
+        }
+      ]
+    },
+    {
+      "family": "ready_rig",
+      "param": "Довжина оснастки",
+      "count": 1,
+      "family_param_total": 914,
+      "examples": [
+        {
+          "article": "FSPR-XL",
+          "title": "Готовий монтаж Оснастка Flagman Stinger PRO Rig 2-hook XL",
+          "value": "30 см"
+        }
+      ]
+    },
+    {
+      "family": "ready_rig",
+      "param": "Сфера застосування",
+      "count": 1,
+      "family_param_total": 914,
+      "examples": [
+        {
+          "article": "FSPR-XL",
+          "title": "Готовий монтаж Оснастка Flagman Stinger PRO Rig 2-hook XL",
+          "value": "Стаціонарна риболовля"
+        }
+      ]
+    },
+    {
+      "family": "ready_rig",
+      "param": "Кількість кріплень",
+      "count": 1,
+      "family_param_total": 914,
+      "examples": [
+        {
+          "article": "2803",
+          "title": "Готовий монтаж карась 2п.2к.ж.о (26/1)",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "family": "ready_rig",
+      "param": "Кількість поводків",
+      "count": 1,
+      "family_param_total": 914,
+      "examples": [
+        {
+          "article": "399",
+          "title": "Готовий монтаж карась 3п.3к.ж.о",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "family": "ready_rig",
+      "param": "Розмір гачків",
+      "count": 1,
+      "family_param_total": 914,
+      "examples": [
+        {
+          "article": "4263",
+          "title": "Готовий монтаж на Сома 2гач на живця",
+          "value": "Відповідно до стандартів"
+        }
+      ]
+    },
+    {
+      "family": "ready_rig",
+      "param": "Додаткові особливості",
+      "count": 1,
+      "family_param_total": 914,
+      "examples": [
+        {
+          "article": "1502",
+          "title": "Готовий монтаж на вудку Риболов",
+          "value": "Легко змінюється"
+        }
+      ]
+    },
+    {
+      "family": "reel",
+      "param": "Тип з'єднання секцій",
+      "count": 1,
+      "family_param_total": 2877,
+      "examples": [
+        {
+          "article": "3519",
+          "title": "Котушка Жерлиця Щука, котушка з стопором, оснащена (зелена)",
+          "value": "Телескоп"
+        }
+      ]
+    },
+    {
+      "family": "rigging",
+      "param": "Покриття",
+      "count": 1,
+      "family_param_total": 1130,
+      "examples": [
+        {
+          "article": "30037",
+          "title": "Монтажна оснастка Кільце Технокарп для гачка D=3.7 30037",
+          "value": "Антикорозійне"
+        }
+      ]
+    },
+    {
+      "family": "rigging",
+      "param": "Довговічність",
+      "count": 1,
+      "family_param_total": 1130,
+      "examples": [
+        {
+          "article": "2153",
+          "title": "Монтажна оснастка Фідергам Feeder Sport 1уп скрутка",
+          "value": "Висока"
+        }
+      ]
+    },
+    {
+      "family": "rigging",
+      "param": "Форма",
+      "count": 1,
+      "family_param_total": 1130,
+      "examples": [
+        {
+          "article": "АС2037",
+          "title": "Монтажна оснастка Кільце ORANGE пелюстка 2037",
+          "value": "Пелюстка"
+        }
+      ]
+    },
+    {
+      "family": "rigging",
+      "param": "Рік випуску",
+      "count": 1,
+      "family_param_total": 1130,
+      "examples": [
+        {
+          "article": "AC2017",
+          "title": "Монтажна оснастка Трубка ORANGE термозбіжна 1, 0мм 2017 Ч (1 мм)",
+          "value": "2017"
+        }
+      ]
+    },
+    {
+      "family": "rigging",
+      "param": "Діапазон температур",
+      "count": 1,
+      "family_param_total": 1130,
+      "examples": [
+        {
+          "article": "АС2018",
+          "title": "Монтажна оснастка Трубка ORANGE термозбіжна 1, 5мм 2018 Ч (1.5 мм)",
+          "value": "-40° до +100°С"
+        }
+      ]
+    },
+    {
+      "family": "rigging",
+      "param": "Сезон",
+      "count": 2,
+      "family_param_total": 1130,
+      "examples": [
+        {
+          "article": "014293",
+          "title": "Рибальський товар Монтаж Orange 530(пружина лідкор.2гач№5) (5MF 30 г)",
+          "value": "Зимовий"
+        },
+        {
+          "article": "1314",
+          "title": "Рибальський товар Монтаж Orange 530(пружина лідкор.2гач№5) (5MF 50 г)",
+          "value": "Зимовий"
+        }
+      ]
+    },
+    {
+      "family": "rigging",
+      "param": "Вид",
+      "count": 1,
+      "family_param_total": 1130,
+      "examples": [
+        {
+          "article": "4438",
+          "title": "Рибальський товар Монтаж Orange 650(для ловлі коропа на лідкорі.3гач№6) (6MF 50 г)",
+          "value": "Короп"
+        }
+      ]
+    },
+    {
+      "family": "rigging",
+      "param": "Гачок",
+      "count": 1,
+      "family_param_total": 1130,
+      "examples": [
+        {
+          "article": "2270",
+          "title": "Рибальський товар Монтаж Orange №MF220(для ловлі карпа станарт.3гач№6) (2 20 г)",
+          "value": "№6"
+        }
+      ]
+    },
+    {
+      "family": "rigging",
+      "param": "Розмір гачків",
+      "count": 1,
+      "family_param_total": 1130,
+      "examples": [
+        {
+          "article": "2267",
+          "title": "Рибальський товар Монтаж Orange №MF2730(для ловлі карпана лідкорі.2гач№6) (27 30 г)",
+          "value": "№6"
+        }
+      ]
+    },
+    {
+      "family": "rod_tube",
+      "param": "Кількість вудок",
+      "count": 1,
+      "family_param_total": 509,
+      "examples": [
+        {
+          "article": "122705",
+          "title": "Чохол/тубус Carp-Feeder 4 Rods ПрофМонтаж (1.35 м)",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "family": "rod_tube",
+      "param": "Ширина",
+      "count": 1,
+      "family_param_total": 509,
+      "examples": [
+        {
+          "article": "2899",
+          "title": "Чохол/тубус FEIMA GP-2014 1. (5/2)",
+          "value": "20 см"
+        }
+      ]
+    },
+    {
+      "family": "rod_tube",
+      "param": "Висота",
+      "count": 1,
+      "family_param_total": 509,
+      "examples": [
+        {
+          "article": "2899",
+          "title": "Чохол/тубус FEIMA GP-2014 1. (5/2)",
+          "value": "20 см"
+        }
+      ]
+    },
+    {
+      "family": "rod_tube",
+      "param": "Форма",
+      "count": 1,
+      "family_param_total": 509,
+      "examples": [
+        {
+          "article": "70060510",
+          "title": "Чохол/тубус KALIPSO 135* напівжорсткий під катуш. (0.1 м)",
+          "value": "Напівжорстка"
+        }
+      ]
+    },
+    {
+      "family": "rod_tube",
+      "param": "Застосування",
+      "count": 1,
+      "family_param_total": 509,
+      "examples": [
+        {
+          "article": "AMN122660",
+          "title": "Чохол/тубус Сумка-Чехол Winter Rods на 6 зимових вудок ПрофМонтаж",
+          "value": "Для зимової рибалки"
+        }
+      ]
+    },
+    {
+      "family": "shock_leader",
+      "param": "Бренд",
+      "count": 2,
+      "family_param_total": 14,
+      "examples": [
+        {
+          "article": "CP1630-8-25",
+          "title": "Шок-лідер Carp Pro плетений PE 8x 30ib корич.камо (25 м)",
+          "value": "Carp"
+        },
+        {
+          "article": "CP1635-8-25",
+          "title": "Шок-лідер Carp Pro плетений PE 8x 35ib корич.камо (25 м)",
+          "value": "Carp"
+        }
+      ]
+    },
+    {
+      "family": "spinner",
+      "param": "Покриття",
+      "count": 1,
+      "family_param_total": 5796,
+      "examples": [
+        {
+          "article": "2736",
+          "title": "Блешня MILDAS з трійником",
+          "value": "нікель"
+        }
+      ]
+    },
+    {
+      "family": "swivel",
+      "param": "Застібка",
+      "count": 1,
+      "family_param_total": 1031,
+      "examples": [
+        {
+          "article": "2004",
+          "title": "Вертлюг/застібка Хвостовик ORANGE для вертлюга,., (1.5 м 55 мм)",
+          "value": "Блискавка"
+        }
+      ]
+    },
+    {
+      "family": "tackle_box",
+      "param": "Габарити",
+      "count": 2,
+      "family_param_total": 646,
+      "examples": [
+        {
+          "article": "4248",
+          "title": "Ящик/коробка для снастей Meiho Versus VS 3010 ND",
+          "value": "Стандартні"
+        },
+        {
+          "article": "KB16014",
+          "title": "Ящик/коробка для снастей Коробка для оснащення KB16014",
+          "value": "Стандартні"
+        }
+      ]
+    },
+    {
+      "family": "tackle_box",
+      "param": "Застібка",
+      "count": 1,
+      "family_param_total": 646,
+      "examples": [
+        {
+          "article": "1870.38.53",
+          "title": "Ящик/коробка для снастей Select Terminal Box SLHX-2001A (17.5x10.5x3.8 см)",
+          "value": "Клапан"
+        }
+      ]
+    },
+    {
+      "family": "tackle_box",
+      "param": "Розмір (мм)",
+      "count": 1,
+      "family_param_total": 646,
+      "examples": [
+        {
+          "article": "КУ260",
+          "title": "Ящик/коробка для снастей Коробка універсальна КУ 260*187*48 (260x187x48 см)",
+          "value": "260*187*48"
+        }
+      ]
+    },
+    {
+      "family": "tackle_box",
+      "param": "Користувацька група",
+      "count": 1,
+      "family_param_total": 646,
+      "examples": [
+        {
+          "article": "2731",
+          "title": "Ящик/коробка для снастей Сані пластикові (0.01 м)",
+          "value": "Рибалки"
+        }
+      ]
+    },
+    {
+      "family": "tools",
+      "param": "Довговічність",
+      "count": 1,
+      "family_param_total": 596,
+      "examples": [
+        {
+          "article": "AS-290-9",
+          "title": "Інструмент для риболовлі Гума на Рогатку STONFO AS",
+          "value": "Висока"
+        }
+      ]
+    },
+    {
+      "family": "tools",
+      "param": "Додаткові функції",
+      "count": 2,
+      "family_param_total": 596,
+      "examples": [
+        {
+          "article": "A-2210",
+          "title": "Інструмент для риболовлі Ножиці AFEIMA A-2210 щипці",
+          "value": "Комфортна ручка"
+        },
+        {
+          "article": "964",
+          "title": "Інструмент для риболовлі Ножиці Зажим",
+          "value": "Зажим, для зручності використання"
+        }
+      ]
+    },
+    {
+      "family": "tools",
+      "param": "Форма",
+      "count": 2,
+      "family_param_total": 596,
+      "examples": [
+        {
+          "article": "1726",
+          "title": "Інструмент для риболовлі Ножиці щипці пластик",
+          "value": "Щипці"
+        },
+        {
+          "article": "4609",
+          "title": "Інструмент для риболовлі Багор Стубла напівавтомат",
+          "value": "Прямий"
+        }
+      ]
+    },
+    {
+      "family": "tools",
+      "param": "Матеріал ручки",
+      "count": 1,
+      "family_param_total": 596,
+      "examples": [
+        {
+          "article": "3653",
+          "title": "Інструмент для риболовлі Багор кольорова пластикова ручка",
+          "value": "Пластик"
+        }
+      ]
+    },
+    {
+      "family": "tools",
+      "param": "Кількість шипів",
+      "count": 1,
+      "family_param_total": 596,
+      "examples": [
+        {
+          "article": "2682",
+          "title": "Інструмент для риболовлі Льодоступи на 6 шипів",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "family": "tools",
+      "param": "Кількість елементів",
+      "count": 1,
+      "family_param_total": 596,
+      "examples": [
+        {
+          "article": "3057",
+          "title": "Інструмент для риболовлі Ремкомплект",
+          "value": "Багатофункціональний"
+        }
+      ]
+    },
+    {
+      "family": "tools",
+      "param": "Сумісність",
+      "count": 2,
+      "family_param_total": 596,
+      "examples": [
+        {
+          "article": "2771",
+          "title": "Інструмент для риболовлі Ремкомплект Стубла для бура",
+          "value": "Бури різних моделей"
+        },
+        {
+          "article": "WDA-AL-130",
+          "title": "Інструмент для риболовлі Бур Ice Attack з ааптором під шурупокрут 130мм (130 мм)",
+          "value": "Під шурупокрут"
+        }
+      ]
+    },
+    {
+      "family": "tools",
+      "param": "Напруга",
+      "count": 2,
+      "family_param_total": 596,
+      "examples": [
+        {
+          "article": "3270",
+          "title": "Інструмент для риболовлі Зарядний пристрій (для поплавка) 3, 6v",
+          "value": "3.6 V"
+        },
+        {
+          "article": "4127",
+          "title": "Інструмент для риболовлі Батарейки PKCELL 1.5v",
+          "value": "1.5V"
+        }
+      ]
+    },
+    {
+      "family": "tools",
+      "param": "Застосування",
+      "count": 2,
+      "family_param_total": 596,
+      "examples": [
+        {
+          "article": "3499",
+          "title": "Інструмент для риболовлі Павук для малька (малявочник) (0.8 м)",
+          "value": "Ловля малька"
+        },
+        {
+          "article": "3500",
+          "title": "Інструмент для риболовлі Павук для малька (малявочник) (1 м)",
+          "value": "Ловля малька"
+        }
+      ]
+    },
+    {
+      "family": "tools",
+      "param": "Підходить для",
+      "count": 2,
+      "family_param_total": 596,
+      "examples": [
+        {
+          "article": "3499",
+          "title": "Інструмент для риболовлі Павук для малька (малявочник) (0.8 м)",
+          "value": "Рибалок любителів та професіоналів"
+        },
+        {
+          "article": "3500",
+          "title": "Інструмент для риболовлі Павук для малька (малявочник) (1 м)",
+          "value": "Рибалок любителів та професіоналів"
+        }
+      ]
+    },
+    {
+      "family": "tools",
+      "param": "Кількість полиць",
+      "count": 2,
+      "family_param_total": 596,
+      "examples": [
+        {
+          "article": "1285",
+          "title": "Інструмент для риболовлі Сушка для риб 45*45 3 полиці",
+          "value": "3"
+        },
+        {
+          "article": "1284",
+          "title": "Інструмент для риболовлі Сушка для риб 50*50 5 полиці",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "family": "weight",
+      "param": "Кількість гачків",
+      "count": 2,
+      "family_param_total": 1412,
+      "examples": [
+        {
+          "article": "1492",
+          "title": "Вантаж/грузило Монтаж три пружини 3крюч Грузило капля плоска",
+          "value": "3"
+        },
+        {
+          "article": "1495",
+          "title": "Вантаж/грузило Монтаж три пружини 3крюч Грузило шар",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "family": "weight",
+      "param": "Кількість пружин",
+      "count": 1,
+      "family_param_total": 1412,
+      "examples": [
+        {
+          "article": "1495",
+          "title": "Вантаж/грузило Монтаж три пружини 3крюч Грузило шар",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "family": "weight",
+      "param": "Тип грузила",
+      "count": 1,
+      "family_param_total": 1412,
+      "examples": [
+        {
+          "article": "1495",
+          "title": "Вантаж/грузило Монтаж три пружини 3крюч Грузило шар",
+          "value": "Шар"
+        }
+      ]
+    },
+    {
+      "family": "weight",
+      "param": "Колір підсвічування",
+      "count": 1,
+      "family_param_total": 1412,
+      "examples": [
+        {
+          "article": "2173",
+          "title": "Вантаж/грузило Свінгер з підключенням на штазі з вантажем",
+          "value": "Різні кольори"
+        }
+      ]
+    },
+    {
+      "family": "wobbler",
+      "param": "Кількість відділень",
+      "count": 2,
+      "family_param_total": 4838,
+      "examples": [
+        {
+          "article": "4337",
+          "title": "Воблер Коробка Суми під воблер",
+          "value": "Залежить від моделі"
+        },
+        {
+          "article": "КВ16014",
+          "title": "Воблер Коробка для зберігання воблеров КВ 16014",
+          "value": "Багато"
+        }
+      ]
+    }
+  ],
+  "explicitly_noisy": [],
+  "noisy_values": []
+}

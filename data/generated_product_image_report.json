@@ -1,0 +1,152 @@
+{
+  "live_urls_total": 6883,
+  "mapped_ok": 6883,
+  "mapped_failed": 0,
+  "generated_count": 6883,
+  "missing_in_db_count": 0,
+  "generated_sample": [
+    {
+      "article": "CPZD3003",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\CPZD3003\\1.jpg",
+      "name": "Буз бар CARP PRO DELUXE на 3 вуд 30см",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "CPZ15050",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\CPZ15050\\1.jpg",
+      "name": "Буз бар CARP PRO DELUXE на 3 вуд 35-50см",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "2379",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\2379\\1.jpg",
+      "name": "Буз бар  на 4 вуд",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "1145",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\1145\\1.jpg",
+      "name": "Бузбар на 4 виход",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "F2422",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\F2422\\1.jpg",
+      "name": "FLAGMAN Тринога телескопiчна гребінка на 4 секції",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "2362",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\2362\\1.jpg",
+      "name": "Гребінка Фіерна На 10",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "2365",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\2365\\1.jpg",
+      "name": "Гребінка Фіерна На 4",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "2364",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\2364\\1.jpg",
+      "name": "Гребінка Фіерна На 6",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "2363",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\2363\\1.jpg",
+      "name": "Гребінка Фіерна На 8",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "3031",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\3031\\1.jpg",
+      "name": "Гребінка Фіерна На 9",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "3155",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\3155\\1.jpg",
+      "name": "Набір рогачів для підставки комлект 4шт",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "3741",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\3741\\1.jpg",
+      "name": "Набір рогачів XinYongDa комплект (4шт)",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "3305",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\3305\\1.jpg",
+      "name": "Підставка Breeze HB-055-3 кілок телескоп + буз-бар на 3 вуд.35-60см",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "HB-054-14006",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\HB-054-14006\\1.jpg",
+      "name": "Підставка Breeze HB-054-14006 тринога + гребінка на 8 вуд",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "2367",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\2367\\1.jpg",
+      "name": "Підставка Фідерна головка",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "3307",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\3307\\1.jpg",
+      "name": "Підставка кілок Kalipso з різьбою",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "6706000",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\6706000\\1.jpg",
+      "name": "Підставка кілок Kalipso з різьбою",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "1144",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\1144\\1.jpg",
+      "name": "Підставка метал розклад",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "615",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\615\\1.jpg",
+      "name": "Підставка під вудочку 1,0м алюм салат",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    },
+    {
+      "article": "2106",
+      "path": "D:\\FISH\\fish-sync\\public\\generated-product-images\\2106\\1.jpg",
+      "name": "Підставка під вудочку 0,100м алюм телескоп",
+      "brand": "",
+      "family": "rod_rest_accessory"
+    }
+  ],
+  "missing_in_db_sample": [],
+  "output_dir": "D:\\FISH\\fish-sync\\public\\generated-product-images",
+  "map_cache": "D:\\FISH\\fish-sync\\data\\live_missing_article_map.json"
+}

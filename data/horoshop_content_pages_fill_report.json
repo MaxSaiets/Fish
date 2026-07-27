@@ -1,0 +1,73 @@
+{
+  "base_url": "https://vsedliarybalky.com.ua",
+  "updated": [
+    {
+      "id": "927",
+      "title": "Про нас",
+      "status": "200",
+      "final_url": "https://vsedliarybalky.com.ua/adminLegacy/edit.php?id=927&parent=1&handler=4&checkcode=yamete_kudasai&showPages&"
+    },
+    {
+      "id": "928",
+      "title": "Оплата і доставка",
+      "status": "200",
+      "final_url": "https://vsedliarybalky.com.ua/adminLegacy/edit.php?id=928&parent=1&handler=4&checkcode=yamete_kudasai&showPages&"
+    },
+    {
+      "id": "573",
+      "title": "Обмін та повернення",
+      "status": "200",
+      "final_url": "https://vsedliarybalky.com.ua/adminLegacy/edit.php?id=573&parent=1&handler=4&checkcode=yamete_kudasai&showPages&"
+    },
+    {
+      "id": "686",
+      "title": "Контактна інформація",
+      "status": "200",
+      "final_url": "https://vsedliarybalky.com.ua/adminLegacy/edit.php?id=686&parent=1&handler=4&checkcode=yamete_kudasai&showPages&"
+    },
+    {
+      "id": "1052",
+      "title": "Публічна оферта",
+      "status": "200",
+      "final_url": "https://vsedliarybalky.com.ua/adminLegacy/edit.php?id=1052&parent=1&handler=4&checkcode=yamete_kudasai&showPages&"
+    },
+    {
+      "id": "1053",
+      "title": "Відгуки про магазин",
+      "status": "200",
+      "final_url": "https://vsedliarybalky.com.ua/adminLegacy/edit.php?id=1053&parent=1&handler=4&checkcode=yamete_kudasai&showPages&"
+    }
+  ],
+  "verification": {
+    "pro-nas": {
+      "has_demo_text": false,
+      "has_phone": true,
+      "has_h1": true
+    },
+    "oplata-i-dostavka": {
+      "has_demo_text": false,
+      "has_phone": true,
+      "has_h1": true
+    },
+    "obmin-ta-povernennya": {
+      "has_demo_text": false,
+      "has_phone": true,
+      "has_h1": true
+    },
+    "kontaktna-informatsiya": {
+      "has_demo_text": false,
+      "has_phone": true,
+      "has_h1": true
+    },
+    "privacypolicy": {
+      "has_demo_text": false,
+      "has_phone": true,
+      "has_h1": true
+    },
+    "store-reviews": {
+      "has_demo_text": false,
+      "has_phone": true,
+      "has_h1": true
+    }
+  }
+}

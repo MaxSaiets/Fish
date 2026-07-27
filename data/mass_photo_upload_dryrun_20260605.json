@@ -1,0 +1,321 @@
+{
+  "utility_root": "public\\mass-photo-utility",
+  "token_source": "admin-import-metadata",
+  "articles_total": 30,
+  "clean_gallery": false,
+  "dry_run": true,
+  "uploaded_articles": [
+    {
+      "article": "#001",
+      "file_count": 1,
+      "filenames": [
+        "#001@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "#005",
+      "file_count": 1,
+      "filenames": [
+        "#005@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "#003",
+      "file_count": 1,
+      "filenames": [
+        "#003@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "#006",
+      "file_count": 1,
+      "filenames": [
+        "#006@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "#017",
+      "file_count": 1,
+      "filenames": [
+        "#017@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "#020",
+      "file_count": 1,
+      "filenames": [
+        "#020@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "#021",
+      "file_count": 1,
+      "filenames": [
+        "#021@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "#022 1.6",
+      "file_count": 1,
+      "filenames": [
+        "#022 1.6@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "#023",
+      "file_count": 1,
+      "filenames": [
+        "#023@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "#80164",
+      "file_count": 1,
+      "filenames": [
+        "#80164@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "00.07",
+      "file_count": 1,
+      "filenames": [
+        "00.07@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "00.01",
+      "file_count": 1,
+      "filenames": [
+        "00.01@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "00.10",
+      "file_count": 1,
+      "filenames": [
+        "00.10@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "00.17",
+      "file_count": 1,
+      "filenames": [
+        "00.17@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "0000006",
+      "file_count": 1,
+      "filenames": [
+        "0000006@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "000003",
+      "file_count": 1,
+      "filenames": [
+        "000003@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "000005",
+      "file_count": 1,
+      "filenames": [
+        "000005@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "000006",
+      "file_count": 1,
+      "filenames": [
+        "000006@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "000008",
+      "file_count": 1,
+      "filenames": [
+        "000008@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "000009",
+      "file_count": 1,
+      "filenames": [
+        "000009@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "000015",
+      "file_count": 1,
+      "filenames": [
+        "000015@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "000038",
+      "file_count": 1,
+      "filenames": [
+        "000038@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "000149",
+      "file_count": 1,
+      "filenames": [
+        "000149@gallery_common.jpg"
+      ],
+      "status": "validated"
+    }
+  ],
+  "failed_articles": [
+    {
+      "article": "0",
+      "file_count": 13,
+      "filenames": [
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg"
+      ],
+      "status": "failed",
+      "reason": "check_failed",
+      "failed_checks": {
+        "0@gallery_common.jpg": {
+          "success": false,
+          "message": "productNotFound"
+        }
+      }
+    },
+    {
+      "article": "0-2G",
+      "file_count": 2,
+      "filenames": [
+        "0-2G@gallery_common.jpg",
+        "0-2G@gallery_common.jpg"
+      ],
+      "status": "failed",
+      "reason": "check_failed",
+      "failed_checks": {
+        "0-2G@gallery_common.jpg": {
+          "success": false,
+          "message": "productNotFound"
+        }
+      }
+    },
+    {
+      "article": "0-3G",
+      "file_count": 3,
+      "filenames": [
+        "0-3G@gallery_common.jpg",
+        "0-3G@gallery_common.jpg",
+        "0-3G@gallery_common.jpg"
+      ],
+      "status": "failed",
+      "reason": "check_failed",
+      "failed_checks": {
+        "0-3G@gallery_common.jpg": {
+          "success": false,
+          "message": "productNotFound"
+        }
+      }
+    },
+    {
+      "article": "0-4G",
+      "file_count": 3,
+      "filenames": [
+        "0-4G@gallery_common.jpg",
+        "0-4G@gallery_common.jpg",
+        "0-4G@gallery_common.jpg"
+      ],
+      "status": "failed",
+      "reason": "check_failed",
+      "failed_checks": {
+        "0-4G@gallery_common.jpg": {
+          "success": false,
+          "message": "productNotFound"
+        }
+      }
+    },
+    {
+      "article": "0-5.5G",
+      "file_count": 2,
+      "filenames": [
+        "0-5.5G@gallery_common.jpg",
+        "0-5.5G@gallery_common.jpg"
+      ],
+      "status": "failed",
+      "reason": "check_failed",
+      "failed_checks": {
+        "0-5.5G@gallery_common.jpg": {
+          "success": false,
+          "message": "productNotFound"
+        }
+      }
+    },
+    {
+      "article": "0-6.5G",
+      "file_count": 1,
+      "filenames": [
+        "0-6.5G@gallery_common.jpg"
+      ],
+      "status": "failed",
+      "reason": "check_failed",
+      "failed_checks": {
+        "0-6.5G@gallery_common.jpg": {
+          "success": false,
+          "message": "productNotFound"
+        }
+      }
+    },
+    {
+      "article": "0-5G",
+      "file_count": 4,
+      "filenames": [
+        "0-5G@gallery_common.jpg",
+        "0-5G@gallery_common.jpg",
+        "0-5G@gallery_common.jpg",
+        "0-5G@gallery_common.jpg"
+      ],
+      "status": "failed",
+      "reason": "check_failed",
+      "failed_checks": {
+        "0-5G@gallery_common.jpg": {
+          "success": false,
+          "message": "productNotFound"
+        }
+      }
+    }
+  ]
+}

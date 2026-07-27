@@ -1,0 +1,1009 @@
+{
+  "total_records": 100,
+  "active": 48,
+  "inactive": 52,
+  "short_active": [],
+  "no_img_active": [],
+  "records": [
+    {
+      "id": 35,
+      "act": "0",
+      "title": "Чек-ліст: що потрібно перевірити перед підключенням домену",
+      "slug": "chek-list-shcho-potribno-pereviriti-pered-pidkluchennyam-domenu",
+      "date": "2022-05-26",
+      "body_chars": 6281,
+      "images": 1,
+      "img": "/content/images/36/macbook-polnostu-novyy-komputer-ot-apple-97926869982694.jpg"
+    },
+    {
+      "id": 36,
+      "act": "0",
+      "title": "Підказки для характеристик",
+      "slug": "pidkazki-dlya-kharakteristik",
+      "date": "2022-04-14",
+      "body_chars": 2721,
+      "images": 4,
+      "img": "/content/images/37/pidkazki-dlya-kharakteristik-43548241288961.jpg"
+    },
+    {
+      "id": 37,
+      "act": "0",
+      "title": "Як вибрати перший спінінг для річки та озера",
+      "slug": "yak-vybraty-pershyi-spininh-dlia-richky-ta-ozera/37",
+      "date": "2026-06-01",
+      "body_chars": 562,
+      "images": 0,
+      "img": ""
+    },
+    {
+      "id": 38,
+      "act": "0",
+      "title": "Фідер для початківця: що потрібно для першої риболовлі",
+      "slug": "fider-dlia-pochatkivtsia-shcho-potribno-dlia-pershoi-rybolovli/38",
+      "date": "2026-05-31",
+      "body_chars": 477,
+      "images": 0,
+      "img": ""
+    },
+    {
+      "id": 39,
+      "act": "0",
+      "title": "Коропова риболовля: базове оснащення без зайвого",
+      "slug": "koropova-rybolovlia-bazove-osnashchennia-bez-zaivoho/39",
+      "date": "2026-05-22",
+      "body_chars": 5048,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 40,
+      "act": "0",
+      "title": "Як підібрати прикормку під карася, ляща і коропа",
+      "slug": "yak-pidibraty-prykormku-pid-karasia-liashcha-i-koropa/40",
+      "date": "2026-05-18",
+      "body_chars": 5038,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 41,
+      "act": "0",
+      "title": "Як доглядати за котушкою після риболовлі",
+      "slug": "",
+      "date": "2026-05-02",
+      "body_chars": 4971,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 42,
+      "act": "0",
+      "title": "Гачки для риболовлі: форма, дріт, жало і правильний розмір",
+      "slug": "",
+      "date": "2026-05-11",
+      "body_chars": 6919,
+      "images": 2,
+      "img": "/content/images/43/hachky-dlia-rybolovli-forma-drit-zhalo-i-pravylnyi-rozmir-52981651345417.jpg"
+    },
+    {
+      "id": 43,
+      "act": "0",
+      "title": "Волосінь чи шнур: що краще для ваших умов",
+      "slug": "",
+      "date": "2026-05-26",
+      "body_chars": 475,
+      "images": 0,
+      "img": ""
+    },
+    {
+      "id": 44,
+      "act": "0",
+      "title": "PVA матеріали: коли вони реально потрібні",
+      "slug": "",
+      "date": "2026-05-25",
+      "body_chars": 415,
+      "images": 0,
+      "img": ""
+    },
+    {
+      "id": 45,
+      "act": "0",
+      "title": "Зимова риболовля: що підготувати перед виходом на лід",
+      "slug": "zymova-rybolovlia-shcho-pidhotuvaty-pered-vykhodom-na-lid/45",
+      "date": "2026-05-24",
+      "body_chars": 440,
+      "images": 0,
+      "img": ""
+    },
+    {
+      "id": 46,
+      "act": "0",
+      "title": "Як доглядати за котушкою після риболовлі",
+      "slug": "yak-dohliadaty-za-kotushkoiu-pislia-rybolovli/46",
+      "date": "2026-05-23",
+      "body_chars": 471,
+      "images": 0,
+      "img": ""
+    },
+    {
+      "id": 47,
+      "act": "0",
+      "title": "Органайзери, коробки та сумки: порядок у снастях",
+      "slug": "",
+      "date": "2026-05-22",
+      "body_chars": 459,
+      "images": 0,
+      "img": ""
+    },
+    {
+      "id": 48,
+      "act": "0",
+      "title": "Самовивіз чи доставка: як швидше отримати замовлення",
+      "slug": "",
+      "date": "2026-05-21",
+      "body_chars": 428,
+      "images": 0,
+      "img": ""
+    },
+    {
+      "id": 49,
+      "act": "1",
+      "title": "Як вибрати перший спінінг для річки та озера",
+      "slug": "yak-vybraty-pershyi-spininh-dlia-richky-ta-ozera",
+      "date": "2026-05-31",
+      "body_chars": 10447,
+      "images": 2,
+      "img": "/content/images/50/yak-vybraty-pershyi-spininh-dlia-richky-ta-ozera-73514742872705.jpg"
+    },
+    {
+      "id": 50,
+      "act": "1",
+      "title": "Фідер для початківця: що потрібно для першої риболовлі",
+      "slug": "fider-dlia-pochatkivtsia-shcho-potribno-dlia-pershoi-rybolovli",
+      "date": "2026-05-26",
+      "body_chars": 10498,
+      "images": 2,
+      "img": "/content/images/1/fider-dlia-pochatkivtsia-shcho-potribno-dlia-pershoi-rybolovli-27369440278805.jpg"
+    },
+    {
+      "id": 51,
+      "act": "1",
+      "title": "Коропова риболовля: базове оснащення без зайвого",
+      "slug": "koropova-rybolovlia-bazove-osnashchennia-bez-zaivoho",
+      "date": "2026-05-21",
+      "body_chars": 10505,
+      "images": 2,
+      "img": "/content/images/2/koropova-rybolovlia-bazove-osnashchennia-bez-zaivoho-58888499045938.jpg"
+    },
+    {
+      "id": 52,
+      "act": "1",
+      "title": "Як підібрати прикормку під карася, ляща і коропа",
+      "slug": "yak-pidibraty-prykormku-pid-karasia-liashcha-i-koropa",
+      "date": "2026-05-16",
+      "body_chars": 10482,
+      "images": 2,
+      "img": "/content/images/3/yak-pidibraty-prykormku-pid-karasia-liashcha-i-koropa-17601198810138.jpg"
+    },
+    {
+      "id": 53,
+      "act": "0",
+      "title": "Пелетс, бойли і pop-up: у чому різниця",
+      "slug": "pelets-boily-i-pop-up-u-chomu-riznytsia",
+      "date": "2026-05-28",
+      "body_chars": 471,
+      "images": 0,
+      "img": ""
+    },
+    {
+      "id": 54,
+      "act": "0",
+      "title": "Гачки для риболовлі: як не помилитися з формою і розміром",
+      "slug": "hachky-dlia-rybolovli-yak-ne-pomylytysia-z-formoiu-i-rozmirom",
+      "date": "2026-05-27",
+      "body_chars": 416,
+      "images": 0,
+      "img": ""
+    },
+    {
+      "id": 55,
+      "act": "0",
+      "title": "Волосінь чи шнур: що краще для ваших умов",
+      "slug": "volosin-chy-shnur-shcho-krashche-dlia-vashykh-umov",
+      "date": "2026-05-26",
+      "body_chars": 475,
+      "images": 0,
+      "img": ""
+    },
+    {
+      "id": 56,
+      "act": "0",
+      "title": "PVA матеріали: коли вони реально потрібні",
+      "slug": "pva-materialy-koly-vony-realno-potribni",
+      "date": "2026-05-25",
+      "body_chars": 415,
+      "images": 0,
+      "img": ""
+    },
+    {
+      "id": 57,
+      "act": "0",
+      "title": "Зимова риболовля: що підготувати перед виходом на лід",
+      "slug": "zymova-rybolovlia-shcho-pidhotuvaty-pered-vykhodom-na-lid",
+      "date": "2026-05-24",
+      "body_chars": 440,
+      "images": 0,
+      "img": ""
+    },
+    {
+      "id": 58,
+      "act": "0",
+      "title": "Пелетс, бойли і pop-up: як скласти робочу програму насадок",
+      "slug": "yak-dohliadaty-za-kotushkoiu-pislia-rybolovli",
+      "date": "2026-05-18",
+      "body_chars": 5083,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 59,
+      "act": "0",
+      "title": "Органайзери, коробки та сумки: порядок у снастях",
+      "slug": "orhanaizery-korobky-ta-sumky-poriadok-u-snastiakh",
+      "date": "2026-05-22",
+      "body_chars": 459,
+      "images": 0,
+      "img": ""
+    },
+    {
+      "id": 60,
+      "act": "0",
+      "title": "Самовивіз чи доставка: як швидше отримати замовлення",
+      "slug": "samovyviz-chy-dostavka-yak-shvydshe-otrymaty-zamovlennia",
+      "date": "2026-05-21",
+      "body_chars": 428,
+      "images": 0,
+      "img": ""
+    },
+    {
+      "id": 61,
+      "act": "0",
+      "title": "Як вибрати перший спінінг для річки та озера",
+      "slug": "",
+      "date": "2026-05-30",
+      "body_chars": 5015,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 62,
+      "act": "0",
+      "title": "Фідер для початківця: що потрібно для першої риболовлі",
+      "slug": "",
+      "date": "2026-05-26",
+      "body_chars": 5047,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 63,
+      "act": "0",
+      "title": "Коропова риболовля: базове оснащення без зайвого",
+      "slug": "",
+      "date": "2026-05-30",
+      "body_chars": 3672,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 64,
+      "act": "0",
+      "title": "Як підібрати прикормку під карася, ляща і коропа",
+      "slug": "",
+      "date": "2026-05-29",
+      "body_chars": 3591,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 65,
+      "act": "1",
+      "title": "Пелетс, бойли і pop-up: як скласти робочу програму насадок",
+      "slug": "pelets-boily-i-pop-up-yak-sklasty-robochu-prohramu-nasadok",
+      "date": "2026-05-11",
+      "body_chars": 10547,
+      "images": 2,
+      "img": "/content/images/16/pelets-boily-i-pop-up-yak-sklasty-robochu-prohramu-nasadok-41297799989764.jpg"
+    },
+    {
+      "id": 66,
+      "act": "0",
+      "title": "Волосінь, шнур і флюорокарбон: як вибрати без помилки",
+      "slug": "hachky-dlia-rybolovli-forma-drit-zhalo-i-pravylnyi-rozmir",
+      "date": "2026-05-10",
+      "body_chars": 5081,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 67,
+      "act": "1",
+      "title": "Волосінь, шнур і флюорокарбон: як вибрати без помилки",
+      "slug": "volosin-shnur-i-fliuorokarbon-yak-vybraty-bez-pomylky",
+      "date": "2026-05-06",
+      "body_chars": 10546,
+      "images": 2,
+      "img": "/content/images/18/volosin-shnur-i-fliuorokarbon-yak-vybraty-bez-pomylky-66348245394480.jpg"
+    },
+    {
+      "id": 68,
+      "act": "1",
+      "title": "PVA матеріали: пакети, сітка, стіки і типові помилки",
+      "slug": "pva-materialy-pakety-sitka-stiky-i-typovi-pomylky",
+      "date": "2026-05-01",
+      "body_chars": 10448,
+      "images": 2,
+      "img": "/content/images/19/pva-materialy-pakety-sitka-stiky-i-typovi-pomylky-92031256771735.jpg"
+    },
+    {
+      "id": 69,
+      "act": "1",
+      "title": "Зимова риболовля: спорядження, безпека і підготовка до льоду",
+      "slug": "zymova-rybolovlia-sporiadzhennia-bezpeka-i-pidhotovka-do-lodu",
+      "date": "2026-04-26",
+      "body_chars": 10568,
+      "images": 2,
+      "img": "/content/images/20/zymova-rybolovlia-sporiadzhennia-bezpeka-i-pidhotovka-do-lodu-65583879238329.jpg"
+    },
+    {
+      "id": 70,
+      "act": "0",
+      "title": "Як доглядати за котушкою після риболовлі",
+      "slug": "",
+      "date": "2026-04-21",
+      "body_chars": 6843,
+      "images": 2,
+      "img": "/content/images/21/yak-dohliadaty-za-kotushkoiu-pislia-rybolovli-87782970867137.jpg"
+    },
+    {
+      "id": 71,
+      "act": "1",
+      "title": "Органайзери, коробки та сумки: як навести порядок у снастях",
+      "slug": "orhanaizery-korobky-ta-sumky-yak-navesty-poriadok-u-snastiakh",
+      "date": "2026-04-21",
+      "body_chars": 10592,
+      "images": 2,
+      "img": "/content/images/22/orhanaizery-korobky-ta-sumky-yak-navesty-poriadok-u-snastiakh-20103339895385.jpg"
+    },
+    {
+      "id": 72,
+      "act": "1",
+      "title": "Самовивіз чи доставка: як безпечно отримати рибальські товари",
+      "slug": "samovyviz-chy-dostavka-yak-bezpechno-otrymaty-rybalski-tovary",
+      "date": "2026-04-16",
+      "body_chars": 10551,
+      "images": 2,
+      "img": "/content/images/23/samovyviz-chy-dostavka-yak-bezpechno-otrymaty-rybalski-tovary-23335277511791.jpg"
+    },
+    {
+      "id": 73,
+      "act": "1",
+      "title": "Воблери, блешні і силікон: як підібрати приманку під хижака",
+      "slug": "voblery-bleshni-i-sylikon-yak-pidibraty-prymanku-pid-khyzhaka",
+      "date": "2026-04-11",
+      "body_chars": 10547,
+      "images": 2,
+      "img": "/content/images/24/voblery-bleshni-i-sylikon-yak-pidibraty-prymanku-pid-khyzhaka-26465836716748.jpg"
+    },
+    {
+      "id": 74,
+      "act": "1",
+      "title": "Монтажі, вертлюги і грузила: дрібниці, які впливають на клювання",
+      "slug": "montazhi-vertliuhy-i-hruzyla-dribnytsi-yaki-vplyvaiut-na-kliuvannia",
+      "date": "2026-04-06",
+      "body_chars": 10558,
+      "images": 2,
+      "img": "/content/images/25/montazhi-vertliuhy-i-hruzyla-dribnytsi-yaki-vplyvaiut-na-kliuvannia-45169020816711.jpg"
+    },
+    {
+      "id": 75,
+      "act": "1",
+      "title": "Підсаки, садки і кукани: як зберегти рибу та снасті",
+      "slug": "pidsaky-sadky-i-kukany-yak-zberehty-rybu-ta-snasti",
+      "date": "2026-04-01",
+      "body_chars": 10525,
+      "images": 2,
+      "img": "/content/images/26/pidsaky-sadky-i-kukany-yak-zberehty-rybu-ta-snasti-57588036202497.jpg"
+    },
+    {
+      "id": 76,
+      "act": "1",
+      "title": "Крісла, столи і туристичне спорядження для довгої риболовлі",
+      "slug": "krisla-stoly-i-turystychne-sporiadzhennia-dlia-dovhoi-rybolovli",
+      "date": "2026-04-01",
+      "body_chars": 10528,
+      "images": 2,
+      "img": "/content/images/27/krisla-stoly-i-turystychne-sporiadzhennia-dlia-dovhoi-rybolovli-53429553292708.jpg"
+    },
+    {
+      "id": 77,
+      "act": "1",
+      "title": "Котушка для спінінга, фідера і коропа: як не переплутати розмір",
+      "slug": "kotushka-dlia-spininha-fidera-i-koropa-yak-ne-pereplutaty-rozmir",
+      "date": "2026-03-27",
+      "body_chars": 10549,
+      "images": 2,
+      "img": "/content/images/28/kotushka-dlia-spininha-fidera-i-koropa-yak-ne-pereplutaty-rozmir-35587159378551.jpg"
+    },
+    {
+      "id": 78,
+      "act": "1",
+      "title": "Годівниці для фідера: вага, форма, клітка, метод і течія",
+      "slug": "hodivnytsi-dlia-fidera-vaha-forma-klitka-metod-i-techiia",
+      "date": "2026-03-22",
+      "body_chars": 10516,
+      "images": 2,
+      "img": "/content/images/29/hodivnytsi-dlia-fidera-vaha-forma-klitka-metod-i-techiia-62682757892005.jpg"
+    },
+    {
+      "id": 79,
+      "act": "1",
+      "title": "Коропові монтажі: безпечна кліпса, лідкор, повідець і гачок",
+      "slug": "koropovi-montazhi-bezpechna-klipsa-lidkor-povidets-i-hachok",
+      "date": "2026-03-17",
+      "body_chars": 10559,
+      "images": 2,
+      "img": "/content/images/30/koropovi-montazhi-bezpechna-klipsa-lidkor-povidets-i-hachok-83589346420123.jpg"
+    },
+    {
+      "id": 80,
+      "act": "1",
+      "title": "Поплавкова ловля: вудилище, поплавок, грузила і поводок",
+      "slug": "poplavkova-lovlia-vudylyshche-poplavok-hruzyla-i-povodok",
+      "date": "2026-03-12",
+      "body_chars": 10541,
+      "images": 2,
+      "img": "/content/images/31/poplavkova-lovlia-vudylyshche-poplavok-hruzyla-i-povodok-95061962076092.jpg"
+    },
+    {
+      "id": 81,
+      "act": "1",
+      "title": "Махові вудилища: коли вони кращі за болонські та фідерні",
+      "slug": "makhovi-vudylyshcha-koly-vony-krashchi-za-bolonski-ta-fiderni",
+      "date": "2026-03-12",
+      "body_chars": 10538,
+      "images": 2,
+      "img": "/content/images/32/makhovi-vudylyshcha-koly-vony-krashchi-za-bolonski-ta-fiderni-95896752746207.jpg"
+    },
+    {
+      "id": 82,
+      "act": "1",
+      "title": "Болонське вудилище: ловля на течії, проводка і контроль снасті",
+      "slug": "bolonske-vudylyshche-lovlia-na-techii-provodka-i-kontrol-snasti",
+      "date": "2026-03-07",
+      "body_chars": 10589,
+      "images": 2,
+      "img": "/content/images/33/bolonske-vudylyshche-lovlia-na-techii-provodka-i-kontrol-snasti-33866873511208.jpg"
+    },
+    {
+      "id": 83,
+      "act": "1",
+      "title": "Підставки, триноги і род-поди: як стабільно розмістити снасті",
+      "slug": "pidstavky-trynohy-i-rod-pody-yak-stabilno-rozmistyty-snasti",
+      "date": "2026-03-02",
+      "body_chars": 10556,
+      "images": 2,
+      "img": "/content/images/34/pidstavky-trynohy-i-rod-pody-yak-stabilno-rozmistyty-snasti-61576608316571.jpg"
+    },
+    {
+      "id": 84,
+      "act": "1",
+      "title": "Сумки, чохли і тубуси: як перевозити вудилища без пошкоджень",
+      "slug": "sumky-chokhly-i-tubusy-yak-perevozyty-vudylyshcha-bez-poshkodzhen",
+      "date": "2026-02-25",
+      "body_chars": 10566,
+      "images": 2,
+      "img": "/content/images/35/sumky-chokhly-i-tubusy-yak-perevozyty-vudylyshcha-bez-poshkodzhen-52957936242312.jpg"
+    },
+    {
+      "id": 85,
+      "act": "1",
+      "title": "Мормишки, балансири і жерлиці: базовий набір для зимової риболовлі",
+      "slug": "mormyshky-balansyry-i-zherlytsi-bazovyi-nabir-dlia-zymovoi-rybolovli",
+      "date": "2026-02-20",
+      "body_chars": 10595,
+      "images": 2,
+      "img": "/content/images/36/mormyshky-balansyry-i-zherlytsi-bazovyi-nabir-dlia-zymovoi-rybolovli-42884572257144.jpg"
+    },
+    {
+      "id": 86,
+      "act": "1",
+      "title": "Силіконові приманки: форма, розмір, колір і джиг-головка",
+      "slug": "sylikonovi-prymanky-forma-rozmir-kolir-i-dzhyh-holovka",
+      "date": "2026-02-20",
+      "body_chars": 10518,
+      "images": 2,
+      "img": "/content/images/37/sylikonovi-prymanky-forma-rozmir-kolir-i-dzhyh-holovka-74701313703065.jpg"
+    },
+    {
+      "id": 87,
+      "act": "1",
+      "title": "Воблери: плавучість, заглиблення, проводка і вибір під водойму",
+      "slug": "voblery-plavuchist-zahlyblennia-provodka-i-vybir-pid-vodoimu",
+      "date": "2026-02-15",
+      "body_chars": 10532,
+      "images": 2,
+      "img": "/content/images/38/voblery-plavuchist-zahlyblennia-provodka-i-vybir-pid-vodoimu-81516269009907.jpg"
+    },
+    {
+      "id": 88,
+      "act": "1",
+      "title": "Блешні та вертушки: коли метал працює краще за силікон",
+      "slug": "bleshni-ta-vertushky-koly-metal-pratsiuie-krashche-za-sylikon",
+      "date": "2026-02-10",
+      "body_chars": 10485,
+      "images": 2,
+      "img": "/content/images/39/bleshni-ta-vertushky-koly-metal-pratsiuie-krashche-za-sylikon-24319900685326.jpg"
+    },
+    {
+      "id": 89,
+      "act": "1",
+      "title": "Дипи, ліквіди і атрактанти: як підсилити насадку без перебору",
+      "slug": "dypy-likvidy-i-atraktanty-yak-pidsylyty-nasadku-bez-pereboru",
+      "date": "2026-02-05",
+      "body_chars": 10551,
+      "images": 2,
+      "img": "/content/images/40/dypy-likvidy-i-atraktanty-yak-pidsylyty-nasadku-bez-pereboru-26891233075912.jpg"
+    },
+    {
+      "id": 90,
+      "act": "1",
+      "title": "Риболовля по сезонах: що міняти у снастях навесні, влітку і восени",
+      "slug": "rybolovlia-po-sezonakh-shcho-miniaty-u-snastiakh-navesni-vlitku-i-voseny",
+      "date": "2026-01-31",
+      "body_chars": 10595,
+      "images": 2,
+      "img": "/content/images/41/rybolovlia-po-sezonakh-shcho-miniaty-u-snastiakh-navesni-vlitku-i-voseny-39272129006141.jpg"
+    },
+    {
+      "id": 91,
+      "act": "1",
+      "title": "Чек-лист перед виїздом: що перевірити вдома, щоб не зірвати риболовлю",
+      "slug": "chek-lyst-pered-vyizdom-shcho-pereviryty-vdoma-shchob-ne-zirvaty-rybolovliu",
+      "date": "2026-01-31",
+      "body_chars": 10590,
+      "images": 2,
+      "img": "/content/images/42/chek-lyst-pered-vyizdom-shcho-pereviryty-vdoma-shchob-ne-zirvaty-rybolovliu-83254739569938.jpg"
+    },
+    {
+      "id": 92,
+      "act": "1",
+      "title": "Подарунок рибалці: що купити, якщо не знаєш його снасті",
+      "slug": "podarunok-rybaltsi-shcho-kupyty-yakshcho-ne-znaiesh-yoho-snasti",
+      "date": "2026-01-26",
+      "body_chars": 10517,
+      "images": 2,
+      "img": "/content/images/43/podarunok-rybaltsi-shcho-kupyty-yakshcho-ne-znaiesh-yoho-snasti-38164805793491.jpg"
+    },
+    {
+      "id": 93,
+      "act": "0",
+      "title": "PVA матеріали: пакети, сітка, стіки і типові помилки",
+      "slug": "",
+      "date": "2026-05-06",
+      "body_chars": 5011,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 94,
+      "act": "0",
+      "title": "Зимова риболовля: спорядження, безпека і підготовка до льоду",
+      "slug": "",
+      "date": "2026-05-06",
+      "body_chars": 5079,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 95,
+      "act": "0",
+      "title": "Органайзери, коробки та сумки: як навести порядок у снастях",
+      "slug": "",
+      "date": "2026-04-28",
+      "body_chars": 5117,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 96,
+      "act": "0",
+      "title": "Самовивіз чи доставка: як безпечно отримати рибальські товари",
+      "slug": "",
+      "date": "2026-04-24",
+      "body_chars": 5066,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 97,
+      "act": "0",
+      "title": "Воблери, блешні і силікон: як підібрати приманку під хижака",
+      "slug": "",
+      "date": "2026-04-24",
+      "body_chars": 5081,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 98,
+      "act": "0",
+      "title": "Монтажі, вертлюги і грузила: дрібниці, які впливають на клювання",
+      "slug": "",
+      "date": "2026-04-20",
+      "body_chars": 5093,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 99,
+      "act": "0",
+      "title": "Підсаки, садки і кукани: як зберегти рибу та снасті",
+      "slug": "",
+      "date": "2026-04-16",
+      "body_chars": 5060,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 100,
+      "act": "0",
+      "title": "Крісла, столи і туристичне спорядження для довгої риболовлі",
+      "slug": "",
+      "date": "2026-04-12",
+      "body_chars": 5062,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 101,
+      "act": "0",
+      "title": "Котушка для спінінга, фідера і коропа: як не переплутати розмір",
+      "slug": "",
+      "date": "2026-04-12",
+      "body_chars": 5077,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 102,
+      "act": "0",
+      "title": "Годівниці для фідера: вага, форма, клітка, метод і течія",
+      "slug": "",
+      "date": "2026-04-08",
+      "body_chars": 5055,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 103,
+      "act": "0",
+      "title": "Коропові монтажі: безпечна кліпса, лідкор, повідець і гачок",
+      "slug": "",
+      "date": "2026-04-04",
+      "body_chars": 5084,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 104,
+      "act": "0",
+      "title": "Поплавкова ловля: вудилище, поплавок, грузила і поводок",
+      "slug": "",
+      "date": "2026-03-31",
+      "body_chars": 5067,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 105,
+      "act": "0",
+      "title": "Махові вудилища: коли вони кращі за болонські та фідерні",
+      "slug": "",
+      "date": "2026-03-31",
+      "body_chars": 5063,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 106,
+      "act": "0",
+      "title": "Болонське вудилище: ловля на течії, проводка і контроль снасті",
+      "slug": "",
+      "date": "2026-03-27",
+      "body_chars": 5101,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 107,
+      "act": "0",
+      "title": "Підставки, триноги і род-поди: як стабільно розмістити снасті",
+      "slug": "",
+      "date": "2026-03-23",
+      "body_chars": 5096,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 108,
+      "act": "0",
+      "title": "Сумки, чохли і тубуси: як перевозити вудилища без пошкоджень",
+      "slug": "",
+      "date": "2026-03-19",
+      "body_chars": 5083,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 109,
+      "act": "0",
+      "title": "Мормишки, балансири і жерлиці: базовий набір для зимової риболовлі",
+      "slug": "",
+      "date": "2026-03-19",
+      "body_chars": 5106,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 110,
+      "act": "0",
+      "title": "Силіконові приманки: форма, розмір, колір і джиг-головка",
+      "slug": "",
+      "date": "2026-03-15",
+      "body_chars": 5060,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 111,
+      "act": "0",
+      "title": "Воблери: плавучість, заглиблення, проводка і вибір під водойму",
+      "slug": "",
+      "date": "2026-03-11",
+      "body_chars": 5046,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 112,
+      "act": "0",
+      "title": "Блешні та вертушки: коли метал працює краще за силікон",
+      "slug": "",
+      "date": "2026-03-07",
+      "body_chars": 5032,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 113,
+      "act": "0",
+      "title": "Дипи, ліквіди і атрактанти: як підсилити насадку без перебору",
+      "slug": "",
+      "date": "2026-03-07",
+      "body_chars": 5089,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 114,
+      "act": "0",
+      "title": "Риболовля по сезонах: що міняти у снастях навесні, влітку і восени",
+      "slug": "",
+      "date": "2026-03-03",
+      "body_chars": 5097,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 115,
+      "act": "0",
+      "title": "Чек-лист перед виїздом: що перевірити вдома, щоб не зірвати риболовлю",
+      "slug": "",
+      "date": "2026-02-27",
+      "body_chars": 5090,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 116,
+      "act": "0",
+      "title": "Подарунок рибалці: що купити, якщо не знаєш його снасті",
+      "slug": "",
+      "date": "2026-02-23",
+      "body_chars": 5047,
+      "images": 2,
+      "img": ""
+    },
+    {
+      "id": 117,
+      "act": "1",
+      "title": "Флюорокарбон для повідців: коли прозорість справді має значення",
+      "slug": "fliuorokarbon-dlia-povidtsiv-koly-prozorist-spravdi-maie-znachennia",
+      "date": "2026-01-21",
+      "body_chars": 10565,
+      "images": 2,
+      "img": "/content/images/18/fliuorokarbon-dlia-povidtsiv-koly-prozorist-spravdi-maie-znachennia-60519985459510.jpg"
+    },
+    {
+      "id": 118,
+      "act": "1",
+      "title": "Грузила для спінінга, фідера і монтажів: як підібрати вагу",
+      "slug": "hruzyla-dlia-spininha-fidera-i-montazhiv-yak-pidibraty-vahu",
+      "date": "2026-01-16",
+      "body_chars": 10508,
+      "images": 2,
+      "img": "/content/images/19/hruzyla-dlia-spininha-fidera-i-montazhiv-yak-pidibraty-vahu-34862024799073.jpg"
+    },
+    {
+      "id": 119,
+      "act": "1",
+      "title": "Карабіни, вертлюги та кільця: дрібна фурнітура без слабких місць",
+      "slug": "karabiny-vertliuhy-ta-kiltsia-dribna-furnitura-bez-slabkykh-mists",
+      "date": "2026-01-11",
+      "body_chars": 10558,
+      "images": 2,
+      "img": "/content/images/20/karabiny-vertliuhy-ta-kiltsia-dribna-furnitura-bez-slabkykh-mists-57210991122371.jpg"
+    },
+    {
+      "id": 120,
+      "act": "1",
+      "title": "Бойли для коропа: розмір, плавучість, аромат і подача",
+      "slug": "boily-dlia-koropa-rozmir-plavuchist-aromat-i-podacha",
+      "date": "2026-01-11",
+      "body_chars": 10467,
+      "images": 2,
+      "img": "/content/images/21/boily-dlia-koropa-rozmir-plavuchist-aromat-i-podacha-34428673070832.jpg"
+    },
+    {
+      "id": 121,
+      "act": "1",
+      "title": "Pop-up насадки: коли плаваюча презентація дає перевагу",
+      "slug": "pop-up-nasadky-koly-plavaiucha-prezentatsiia-daie-perevahu",
+      "date": "2026-01-06",
+      "body_chars": 10489,
+      "images": 2,
+      "img": "/content/images/22/pop-up-nasadky-koly-plavaiucha-prezentatsiia-daie-perevahu-58036354460138.jpg"
+    },
+    {
+      "id": 122,
+      "act": "1",
+      "title": "Макуха і технопланктон: коли класичні насадки ще працюють",
+      "slug": "makukha-i-tekhnoplankton-koly-klasychni-nasadky-shche-pratsiuiut",
+      "date": "2026-01-01",
+      "body_chars": 10521,
+      "images": 2,
+      "img": "/content/images/23/makukha-i-tekhnoplankton-koly-klasychni-nasadky-shche-pratsiuiut-30371692527770.jpg"
+    },
+    {
+      "id": 123,
+      "act": "1",
+      "title": "Підсаки для берега і човна: форма голови, ручка та сітка",
+      "slug": "pidsaky-dlia-bereha-i-chovna-forma-holovy-ruchka-ta-sitka",
+      "date": "2025-12-27",
+      "body_chars": 10492,
+      "images": 2,
+      "img": "/content/images/24/pidsaky-dlia-bereha-i-chovna-forma-holovy-ruchka-ta-sitka-40645802516277.jpg"
+    },
+    {
+      "id": 124,
+      "act": "1",
+      "title": "Сигналізатори клювання: механічні та електронні варіанти",
+      "slug": "syhnalizatory-kliuvannia-mekhanichni-ta-elektronni-varianty",
+      "date": "2025-12-22",
+      "body_chars": 10530,
+      "images": 2,
+      "img": "/content/images/25/syhnalizatory-kliuvannia-mekhanichni-ta-elektronni-varianty-40273283323155.jpg"
+    },
+    {
+      "id": 125,
+      "act": "1",
+      "title": "Ліхтарі, батарейки і нічна риболовля: що підготувати заздалегідь",
+      "slug": "likhtari-batareiky-i-nichna-rybolovlia-shcho-pidhotuvaty-zazdalehid",
+      "date": "2025-12-22",
+      "body_chars": 10600,
+      "images": 2,
+      "img": "/content/images/26/likhtari-batareiky-i-nichna-rybolovlia-shcho-pidhotuvaty-zazdalehid-43277124095569.jpg"
+    },
+    {
+      "id": 126,
+      "act": "1",
+      "title": "Садок чи кукан: як зберігати рибу на водоймі",
+      "slug": "sadok-chy-kukan-yak-zberihaty-rybu-na-vodoimi",
+      "date": "2025-12-17",
+      "body_chars": 10474,
+      "images": 2,
+      "img": "/content/images/27/sadok-chy-kukan-yak-zberihaty-rybu-na-vodoimi-56464313843917.jpg"
+    },
+    {
+      "id": 127,
+      "act": "1",
+      "title": "Коробки для приманок: як розділити воблери, силікон і фурнітуру",
+      "slug": "korobky-dlia-prymanok-yak-rozdilyty-voblery-sylikon-i-furnituru",
+      "date": "2025-12-12",
+      "body_chars": 10540,
+      "images": 2,
+      "img": "/content/images/28/korobky-dlia-prymanok-yak-rozdilyty-voblery-sylikon-i-furnituru-41261724840542.jpg"
+    },
+    {
+      "id": 128,
+      "act": "1",
+      "title": "Крісла для риболовлі: комфорт, вага, ніжки і посадка",
+      "slug": "krisla-dlia-rybolovli-komfort-vaha-nizhky-i-posadka",
+      "date": "2025-12-07",
+      "body_chars": 10473,
+      "images": 2,
+      "img": "/content/images/29/krisla-dlia-rybolovli-komfort-vaha-nizhky-i-posadka-54962745982320.jpg"
+    },
+    {
+      "id": 129,
+      "act": "1",
+      "title": "Плити, пальники і посуд: польова кухня на риболовлі",
+      "slug": "plyty-palnyky-i-posud-polova-kukhnia-na-rybolovli",
+      "date": "2025-12-02",
+      "body_chars": 10500,
+      "images": 2,
+      "img": "/content/images/30/plyty-palnyky-i-posud-polova-kukhnia-na-rybolovli-70573208467180.jpg"
+    },
+    {
+      "id": 130,
+      "act": "1",
+      "title": "Запчастини до вудилищ: вершинки, кільця і дрібний ремонт",
+      "slug": "zapchastyny-do-vudylyshch-vershynky-kiltsia-i-dribnyi-remont",
+      "date": "2025-12-02",
+      "body_chars": 10510,
+      "images": 2,
+      "img": "/content/images/31/zapchastyny-do-vudylyshch-vershynky-kiltsia-i-dribnyi-remont-16040955139712.jpg"
+    },
+    {
+      "id": 131,
+      "act": "1",
+      "title": "Повідковий матеріал: м’якість, міцність і поведінка насадки",
+      "slug": "povidkovyi-material-miakist-mitsnist-i-povedinka-nasadky",
+      "date": "2025-11-27",
+      "body_chars": 10587,
+      "images": 2,
+      "img": "/content/images/32/povidkovyi-material-miakist-mitsnist-i-povedinka-nasadky-77640264383468.jpg"
+    },
+    {
+      "id": 132,
+      "act": "1",
+      "title": "Метод-фідер: як працює годівниця з плоским дном",
+      "slug": "metod-fider-yak-pratsiuie-hodivnytsia-z-ploskym-dnom",
+      "date": "2025-11-22",
+      "body_chars": 10474,
+      "images": 2,
+      "img": "/content/images/33/metod-fider-yak-pratsiuie-hodivnytsia-z-ploskym-dnom-64252761909042.jpg"
+    },
+    {
+      "id": 133,
+      "act": "1",
+      "title": "Рибальський мінімум для новачка: що купити першим",
+      "slug": "rybalskyi-minimum-dlia-novachka-shcho-kupyty-pershym",
+      "date": "2025-11-17",
+      "body_chars": 10477,
+      "images": 2,
+      "img": "/content/images/34/rybalskyi-minimum-dlia-novachka-shcho-kupyty-pershym-78978346752803.jpg"
+    },
+    {
+      "id": 134,
+      "act": "1",
+      "title": "Як читати характеристики товару і не помилятися в замовленні",
+      "slug": "yak-chytaty-kharakterystyky-tovaru-i-ne-pomyliatysia-v-zamovlenni",
+      "date": "2025-11-12",
+      "body_chars": 10572,
+      "images": 2,
+      "img": "/content/images/35/yak-chytaty-kharakterystyky-tovaru-i-ne-pomyliatysia-v-zamovlenni-12344853319957.jpg"
+    }
+  ]
+}

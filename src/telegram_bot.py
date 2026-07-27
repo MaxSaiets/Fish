@@ -130,9 +130,6 @@ def format_model_card(parent_key: str) -> str:
             attrs.append(v["action"])
         lines.append(f"  · [{v['kod']}] {' '.join(attrs) or v['name_raw']}")
     lines.append("")
-    lines.append(f"➡ /approve {parent_key}")
-    lines.append(f"➡ /reject {parent_key}")
-    lines.append(f"➡ /regen {parent_key}")
     return "\n".join(lines)
 
 
@@ -192,7 +189,7 @@ async def run_real_bot() -> None:
     try:
         from aiogram import Bot, Dispatcher, F
         from aiogram.filters import CommandStart, Command
-        from aiogram.types import Message
+        from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
     except ImportError:
         sys.exit("pip install aiogram==3.13.1")
 
@@ -207,11 +204,41 @@ async def run_real_bot() -> None:
         if not is_admin(msg):
             return await msg.answer("⛔ Доступ заборонено")
         s = stats()
+        kb = ReplyKeyboardMarkup(
+            keyboard=[
+                [KeyboardButton(text="📊 Статистика"), KeyboardButton(text="⏭ Наступний товар")],
+                [KeyboardButton(text="🔄 Запустити синхронізацію")]
+            ],
+            resize_keyboard=True
+        )
         await msg.answer(
             f"👋 Вітаю, {msg.from_user.first_name}!\n\n"
-            f"Стат: {json.dumps(s, ensure_ascii=False)}\n\n"
-            "Команди: /pending /next /show /approve /reject /regen /stats"
+            f"Стат: {json.dumps(s, ensure_ascii=False)}",
+            reply_markup=kb
         )
+
+    @dp.message(F.text == "📊 Статистика")
+    async def text_stats(msg: Message):
+        await cmd_stats(msg)
+
+    @dp.message(F.text == "⏭ Наступний товар")
+    async def text_next(msg: Message):
+        await cmd_next(msg)
+
+    @dp.message(F.text == "🔄 Запустити синхронізацію")
+    async def text_run_sync(msg: Message):
+        if not is_admin(msg): return
+        await msg.answer("⏳ Запускаю повний цикл (pipeline). Це займе 1-2 хвилини...")
+        import subprocess
+        try:
+            cmd = [sys.executable, str(ROOT / "src" / "run_pipeline.py")]
+            res = await asyncio.to_thread(subprocess.run, cmd, capture_output=True, text=True)
+            if res.returncode == 0:
+                await msg.answer(f"✅ Успішно завершено!\n\nОстанні рядки логу:\n```\n{res.stdout[-1000:]}\n```", parse_mode="MarkdownV2")
+            else:
+                await msg.answer(f"❌ Помилка!\n\n```\n{res.stderr[-1000:]}\n```", parse_mode="MarkdownV2")
+        except Exception as e:
+            await msg.answer(f"❌ Виняток: {e}")
 
     @dp.message(Command("stats"))
     async def cmd_stats(msg):
@@ -225,13 +252,25 @@ async def run_real_bot() -> None:
         text = "Чекає модерації:\n" + "\n".join(f"• {r['parent_key']} — {r['display_name']}" for r in rows)
         await msg.answer(text or "Нічого нового.")
 
+    def get_inline_kb(parent_key: str):
+        return InlineKeyboardMarkup(inline_keyboard=[
+            [
+                InlineKeyboardButton(text="✅ Approve", callback_data=f"approve:{parent_key}"),
+                InlineKeyboardButton(text="❌ Reject", callback_data=f"reject:{parent_key}"),
+            ],
+            [
+                InlineKeyboardButton(text="🔄 Regen", callback_data=f"regen:{parent_key}")
+            ]
+        ])
+
     @dp.message(Command("next"))
     async def cmd_next(msg):
         if not is_admin(msg): return
         rows = list_pending(limit=1)
         if not rows:
             return await msg.answer("Нічого на модерації.")
-        await msg.answer(format_model_card(rows[0]["parent_key"]))
+        pk = rows[0]["parent_key"]
+        await msg.answer(format_model_card(pk), reply_markup=get_inline_kb(pk))
 
     async def parse_arg(msg) -> str:
         parts = msg.text.split(maxsplit=1)
@@ -241,28 +280,34 @@ async def run_real_bot() -> None:
     async def cmd_show(msg):
         if not is_admin(msg): return
         pk = await parse_arg(msg)
-        await msg.answer(format_model_card(pk))
+        await msg.answer(format_model_card(pk), reply_markup=get_inline_kb(pk))
 
-    @dp.message(Command("approve"))
-    async def cmd_approve(msg):
-        if not is_admin(msg): return
-        pk = await parse_arg(msg)
+    @dp.callback_query(F.data.startswith("approve:"))
+    async def cb_approve(call: CallbackQuery):
+        if not is_admin(call): return
+        pk = call.data.split(":")[1]
         ok = set_status(pk, "approved")
-        await msg.answer("✅ approved" if ok else "❌ not found")
+        await call.message.edit_text(call.message.text + "\n\n✅ Затверджено!")
+        await call.answer("Approved!")
+        await cmd_next(call.message)
 
-    @dp.message(Command("reject"))
-    async def cmd_reject(msg):
-        if not is_admin(msg): return
-        pk = await parse_arg(msg)
+    @dp.callback_query(F.data.startswith("reject:"))
+    async def cb_reject(call: CallbackQuery):
+        if not is_admin(call): return
+        pk = call.data.split(":")[1]
         ok = set_status(pk, "rejected")
-        await msg.answer("✅ rejected" if ok else "❌ not found")
+        await call.message.edit_text(call.message.text + "\n\n❌ Відхилено!")
+        await call.answer("Rejected!")
+        await cmd_next(call.message)
 
-    @dp.message(Command("regen"))
-    async def cmd_regen(msg):
-        if not is_admin(msg): return
-        pk = await parse_arg(msg)
+    @dp.callback_query(F.data.startswith("regen:"))
+    async def cb_regen(call: CallbackQuery):
+        if not is_admin(call): return
+        pk = call.data.split(":")[1]
         ok = set_status(pk, "draft")
-        await msg.answer("✅ marked for re-generation" if ok else "❌ not found")
+        await call.message.edit_text(call.message.text + "\n\n🔄 Відправлено на перегенерацію!")
+        await call.answer("Regen!")
+        await cmd_next(call.message)
 
     print("Bot started, polling...")
     await dp.start_polling(bot)

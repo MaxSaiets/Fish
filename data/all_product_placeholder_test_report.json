@@ -1,0 +1,81 @@
+{
+  "status": "complete",
+  "source": "generated_unique_demo_product_cards_from_local_product_metadata",
+  "policy": "Generated illustrations are unique per article and are intended as temporary demo placeholders until exact client/vendor product photos are supplied. No copyrighted product photos are scraped or masked.",
+  "output_root": "tmp\\all-product-placeholder-test",
+  "articles_seen": 10,
+  "prepared_count": 10,
+  "skipped_count": 0,
+  "batch_limit_files": 500,
+  "batch_limit_bytes": 251658240,
+  "batches": [
+    {
+      "name": "batch-001",
+      "file_count": 10,
+      "total_bytes": 950408
+    }
+  ],
+  "prepared_sample": [
+    {
+      "article": "#001",
+      "name": "LARVA FANATIK 3.0 Color 001",
+      "family": "silicone_lure",
+      "path": "tmp\\all-product-placeholder-test\\batch-001\\#001@gallery_common.jpg"
+    },
+    {
+      "article": "#003",
+      "name": "LARVA FANATIK 2.5 Color 003",
+      "family": "silicone_lure",
+      "path": "tmp\\all-product-placeholder-test\\batch-001\\#003@gallery_common.jpg"
+    },
+    {
+      "article": "#005",
+      "name": "LARVA FANATIK 3.5 Color 005",
+      "family": "silicone_lure",
+      "path": "tmp\\all-product-placeholder-test\\batch-001\\#005@gallery_common.jpg"
+    },
+    {
+      "article": "#006",
+      "name": "Raider FANATIK 1.6 Color 006",
+      "family": "silicone_lure",
+      "path": "tmp\\all-product-placeholder-test\\batch-001\\#006@gallery_common.jpg"
+    },
+    {
+      "article": "#017",
+      "name": "LARVA FANATIK 3.0 Color 017",
+      "family": "silicone_lure",
+      "path": "tmp\\all-product-placeholder-test\\batch-001\\#017@gallery_common.jpg"
+    },
+    {
+      "article": "#020",
+      "name": "Raider FANATIK 1.6 Color 020",
+      "family": "silicone_lure",
+      "path": "tmp\\all-product-placeholder-test\\batch-001\\#020@gallery_common.jpg"
+    },
+    {
+      "article": "#021",
+      "name": "Raider FANATIK 1.6 Color 021",
+      "family": "silicone_lure",
+      "path": "tmp\\all-product-placeholder-test\\batch-001\\#021@gallery_common.jpg"
+    },
+    {
+      "article": "#022 1.6",
+      "name": "Raider FANATIK 1.6 Color 022",
+      "family": "silicone_lure",
+      "path": "tmp\\all-product-placeholder-test\\batch-001\\#022 1.6@gallery_common.jpg"
+    },
+    {
+      "article": "#023",
+      "name": "LARVA FANATIK 2.5 Color 023",
+      "family": "silicone_lure",
+      "path": "tmp\\all-product-placeholder-test\\batch-001\\#023@gallery_common.jpg"
+    },
+    {
+      "article": "#80164",
+      "name": "ПовідецьTechno carp  Method 15lb №8",
+      "family": "ready_leader",
+      "path": "tmp\\all-product-placeholder-test\\batch-001\\#80164@gallery_common.jpg"
+    }
+  ],
+  "skipped": []
+}

@@ -112,8 +112,48 @@ python fish-sync/src/run_pipeline.py
 
 Це зробить:
 - зчитає актуальні товари, ціни й залишки з УкрСкладу
-- перебудує `products.json` і фіди
+- перебудує `products.json`
+- згенерує канонічний каталог Horoshop з одного джерела даних
+- збере всі Horoshop-артефакти: `horoshop.xml`, `horoshop_import.xlsx`, `horoshop_import.yml`
+- збере audit-звіт якості каталогу
 - відправить оновлення в Horoshop через API `catalog/import`
+
+### Канонічний Horoshop pipeline
+
+З травня 2026 Horoshop більше не має кількох розрізнених генераторів з різною логікою.
+Єдине джерело правди для Horoshop-каталогу:
+
+- `src/horoshop_catalog.py`
+
+Воно відповідає за:
+
+- нормалізацію назв і брендів
+- злиття сирих товарів з `products.json` та enrichment з `meta_store.sqlite`
+- fallback-описи
+- характеристики
+- категорії та YML/XLS/YML-імпорт артефакти
+- audit якості каталогу
+
+Похідні артефакти:
+
+- `public/horoshop.xml`
+- `public/horoshop_import.xlsx`
+- `public/horoshop_import.yml`
+- `data/horoshop_audit_report.json`
+- `data/horoshop_quarantine_report.json`
+
+### Керовані overrides
+
+Для точкових ручних винятків без правок у коді використовується:
+
+- `data/horoshop_overrides.json`
+
+Через нього можна:
+
+- виключити товар з Horoshop-каталогу
+- примусово задати бренд
+- примусово задати категорію/parent path
+- додати alias для розпізнавання бренду з назви
 
 ### 2. Перевірити що згенерувалось
 
@@ -201,6 +241,17 @@ python fish-sync/src/photo_sync.py --simulate
 # Очистити перед імпортом
 python fish-sync/src/photo_sync.py --src "..." --clear
 ```
+
+`photo_sync.py` вміє:
+- сканувати звичайні зображення `.jpg/.jpeg/.png/.webp`
+- автоматично розпаковувати `.rar`-архіви через системний `tar.exe`
+- матчити фото не тільки по імені файлу, а й по назві архіву/серії товару
+- відокремлювати branding/category assets на кшталт `лого.svg` або окремих фото категорій
+
+Важливо:
+- `PUBLIC_BASE_URL` має вказувати на реально доступний ззовні HTTP(S)-URL, з якого Horoshop зможе забрати картинки
+- `Google Drive` не варто використовувати як джерело товарних фото для масового імпорту: потрібні прямі URL на файли, а не сторінки перегляду
+- лого, банери та фото категорій не треба змішувати з товарними архівами; тримайте їх окремо
 
 Алгоритм матчу filename → kod:
 1. Manual override (`data/photo_overrides.json`)

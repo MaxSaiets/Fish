@@ -1,0 +1,330 @@
+{
+  "total_low_param_products": 103,
+  "by_parent": [
+    {
+      "parent": "Все для монтажу / карабіни вертлюги та кільця",
+      "count": 12,
+      "action": "review_batch_rules",
+      "examples": "1548: Вертлюг/застібка Груша вертлюг (118 г) | 1546: Вертлюг/застібка Груша вертлюг (14 г) | 1547: Вертлюг/застібка Груша вертлюг (16 г) | 1549: Вертлюг/застібка Груша вертлюг (24 г) | 1900: Вертлюг/застібка Карабін KAMATSU SWIVELS застібка K2101 [1900]"
+    },
+    {
+      "parent": "Херабуна / поплавки",
+      "count": 11,
+      "action": "review_batch_rules",
+      "examples": "1858.60.06: Поплавок Brain BF 03 2gr | 1858.60.31: Поплавок Brain BF 11 10+2gr | 1858.60.46: Поплавок Brain BF 16 5, 0gr | 1858.60.86: Поплавок Brain BF 23 2.0gr | 1858.61.17: Поплавок Brain BF 33 6, 0gr"
+    },
+    {
+      "parent": "Гачки",
+      "count": 7,
+      "action": "spot_check",
+      "examples": "3068: Гачок Afeima | A6006#9: Гачок SHOGUN PCS 100 [A6006#9] | 1003: Гачок hcs3 лайт (1 м 4) | 391: Гачок Набір (сверло, гачок )метал | 2640: Гачок Трійник Mildaz капля [2640]"
+    },
+    {
+      "parent": "Підсаки, Садки, кукани / Садки кукани",
+      "count": 7,
+      "action": "spot_check",
+      "examples": "4289: Садок Carp Line Black ж. кіл. прогум.ж.с (2 м) | 3022736: Садок Carp Line Black ж. кіл. прогум.ж.с (2.5 м) | 3022734: Садок Carp Line Black ж. кіл. прогум.ж.с (3 м) | 3022735: Садок Carp Line Black ж. кіл. прогум.ж.с (3.5 м) | 2587: Садок SAMS FISH прорез 45*33 (3.5 м)"
+    },
+    {
+      "parent": "PVA матеріали та аксесуари / Інструменти",
+      "count": 5,
+      "action": "probably_ok_or_card_only",
+      "examples": "2969: Інструмент для риболовлі Петлевяз | 4239: Інструмент для риболовлі Рогатка Stonfo 313 Twin Colour Catapult | 4410: Інструмент для риболовлі Рогатка WeidaDG-01 | 2876: Інструмент для риболовлі Сверло Brain для бойлів | 406: Інструмент для риболовлі Сверло, шило металевий"
+    },
+    {
+      "parent": "Пелетси / Puhach",
+      "count": 5,
+      "action": "spot_check",
+      "examples": "PUSFMSQ: Пелетс Puhach Baits Stick Flat Mix Squid | PUSFMSC: Пелетс Puhach Baits Stick Flat Mix Squid Cranberry | PUSFMSQS: Пелетс Puhach Baits Stick Flat Mix Squid Scopex | PUSFMSS: Пелетс Puhach Baits Stick Flat Mix Squid Strawberry | PUSFSW: Пелетс Puhach Baits Stick Flat Mix Sweetcorn"
+    },
+    {
+      "parent": "Підсаки, Садки, кукани / Підсаки",
+      "count": 5,
+      "action": "spot_check",
+      "examples": "2260: Підсак 70*80 Пама Кордовий | 2589: Підсак BOYA BY корд (0.8 м) | HB-030-15501: Підсак Breeze HB- бортовий, кругла голова тонуча прогум.сітка (30-15501 г 0.56 м) | 2866: Підсак EOS LF50-1952B | 1947: Підсак Чорний малий"
+    },
+    {
+      "parent": "Підсаки, Садки, кукани / ручки та голови до підсака",
+      "count": 5,
+      "action": "spot_check",
+      "examples": "1858.70.77: Підсак Головка підсака Brain Rubber Net 65 55*65* (0.45 м) | 1858.40.80: Підсак Ручка Brain Apex для підсака (1.8 м) | 1858.40.81: Підсак Ручка Brain Apex для підсака (2.2 м) | 1858.40.82: Підсак Ручка Brain Apex для підсака (3 м) | 1858.51.67: Підсак Ручка Brain Classic Carp Landing Net Handle (1.8 м)"
+    },
+    {
+      "parent": "Котушки / Спінінгові",
+      "count": 4,
+      "action": "spot_check",
+      "examples": "2525: Котушка Daiwa Sweepfire E2000C | 2526: Котушка Daiwa Sweepfire E2500C | 2527: Котушка Daiwa Sweepfire E3000C | SF24159-M: Котушка Чохол Катушка SAMS FISH M"
+    },
+    {
+      "parent": "Приманки / воблери",
+      "count": 4,
+      "action": "spot_check",
+      "examples": "FLOB-110: Воблер Вiдцеп для воблерiв та блешень береговий (110 г) | FLOB-200: Воблер Вiдцеп для воблерiв та блешень береговий (200 г) | FLOB-300: Воблер Вiдцеп для воблерiв та блешень береговий (300 г) | КВ16014: Воблер Коробка для зберігання воблеров КВ 16014"
+    },
+    {
+      "parent": "ліквіди і атрактанти / всі",
+      "count": 4,
+      "action": "spot_check",
+      "examples": "3945: Ліквід Stick Sauce BELACHAN STRAWBERRY | 3930: Ліквід Stick Sauce BOUNTY STRAWBERRY SALMON | 1374: Ліквід TRINITY BAITS асортимент | 2535: Ліквід Спрей силіконовий для плетінь"
+    },
+    {
+      "parent": "PVA матеріали та аксесуари / PVA матеріали",
+      "count": 3,
+      "action": "probably_ok_or_card_only",
+      "examples": "4638: ПВА матеріал D-25 білий | 4179: ПВА матеріал Feima Expert 6m | 4746: ПВА матеріал PVA мотузка водорозчинна"
+    },
+    {
+      "parent": "Волосінь та шнури / готові повідці",
+      "count": 3,
+      "action": "spot_check",
+      "examples": "6008180: Повідець Mistrall Мотовило на поводок | 1779: Повідець Мотовило на поводок 6008179 | 1780: Повідець поводок Мотовило на"
+    },
+    {
+      "parent": "Пелетси / RPF",
+      "count": 3,
+      "action": "spot_check",
+      "examples": "4225: Пелетс Метод мікс Classic 2в1 Кальмар-Тигровий Горіх RPF | 4456: Пелетс Метод мікс Classic 2в1 Монстер Краб RPF | 4449: Пелетс Парена Гранула Кукурудза Тигровий Горіх 1кг (вміст меленого тигрового горіху 45%) RPF"
+    },
+    {
+      "parent": "Подарункові сертифікати / всі",
+      "count": 3,
+      "action": "probably_ok_or_card_only",
+      "examples": "3687: Подарунковий сертифікат Сертифкат. [3687] | 3689: Подарунковий сертифікат Сертифкат. [3689] | 3511: Подарунковий сертифікат. [3511]"
+    },
+    {
+      "parent": "Все для монтажу / грузила / спінінгові",
+      "count": 2,
+      "action": "spot_check",
+      "examples": "685: Вантаж/грузило Івалід середній Набір свинцю Fanatik | 000603: Грузило швидкознімач вага 2, 0"
+    },
+    {
+      "parent": "Відра, сумки та органайзери / сумки",
+      "count": 2,
+      "action": "spot_check",
+      "examples": "3501: Сумка рибальська Jaxon UJ-XAA03 27 (43/23) | RA9905: Сумка рибальська Термосумка RENGER HB5-M"
+    },
+    {
+      "parent": "Крісла, стільці та столи / стільці",
+      "count": 2,
+      "action": "spot_check",
+      "examples": "3189: Крісло/стілець Крісло ECLIPSE EC- складне, з підстакан. (20 г) | 4351: Крісло/стілець з полиці Крісло d20 мм"
+    },
+    {
+      "parent": "Туризм / плити, горілки балони",
+      "count": 2,
+      "action": "spot_check",
+      "examples": "3297: Паливо для туризму Вугілля [3297] | 4328: Паливо для туризму Вугілля [4328]"
+    },
+    {
+      "parent": "Вудилища / Спінінгові",
+      "count": 1,
+      "action": "spot_check",
+      "examples": "4441: Спінінг Сумка Спінінгіста"
+    },
+    {
+      "parent": "Відра, сумки та органайзери / коробки органайзери",
+      "count": 1,
+      "action": "spot_check",
+      "examples": "SPH524S: Ящик/коробка для снастей Carp Pro коропова велика комп. 6 короб."
+    },
+    {
+      "parent": "Відра, сумки та органайзери / повідочниці",
+      "count": 1,
+      "action": "spot_check",
+      "examples": "122644: Сумка рибальська Повідочниця ПМ Crystal Case 39*14*2 (Medium 39x14x2 см)"
+    },
+    {
+      "parent": "Зимова ловля / льодобури",
+      "count": 1,
+      "action": "spot_check",
+      "examples": "2733: Інструмент для риболовлі стандарт Ножі IDabur ковані K-130"
+    },
+    {
+      "parent": "Зимова ловля / сані",
+      "count": 1,
+      "action": "spot_check",
+      "examples": "3659: Ящик/коробка для снастей Сани 2 рибальські 80*42*20 (rfin)"
+    },
+    {
+      "parent": "Пелетси / Bounty",
+      "count": 1,
+      "action": "spot_check",
+      "examples": "4300: Пелетс BOUNTY METHOD MIX 4in1 BELACHAN\\Plum"
+    },
+    {
+      "parent": "Приманки / блешні",
+      "count": 1,
+      "action": "spot_check",
+      "examples": "2501: Блешня MEPPS AGLIA 3 оранж"
+    },
+    {
+      "parent": "Туризм / батарейки",
+      "count": 1,
+      "action": "spot_check",
+      "examples": "000207: Батарейка cr425"
+    },
+    {
+      "parent": "Туризм / ліхтарі",
+      "count": 1,
+      "action": "spot_check",
+      "examples": "ME-4514: Ліхтар Ліхтарик SENSON ME-4514"
+    },
+    {
+      "parent": "Туризм / одяг та взуття",
+      "count": 1,
+      "action": "spot_check",
+      "examples": "AK-OKX17XM: Одяг/взуття для риболовлі Окуляри JAXON поляризаціоні AK-OKX17XM"
+    },
+    {
+      "parent": "Туризм / посуд",
+      "count": 1,
+      "action": "spot_check",
+      "examples": "4113: Рибальський товар Кораблик 40 Points GPS+ eхолот Rc baits Boat V030 12000mah batterry"
+    },
+    {
+      "parent": "Херабуна / готові оснастки",
+      "count": 1,
+      "action": "spot_check",
+      "examples": "05.65: Рибальський товар Оснастка фірмова Premium 5.4"
+    },
+    {
+      "parent": "Херабуна / підсак, садок",
+      "count": 1,
+      "action": "spot_check",
+      "examples": "00037: Підсак Підставка для вудилищ коротка 45см (Herabunafishing) (2.4 м)"
+    },
+    {
+      "parent": "Чохли / всі",
+      "count": 1,
+      "action": "spot_check",
+      "examples": "4247: Чохол/тубус Feima 2465 1.50 салатові полоски"
+    }
+  ],
+  "by_family": [
+    {
+      "family": "swivel",
+      "count": 12,
+      "examples": "1548: Вертлюг/застібка Груша вертлюг (118 г) | 1546: Вертлюг/застібка Груша вертлюг (14 г) | 1547: Вертлюг/застібка Груша вертлюг (16 г) | 1549: Вертлюг/застібка Груша вертлюг (24 г) | 1900: Вертлюг/застібка Карабін KAMATSU SWIVELS застібка K2101 [1900]"
+    },
+    {
+      "family": "landing_net",
+      "count": 11,
+      "examples": "2260: Підсак 70*80 Пама Кордовий | 2589: Підсак BOYA BY корд (0.8 м) | HB-030-15501: Підсак Breeze HB- бортовий, кругла голова тонуча прогум.сітка (30-15501 г 0.56 м) | 2866: Підсак EOS LF50-1952B | 1947: Підсак Чорний малий"
+    },
+    {
+      "family": "float",
+      "count": 11,
+      "examples": "1858.60.06: Поплавок Brain BF 03 2gr | 1858.60.31: Поплавок Brain BF 11 10+2gr | 1858.60.46: Поплавок Brain BF 16 5, 0gr | 1858.60.86: Поплавок Brain BF 23 2.0gr | 1858.61.17: Поплавок Brain BF 33 6, 0gr"
+    },
+    {
+      "family": "pellets",
+      "count": 9,
+      "examples": "4300: Пелетс BOUNTY METHOD MIX 4in1 BELACHAN\\Plum | PUSFMSQ: Пелетс Puhach Baits Stick Flat Mix Squid | PUSFMSC: Пелетс Puhach Baits Stick Flat Mix Squid Cranberry | PUSFMSQS: Пелетс Puhach Baits Stick Flat Mix Squid Scopex | PUSFMSS: Пелетс Puhach Baits Stick Flat Mix Squid Strawberry"
+    },
+    {
+      "family": "hook",
+      "count": 7,
+      "examples": "3068: Гачок Afeima | A6006#9: Гачок SHOGUN PCS 100 [A6006#9] | 1003: Гачок hcs3 лайт (1 м 4) | 391: Гачок Набір (сверло, гачок )метал | 2640: Гачок Трійник Mildaz капля [2640]"
+    },
+    {
+      "family": "keepnet",
+      "count": 7,
+      "examples": "4289: Садок Carp Line Black ж. кіл. прогум.ж.с (2 м) | 3022736: Садок Carp Line Black ж. кіл. прогум.ж.с (2.5 м) | 3022734: Садок Carp Line Black ж. кіл. прогум.ж.с (3 м) | 3022735: Садок Carp Line Black ж. кіл. прогум.ж.с (3.5 м) | 2587: Садок SAMS FISH прорез 45*33 (3.5 м)"
+    },
+    {
+      "family": "tools",
+      "count": 6,
+      "examples": "2969: Інструмент для риболовлі Петлевяз | 4239: Інструмент для риболовлі Рогатка Stonfo 313 Twin Colour Catapult | 4410: Інструмент для риболовлі Рогатка WeidaDG-01 | 2876: Інструмент для риболовлі Сверло Brain для бойлів | 406: Інструмент для риболовлі Сверло, шило металевий"
+    },
+    {
+      "family": "reel",
+      "count": 4,
+      "examples": "2525: Котушка Daiwa Sweepfire E2000C | 2526: Котушка Daiwa Sweepfire E2500C | 2527: Котушка Daiwa Sweepfire E3000C | SF24159-M: Котушка Чохол Катушка SAMS FISH M"
+    },
+    {
+      "family": "wobbler",
+      "count": 4,
+      "examples": "FLOB-110: Воблер Вiдцеп для воблерiв та блешень береговий (110 г) | FLOB-200: Воблер Вiдцеп для воблерiв та блешень береговий (200 г) | FLOB-300: Воблер Вiдцеп для воблерiв та блешень береговий (300 г) | КВ16014: Воблер Коробка для зберігання воблеров КВ 16014"
+    },
+    {
+      "family": "liquid_attractant",
+      "count": 4,
+      "examples": "3945: Ліквід Stick Sauce BELACHAN STRAWBERRY | 3930: Ліквід Stick Sauce BOUNTY STRAWBERRY SALMON | 1374: Ліквід TRINITY BAITS асортимент | 2535: Ліквід Спрей силіконовий для плетінь"
+    },
+    {
+      "family": "pva_material",
+      "count": 3,
+      "examples": "4638: ПВА матеріал D-25 білий | 4179: ПВА матеріал Feima Expert 6m | 4746: ПВА матеріал PVA мотузка водорозчинна"
+    },
+    {
+      "family": "ready_leader",
+      "count": 3,
+      "examples": "6008180: Повідець Mistrall Мотовило на поводок | 1779: Повідець Мотовило на поводок 6008179 | 1780: Повідець поводок Мотовило на"
+    },
+    {
+      "family": "bag",
+      "count": 3,
+      "examples": "122644: Сумка рибальська Повідочниця ПМ Crystal Case 39*14*2 (Medium 39x14x2 см) | 3501: Сумка рибальська Jaxon UJ-XAA03 27 (43/23) | RA9905: Сумка рибальська Термосумка RENGER HB5-M"
+    },
+    {
+      "family": "gift_certificate",
+      "count": 3,
+      "examples": "3687: Подарунковий сертифікат Сертифкат. [3687] | 3689: Подарунковий сертифікат Сертифкат. [3689] | 3511: Подарунковий сертифікат. [3511]"
+    },
+    {
+      "family": "weight",
+      "count": 2,
+      "examples": "685: Вантаж/грузило Івалід середній Набір свинцю Fanatik | 000603: Грузило швидкознімач вага 2, 0"
+    },
+    {
+      "family": "tackle_box",
+      "count": 2,
+      "examples": "SPH524S: Ящик/коробка для снастей Carp Pro коропова велика комп. 6 короб. | 3659: Ящик/коробка для снастей Сани 2 рибальські 80*42*20 (rfin)"
+    },
+    {
+      "family": "chair",
+      "count": 2,
+      "examples": "3189: Крісло/стілець Крісло ECLIPSE EC- складне, з підстакан. (20 г) | 4351: Крісло/стілець з полиці Крісло d20 мм"
+    },
+    {
+      "family": "camping_fuel",
+      "count": 2,
+      "examples": "3297: Паливо для туризму Вугілля [3297] | 4328: Паливо для туризму Вугілля [4328]"
+    },
+    {
+      "family": "other",
+      "count": 2,
+      "examples": "4113: Рибальський товар Кораблик 40 Points GPS+ eхолот Rc baits Boat V030 12000mah batterry | 05.65: Рибальський товар Оснастка фірмова Premium 5.4"
+    },
+    {
+      "family": "spinning",
+      "count": 1,
+      "examples": "4441: Спінінг Сумка Спінінгіста"
+    },
+    {
+      "family": "spinner",
+      "count": 1,
+      "examples": "2501: Блешня MEPPS AGLIA 3 оранж"
+    },
+    {
+      "family": "battery",
+      "count": 1,
+      "examples": "000207: Батарейка cr425"
+    },
+    {
+      "family": "flashlight",
+      "count": 1,
+      "examples": "ME-4514: Ліхтар Ліхтарик SENSON ME-4514"
+    },
+    {
+      "family": "clothing",
+      "count": 1,
+      "examples": "AK-OKX17XM: Одяг/взуття для риболовлі Окуляри JAXON поляризаціоні AK-OKX17XM"
+    },
+    {
+      "family": "rod_tube",
+      "count": 1,
+      "examples": "4247: Чохол/тубус Feima 2465 1.50 салатові полоски"
+    }
+  ]
+}

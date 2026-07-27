@@ -1,0 +1,75 @@
+﻿position,import_column,kind,target_label,target_key,template_param_id,template_alias,status
+1,Артикул,core,Артикул,article,,,map_required
+2,Назва(ua),core,Назва українською,title-_-3,,,map_required
+3,Назва модифікації(ua),core,Назва модифікації українською,mod_title-_-3,,,map_required
+4,Розділ,core,Категорія,parent,,,map_required
+5,Цена,core,Ціна,price,,,map_required
+6,Валюта,core,Валюта,currency,,,map_required
+7,Відображати,core,Показувати на сайті,display_in_showcase,,,map_required
+8,Наявність,core,Наявність,presence,,,map_required
+9,Бренд,core,Бренд,brand,,,map_required
+10,Опис товару(ua),core,Опис українською,description-_-3,,,map_required
+11,Тип вудилища(ua),characteristic,Тип вудилища,typ_vudy,6588,typ_vudy,map_if_dropdown_contains_characteristics
+12,Тип насадки(ua),characteristic,Тип насадки,typ_nasadky,6589,typ_nasadky,map_if_dropdown_contains_characteristics
+13,Тип суміші(ua),characteristic,Тип суміші,typ_sumishi,6590,typ_sumishi,map_if_dropdown_contains_characteristics
+14,Тип атрактанту(ua),characteristic,Тип атрактанту,typ_atraktantu,6591,typ_atraktantu,map_if_dropdown_contains_characteristics
+15,Тип(ua),characteristic,Тип,typ,6592,typ,map_if_dropdown_contains_characteristics
+16,Підтип(ua),characteristic,Підтип,pidtyp,6593,pidtyp,map_if_dropdown_contains_characteristics
+17,Форма(ua),characteristic,Форма,forma,6621,forma,map_if_dropdown_contains_characteristics
+18,Матеріал(ua),characteristic,Матеріал,material,6604,material,map_if_dropdown_contains_characteristics
+19,Плавучість(ua),characteristic,Плавучість,plavuchist,6605,plavuchist,map_if_dropdown_contains_characteristics
+20,Довжина(ua),characteristic,Довжина,dovzhyna,6594,dovzhyna,map_if_dropdown_contains_characteristics
+21,Стрій(ua),characteristic,Стрій,striy,6596,striy,map_if_dropdown_contains_characteristics
+22,Діаметр(ua),characteristic,Діаметр,diametr,6597,diametr,map_if_dropdown_contains_characteristics
+23,PE(ua),characteristic,PE,pe,6599,pe,map_if_dropdown_contains_characteristics
+24,Розривне навантаження(ua),characteristic,Розривне навантаження,rozryvne_nav,6598,rozryvne_nav,map_if_dropdown_contains_characteristics
+25,Розривне навантаження (lb)(ua),characteristic,Розривне навантаження (lb),rozrivneNavantazhennjaLb,6635,rozrivneNavantazhennjaLb,map_if_dropdown_contains_characteristics
+26,Об'єм(ua),characteristic,Об'єм,obem_r,6609,obem_r,map_if_dropdown_contains_characteristics
+27,Вага(ua),characteristic,Вага,vaga,6600,vaga,map_if_dropdown_contains_characteristics
+28,Розмір(ua),characteristic,Розмір,rozmir_r,6610,rozmir_r,map_if_dropdown_contains_characteristics
+29,Підшипники(ua),characteristic,Підшипники,pdshipniki,6644,pdshipniki,map_if_dropdown_contains_characteristics
+30,Кількість в упаковці(ua),characteristic,Кількість в упаковці,kilkist_upak,6601,kilkist_upak,map_if_dropdown_contains_characteristics
+31,Призначення(ua),characteristic,Призначення,pryznachennya,6602,pryznachennya,map_if_dropdown_contains_characteristics
+32,Аромат(ua),characteristic,Аромат,aromat,6603,aromat,map_if_dropdown_contains_characteristics
+33,Кастинг-тест(ua),characteristic,Кастинг-тест,casting_test,6606,casting_test,map_if_dropdown_contains_characteristics
+34,Глибина занурення(ua),characteristic,Глибина занурення,glibinaZanurennja,6650,glibinaZanurennja,map_if_dropdown_contains_characteristics
+35,Аромат/склад(ua),characteristic,Аромат/склад,aromatsklad,6643,aromatsklad,map_if_dropdown_contains_characteristics
+36,Використання(ua),characteristic,Використання,vykory,6777,vykory,map_if_dropdown_contains_characteristics
+37,Водонепроникність(ua),characteristic,Водонепроникність,vodon,6776,vodon,map_if_dropdown_contains_characteristics
+38,Довговічність(ua),characteristic,Довговічність,dovgov,6784,dovgov,map_if_dropdown_contains_characteristics
+39,Живлення(ua),characteristic,Живлення,zhyvl,6780,zhyvl,map_if_dropdown_contains_characteristics
+40,Застосування(ua),characteristic,Застосування,zastos,6781,zastos,map_if_dropdown_contains_characteristics
+41,Колір(ua),characteristic,Колір,kolr,6614,kolr,map_if_dropdown_contains_characteristics
+42,Колір підсвічування(ua),characteristic,Колір підсвічування,kolrPdsvchuvannja,6642,kolrPdsvchuvannja,map_if_dropdown_contains_characteristics
+43,Консистенція(ua),characteristic,Консистенція,konsyst,6778,konsyst,map_if_dropdown_contains_characteristics
+44,Країна-виробник(ua),characteristic,Країна-виробник,kranaVirobnik,6613,kranaVirobnik,map_if_dropdown_contains_characteristics
+45,Кріплення(ua),characteristic,Кріплення,krplennja,6647,krplennja,map_if_dropdown_contains_characteristics
+46,Кількість відділень(ua),characteristic,Кількість відділень,klkstVddlen,6638,klkstVddlen,map_if_dropdown_contains_characteristics
+47,Кількість гачків(ua),characteristic,Кількість гачків,klkstGachkv,6622,klkstGachkv,map_if_dropdown_contains_characteristics
+48,Кількість секцій(ua),characteristic,Кількість секцій,klkstSekcy,6616,klkstSekcy,map_if_dropdown_contains_characteristics
+49,Максимальне навантаження(ua),characteristic,Максимальне навантаження,max_navant,6775,max_navant,map_if_dropdown_contains_characteristics
+50,Матеріал гачка(ua),characteristic,Матеріал гачка,mat_gacha,6774,mat_gacha,map_if_dropdown_contains_characteristics
+51,Матеріал корпусу(ua),characteristic,Матеріал корпусу,materalKorpusu,6625,materalKorpusu,map_if_dropdown_contains_characteristics
+52,Матеріал повідця(ua),characteristic,Матеріал повідця,materalPovdcja,6639,materalPovdcja,map_if_dropdown_contains_characteristics
+53,Передаточне число(ua),characteristic,Передаточне число,peredatochneChislo,6627,peredatochneChislo,map_if_dropdown_contains_characteristics
+54,Покриття(ua),characteristic,Покриття,pokrittja,6623,pokrittja,map_if_dropdown_contains_characteristics
+55,Підходить для(ua),characteristic,Підходить для,pdhod,6795,pdhod,map_if_dropdown_contains_characteristics
+56,Сезон(ua),characteristic,Сезон,sezon,6782,sezon,map_if_dropdown_contains_characteristics
+57,Система гальма(ua),characteristic,Система гальма,sistemaGalma,6628,sistemaGalma,map_if_dropdown_contains_characteristics
+58,Склад(ua),characteristic,Склад,sklad,6636,sklad,map_if_dropdown_contains_characteristics
+59,Стиль(ua),characteristic,Стиль,stil,6648,stil,map_if_dropdown_contains_characteristics
+60,Сумісність(ua),characteristic,Сумісність,sumisn,6779,sumisn,map_if_dropdown_contains_characteristics
+61,Тип блешні(ua),characteristic,Тип блешні,tipBleshn,6624,tipBleshn,map_if_dropdown_contains_characteristics
+62,Тип воблера(ua),characteristic,Тип воблера,tipVoblera,6632,tipVoblera,map_if_dropdown_contains_characteristics
+63,Тип з'єднання секцій(ua),characteristic,Тип з'єднання секцій,tipZednannjaSekcy,6637,tipZednannjaSekcy,map_if_dropdown_contains_characteristics
+64,Тип котушки(ua),characteristic,Тип котушки,tipKotushki,6626,tipKotushki,map_if_dropdown_contains_characteristics
+65,Тип кріплення(ua),characteristic,Тип кріплення,tipKrplennja,6630,tipKrplennja,map_if_dropdown_contains_characteristics
+66,Тип повідця(ua),characteristic,Тип повідця,tipPovdcja,6641,tipPovdcja,map_if_dropdown_contains_characteristics
+67,Тип приманки(ua),characteristic,Тип приманки,tipPrimanki,6615,tipPrimanki,map_if_dropdown_contains_characteristics
+68,Тип пропускних кілець(ua),characteristic,Тип пропускних кілець,tipPropusknixKlec,6620,tipPropusknixKlec,map_if_dropdown_contains_characteristics
+69,Тип рукояті(ua),characteristic,Тип рукояті,tipRukojat,6617,tipRukojat,map_if_dropdown_contains_characteristics
+70,Тип хвоста(ua),characteristic,Тип хвоста,tipXvosta,6646,tipXvosta,map_if_dropdown_contains_characteristics
+71,Транспортна довжина(ua),characteristic,Транспортна довжина,transportnaDovzhina,6619,transportnaDovzhina,map_if_dropdown_contains_characteristics
+72,Транспортна довжина (см)(ua),characteristic,Транспортна довжина (см),transportnaDovzhinaSm,6652,transportnaDovzhinaSm,map_if_dropdown_contains_characteristics
+73,Упаковка(ua),characteristic,Упаковка,upakovka,6649,upakovka,map_if_dropdown_contains_characteristics
+74,Форма джиг-головки(ua),characteristic,Форма джиг-головки,formaDzhigGolovki,6653,formaDzhigGolovki,map_if_dropdown_contains_characteristics

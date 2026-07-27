@@ -1,0 +1,25 @@
+{
+  "utility_root": "tmp\\invalid-article-test",
+  "token_source": "admin-import-metadata",
+  "articles_total": 1,
+  "clean_gallery": false,
+  "dry_run": true,
+  "uploaded_articles": [],
+  "failed_articles": [
+    {
+      "article": "DJ#1%2F0-2G",
+      "file_count": 1,
+      "filenames": [
+        "DJ#1%2F0-2G@gallery_common.jpg"
+      ],
+      "status": "failed",
+      "reason": "check_failed",
+      "failed_checks": {
+        "DJ#1%2F0-2G@gallery_common.jpg": {
+          "success": false,
+          "message": "productNotFound"
+        }
+      }
+    }
+  ]
+}

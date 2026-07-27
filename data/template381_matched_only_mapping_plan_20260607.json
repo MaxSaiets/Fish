@@ -1,0 +1,748 @@
+{
+  "file": "D:\\FISH\\fish-sync\\public\\horoshop_import_sample_5_template381_matched_only_html.xls",
+  "columns": 74,
+  "core_columns": 10,
+  "characteristic_columns": 64,
+  "rows": [
+    {
+      "position": 1,
+      "import_column": "Артикул",
+      "kind": "core",
+      "target_label": "Артикул",
+      "target_key": "article",
+      "template_param_id": "",
+      "template_alias": "",
+      "status": "map_required"
+    },
+    {
+      "position": 2,
+      "import_column": "Назва(ua)",
+      "kind": "core",
+      "target_label": "Назва українською",
+      "target_key": "title-_-3",
+      "template_param_id": "",
+      "template_alias": "",
+      "status": "map_required"
+    },
+    {
+      "position": 3,
+      "import_column": "Назва модифікації(ua)",
+      "kind": "core",
+      "target_label": "Назва модифікації українською",
+      "target_key": "mod_title-_-3",
+      "template_param_id": "",
+      "template_alias": "",
+      "status": "map_required"
+    },
+    {
+      "position": 4,
+      "import_column": "Розділ",
+      "kind": "core",
+      "target_label": "Категорія",
+      "target_key": "parent",
+      "template_param_id": "",
+      "template_alias": "",
+      "status": "map_required"
+    },
+    {
+      "position": 5,
+      "import_column": "Цена",
+      "kind": "core",
+      "target_label": "Ціна",
+      "target_key": "price",
+      "template_param_id": "",
+      "template_alias": "",
+      "status": "map_required"
+    },
+    {
+      "position": 6,
+      "import_column": "Валюта",
+      "kind": "core",
+      "target_label": "Валюта",
+      "target_key": "currency",
+      "template_param_id": "",
+      "template_alias": "",
+      "status": "map_required"
+    },
+    {
+      "position": 7,
+      "import_column": "Відображати",
+      "kind": "core",
+      "target_label": "Показувати на сайті",
+      "target_key": "display_in_showcase",
+      "template_param_id": "",
+      "template_alias": "",
+      "status": "map_required"
+    },
+    {
+      "position": 8,
+      "import_column": "Наявність",
+      "kind": "core",
+      "target_label": "Наявність",
+      "target_key": "presence",
+      "template_param_id": "",
+      "template_alias": "",
+      "status": "map_required"
+    },
+    {
+      "position": 9,
+      "import_column": "Бренд",
+      "kind": "core",
+      "target_label": "Бренд",
+      "target_key": "brand",
+      "template_param_id": "",
+      "template_alias": "",
+      "status": "map_required"
+    },
+    {
+      "position": 10,
+      "import_column": "Опис товару(ua)",
+      "kind": "core",
+      "target_label": "Опис українською",
+      "target_key": "description-_-3",
+      "template_param_id": "",
+      "template_alias": "",
+      "status": "map_required"
+    },
+    {
+      "position": 11,
+      "import_column": "Тип вудилища(ua)",
+      "kind": "characteristic",
+      "target_label": "Тип вудилища",
+      "target_key": "typ_vudy",
+      "template_param_id": "6588",
+      "template_alias": "typ_vudy",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 12,
+      "import_column": "Тип насадки(ua)",
+      "kind": "characteristic",
+      "target_label": "Тип насадки",
+      "target_key": "typ_nasadky",
+      "template_param_id": "6589",
+      "template_alias": "typ_nasadky",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 13,
+      "import_column": "Тип суміші(ua)",
+      "kind": "characteristic",
+      "target_label": "Тип суміші",
+      "target_key": "typ_sumishi",
+      "template_param_id": "6590",
+      "template_alias": "typ_sumishi",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 14,
+      "import_column": "Тип атрактанту(ua)",
+      "kind": "characteristic",
+      "target_label": "Тип атрактанту",
+      "target_key": "typ_atraktantu",
+      "template_param_id": "6591",
+      "template_alias": "typ_atraktantu",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 15,
+      "import_column": "Тип(ua)",
+      "kind": "characteristic",
+      "target_label": "Тип",
+      "target_key": "typ",
+      "template_param_id": "6592",
+      "template_alias": "typ",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 16,
+      "import_column": "Підтип(ua)",
+      "kind": "characteristic",
+      "target_label": "Підтип",
+      "target_key": "pidtyp",
+      "template_param_id": "6593",
+      "template_alias": "pidtyp",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 17,
+      "import_column": "Форма(ua)",
+      "kind": "characteristic",
+      "target_label": "Форма",
+      "target_key": "forma",
+      "template_param_id": "6621",
+      "template_alias": "forma",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 18,
+      "import_column": "Матеріал(ua)",
+      "kind": "characteristic",
+      "target_label": "Матеріал",
+      "target_key": "material",
+      "template_param_id": "6604",
+      "template_alias": "material",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 19,
+      "import_column": "Плавучість(ua)",
+      "kind": "characteristic",
+      "target_label": "Плавучість",
+      "target_key": "plavuchist",
+      "template_param_id": "6605",
+      "template_alias": "plavuchist",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 20,
+      "import_column": "Довжина(ua)",
+      "kind": "characteristic",
+      "target_label": "Довжина",
+      "target_key": "dovzhyna",
+      "template_param_id": "6594",
+      "template_alias": "dovzhyna",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 21,
+      "import_column": "Стрій(ua)",
+      "kind": "characteristic",
+      "target_label": "Стрій",
+      "target_key": "striy",
+      "template_param_id": "6596",
+      "template_alias": "striy",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 22,
+      "import_column": "Діаметр(ua)",
+      "kind": "characteristic",
+      "target_label": "Діаметр",
+      "target_key": "diametr",
+      "template_param_id": "6597",
+      "template_alias": "diametr",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 23,
+      "import_column": "PE(ua)",
+      "kind": "characteristic",
+      "target_label": "PE",
+      "target_key": "pe",
+      "template_param_id": "6599",
+      "template_alias": "pe",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 24,
+      "import_column": "Розривне навантаження(ua)",
+      "kind": "characteristic",
+      "target_label": "Розривне навантаження",
+      "target_key": "rozryvne_nav",
+      "template_param_id": "6598",
+      "template_alias": "rozryvne_nav",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 25,
+      "import_column": "Розривне навантаження (lb)(ua)",
+      "kind": "characteristic",
+      "target_label": "Розривне навантаження (lb)",
+      "target_key": "rozrivneNavantazhennjaLb",
+      "template_param_id": "6635",
+      "template_alias": "rozrivneNavantazhennjaLb",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 26,
+      "import_column": "Об'єм(ua)",
+      "kind": "characteristic",
+      "target_label": "Об'єм",
+      "target_key": "obem_r",
+      "template_param_id": "6609",
+      "template_alias": "obem_r",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 27,
+      "import_column": "Вага(ua)",
+      "kind": "characteristic",
+      "target_label": "Вага",
+      "target_key": "vaga",
+      "template_param_id": "6600",
+      "template_alias": "vaga",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 28,
+      "import_column": "Розмір(ua)",
+      "kind": "characteristic",
+      "target_label": "Розмір",
+      "target_key": "rozmir_r",
+      "template_param_id": "6610",
+      "template_alias": "rozmir_r",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 29,
+      "import_column": "Підшипники(ua)",
+      "kind": "characteristic",
+      "target_label": "Підшипники",
+      "target_key": "pdshipniki",
+      "template_param_id": "6644",
+      "template_alias": "pdshipniki",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 30,
+      "import_column": "Кількість в упаковці(ua)",
+      "kind": "characteristic",
+      "target_label": "Кількість в упаковці",
+      "target_key": "kilkist_upak",
+      "template_param_id": "6601",
+      "template_alias": "kilkist_upak",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 31,
+      "import_column": "Призначення(ua)",
+      "kind": "characteristic",
+      "target_label": "Призначення",
+      "target_key": "pryznachennya",
+      "template_param_id": "6602",
+      "template_alias": "pryznachennya",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 32,
+      "import_column": "Аромат(ua)",
+      "kind": "characteristic",
+      "target_label": "Аромат",
+      "target_key": "aromat",
+      "template_param_id": "6603",
+      "template_alias": "aromat",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 33,
+      "import_column": "Кастинг-тест(ua)",
+      "kind": "characteristic",
+      "target_label": "Кастинг-тест",
+      "target_key": "casting_test",
+      "template_param_id": "6606",
+      "template_alias": "casting_test",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 34,
+      "import_column": "Глибина занурення(ua)",
+      "kind": "characteristic",
+      "target_label": "Глибина занурення",
+      "target_key": "glibinaZanurennja",
+      "template_param_id": "6650",
+      "template_alias": "glibinaZanurennja",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 35,
+      "import_column": "Аромат/склад(ua)",
+      "kind": "characteristic",
+      "target_label": "Аромат/склад",
+      "target_key": "aromatsklad",
+      "template_param_id": "6643",
+      "template_alias": "aromatsklad",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 36,
+      "import_column": "Використання(ua)",
+      "kind": "characteristic",
+      "target_label": "Використання",
+      "target_key": "vykory",
+      "template_param_id": "6777",
+      "template_alias": "vykory",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 37,
+      "import_column": "Водонепроникність(ua)",
+      "kind": "characteristic",
+      "target_label": "Водонепроникність",
+      "target_key": "vodon",
+      "template_param_id": "6776",
+      "template_alias": "vodon",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 38,
+      "import_column": "Довговічність(ua)",
+      "kind": "characteristic",
+      "target_label": "Довговічність",
+      "target_key": "dovgov",
+      "template_param_id": "6784",
+      "template_alias": "dovgov",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 39,
+      "import_column": "Живлення(ua)",
+      "kind": "characteristic",
+      "target_label": "Живлення",
+      "target_key": "zhyvl",
+      "template_param_id": "6780",
+      "template_alias": "zhyvl",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 40,
+      "import_column": "Застосування(ua)",
+      "kind": "characteristic",
+      "target_label": "Застосування",
+      "target_key": "zastos",
+      "template_param_id": "6781",
+      "template_alias": "zastos",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 41,
+      "import_column": "Колір(ua)",
+      "kind": "characteristic",
+      "target_label": "Колір",
+      "target_key": "kolr",
+      "template_param_id": "6614",
+      "template_alias": "kolr",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 42,
+      "import_column": "Колір підсвічування(ua)",
+      "kind": "characteristic",
+      "target_label": "Колір підсвічування",
+      "target_key": "kolrPdsvchuvannja",
+      "template_param_id": "6642",
+      "template_alias": "kolrPdsvchuvannja",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 43,
+      "import_column": "Консистенція(ua)",
+      "kind": "characteristic",
+      "target_label": "Консистенція",
+      "target_key": "konsyst",
+      "template_param_id": "6778",
+      "template_alias": "konsyst",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 44,
+      "import_column": "Країна-виробник(ua)",
+      "kind": "characteristic",
+      "target_label": "Країна-виробник",
+      "target_key": "kranaVirobnik",
+      "template_param_id": "6613",
+      "template_alias": "kranaVirobnik",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 45,
+      "import_column": "Кріплення(ua)",
+      "kind": "characteristic",
+      "target_label": "Кріплення",
+      "target_key": "krplennja",
+      "template_param_id": "6647",
+      "template_alias": "krplennja",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 46,
+      "import_column": "Кількість відділень(ua)",
+      "kind": "characteristic",
+      "target_label": "Кількість відділень",
+      "target_key": "klkstVddlen",
+      "template_param_id": "6638",
+      "template_alias": "klkstVddlen",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 47,
+      "import_column": "Кількість гачків(ua)",
+      "kind": "characteristic",
+      "target_label": "Кількість гачків",
+      "target_key": "klkstGachkv",
+      "template_param_id": "6622",
+      "template_alias": "klkstGachkv",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 48,
+      "import_column": "Кількість секцій(ua)",
+      "kind": "characteristic",
+      "target_label": "Кількість секцій",
+      "target_key": "klkstSekcy",
+      "template_param_id": "6616",
+      "template_alias": "klkstSekcy",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 49,
+      "import_column": "Максимальне навантаження(ua)",
+      "kind": "characteristic",
+      "target_label": "Максимальне навантаження",
+      "target_key": "max_navant",
+      "template_param_id": "6775",
+      "template_alias": "max_navant",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 50,
+      "import_column": "Матеріал гачка(ua)",
+      "kind": "characteristic",
+      "target_label": "Матеріал гачка",
+      "target_key": "mat_gacha",
+      "template_param_id": "6774",
+      "template_alias": "mat_gacha",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 51,
+      "import_column": "Матеріал корпусу(ua)",
+      "kind": "characteristic",
+      "target_label": "Матеріал корпусу",
+      "target_key": "materalKorpusu",
+      "template_param_id": "6625",
+      "template_alias": "materalKorpusu",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 52,
+      "import_column": "Матеріал повідця(ua)",
+      "kind": "characteristic",
+      "target_label": "Матеріал повідця",
+      "target_key": "materalPovdcja",
+      "template_param_id": "6639",
+      "template_alias": "materalPovdcja",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 53,
+      "import_column": "Передаточне число(ua)",
+      "kind": "characteristic",
+      "target_label": "Передаточне число",
+      "target_key": "peredatochneChislo",
+      "template_param_id": "6627",
+      "template_alias": "peredatochneChislo",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 54,
+      "import_column": "Покриття(ua)",
+      "kind": "characteristic",
+      "target_label": "Покриття",
+      "target_key": "pokrittja",
+      "template_param_id": "6623",
+      "template_alias": "pokrittja",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 55,
+      "import_column": "Підходить для(ua)",
+      "kind": "characteristic",
+      "target_label": "Підходить для",
+      "target_key": "pdhod",
+      "template_param_id": "6795",
+      "template_alias": "pdhod",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 56,
+      "import_column": "Сезон(ua)",
+      "kind": "characteristic",
+      "target_label": "Сезон",
+      "target_key": "sezon",
+      "template_param_id": "6782",
+      "template_alias": "sezon",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 57,
+      "import_column": "Система гальма(ua)",
+      "kind": "characteristic",
+      "target_label": "Система гальма",
+      "target_key": "sistemaGalma",
+      "template_param_id": "6628",
+      "template_alias": "sistemaGalma",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 58,
+      "import_column": "Склад(ua)",
+      "kind": "characteristic",
+      "target_label": "Склад",
+      "target_key": "sklad",
+      "template_param_id": "6636",
+      "template_alias": "sklad",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 59,
+      "import_column": "Стиль(ua)",
+      "kind": "characteristic",
+      "target_label": "Стиль",
+      "target_key": "stil",
+      "template_param_id": "6648",
+      "template_alias": "stil",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 60,
+      "import_column": "Сумісність(ua)",
+      "kind": "characteristic",
+      "target_label": "Сумісність",
+      "target_key": "sumisn",
+      "template_param_id": "6779",
+      "template_alias": "sumisn",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 61,
+      "import_column": "Тип блешні(ua)",
+      "kind": "characteristic",
+      "target_label": "Тип блешні",
+      "target_key": "tipBleshn",
+      "template_param_id": "6624",
+      "template_alias": "tipBleshn",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 62,
+      "import_column": "Тип воблера(ua)",
+      "kind": "characteristic",
+      "target_label": "Тип воблера",
+      "target_key": "tipVoblera",
+      "template_param_id": "6632",
+      "template_alias": "tipVoblera",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 63,
+      "import_column": "Тип з'єднання секцій(ua)",
+      "kind": "characteristic",
+      "target_label": "Тип з'єднання секцій",
+      "target_key": "tipZednannjaSekcy",
+      "template_param_id": "6637",
+      "template_alias": "tipZednannjaSekcy",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 64,
+      "import_column": "Тип котушки(ua)",
+      "kind": "characteristic",
+      "target_label": "Тип котушки",
+      "target_key": "tipKotushki",
+      "template_param_id": "6626",
+      "template_alias": "tipKotushki",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 65,
+      "import_column": "Тип кріплення(ua)",
+      "kind": "characteristic",
+      "target_label": "Тип кріплення",
+      "target_key": "tipKrplennja",
+      "template_param_id": "6630",
+      "template_alias": "tipKrplennja",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 66,
+      "import_column": "Тип повідця(ua)",
+      "kind": "characteristic",
+      "target_label": "Тип повідця",
+      "target_key": "tipPovdcja",
+      "template_param_id": "6641",
+      "template_alias": "tipPovdcja",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 67,
+      "import_column": "Тип приманки(ua)",
+      "kind": "characteristic",
+      "target_label": "Тип приманки",
+      "target_key": "tipPrimanki",
+      "template_param_id": "6615",
+      "template_alias": "tipPrimanki",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 68,
+      "import_column": "Тип пропускних кілець(ua)",
+      "kind": "characteristic",
+      "target_label": "Тип пропускних кілець",
+      "target_key": "tipPropusknixKlec",
+      "template_param_id": "6620",
+      "template_alias": "tipPropusknixKlec",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 69,
+      "import_column": "Тип рукояті(ua)",
+      "kind": "characteristic",
+      "target_label": "Тип рукояті",
+      "target_key": "tipRukojat",
+      "template_param_id": "6617",
+      "template_alias": "tipRukojat",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 70,
+      "import_column": "Тип хвоста(ua)",
+      "kind": "characteristic",
+      "target_label": "Тип хвоста",
+      "target_key": "tipXvosta",
+      "template_param_id": "6646",
+      "template_alias": "tipXvosta",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 71,
+      "import_column": "Транспортна довжина(ua)",
+      "kind": "characteristic",
+      "target_label": "Транспортна довжина",
+      "target_key": "transportnaDovzhina",
+      "template_param_id": "6619",
+      "template_alias": "transportnaDovzhina",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 72,
+      "import_column": "Транспортна довжина (см)(ua)",
+      "kind": "characteristic",
+      "target_label": "Транспортна довжина (см)",
+      "target_key": "transportnaDovzhinaSm",
+      "template_param_id": "6652",
+      "template_alias": "transportnaDovzhinaSm",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 73,
+      "import_column": "Упаковка(ua)",
+      "kind": "characteristic",
+      "target_label": "Упаковка",
+      "target_key": "upakovka",
+      "template_param_id": "6649",
+      "template_alias": "upakovka",
+      "status": "map_if_dropdown_contains_characteristics"
+    },
+    {
+      "position": 74,
+      "import_column": "Форма джиг-головки(ua)",
+      "kind": "characteristic",
+      "target_label": "Форма джиг-головки",
+      "target_key": "formaDzhigGolovki",
+      "template_param_id": "6653",
+      "template_alias": "formaDzhigGolovki",
+      "status": "map_if_dropdown_contains_characteristics"
+    }
+  ]
+}

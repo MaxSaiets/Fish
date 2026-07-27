@@ -1,0 +1,1572 @@
+{
+  "total_missing": 132,
+  "summary": {
+    "1_filter_critical": {
+      "count": 4,
+      "products_covered_sum": 1379,
+      "examples": [
+        {
+          "name": "Матеріал бланка",
+          "product_count": 741,
+          "unique_values": 44
+        },
+        {
+          "name": "Сегмент",
+          "product_count": 304,
+          "unique_values": 3
+        },
+        {
+          "name": "Вид",
+          "product_count": 190,
+          "unique_values": 4
+        },
+        {
+          "name": "Комплектація",
+          "product_count": 144,
+          "unique_values": 17
+        }
+      ]
+    },
+    "3_filter_niche": {
+      "count": 5,
+      "products_covered_sum": 250,
+      "examples": [
+        {
+          "name": "Конструкція",
+          "product_count": 76,
+          "unique_values": 7
+        },
+        {
+          "name": "Форма грузила",
+          "product_count": 74,
+          "unique_values": 9
+        },
+        {
+          "name": "Аромат/варіант",
+          "product_count": 40,
+          "unique_values": 40
+        },
+        {
+          "name": "Вид монтажу",
+          "product_count": 36,
+          "unique_values": 4
+        },
+        {
+          "name": "Джерело живлення",
+          "product_count": 24,
+          "unique_values": 1
+        }
+      ]
+    },
+    "5_rare_review": {
+      "count": 123,
+      "products_covered_sum": 275,
+      "examples": [
+        {
+          "name": "Напруга",
+          "product_count": 11,
+          "unique_values": 6
+        },
+        {
+          "name": "Кількість полиць",
+          "product_count": 10,
+          "unique_values": 4
+        },
+        {
+          "name": "Номінал",
+          "product_count": 9,
+          "unique_values": 9
+        },
+        {
+          "name": "Застібка",
+          "product_count": 8,
+          "unique_values": 3
+        },
+        {
+          "name": "Висота",
+          "product_count": 7,
+          "unique_values": 4
+        },
+        {
+          "name": "Кількість режимів",
+          "product_count": 7,
+          "unique_values": 2
+        },
+        {
+          "name": "Смак",
+          "product_count": 7,
+          "unique_values": 7
+        },
+        {
+          "name": "Довжина поводка",
+          "product_count": 6,
+          "unique_values": 1
+        },
+        {
+          "name": "Матеріал сітки",
+          "product_count": 6,
+          "unique_values": 3
+        },
+        {
+          "name": "Розміри в складеному вигляді",
+          "product_count": 6,
+          "unique_values": 6
+        }
+      ]
+    }
+  },
+  "rows": [
+    {
+      "wave": "1_filter_critical",
+      "name": "Матеріал бланка",
+      "product_count": 741,
+      "unique_values": 44,
+      "recommended_type": "select",
+      "filter_recommendation": "filter",
+      "top_values": "Carbon (351) | Карбон (164) | карбон (66) | Композитний (23) | скловолокно (18) | Графіт (15) | Вуглецеве волокно (12) | вуглецеве волокно (11)",
+      "top_categories": "Вудилища / Коропові (250) | Вудилища / Спінінгові (200) | Вудилища / Махові (119) | Зимова ловля / вудилища (65) | Вудилища / Запчастини та аксесуари для вудок (47)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "1_filter_critical",
+      "name": "Сегмент",
+      "product_count": 304,
+      "unique_values": 3,
+      "recommended_type": "select",
+      "filter_recommendation": "filter",
+      "top_values": "Різне (125) | Риболовна фурнітура (111) | Риболовні аксесуари (68)",
+      "top_categories": "Все для монтажу / Інше для оснащення (89) | Готові монтажі / оранж (71) | Сигналізатори клювання / механічні (67) | Херабуна / готові оснастки (38) | Туризм / посуд (25)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "1_filter_critical",
+      "name": "Вид",
+      "product_count": 190,
+      "unique_values": 4,
+      "recommended_type": "select",
+      "filter_recommendation": "filter",
+      "top_values": "Класичний (152) | Херабуна (36) | Короп (1) | Мотиль (1)",
+      "top_categories": "Херабуна / поплавки (188) | Готові монтажі / оранж (1) | Приманки / воблери (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "1_filter_critical",
+      "name": "Комплектація",
+      "product_count": 144,
+      "unique_values": 17,
+      "recommended_type": "select",
+      "filter_recommendation": "filter",
+      "top_values": "Готова оснастка (120) | Набір інструментів (9) | 3 (1) | 4 предмети (1) | 5 предмети (1) | Шило та свердло (1) | 10 шт (1) | 5 (1)",
+      "top_categories": "Готові монтажі / інші (121) | PVA матеріали та аксесуари / Інструменти (13) | Відра, сумки та органайзери / коробки органайзери (6) | Все для монтажу / Інше для оснащення (1) | Все для монтажу / грузила / спінінгові (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "3_filter_niche",
+      "name": "Конструкція",
+      "product_count": 76,
+      "unique_values": 7,
+      "recommended_type": "select",
+      "filter_recommendation": "filter",
+      "top_values": "М'яка (46) | Телескопічна / складна (18) | Жорстка (7) | Телескопічна (2) | Складна (1) | П'ятикутна цільна голова (1) | Автоматична (1)",
+      "top_categories": "Чохли / всі (53) | Підсаки, Садки, кукани / Підсаки (20) | Підсаки, Садки, кукани / ручки та голови до підсака (2) | Туризм / посуд (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "3_filter_niche",
+      "name": "Форма грузила",
+      "product_count": 74,
+      "unique_values": 9,
+      "recommended_type": "select",
+      "filter_recommendation": "filter",
+      "top_values": "Вухань (26) | Дроп-шот (19) | Банан (11) | Дробинка (6) | Куля (3) | Голова риби (3) | Пуля (3) | Ромб (2)",
+      "top_categories": "Все для монтажу / грузила / спінінгові (68) | Готові монтажі / інші (6)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "3_filter_niche",
+      "name": "Аромат/варіант",
+      "product_count": 40,
+      "unique_values": 40,
+      "recommended_type": "select",
+      "filter_recommendation": "filter",
+      "top_values": "RealFish Горох (1) | RealFish Кисла Груша (1) | RealFish Кріль (1) | RealFish Полуниця (1) | RealFish Слива (1) | RealFish Солодка Кукурудза (1) | RealFish Часник (1) | RealFish Чебрець - Часник (1)",
+      "top_categories": "Херабуна / тісто (18) | Прикормка / Макуха (9) | Прикормка / Real Fish (8) | Прикормка / Технопланктон (5)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "3_filter_niche",
+      "name": "Вид монтажу",
+      "product_count": 36,
+      "unique_values": 4,
+      "recommended_type": "select",
+      "filter_recommendation": "filter",
+      "top_values": "Вбивця карася (23) | На товстолоба (10) | Фідерний (2) | Фідер.пуля (1)",
+      "top_categories": "Готові монтажі / інші (36)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "3_filter_niche",
+      "name": "Джерело живлення",
+      "product_count": 24,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "filter",
+      "top_values": "Батарейки (24)",
+      "top_categories": "Туризм / ліхтарі (24)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Напруга",
+      "product_count": 11,
+      "unique_values": 6,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "9V (5) | 9 V (2) | 3.6 V (1) | 3V (1) | 1.5V (1) | 1.5 В (1)",
+      "top_categories": "Туризм / батарейки (9) | Туризм / ліхтарі (1) | Туризм / посуд (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кількість полиць",
+      "product_count": 10,
+      "unique_values": 4,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "2 (5) | 3 (3) | 1 (1) | 5 (1)",
+      "top_categories": "Відра, сумки та органайзери / коробки органайзери (8) | Туризм / посуд (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Номінал",
+      "product_count": 9,
+      "unique_values": 9,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "1000 грн (1) | 2500 грн (1) | 3000 грн (1) | 3500 грн (1) | 4000 грн (1) | 4500 грн (1) | 5000 грн (1) | 1500 грн (1)",
+      "top_categories": "Подарункові сертифікати / всі (9)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Застібка",
+      "product_count": 8,
+      "unique_values": 3,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Блискавка (6) | Клапан (1) | Так (1)",
+      "top_categories": "Чохли / всі (4) | Все для монтажу / карабіни вертлюги та кільця (1) | Відра, сумки та органайзери / коробки органайзери (1) | Відра, сумки та органайзери / сумки (1) | Підсаки, Садки, кукани / Садки кукани (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Висота",
+      "product_count": 7,
+      "unique_values": 4,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Високі (3) | 20 см (2) | Регульована (1) | Середня (1)",
+      "top_categories": "Туризм / одяг та взуття (4) | Крісла, стільці та столи / стільці (1) | Туризм / посуд (1) | Чохли / всі (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кількість режимів",
+      "product_count": 7,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "3 (5) | 1 (2)",
+      "top_categories": "Туризм / ліхтарі (7)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Смак",
+      "product_count": 7,
+      "unique_values": 7,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Пряже Молоко (1) | Слива (1) | Часник (1) | Чебрець - Часник (1) | Полуниця (1) | Креветка (1) | Слодка кукурудза (1)",
+      "top_categories": "Прикормка / Fanatik / Кекси (2) | Прикормка / Real Fish (2) | Прикормка / Технопланктон (2) | Прикормка / Інші бренди (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Довжина поводка",
+      "product_count": 6,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "40 см (6)",
+      "top_categories": "Херабуна / готові оснастки (6)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Матеріал сітки",
+      "product_count": 6,
+      "unique_values": 3,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Прогумований (3) | Прогумована (2) | Кордова (1)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (6)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Розміри в складеному вигляді",
+      "product_count": 6,
+      "unique_values": 6,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "100x60x10 см (1) | 80 x 15 x 15 см (1) | 80 x 10 x 10 см (1) | 80 x 20 x 10 см (1) | 90 х 15 х 15 см (1) | 40x15 см (1)",
+      "top_categories": "Крісла, стільці та столи / стільці (5) | Туризм / посуд (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Сітка",
+      "product_count": 6,
+      "unique_values": 3,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Прогумована (4) | М'яка (1) | Прорез (1)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (5) | Підсаки, Садки, кукани / Садки кукани (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Тип товару",
+      "product_count": 6,
+      "unique_values": 3,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Сертифікат (4) | Прес-форма (1) | Подарунковий сертифікат (1)",
+      "top_categories": "Подарункові сертифікати / всі (5) | Все для монтажу / Інше для оснащення (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кількість предметів",
+      "product_count": 5,
+      "unique_values": 3,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "3 (2) | 4 (2) | 5 (1)",
+      "top_categories": "PVA матеріали та аксесуари / Інструменти (3) | Туризм / посуд (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Особливість",
+      "product_count": 5,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "З полицею (5)",
+      "top_categories": "Крісла, стільці та столи / стільці (5)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Потужність",
+      "product_count": 5,
+      "unique_values": 4,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "5 Вт (2) | 3 Вт (1) | Регульована (1) | приблизно 100-200 Вт (1)",
+      "top_categories": "Туризм / ліхтарі (3) | Туризм / плити, горілки балони (1) | Туризм / посуд (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Довжина ручки",
+      "product_count": 4,
+      "unique_values": 3,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Регульована (2) | 120 см (1) | приблизно 1.5 м (1)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (4)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Клімат",
+      "product_count": 4,
+      "unique_values": 3,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Універсальний (2) | Для холодної та дощової погоди (1) | Холодний (1)",
+      "top_categories": "Туризм / одяг та взуття (4)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кількість пружин",
+      "product_count": 4,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "3 (2) | 2 (2)",
+      "top_categories": "Готові монтажі / інші (3) | Все для монтажу / грузила / спінінгові (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Особливості",
+      "product_count": 4,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Стійкість до пошкоджень, легкість в обслуговуванні (3) | Зручна кліпса для швидкої зміни монтажу (1)",
+      "top_categories": "Підсаки, Садки, кукани / Садки кукани (3) | Готові монтажі / інші (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Температурний режим",
+      "product_count": 4,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "-30°C (2) | -15°C (2)",
+      "top_categories": "Туризм / одяг та взуття (4)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Умови використання",
+      "product_count": 4,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Тепла вода (3) | На відкритому повітрі (1)",
+      "top_categories": "PVA матеріали та аксесуари / PVA матеріали (3) | Туризм / одяг та взуття (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Додаткові функції",
+      "product_count": 3,
+      "unique_values": 3,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Комфортна ручка (1) | Зажим, для зручності використання (1) | Рулетка (1)",
+      "top_categories": "PVA матеріали та аксесуари / Інструменти (2) | Все для монтажу / Інше для оснащення (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кількість місць",
+      "product_count": 3,
+      "unique_values": 3,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "2-4 (1) | 2 (1) | 3 (1)",
+      "top_categories": "Туризм / посуд (3)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Матеріал ручки",
+      "product_count": 3,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Метал (2) | Пластик (1)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (2) | Зимова ловля / аксесуари (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Розмір гачка",
+      "product_count": 3,
+      "unique_values": 3,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "№18 (1) | 18 (1) | №6 (1)",
+      "top_categories": "Готові монтажі / оранж (3)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Світловий потік",
+      "product_count": 3,
+      "unique_values": 3,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "500 люмен (1) | 300 люмен (1) | До 300 Лм (1)",
+      "top_categories": "Туризм / ліхтарі (3)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Стать",
+      "product_count": 3,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Унісекс (2) | Чоловіча (1)",
+      "top_categories": "Туризм / одяг та взуття (3)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Фарбування",
+      "product_count": 3,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Водостійке (3)",
+      "top_categories": "Все для монтажу / грузила / спінінгові (3)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Час роботи",
+      "product_count": 3,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "до 10 годин (3)",
+      "top_categories": "Туризм / ліхтарі (3)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Ширина",
+      "product_count": 3,
+      "unique_values": 3,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "24 мм (1) | 30 см (1) | 20 см (1)",
+      "top_categories": "PVA матеріали та аксесуари / PVA матеріали (1) | Підсаки, Садки, кукани / Підсаки (1) | Чохли / всі (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Ємність",
+      "product_count": 2,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "не менше 500 мАг (2)",
+      "top_categories": "Туризм / батарейки (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Водостійкість",
+      "product_count": 2,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Так (2)",
+      "top_categories": "Туризм / ліхтарі (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Габарити",
+      "product_count": 2,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Стандартні (2)",
+      "top_categories": "Відра, сумки та органайзери / коробки органайзери (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Гачки",
+      "product_count": 2,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "мікс (2)",
+      "top_categories": "Херабуна / готові оснастки (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Голова",
+      "product_count": 2,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Трикутна (1) | 40 см (1)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (1) | Херабуна / підсак, садок (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Захист",
+      "product_count": 2,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "UV400 (2)",
+      "top_categories": "Туризм / одяг та взуття (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кількість відводів",
+      "product_count": 2,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "1 (2)",
+      "top_categories": "Готові монтажі / інші (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кількість елементів",
+      "product_count": 2,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "3 (1) | Багатофункціональний (1)",
+      "top_categories": "Готові монтажі / інші (1) | Зимова ловля / аксесуари (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кількість елементів у комплекті",
+      "product_count": 2,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "5 (2)",
+      "top_categories": "Готові монтажі / інші (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кількість застібок",
+      "product_count": 2,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "10 (1) | 7 (1)",
+      "top_categories": "Підсаки, Садки, кукани / Садки кукани (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кількість оснасток",
+      "product_count": 2,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "2 (2)",
+      "top_categories": "Херабуна / готові оснастки (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Максимальна довжина",
+      "product_count": 2,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "1.7 м (2)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Матеріал оббивки",
+      "product_count": 2,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Оксфорд (1) | Текстиль (1)",
+      "top_categories": "Крісла, стільці та столи / стільці (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Розмір гачків",
+      "product_count": 2,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "№6 (1) | Відповідно до стандартів (1)",
+      "top_categories": "Готові монтажі / оранж (1) | Готові монтажі / інші (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Розмір сітки",
+      "product_count": 2,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "приблизно 50 см (1) | 60 см (1)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Розмір частинок",
+      "product_count": 2,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "3-6мм (1) | 3-6 мм (1)",
+      "top_categories": "Прикормка / Технопланктон (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Ручка",
+      "product_count": 2,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Телескопічна (2)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Сезонність",
+      "product_count": 2,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Зимова (1) | Літній/зимовий (1)",
+      "top_categories": "Туризм / одяг та взуття (1) | Туризм / посуд (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Ступінь утеплення",
+      "product_count": 2,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Середній (1) | Середня (1)",
+      "top_categories": "Туризм / одяг та взуття (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Телескопічний",
+      "product_count": 2,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Так (2)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Теплоізоляція",
+      "product_count": 2,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "До -30°C (1) | Так (1)",
+      "top_categories": "Туризм / одяг та взуття (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Утеплення",
+      "product_count": 2,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Так (2)",
+      "top_categories": "Туризм / одяг та взуття (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Фасування",
+      "product_count": 2,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Пакет (2)",
+      "top_categories": "Прикормка / Fanatik / все скопом (1) | Прикормка / Інші бренди (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Форм-фактор",
+      "product_count": 2,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Крона (1) | 6LR61 (1)",
+      "top_categories": "Туризм / батарейки (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Форма голови",
+      "product_count": 2,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Овальна (1) | П'ятикутна (1)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Формат",
+      "product_count": 2,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Електронний (1) | AA (міні пальчик) (1)",
+      "top_categories": "Подарункові сертифікати / всі (1) | Туризм / посуд (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Яскравість",
+      "product_count": 2,
+      "unique_values": 2,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "До 300 люмен (1) | До 500 люмен (1)",
+      "top_categories": "Туризм / ліхтарі (2)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Витримує навантаження",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "до 120 кг (1)",
+      "top_categories": "Крісла, стільці та столи / стільці (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Відділення",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Багато (1)",
+      "top_categories": "Відра, сумки та органайзери / сумки (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Гачок",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "№6 (1)",
+      "top_categories": "Готові монтажі / оранж (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Гучність сигналу",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Регульована (1)",
+      "top_categories": "Сигналізатори клювання / механічні (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Джерело світла",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Світлодіоди (1)",
+      "top_categories": "Туризм / ліхтарі (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Довжина в розкладеному вигляді",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "2,4 м (1)",
+      "top_categories": "Підсаки, Садки, кукани / ручки та голови до підсака (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Довжина в складеному вигляді",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "1,2 м (1)",
+      "top_categories": "Підсаки, Садки, кукани / ручки та голови до підсака (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Довжина оснастки",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "30 см (1)",
+      "top_categories": "Готові монтажі / інші (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Довжина рукоятки",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "1.5 м (1)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Довжина шнура",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "2 м (1)",
+      "top_categories": "Підсаки, Садки, кукани / Садки кукани (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Додаткові особливості",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Легко змінюється (1)",
+      "top_categories": "Готові монтажі / інші (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Діаметр голови",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "70 см (1)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Діаметр кошика",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "40 см (1)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Діаметр рами",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "55 см (1)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Діаметр сітки",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "0,65 мм (1)",
+      "top_categories": "Підсаки, Садки, кукани / Садки кукани (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Діапазон температур",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "-40° до +100°С (1)",
+      "top_categories": "Готові монтажі / оранж (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Запалювання",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Пєзоелектричне (1)",
+      "top_categories": "Туризм / плити, горілки балони (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Категорія",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Мотиль (1)",
+      "top_categories": "Приманки / воблери (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кліматичний режим",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "3-сезонний (1)",
+      "top_categories": "Туризм / посуд (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кліматичні умови",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Прохолодна погода (1)",
+      "top_categories": "Туризм / одяг та взуття (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Комфорт",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "М'яке сидіння (1)",
+      "top_categories": "Крісла, стільці та столи / стільці (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Користування",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Онлайн-замовлення (1)",
+      "top_categories": "Подарункові сертифікати / всі (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Користувацька група",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Рибалки (1)",
+      "top_categories": "Зимова ловля / сані (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кут",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "45° (1)",
+      "top_categories": "Херабуна / готові оснастки (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кут нахилу",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Регульований (1)",
+      "top_categories": "Туризм / ліхтарі (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кут освітлення",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "120 градусів (1)",
+      "top_categories": "Туризм / ліхтарі (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кількість вудок",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "4 (1)",
+      "top_categories": "Чохли / всі (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кількість конфорок",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "1 (1)",
+      "top_categories": "Туризм / плити, горілки балони (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кількість кріплень",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "2 (1)",
+      "top_categories": "Готові монтажі / інші (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кількість кілець",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "3 (1)",
+      "top_categories": "Підсаки, Садки, кукани / Садки кукани (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кількість поводків",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "3 (1)",
+      "top_categories": "Готові монтажі / інші (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кількість підлокітників",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "2 (1)",
+      "top_categories": "Крісла, стільці та столи / стільці (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кількість частин",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "1 (1)",
+      "top_categories": "Туризм / посуд (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кількість шипів",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "6 (1)",
+      "top_categories": "Зимова ловля / аксесуари (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Кільця",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Металеві (1)",
+      "top_categories": "Підсаки, Садки, кукани / Садки кукани (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Матеріал голови",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Метал (1)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Матеріал каркасу",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Метал (1)",
+      "top_categories": "Крісла, стільці та столи / стільці (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Підошва",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Протекторна (1)",
+      "top_categories": "Туризм / одяг та взуття (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Регулювання",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Так (1)",
+      "top_categories": "Туризм / одяг та взуття (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Режими роботи",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Основний, мигаючий (1)",
+      "top_categories": "Туризм / ліхтарі (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Розбірний",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Так (1)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Розмір (мм)",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "260*187*48 (1)",
+      "top_categories": "Відра, сумки та органайзери / коробки органайзери (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Розмір в розкладеному вигляді",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "стандартний (1)",
+      "top_categories": "Крісла, стільці та столи / стільці (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Розмір в складеному вигляді",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "100 x 15 x 15 см (1)",
+      "top_categories": "Крісла, стільці та столи / стільці (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Розмір у складеному вигляді",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "компактний (1)",
+      "top_categories": "Туризм / посуд (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Рік випуску",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "2017 (1)",
+      "top_categories": "Готові монтажі / оранж (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Система",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Телескопічна (1)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Складність",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Складне (1)",
+      "top_categories": "Крісла, стільці та столи / стільці (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Спосіб використання",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Онлайн покупка (1)",
+      "top_categories": "Подарункові сертифікати / всі (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Спосіб зарядки",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "USB (1)",
+      "top_categories": "Туризм / ліхтарі (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Ступінь вологості",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Середня (1)",
+      "top_categories": "Прикормка / Real Fish (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Ступінь теплоізоляції",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Середня (1)",
+      "top_categories": "Туризм / одяг та взуття (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Ступінь тесту",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "До 10 кг (1)",
+      "top_categories": "Херабуна / готові оснастки (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Сфера використання",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Риболовля (1)",
+      "top_categories": "Подарункові сертифікати / всі (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Сфера застосування",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Стаціонарна риболовля (1)",
+      "top_categories": "Готові монтажі / інші (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Телескопічна",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Так (1)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Термін придатності",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "24 місяці (1)",
+      "top_categories": "Приманки / воблери (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Технологія",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Thinsulate (1)",
+      "top_categories": "Туризм / одяг та взуття (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Тип грузила",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Шар (1)",
+      "top_categories": "Все для монтажу / грузила / спінінгові (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Тип живлення",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Акумулятор/батарейки (1)",
+      "top_categories": "Туризм / ліхтарі (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Тип замка",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Телескопічний посилений (1)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Тип підошви",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Протекторна (1)",
+      "top_categories": "Туризм / одяг та взуття (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Форма рами",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "П'ятикутна (1)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Форма упаковки",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "Пакет (1)",
+      "top_categories": "Прикормка / Інші бренди (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Чохол",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "є (1)",
+      "top_categories": "Підсаки, Садки, кукани / Садки кукани (1)",
+      "suggested_alias": ""
+    },
+    {
+      "wave": "5_rare_review",
+      "name": "Ширина сітки",
+      "product_count": 1,
+      "unique_values": 1,
+      "recommended_type": "select",
+      "filter_recommendation": "card_only",
+      "top_values": "80 см (1)",
+      "top_categories": "Підсаки, Садки, кукани / Підсаки (1)",
+      "suggested_alias": ""
+    }
+  ]
+}

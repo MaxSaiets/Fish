@@ -1,0 +1,2719 @@
+{
+  "source_dir": "F:\\FISH_IMAGES\\_extracted",
+  "public_base_url": "https://vsedliarybalky.com.ua",
+  "archives_scanned": 0,
+  "archives_prepared": 34,
+  "rows_written": 271,
+  "branding_assets_detected": [],
+  "category_assets_detected": [],
+  "unmatched_files_count": 2,
+  "unmatched_files_sample": [
+    {
+      "archive": "Anvi",
+      "file": "обкладинка.jpg",
+      "container": "Anvi"
+    },
+    {
+      "archive": "Бойли Boom",
+      "file": "обкладинка.jpg",
+      "container": "Бойли Boom"
+    }
+  ],
+  "file_matches_sample": [
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 10мм ( Белачан) 20г.jpg",
+      "matched_kods": [
+        "166"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 10мм (HOT DEMON) 20г.jpg",
+      "matched_kods": [
+        "2065"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 10мм (Монстер Краб) 20г.jpg",
+      "matched_kods": [
+        "167"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 10мм (ананас) 20г.jpg",
+      "matched_kods": [
+        "1668"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 10мм (горох) 20г.jpg",
+      "matched_kods": [
+        "594"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 10мм (мед) 20г.jpg",
+      "matched_kods": [
+        "4198"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 10мм (слива часник) 20г.jpg",
+      "matched_kods": [
+        "4107"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 10мм (слива) 20г.jpg",
+      "matched_kods": [
+        "165",
+        "1670"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 10мм (тигровий горіх) 20г.jpg",
+      "matched_kods": [
+        "103"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 10мм (шовковиця) 20г.jpg",
+      "matched_kods": [
+        "1669"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 8мм ( Белачан) 20г.jpg",
+      "matched_kods": [
+        "169"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 8мм (Солодка кукурудза) 20г.jpg",
+      "matched_kods": [
+        "164"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 8мм (зеленогуба мушля) 20г.jpg",
+      "matched_kods": [
+        "102"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 8мм (кисла груша) 20г.jpg",
+      "matched_kods": [
+        "107"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 8мм (креветка) 20г.jpg",
+      "matched_kods": [
+        "100"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 8мм (мандарин) 20г.jpg",
+      "matched_kods": [
+        "170",
+        "99"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 8мм (полуниця) 20г.jpg",
+      "matched_kods": [
+        "1664"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 8мм (слива часник) 20г.jpg",
+      "matched_kods": [
+        "4204"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 8мм (тигровий горіх) 20г.jpg",
+      "matched_kods": [
+        "101"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 8мм (хот демон) 20г.jpg",
+      "matched_kods": [
+        "1665"
+      ]
+    },
+    {
+      "archive": "3K",
+      "file": "Бойли 3-К Baits Pop-Up 8мм (шовковиця) 20г.jpg",
+      "matched_kods": [
+        "1666"
+      ]
+    },
+    {
+      "archive": "Anvi",
+      "file": "Carp Pellets Amino 1кг 6-8мм AV.jpg",
+      "matched_kods": [
+        "3258"
+      ]
+    },
+    {
+      "archive": "Anvi",
+      "file": "Carp Pellets Double Mix 1кг 6-8мм AV.jpg",
+      "matched_kods": [
+        "3259"
+      ]
+    },
+    {
+      "archive": "Anvi",
+      "file": "Carp Pellets Trou 1кг 6-8мм AV.jpg",
+      "matched_kods": [
+        "3257"
+      ]
+    },
+    {
+      "archive": "Anvi",
+      "file": "Прикорм PelletsГОРОХ 5 мм 1 кг ANVI FISHING.jpg",
+      "matched_kods": [
+        "16"
+      ]
+    },
+    {
+      "archive": "Anvi",
+      "file": "Прикорм PelletsКРИЛЬ 5 мм 1 кг.jpg",
+      "matched_kods": [
+        "15"
+      ]
+    },
+    {
+      "archive": "Anvi",
+      "file": "Прикорм PelletsМакуха 5 мм 1 кг ANVI FISHING.jpg",
+      "matched_kods": [
+        "4360"
+      ]
+    },
+    {
+      "archive": "Anvi",
+      "file": "Прикорм PelletsЧАСНИК 5 мм 1 кг ANVI FISHING.jpg",
+      "matched_kods": [
+        "11"
+      ]
+    },
+    {
+      "archive": "Pelets",
+      "file": "Пелетс  короповий мікс Кальмар Восьминіг 1кг BOOM.jpg",
+      "matched_kods": [
+        "4430"
+      ]
+    },
+    {
+      "archive": "Pelets",
+      "file": "Пелетс  короповий мікс Кальмар Журавлина 1кг BOOM.jpg",
+      "matched_kods": [
+        "4431"
+      ]
+    },
+    {
+      "archive": "Pelets",
+      "file": "Пелетс  короповий мікс Кріль 1кг BOOM.jpg",
+      "matched_kods": [
+        "4335"
+      ]
+    },
+    {
+      "archive": "Pelets",
+      "file": "Пелетс  короповий мікс Полуниця 1кг BOOM.jpg",
+      "matched_kods": [
+        "4332"
+      ]
+    },
+    {
+      "archive": "Pelets",
+      "file": "Пелетс  короповий мікс Слива 1кг BOOM.jpg",
+      "matched_kods": [
+        "4333"
+      ]
+    },
+    {
+      "archive": "Pelets",
+      "file": "Пелетс  короповий мікс Спеції 1кг BOOM.jpg",
+      "matched_kods": [
+        "4334"
+      ]
+    },
+    {
+      "archive": "Pelets",
+      "file": "Пелетс  короповий мікс Тигровий горіх 1кг BOOM.jpg",
+      "matched_kods": [
+        "4336"
+      ]
+    },
+    {
+      "archive": "Pelets",
+      "file": "Пелетс  короповий мікс монстер краб 1кг BOOM.jpg",
+      "matched_kods": [
+        "4272"
+      ]
+    },
+    {
+      "archive": "Puhach",
+      "file": "Puhach-Baits--Pop-Ups-10-mm-Multicolor-Acid-Pear.jpg",
+      "matched_kods": [
+        "PUPOPUP043"
+      ]
+    },
+    {
+      "archive": "Puhach",
+      "file": "Puhach-Baits--Pop-Ups-10-mm-Multicolor-Citrus.jpg",
+      "matched_kods": [
+        "PUPOPUP042"
+      ]
+    },
+    {
+      "archive": "Puhach",
+      "file": "Puhach-Baits--Pop-Ups-10-mm-Multicolor-Pineapple.jpg",
+      "matched_kods": [
+        "PUPOPUP038"
+      ]
+    },
+    {
+      "archive": "Puhach",
+      "file": "Puhach-Baits-Combo-10-mm-Krill-Robin-Red.jpg",
+      "matched_kods": [
+        "PUCOMBO005"
+      ]
+    },
+    {
+      "archive": "Puhach",
+      "file": "Puhach-Baits-Combo-10-mm-Krill.jpg",
+      "matched_kods": [
+        "PUCOMBO004",
+        "PUCOMBO005"
+      ]
+    },
+    {
+      "archive": "Puhach",
+      "file": "Puhach-Baits-Combo-10-mm-Salmon-Orange.jpg",
+      "matched_kods": [
+        "PUCOMBO006"
+      ]
+    },
+    {
+      "archive": "Puhach",
+      "file": "Puhach-Baits-Combo-10-mm-Squid---Plum.jpg",
+      "matched_kods": [
+        "PUCOMBO002"
+      ]
+    },
+    {
+      "archive": "Puhach",
+      "file": "Puhach-Baits-Combo-10-mm-Squid---Strawberry.jpg",
+      "matched_kods": [
+        "PUCOMBO003"
+      ]
+    },
+    {
+      "archive": "Puhach",
+      "file": "Puhach-Baits-Combo-10-mm-Squid.jpg",
+      "matched_kods": [
+        "PUCOMBO001",
+        "PUCOMBO002",
+        "PUCOMBO003",
+        "PUCOMBO009"
+      ]
+    },
+    {
+      "archive": "RPF",
+      "file": "Pop-Up Triple Strike Аніс 6-8мм.jpg",
+      "matched_kods": [
+        "4477"
+      ]
+    },
+    {
+      "archive": "RPF",
+      "file": "Pop-Up Triple Strike Ваніль 6-8мм.jpg",
+      "matched_kods": [
+        "4480"
+      ]
+    },
+    {
+      "archive": "RPF",
+      "file": "Pop-Up Triple Strike Кріль Часник 6-8мм.jpg",
+      "matched_kods": [
+        "4478"
+      ]
+    },
+    {
+      "archive": "RPF",
+      "file": "Pop-Up Triple Strike Мед 6-8мм.jpg",
+      "matched_kods": [
+        "4481"
+      ]
+    },
+    {
+      "archive": "RPF",
+      "file": "Pop-Up Triple Strike Червяк Опариш 6-8мм.jpg",
+      "matched_kods": [
+        "4479"
+      ]
+    },
+    {
+      "archive": "RPF",
+      "file": "Pop-Up Клубника Чилі 10мм RPF (два кольори).jpg",
+      "matched_kods": [
+        "3784"
+      ]
+    },
+    {
+      "archive": "RPF",
+      "file": "Pop-Up Краб  Банана 10мм RPF (два кольори).jpg",
+      "matched_kods": [
+        "3782"
+      ]
+    },
+    {
+      "archive": "RPF",
+      "file": "Pop-Up Кукурудза Тигровий горіх10мм RPF (два кольори).jpg",
+      "matched_kods": [
+        "3786"
+      ]
+    },
+    {
+      "archive": "RPF",
+      "file": "Pop-Up Часник чилі10мм RPF (два кольори).jpg",
+      "matched_kods": [
+        "3787"
+      ]
+    },
+    {
+      "archive": "RPF",
+      "file": "Баланс  Кріль Груша10мм RPF Twinturbo.jpg",
+      "matched_kods": [
+        "4227"
+      ]
+    },
+    {
+      "archive": "Spod Mix",
+      "file": "Спод Мікс короповий Кальмар Восьминіг 1кг BOOM.jpg",
+      "matched_kods": [
+        "4433"
+      ]
+    },
+    {
+      "archive": "Spod Mix",
+      "file": "Спод Мікс короповий Кальмар Журавлина 1кг BOOM.jpg",
+      "matched_kods": [
+        "4051"
+      ]
+    },
+    {
+      "archive": "Spod Mix",
+      "file": "Спод Мікс короповий Кріль 1кг BOOM.jpg",
+      "matched_kods": [
+        "4396"
+      ]
+    },
+    {
+      "archive": "Spod Mix",
+      "file": "Спод Мікс короповий Монстер Краб 1кг BOOM.jpg",
+      "matched_kods": [
+        "4432"
+      ]
+    },
+    {
+      "archive": "Spod Mix",
+      "file": "Спод Мікс короповий Полуниця 1кг BOOM.jpg",
+      "matched_kods": [
+        "4049"
+      ]
+    },
+    {
+      "archive": "Spod Mix",
+      "file": "Спод Мікс короповий Слива 1кг BOOM.jpg",
+      "matched_kods": [
+        "4050"
+      ]
+    },
+    {
+      "archive": "Spod Mix",
+      "file": "Спод Мікс короповий Спеції 1кг BOOM.jpg",
+      "matched_kods": [
+        "4273"
+      ]
+    },
+    {
+      "archive": "Spod Mix",
+      "file": "Спод Мікс короповий Тигровий Горіх 1кг BOOM.jpg",
+      "matched_kods": [
+        "4052"
+      ]
+    },
+    {
+      "archive": "fanatic",
+      "file": "Пелетс Карась 3мм 1000г Fanatik.jpg",
+      "matched_kods": [
+        "4403"
+      ]
+    },
+    {
+      "archive": "fanatic",
+      "file": "Пелетс Кукурудза Тигровий горіх 5мм 1000г Fanatik.jpg",
+      "matched_kods": [
+        "4404"
+      ]
+    },
+    {
+      "archive": "fanatic",
+      "file": "Пелетс Чорний Часник 3мм 1000г Fanatik.jpg",
+      "matched_kods": [
+        "4405"
+      ]
+    },
+    {
+      "archive": "metod mix",
+      "file": "Method Mix 3в1 Double Garlic400г.jpg",
+      "matched_kods": [
+        "4359"
+      ]
+    },
+    {
+      "archive": "metod mix",
+      "file": "Method Mix 3в1 Fruit Mix400г.jpg",
+      "matched_kods": [
+        "23"
+      ]
+    },
+    {
+      "archive": "metod mix",
+      "file": "Method Mix 3в1 KrillHalibut400г.jpg",
+      "matched_kods": [
+        "22"
+      ]
+    },
+    {
+      "archive": "metod mix",
+      "file": "Method Mix 3в1 PINEAPPLE PEAR400г.jpg",
+      "matched_kods": [
+        "21",
+        "2254"
+      ]
+    },
+    {
+      "archive": "metod mix",
+      "file": "Method Mix 3в1 RobinRed400г.jpg",
+      "matched_kods": [
+        "3254"
+      ]
+    },
+    {
+      "archive": "metod mix",
+      "file": "Method Mix 3в1 SalmonStrawberry400г.jpg",
+      "matched_kods": [
+        "20"
+      ]
+    },
+    {
+      "archive": "metod mix",
+      "file": "Method Mix 3в1 SquidOctopus400г.jpg",
+      "matched_kods": [
+        "2253",
+        "3256"
+      ]
+    },
+    {
+      "archive": "metod mix",
+      "file": "Method Mix 3в1 Tiger NutCorn400г.jpg",
+      "matched_kods": [
+        "19"
+      ]
+    },
+    {
+      "archive": "metod mix",
+      "file": "Method Mix 3в1 Tuna Extract400г.jpg",
+      "matched_kods": [
+        "3255"
+      ]
+    },
+    {
+      "archive": "metodmix",
+      "file": "Метод мікс Classic 2в1 Amur RPF.jpg",
+      "matched_kods": [
+        "4457"
+      ]
+    },
+    {
+      "archive": "metodmix",
+      "file": "Метод мікс Classic 2в1 Білочан Лосось RPF.jpg",
+      "matched_kods": [
+        "4454"
+      ]
+    },
+    {
+      "archive": "metodmix",
+      "file": "Метод мікс Classic 2в1 Кальмар-Клюква RPF.jpg",
+      "matched_kods": [
+        "4222"
+      ]
+    },
+    {
+      "archive": "metodmix",
+      "file": "Метод мікс Classic 2в1 Кальмар-Тигровий Горіх RPF.jpg",
+      "matched_kods": [
+        "4225"
+      ]
+    },
+    {
+      "archive": "metodmix",
+      "file": "Метод мікс Classic 2в1 Кальмар-Чилі RPF.jpg",
+      "matched_kods": [
+        "4453"
+      ]
+    },
+    {
+      "archive": "metodmix",
+      "file": "Метод мікс Classic 2в1 Краб-Ананас RPF.jpg",
+      "matched_kods": [
+        "4226"
+      ]
+    },
+    {
+      "archive": "metodmix",
+      "file": "Метод мікс Classic 2в1 Кукурудза + Тигровий горіх RPF.jpg",
+      "matched_kods": [
+        "4349"
+      ]
+    },
+    {
+      "archive": "metodmix",
+      "file": "Метод мікс Classic 2в1 Монстер Краб RPF.jpg",
+      "matched_kods": [
+        "4456"
+      ]
+    },
+    {
+      "archive": "metodmix",
+      "file": "Метод мікс Classic 2в1 Мотиль Опариш RPF.jpg",
+      "matched_kods": [
+        "4455"
+      ]
+    },
+    {
+      "archive": "metodmix",
+      "file": "Метод мікс Classic 2в1 Слива RPF.jpg",
+      "matched_kods": [
+        "4223"
+      ]
+    },
+    {
+      "archive": "pva",
+      "file": "ПВА Сітка Тепла Вода 32мм - 10 метрів.jpg",
+      "matched_kods": [
+        "4155"
+      ]
+    },
+    {
+      "archive": "pva",
+      "file": "ПВА Сітка Тепла Вода 32мм - 5 метрів.jpg",
+      "matched_kods": [
+        "4156"
+      ]
+    },
+    {
+      "archive": "pva",
+      "file": "ПВА пакет70x140x10pc.jpg",
+      "matched_kods": [
+        "4824201403038"
+      ]
+    },
+    {
+      "archive": "pva",
+      "file": "ПВА пакет70x190x10pc.jpg",
+      "matched_kods": [
+        "4824201403039"
+      ]
+    },
+    {
+      "archive": "pva",
+      "file": "ПВА система D-25mm 5m.jpg",
+      "matched_kods": [
+        "4062"
+      ]
+    },
+    {
+      "archive": "pva",
+      "file": "ПВА система D-25mm 5m_2.jpg",
+      "matched_kods": [
+        "4062"
+      ]
+    },
+    {
+      "archive": "pva",
+      "file": "ПВА система D-25mm 5m_3.jpg",
+      "matched_kods": [
+        "4062"
+      ]
+    },
+    {
+      "archive": "pva",
+      "file": "ПВА система D-37mm 5m.jpg",
+      "matched_kods": [
+        "4215"
+      ]
+    },
+    {
+      "archive": "pva",
+      "file": "ПВА система D-37mm 5m_2.jpg",
+      "matched_kods": [
+        "4215"
+      ]
+    },
+    {
+      "archive": "pva stik",
+      "file": "ПВА - стіки  Краб Ананас (10стіків + 50МЛ Ліквіду) Sport.jpg",
+      "matched_kods": [
+        "4220"
+      ]
+    },
+    {
+      "archive": "pva stik",
+      "file": "ПВА - стіки Білочан Лосось (10стіків + 50МЛ Ліквіду).jpg",
+      "matched_kods": [
+        "3762"
+      ]
+    },
+    {
+      "archive": "pva stik",
+      "file": "ПВА - стіки Горох (10стіків + 50МЛ Ліквіду).jpg",
+      "matched_kods": [
+        "3759"
+      ]
+    },
+    {
+      "archive": "pva stik",
+      "file": "ПВА - стіки Кальмар  Слива (10стіків + 50МЛ Ліквіду).jpg",
+      "matched_kods": [
+        "4452"
+      ]
+    },
+    {
+      "archive": "pva stik",
+      "file": "ПВА - стіки Кальмар  Чилі (10стіків + 50МЛ Ліквіду).jpg",
+      "matched_kods": [
+        "3761"
+      ]
+    },
+    {
+      "archive": "pva stik",
+      "file": "ПВА - стіки Кальмар Тигровий горіх (10стіків + 50МЛ Ліквіду).jpg",
+      "matched_kods": [
+        "3760"
+      ]
+    },
+    {
+      "archive": "pva stik",
+      "file": "ПВА - стіки Клубніка (10стіків + 50МЛ Ліквіду).jpg",
+      "matched_kods": [
+        "4031"
+      ]
+    },
+    {
+      "archive": "pva stik",
+      "file": "ПВА - стіки Конопля Тигровий горіх (10стіків + 50МЛ Ліквіду).jpg",
+      "matched_kods": [
+        "3764"
+      ]
+    },
+    {
+      "archive": "pva stik",
+      "file": "ПВА - стіки Креветка (10стіків + 50МЛ Ліквіду) Sport.jpg",
+      "matched_kods": [
+        "3766"
+      ]
+    },
+    {
+      "archive": "pva stik",
+      "file": "ПВА - стіки Криветка Клубніка (10стіків + 50МЛ Ліквіду).jpg",
+      "matched_kods": [
+        "4451"
+      ]
+    },
+    {
+      "archive": "pva stik",
+      "file": "ПВА - стіки Кукурудза (10стіків + 50МЛ Ліквіду).jpg",
+      "matched_kods": [
+        "3758"
+      ]
+    },
+    {
+      "archive": "pva stik",
+      "file": "ПВА - стіки Мотиль Опариш (10стіків + 50МЛ Ліквіду).jpg",
+      "matched_kods": [
+        "3763"
+      ]
+    },
+    {
+      "archive": "pva stik",
+      "file": "ПВА - стіки Слива (10стіків + 50МЛ Ліквіду).jpg",
+      "matched_kods": [
+        "4032"
+      ]
+    },
+    {
+      "archive": "rpf",
+      "file": "ПВА- Мікс Amur 1кг (суміш для ПВА пакетів,стіків та флет годівниць) RPF.jpg",
+      "matched_kods": [
+        "4464"
+      ]
+    },
+    {
+      "archive": "rpf",
+      "file": "ПВА- Мікс Old School 1кг (суміш для ПВА пакетів,стіків та флет годівниць) RPF.jpg",
+      "matched_kods": [
+        "4463"
+      ]
+    },
+    {
+      "archive": "rpf",
+      "file": "ПВА- Мікс Protein 1кг (суміш для ПВА пакетів,стіків та флет годівниць) RPF.jpg",
+      "matched_kods": [
+        "4462"
+      ]
+    },
+    {
+      "archive": "rpf",
+      "file": "ПВА- Мікс Мясний Удар 1кг (суміш для ПВА пакетів,стіків та флет годівниць) RPF.jpg",
+      "matched_kods": [
+        "4459"
+      ]
+    },
+    {
+      "archive": "rpf",
+      "file": "ПВА- Мікс Риба Спеції 1кг (суміш для ПВА пакетів,стіків та флет годівниць) RPF.jpg",
+      "matched_kods": [
+        "4460"
+      ]
+    },
+    {
+      "archive": "rpf",
+      "file": "ПВА- Мікс Солодкий Бум 1кг (суміш для ПВА пакетів,стіків та флет годівниць) RPF.jpg",
+      "matched_kods": [
+        "4458"
+      ]
+    },
+    {
+      "archive": "rpf",
+      "file": "ПВА- Мікс Тигровий Горіх 1кг (суміш для ПВА пакетів,стіків та флет годівниць) RPF.jpg",
+      "matched_kods": [
+        "4461"
+      ]
+    },
+    {
+      "archive": "rpf",
+      "file": "Парена Гранула Аmur 1кг (вміст меленого тигрового горіху 85%) RPF.jpg",
+      "matched_kods": [
+        "4450"
+      ]
+    },
+    {
+      "archive": "rpf",
+      "file": "Парена Гранула Кальмар Клубніка 1кг (вміст меленого тигрового горіху 45%) RPF.jpg",
+      "matched_kods": [
+        "4447"
+      ]
+    },
+    {
+      "archive": "rpf",
+      "file": "Парена Гранула Кальмар Криветка 1кг (вміст меленого тигрового горіху 45%) RPF.jpg",
+      "matched_kods": [
+        "4448"
+      ]
+    },
+    {
+      "archive": "rpf",
+      "file": "Парена Гранула Кальмар Чилі 1кг (вміст меленого тигрового горіху 45%) RPF.jpg",
+      "matched_kods": [
+        "4446"
+      ]
+    },
+    {
+      "archive": "rpf",
+      "file": "Парена Гранула Кукурудза Тигровий Горіх 1кг (вміст меленого тигрового горіху 45%) RPF.jpg",
+      "matched_kods": [
+        "4449"
+      ]
+    },
+    {
+      "archive": "Бойли Boom",
+      "file": "Бойли варенний 20мм Кальмар Восьминіг 1кг BOOM.jpg",
+      "matched_kods": [
+        "4429"
+      ]
+    },
+    {
+      "archive": "Бойли Boom",
+      "file": "Бойли варенний 20мм Кальмар журавлина 1кг BOOM.jpg",
+      "matched_kods": [
+        "4271"
+      ]
+    },
+    {
+      "archive": "Бойли Boom",
+      "file": "Бойли варенний 20мм Кріль 1кг BOOM.jpg",
+      "matched_kods": [
+        "4058"
+      ]
+    },
+    {
+      "archive": "Бойли Boom",
+      "file": "Бойли варенний 20мм Полуниця 1кг BOOM.jpg",
+      "matched_kods": [
+        "4056"
+      ]
+    },
+    {
+      "archive": "Бойли Boom",
+      "file": "Бойли варенний 20мм Слива 1кг BOOM.jpg",
+      "matched_kods": [
+        "4057"
+      ]
+    },
+    {
+      "archive": "Бойли Boom",
+      "file": "Бойли варенний 20мм Спеції 1кг BOOM.jpg",
+      "matched_kods": [
+        "4059"
+      ]
+    },
+    {
+      "archive": "Бойли Boom",
+      "file": "Бойли варенний 20мм Тигровий Горіх 1кг BOOM.jpg",
+      "matched_kods": [
+        "4060"
+      ]
+    },
+    {
+      "archive": "Вудилище Brain Apex Traveller",
+      "file": "4,2.jpg",
+      "matched_kods": [
+        "1858.44.61",
+        "1858.44.62"
+      ]
+    },
+    {
+      "archive": "Вудилище Brain Apex Traveller",
+      "file": "4,3.jpg",
+      "matched_kods": [
+        "1858.44.61",
+        "1858.44.62"
+      ]
+    },
+    {
+      "archive": "Вудилище Brain Apex Traveller",
+      "file": "4.jpg",
+      "matched_kods": [
+        "1858.44.61",
+        "1858.44.62"
+      ]
+    },
+    {
+      "archive": "Вудочка  Magician MIFINE",
+      "file": "2,1.jpg",
+      "matched_kods": [
+        "10319-400",
+        "10319-600",
+        "2603-801504.5",
+        "2603-801505",
+        "402-500",
+        "402-600",
+        "403-500",
+        "403-600",
+        "411-80150 6",
+        "4316",
+        "4317",
+        "4318"
+      ]
+    },
+    {
+      "archive": "Вудочка  Magician MIFINE",
+      "file": "2.jpg",
+      "matched_kods": [
+        "10319-400",
+        "10319-600",
+        "2603-801504.5",
+        "2603-801505",
+        "402-500",
+        "402-600",
+        "403-500",
+        "403-600",
+        "411-80150 6",
+        "4316",
+        "4317",
+        "4318"
+      ]
+    },
+    {
+      "archive": "Вудочка  Magician MIFINE",
+      "file": "4,1.jpg",
+      "matched_kods": [
+        "10319-400",
+        "10319-600",
+        "2603-801504.5",
+        "2603-801505",
+        "402-500",
+        "402-600",
+        "403-500",
+        "403-600",
+        "411-80150 6",
+        "4316",
+        "4317",
+        "4318"
+      ]
+    },
+    {
+      "archive": "Вудочка  Marksman  MIFINE",
+      "file": "5,1.jpg",
+      "matched_kods": [
+        "404-600",
+        "4319",
+        "4320",
+        "4321"
+      ]
+    },
+    {
+      "archive": "Вудочка  Marksman  MIFINE",
+      "file": "5,2.jpg",
+      "matched_kods": [
+        "404-600",
+        "4319",
+        "4320",
+        "4321"
+      ]
+    },
+    {
+      "archive": "Вудочка  Marksman  MIFINE",
+      "file": "5.jpg",
+      "matched_kods": [
+        "404-600",
+        "4319",
+        "4320",
+        "4321"
+      ]
+    },
+    {
+      "archive": "Вудочка Feima PREMACY",
+      "file": "9,1.jpg",
+      "matched_kods": [
+        "2531",
+        "2532"
+      ]
+    },
+    {
+      "archive": "Вудочка Feima PREMACY",
+      "file": "9,2.jpg",
+      "matched_kods": [
+        "2531",
+        "2532"
+      ]
+    },
+    {
+      "archive": "Вудочка Feima PREMACY",
+      "file": "9,3.jpg",
+      "matched_kods": [
+        "2531",
+        "2532"
+      ]
+    },
+    {
+      "archive": "Вудочка Feima PREMACY",
+      "file": "9,4.jpg",
+      "matched_kods": [
+        "2531",
+        "2532"
+      ]
+    },
+    {
+      "archive": "Вудочка Feima PREMACY",
+      "file": "9.jpg",
+      "matched_kods": [
+        "2531",
+        "2532"
+      ]
+    },
+    {
+      "archive": "Вудочка NEW HUNTER",
+      "file": "7,1.jpg",
+      "matched_kods": [
+        "1877",
+        "1880",
+        "4071-600",
+        "4084",
+        "4095"
+      ]
+    },
+    {
+      "archive": "Вудочка NEW HUNTER",
+      "file": "7,2.jpg",
+      "matched_kods": [
+        "1877",
+        "1880",
+        "4071-600",
+        "4084",
+        "4095"
+      ]
+    },
+    {
+      "archive": "Вудочка NEW HUNTER",
+      "file": "7,3.jpg",
+      "matched_kods": [
+        "1877",
+        "1880",
+        "4071-600",
+        "4084",
+        "4095"
+      ]
+    },
+    {
+      "archive": "Вудочка NEW HUNTER",
+      "file": "7.jpg",
+      "matched_kods": [
+        "1877",
+        "1880",
+        "4071-600",
+        "4084",
+        "4095"
+      ]
+    },
+    {
+      "archive": "Вудочка Sport Niht",
+      "file": "10,1.jpg",
+      "matched_kods": [
+        "3277",
+        "3278"
+      ]
+    },
+    {
+      "archive": "Вудочка Sport Niht",
+      "file": "10,2.jpg",
+      "matched_kods": [
+        "3277",
+        "3278"
+      ]
+    },
+    {
+      "archive": "Вудочка Sport Niht",
+      "file": "10,3.jpg",
+      "matched_kods": [
+        "3277",
+        "3278"
+      ]
+    },
+    {
+      "archive": "Вудочка Sport Niht",
+      "file": "10.jpg",
+      "matched_kods": [
+        "3277",
+        "3278"
+      ]
+    },
+    {
+      "archive": "Вудочка Titan",
+      "file": "3,1.jpg",
+      "matched_kods": [
+        "4621",
+        "4622",
+        "4623"
+      ]
+    },
+    {
+      "archive": "Вудочка Titan",
+      "file": "3,2.jpg",
+      "matched_kods": [
+        "4621",
+        "4622",
+        "4623"
+      ]
+    },
+    {
+      "archive": "Вудочка Titan",
+      "file": "3,3.jpg",
+      "matched_kods": [
+        "4621",
+        "4622",
+        "4623"
+      ]
+    },
+    {
+      "archive": "Вудочка Titan",
+      "file": "3.jpg",
+      "matched_kods": [
+        "4621",
+        "4622",
+        "4623"
+      ]
+    },
+    {
+      "archive": "Вудочка WEIDA",
+      "file": "8,1.jpg",
+      "matched_kods": [
+        "1662",
+        "1663",
+        "2371"
+      ]
+    },
+    {
+      "archive": "Вудочка WEIDA",
+      "file": "8,2.jpg",
+      "matched_kods": [
+        "1662",
+        "1663",
+        "2371"
+      ]
+    },
+    {
+      "archive": "Вудочка WEIDA",
+      "file": "8,3.jpg",
+      "matched_kods": [
+        "1662",
+        "1663",
+        "2371"
+      ]
+    },
+    {
+      "archive": "Вудочка WEIDA",
+      "file": "8.jpg",
+      "matched_kods": [
+        "1662",
+        "1663",
+        "2371"
+      ]
+    },
+    {
+      "archive": "Вудочка WEIDA ORION",
+      "file": "1,1.jpg",
+      "matched_kods": [
+        "4616",
+        "4617",
+        "4618"
+      ]
+    },
+    {
+      "archive": "Вудочка WEIDA ORION",
+      "file": "1,2.jpg",
+      "matched_kods": [
+        "4616",
+        "4617",
+        "4618"
+      ]
+    },
+    {
+      "archive": "Вудочка WEIDA ORION",
+      "file": "1,3.jpg",
+      "matched_kods": [
+        "4616",
+        "4617",
+        "4618"
+      ]
+    },
+    {
+      "archive": "Вудочка WEIDA ORION",
+      "file": "1,4.jpg",
+      "matched_kods": [
+        "4616",
+        "4617",
+        "4618"
+      ]
+    },
+    {
+      "archive": "Вудочка WEIDA ORION",
+      "file": "1,5.jpg",
+      "matched_kods": [
+        "4616",
+        "4617",
+        "4618"
+      ]
+    },
+    {
+      "archive": "Вудочка WEIDA ORION",
+      "file": "1.jpg",
+      "matched_kods": [
+        "4616",
+        "4617",
+        "4618"
+      ]
+    },
+    {
+      "archive": "Вудочка WEIDA ORION POLO",
+      "file": "6,2.jpg",
+      "matched_kods": [
+        "1971",
+        "3047",
+        "3091"
+      ]
+    },
+    {
+      "archive": "Вудочка WEIDA ORION POLO",
+      "file": "6,3.jpg",
+      "matched_kods": [
+        "1971",
+        "3047",
+        "3091"
+      ]
+    },
+    {
+      "archive": "Вудочка WEIDA ORION POLO",
+      "file": "6.jpg",
+      "matched_kods": [
+        "1971",
+        "3047",
+        "3091"
+      ]
+    },
+    {
+      "archive": "Вудочка WEIDA TITAN",
+      "file": "1,1.jpg",
+      "matched_kods": [
+        "1886",
+        "1968",
+        "2939",
+        "3046"
+      ]
+    },
+    {
+      "archive": "Вудочка WEIDA TITAN",
+      "file": "1,2.jpg",
+      "matched_kods": [
+        "1886",
+        "1968",
+        "2939",
+        "3046"
+      ]
+    },
+    {
+      "archive": "Вудочка WEIDA TITAN",
+      "file": "1.jpg",
+      "matched_kods": [
+        "1886",
+        "1968",
+        "2939",
+        "3046"
+      ]
+    },
+    {
+      "archive": "Вудочка Джокер BOYA BU",
+      "file": "11,1.jpg",
+      "matched_kods": [
+        "1154",
+        "1155",
+        "1156",
+        "1157",
+        "3748"
+      ]
+    },
+    {
+      "archive": "Вудочка Джокер BOYA BU",
+      "file": "11,2.jpg",
+      "matched_kods": [
+        "1154",
+        "1155",
+        "1156",
+        "1157",
+        "3748"
+      ]
+    },
+    {
+      "archive": "Вудочка Джокер BOYA BU",
+      "file": "11.jpg",
+      "matched_kods": [
+        "1154",
+        "1155",
+        "1156",
+        "1157",
+        "3748"
+      ]
+    },
+    {
+      "archive": "Вудочка бк MIKADO PRINCESS",
+      "file": "3,1.jpg",
+      "matched_kods": [
+        "1235",
+        "1236",
+        "1237"
+      ]
+    },
+    {
+      "archive": "Вудочка бк MIKADO PRINCESS",
+      "file": "3,2.jpg",
+      "matched_kods": [
+        "1235",
+        "1236",
+        "1237"
+      ]
+    },
+    {
+      "archive": "Вудочка бк MIKADO PRINCESS",
+      "file": "3.jpg",
+      "matched_kods": [
+        "1235",
+        "1236",
+        "1237"
+      ]
+    },
+    {
+      "archive": "Карпове вудлище  Kyogi",
+      "file": "3,1.jpg",
+      "matched_kods": [
+        "1262",
+        "1263",
+        "1264",
+        "1265",
+        "4735"
+      ]
+    },
+    {
+      "archive": "Карпове вудлище  Kyogi",
+      "file": "3,2.jpg",
+      "matched_kods": [
+        "1262",
+        "1263",
+        "1264",
+        "1265",
+        "4735"
+      ]
+    },
+    {
+      "archive": "Карпове вудлище  Kyogi",
+      "file": "3,3.jpg",
+      "matched_kods": [
+        "1262",
+        "1263",
+        "1264",
+        "1265",
+        "4735"
+      ]
+    },
+    {
+      "archive": "Карпове вудлище  Kyogi",
+      "file": "3,4.jpg",
+      "matched_kods": [
+        "1262",
+        "1263",
+        "1264",
+        "1265",
+        "4735"
+      ]
+    },
+    {
+      "archive": "Карпове вудлище  Kyogi",
+      "file": "3,5.jpg",
+      "matched_kods": [
+        "1262",
+        "1263",
+        "1264",
+        "1265",
+        "4735"
+      ]
+    },
+    {
+      "archive": "Карпове вудлище  Kyogi",
+      "file": "3.jpg",
+      "matched_kods": [
+        "1262",
+        "1263",
+        "1264",
+        "1265",
+        "4735"
+      ]
+    },
+    {
+      "archive": "Пелетс насадочний",
+      "file": "Насадочний пелетс  Мега Спеції 8мм RPF.jpg",
+      "matched_kods": [
+        "4034"
+      ]
+    },
+    {
+      "archive": "Пелетс насадочний",
+      "file": "Насадочний пелетс  Мясо Рака 8мм RPF.jpg",
+      "matched_kods": [
+        "4033"
+      ]
+    },
+    {
+      "archive": "Пелетс насадочний",
+      "file": "Насадочний пелетс Слива 8мм RPF.jpg",
+      "matched_kods": [
+        "4035"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикорм Flat Feeder HoneyStravberry1кг.jpg",
+      "matched_kods": [
+        "3037"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикорм Flat Feeder KrillHalibut1кг.jpg",
+      "matched_kods": [
+        "2040"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикорм Flat Feeder Tiger nutCorn1кг.jpg",
+      "matched_kods": [
+        "2039"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикорм Гейзер 1 кг ANVI FISHING.jpg",
+      "matched_kods": [
+        "2972"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикорм Карась  ЧАСНИК - ЧЕБРЕЦЬ 1 кг ANVI FISHING.jpg",
+      "matched_kods": [
+        "9"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикорм Карась КОНОПЛЯ 1 кг ANVI FISHING.jpg",
+      "matched_kods": [
+        "8"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикорм Карась Полуниця 1 кг ANVI FISHING.jpg",
+      "matched_kods": [
+        "1218"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикорм Карась ЧАСНИК 1 кг ANVI FISHING.jpg",
+      "matched_kods": [
+        "10"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикорм Карась ЧАСНИК МАКУХА 1 кг ANVI FISHING.jpg",
+      "matched_kods": [
+        "1220"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикорм Короп КРИЛЬ 1 кг.jpg",
+      "matched_kods": [
+        "4"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикорм Короп МЕД- ПОЛУНИЦЯ 1 кг ANVI FISHING.jpg",
+      "matched_kods": [
+        "5"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикорм Короп Слива 1 кг.jpg",
+      "matched_kods": [
+        "2252"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикорм Короп ТИГРОВИЙ ГОРІХ 1 кг.jpg",
+      "matched_kods": [
+        "6"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикорм Короп Цукрова Кукурудза 1 кг.jpg",
+      "matched_kods": [
+        "3359"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикорм Універсал Коліандр Ваніль 1 кг ANVI FISHING.jpg",
+      "matched_kods": [
+        "2510"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикорм Універсал Пряже Молоко 1 кг ANVI FISHING.jpg",
+      "matched_kods": [
+        "3752"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикормка Silver Карась  Макуха  Халва 1 кг ANVI FISHING.jpg",
+      "matched_kods": [
+        "3263"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикормка Silver Карась  Подвійний часник 1 кг ANVI FISHING.jpg",
+      "matched_kods": [
+        "3262"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикормка Silver Карась Опариш 1 кг ANVI FISHING.jpg",
+      "matched_kods": [
+        "3751"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикормка Silver Короп  Полуниця  Солодка Слива 1 кг ANVI FISHING.jpg",
+      "matched_kods": [
+        "3261"
+      ]
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "file": "Прикормка Silver Короп  Свіжа Випічка 1 кг ANVI FISHING.jpg",
+      "matched_kods": [
+        "3750"
+      ]
+    },
+    {
+      "archive": "Прикормка Fanatic",
+      "file": "1201_Fanatik Фідер вбивця карася.jpg",
+      "matched_kods": [
+        "1201"
+      ]
+    },
+    {
+      "archive": "Прикормка Fanatic",
+      "file": "1202_Fanatik Фідер чорний часник.jpg",
+      "matched_kods": [
+        "1202"
+      ]
+    },
+    {
+      "archive": "Прикормка Fanatic",
+      "file": "1204_Fanatik Фідер Лящ Горох.jpg",
+      "matched_kods": [
+        "1204"
+      ]
+    },
+    {
+      "archive": "Прикормка Fanatic",
+      "file": "1205_Fanatik Фідер Лящ Шоколад.jpg",
+      "matched_kods": [
+        "1205"
+      ]
+    },
+    {
+      "archive": "Прикормка Fanatic",
+      "file": "3166_Fanatik Хитрий Лящ.jpg",
+      "matched_kods": [
+        "3166"
+      ]
+    },
+    {
+      "archive": "Прикормка Fanatic",
+      "file": "3818_Fanatik Фідер Гейзер.jpg",
+      "matched_kods": [
+        "3818"
+      ]
+    },
+    {
+      "archive": "Прикормка Fanatic",
+      "file": "3819_Fanatik Фідер Короп Тигровий горіх.jpg",
+      "matched_kods": [
+        "3819"
+      ]
+    },
+    {
+      "archive": "Прикормка Fanatic",
+      "file": "PRF2_Fanatik Солодкий Карась.jpg",
+      "matched_kods": [
+        "PRF2"
+      ]
+    },
+    {
+      "archive": "Прикормка Fanatic",
+      "file": "PRF3_Fanatik Полуниця Короп.jpg",
+      "matched_kods": [
+        "PRF3"
+      ]
+    },
+    {
+      "archive": "Прикормка Fanatic",
+      "file": "PRF4_Fanatick Часник Карась.jpg",
+      "matched_kods": [
+        "PRF4"
+      ]
+    },
+    {
+      "archive": "Прикормка Fanatic",
+      "file": "PRF5_Fanatik Слива Короп.jpg",
+      "matched_kods": [
+        "PRF5"
+      ]
+    },
+    {
+      "archive": "Прикормка Fanatic",
+      "file": "PRF7_Fanatik Вceсезонка Універсал.jpg",
+      "matched_kods": [
+        "PRF7"
+      ]
+    },
+    {
+      "archive": "Прикормка Fanatic",
+      "file": "PRF8_Fanatik Бомба Донна.jpg",
+      "matched_kods": [
+        "PRF8"
+      ]
+    },
+    {
+      "archive": "Прикормка Fanatic",
+      "file": "PRFB KUK_Fanatik Бондуелль Цукрова Кукурудза.jpg",
+      "matched_kods": [
+        "PRFB-KUK"
+      ]
+    },
+    {
+      "archive": "Прикормка Fanatic",
+      "file": "PRFKONOP MKH_ Fanatik Макуха Конопля.jpg",
+      "matched_kods": [
+        "PRFKONOP-MKH"
+      ]
+    },
+    {
+      "archive": "Прикормка Fanatic",
+      "file": "PRFKRYL MKH_Fanatik Макуха Криль.jpg",
+      "matched_kods": [
+        "PRFKRYL-MKH"
+      ]
+    },
+    {
+      "archive": "Прикормка RealFish",
+      "file": "013590_RealFish-(Карась-Халва).jpg",
+      "matched_kods": [
+        "013590"
+      ]
+    },
+    {
+      "archive": "Прикормка RealFish",
+      "file": "013594_RealFish-(Короп-Слива).jpg",
+      "matched_kods": [
+        "013594"
+      ]
+    },
+    {
+      "archive": "Прикормка RealFish",
+      "file": "013596_-RealFish-(Універсал(Ваніль-Карамель).jpg",
+      "matched_kods": [
+        "013596"
+      ]
+    },
+    {
+      "archive": "Прикормка RealFish",
+      "file": "020721_RealFish-(Короп-Горох).jpg",
+      "matched_kods": [
+        "020721"
+      ]
+    },
+    {
+      "archive": "Прикормка RealFish",
+      "file": "1350_RealFish-(Карась-Линь-Червоний-Черв'як.jpg",
+      "matched_kods": [
+        "1350"
+      ]
+    },
+    {
+      "archive": "Прикормка RealFish",
+      "file": "1351_RealFish-(Короп-Полуниця).jpg",
+      "matched_kods": [
+        "1351"
+      ]
+    },
+    {
+      "archive": "Прикормка RealFish",
+      "file": "1352_RealFish-(Гейзер(Кукуруза-Карамель).jpg",
+      "matched_kods": [
+        "1352"
+      ]
+    },
+    {
+      "archive": "Прикормка RealFish",
+      "file": "1353_RealFish-(Карась-Малина).jpg",
+      "matched_kods": [
+        "1353"
+      ]
+    },
+    {
+      "archive": "Прикормка RealFish",
+      "file": "1354_RealFish-(Карась-Часник).jpg",
+      "matched_kods": [
+        "1354"
+      ]
+    },
+    {
+      "archive": "Прикормка RealFish",
+      "file": "1355_-RealFish-(Карась(Чебрець-Часник).jpg",
+      "matched_kods": [
+        "1355"
+      ]
+    },
+    {
+      "archive": "Прикормка RealFish",
+      "file": "2132_RealFish-(Універсал-Смажена-Конопля).jpg",
+      "matched_kods": [
+        "2132"
+      ]
+    },
+    {
+      "archive": "Прикормка RealFish",
+      "file": "2134_RealFish-Лящ-Кориця-Ваніль.jpg",
+      "matched_kods": [
+        "2134"
+      ]
+    },
+    {
+      "archive": "Прикормка RealFish",
+      "file": "2136_RealFish-Плотва-Мотиль.jpg",
+      "matched_kods": [
+        "2136"
+      ]
+    },
+    {
+      "archive": "Прикормка RealFish",
+      "file": "2215_RealFish-(Короп-Кисла-Груша).jpg",
+      "matched_kods": [
+        "2215"
+      ]
+    },
+    {
+      "archive": "Прикормка RealFish",
+      "file": "374_RealFish-(Карась-Линь-Творог).jpg",
+      "matched_kods": [
+        "374"
+      ]
+    },
+    {
+      "archive": "Прикормка RealFish",
+      "file": "RealFish-(Універсал(Спеції).jpg",
+      "matched_kods": [
+        "013597"
+      ]
+    },
+    {
+      "archive": "Спінінг Kalipso Navigator Pro 2",
+      "file": "2,1.jpg",
+      "matched_kods": [
+        "2006101",
+        "2006103",
+        "2368",
+        "2369",
+        "4158"
+      ]
+    },
+    {
+      "archive": "Спінінг Kalipso Navigator Pro 2",
+      "file": "2,2.jpg",
+      "matched_kods": [
+        "2006101",
+        "2006103",
+        "2368",
+        "2369",
+        "4158"
+      ]
+    },
+    {
+      "archive": "Спінінг Kalipso Navigator Pro 2",
+      "file": "2,3.jpg",
+      "matched_kods": [
+        "2006101",
+        "2006103",
+        "2368",
+        "2369",
+        "4158"
+      ]
+    },
+    {
+      "archive": "Спінінг Kalipso Navigator Pro 2",
+      "file": "2,4.jpg",
+      "matched_kods": [
+        "2006101",
+        "2006103",
+        "2368",
+        "2369",
+        "4158"
+      ]
+    },
+    {
+      "archive": "Спінінг Kalipso Navigator Pro 2",
+      "file": "2.jpg",
+      "matched_kods": [
+        "2006101",
+        "2006103",
+        "2368",
+        "2369",
+        "4158"
+      ]
+    },
+    {
+      "archive": "кекс",
+      "file": "Дабл Кекс Ваніль- Карамель  Fanatik.jpg",
+      "matched_kods": [
+        "4018"
+      ]
+    },
+    {
+      "archive": "кекс",
+      "file": "Дабл Кекс Кальмар-Журавлина Fanatik.jpg",
+      "matched_kods": [
+        "4022"
+      ]
+    },
+    {
+      "archive": "кекс",
+      "file": "Дабл Кекс Конопля-Кукурудза  Fanatik.jpg",
+      "matched_kods": [
+        "4020"
+      ]
+    },
+    {
+      "archive": "кекс",
+      "file": "Дабл Кекс Кориця-Коліандр  Fanatik.jpg",
+      "matched_kods": [
+        "4028"
+      ]
+    },
+    {
+      "archive": "кекс",
+      "file": "Дабл Кекс Мед-Полуниця  Fanatik.jpg",
+      "matched_kods": [
+        "4029"
+      ]
+    },
+    {
+      "archive": "кекс",
+      "file": "Дабл Кекс Слива - Шоколад  Fanatik.jpg",
+      "matched_kods": [
+        "4021"
+      ]
+    },
+    {
+      "archive": "кекс",
+      "file": "Кекс Макуха пиляна Карась  Fanatik.jpg",
+      "matched_kods": [
+        "3079"
+      ]
+    },
+    {
+      "archive": "кекс",
+      "file": "Кекс Макуха пиляна Конопля  Fanatik.jpg",
+      "matched_kods": [
+        "2943"
+      ]
+    },
+    {
+      "archive": "кекс",
+      "file": "Кекс Макуха пиляна Кукурудза  Fanatik.jpg",
+      "matched_kods": [
+        "3081"
+      ]
+    },
+    {
+      "archive": "кекс",
+      "file": "Кекс Макуха пиляна Пряже Молоко  Fanatik.jpg",
+      "matched_kods": [
+        "3080"
+      ]
+    },
+    {
+      "archive": "кекс",
+      "file": "Кекс Макуха пиляна Слива Fanatik.jpg",
+      "matched_kods": [
+        "3082"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Інструмент ORANGE для пелетса.jpg",
+      "matched_kods": [
+        "2067"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Гачок Afeima.jpg",
+      "matched_kods": [
+        "3068"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Набір (шило,свердл,ножиці)WEIDA.png",
+      "matched_kods": [
+        "405"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Набір Бойловий на 3 предм.jpg",
+      "matched_kods": [
+        "2293"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Набір Карп з 5 предметів.jpg",
+      "matched_kods": [
+        "2118"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Набір Суми  шило сверло AL.png",
+      "matched_kods": [
+        "3217"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Набір Суми  шило сверло AL_1.png",
+      "matched_kods": [
+        "3217"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Набір свердло з корковими паличками Carp Pro.jpg",
+      "matched_kods": [
+        "CPHBDK6"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Ножиці-плоскогубці Azura Safina Braid Scissors 10см.jpg",
+      "matched_kods": [
+        "ASBS-10"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Ножиці-плоскогубці Azura Safina Braid Scissors 10см_1.jpg",
+      "matched_kods": [
+        "ASBS-10"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Ножиці-плоскогубці Azura Safina Braid Scissors 10см_2.jpg",
+      "matched_kods": [
+        "ASBS-10"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Палички коркові GC 4mm.jpg",
+      "matched_kods": [
+        "1665059"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Палички коркові GC 8mm.jpg",
+      "matched_kods": [
+        "1665061"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Прес-форма кнопка для годівниць Arc Flat.png",
+      "matched_kods": [
+        "1926"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Прес-форма кнопка для годівниць Arc Flat_1.png",
+      "matched_kods": [
+        "1926"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Пучковяз Feima (розширювач кембрика).jpg",
+      "matched_kods": [
+        "3745"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Ракета для прикорму М біло - червоний.png",
+      "matched_kods": [
+        "3438"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Ракета для прикорму біла S.png",
+      "matched_kods": [
+        "2272"
+      ]
+    },
+    {
+      "archive": "інструменти",
+      "file": "Свердло з корковими паличками GC G Carp Bait Dril Corcks 8mm.jpg",
+      "matched_kods": [
+        "1665073"
+      ]
+    }
+  ],
+  "archives": [
+    {
+      "archive": "3K",
+      "archive_slug": "3k",
+      "image_count": 21,
+      "matched_kods": [
+        "100",
+        "101",
+        "102",
+        "103",
+        "107",
+        "164",
+        "165",
+        "166",
+        "1664",
+        "1665",
+        "1666",
+        "1668",
+        "1669",
+        "167",
+        "1670",
+        "169",
+        "170",
+        "2065",
+        "4107",
+        "4198",
+        "4204",
+        "594",
+        "99"
+      ],
+      "matched_file_count": 21,
+      "unmatched_file_count": 0,
+      "url_count": 21
+    },
+    {
+      "archive": "Anvi",
+      "archive_slug": "anvi",
+      "image_count": 8,
+      "matched_kods": [
+        "11",
+        "15",
+        "16",
+        "3257",
+        "3258",
+        "3259",
+        "4360"
+      ],
+      "matched_file_count": 7,
+      "unmatched_file_count": 1,
+      "url_count": 7
+    },
+    {
+      "archive": "Pelets",
+      "archive_slug": "pelets",
+      "image_count": 8,
+      "matched_kods": [
+        "4272",
+        "4332",
+        "4333",
+        "4334",
+        "4335",
+        "4336",
+        "4430",
+        "4431"
+      ],
+      "matched_file_count": 8,
+      "unmatched_file_count": 0,
+      "url_count": 8
+    },
+    {
+      "archive": "Puhach",
+      "archive_slug": "puhach",
+      "image_count": 9,
+      "matched_kods": [
+        "PUCOMBO001",
+        "PUCOMBO002",
+        "PUCOMBO003",
+        "PUCOMBO004",
+        "PUCOMBO005",
+        "PUCOMBO006",
+        "PUCOMBO009",
+        "PUPOPUP038",
+        "PUPOPUP042",
+        "PUPOPUP043"
+      ],
+      "matched_file_count": 9,
+      "unmatched_file_count": 0,
+      "url_count": 9
+    },
+    {
+      "archive": "RPF",
+      "archive_slug": "rpf",
+      "image_count": 10,
+      "matched_kods": [
+        "3782",
+        "3784",
+        "3786",
+        "3787",
+        "4227",
+        "4477",
+        "4478",
+        "4479",
+        "4480",
+        "4481"
+      ],
+      "matched_file_count": 10,
+      "unmatched_file_count": 0,
+      "url_count": 10
+    },
+    {
+      "archive": "Spod Mix",
+      "archive_slug": "spod-mix",
+      "image_count": 8,
+      "matched_kods": [
+        "4049",
+        "4050",
+        "4051",
+        "4052",
+        "4273",
+        "4396",
+        "4432",
+        "4433"
+      ],
+      "matched_file_count": 8,
+      "unmatched_file_count": 0,
+      "url_count": 8
+    },
+    {
+      "archive": "fanatic",
+      "archive_slug": "fanatic",
+      "image_count": 3,
+      "matched_kods": [
+        "4403",
+        "4404",
+        "4405"
+      ],
+      "matched_file_count": 3,
+      "unmatched_file_count": 0,
+      "url_count": 3
+    },
+    {
+      "archive": "metod mix",
+      "archive_slug": "metod-mix",
+      "image_count": 9,
+      "matched_kods": [
+        "19",
+        "20",
+        "21",
+        "22",
+        "2253",
+        "2254",
+        "23",
+        "3254",
+        "3255",
+        "3256",
+        "4359"
+      ],
+      "matched_file_count": 9,
+      "unmatched_file_count": 0,
+      "url_count": 9
+    },
+    {
+      "archive": "metodmix",
+      "archive_slug": "metodmix",
+      "image_count": 10,
+      "matched_kods": [
+        "4222",
+        "4223",
+        "4225",
+        "4226",
+        "4349",
+        "4453",
+        "4454",
+        "4455",
+        "4456",
+        "4457"
+      ],
+      "matched_file_count": 10,
+      "unmatched_file_count": 0,
+      "url_count": 10
+    },
+    {
+      "archive": "pva",
+      "archive_slug": "pva",
+      "image_count": 9,
+      "matched_kods": [
+        "4062",
+        "4155",
+        "4156",
+        "4215",
+        "4824201403038",
+        "4824201403039"
+      ],
+      "matched_file_count": 9,
+      "unmatched_file_count": 0,
+      "url_count": 9
+    },
+    {
+      "archive": "pva stik",
+      "archive_slug": "pva-stik",
+      "image_count": 13,
+      "matched_kods": [
+        "3758",
+        "3759",
+        "3760",
+        "3761",
+        "3762",
+        "3763",
+        "3764",
+        "3766",
+        "4031",
+        "4032",
+        "4220",
+        "4451",
+        "4452"
+      ],
+      "matched_file_count": 13,
+      "unmatched_file_count": 0,
+      "url_count": 13
+    },
+    {
+      "archive": "rpf",
+      "archive_slug": "rpf",
+      "image_count": 12,
+      "matched_kods": [
+        "4446",
+        "4447",
+        "4448",
+        "4449",
+        "4450",
+        "4458",
+        "4459",
+        "4460",
+        "4461",
+        "4462",
+        "4463",
+        "4464"
+      ],
+      "matched_file_count": 12,
+      "unmatched_file_count": 0,
+      "url_count": 12
+    },
+    {
+      "archive": "Бойли Boom",
+      "archive_slug": "бойли-boom",
+      "image_count": 8,
+      "matched_kods": [
+        "4056",
+        "4057",
+        "4058",
+        "4059",
+        "4060",
+        "4271",
+        "4429"
+      ],
+      "matched_file_count": 7,
+      "unmatched_file_count": 1,
+      "url_count": 7
+    },
+    {
+      "archive": "Вудилище Brain Apex Traveller",
+      "archive_slug": "вудилище-brain-apex-traveller",
+      "image_count": 3,
+      "matched_kods": [
+        "1858.44.61",
+        "1858.44.62"
+      ],
+      "matched_file_count": 3,
+      "unmatched_file_count": 0,
+      "url_count": 3
+    },
+    {
+      "archive": "Вудочка  Magician MIFINE",
+      "archive_slug": "вудочка-magician-mifine",
+      "image_count": 3,
+      "matched_kods": [
+        "10319-400",
+        "10319-600",
+        "2603-801504.5",
+        "2603-801505",
+        "402-500",
+        "402-600",
+        "403-500",
+        "403-600",
+        "411-80150 6",
+        "4316",
+        "4317",
+        "4318"
+      ],
+      "matched_file_count": 3,
+      "unmatched_file_count": 0,
+      "url_count": 3
+    },
+    {
+      "archive": "Вудочка  Marksman  MIFINE",
+      "archive_slug": "вудочка-marksman-mifine",
+      "image_count": 3,
+      "matched_kods": [
+        "404-600",
+        "4319",
+        "4320",
+        "4321"
+      ],
+      "matched_file_count": 3,
+      "unmatched_file_count": 0,
+      "url_count": 3
+    },
+    {
+      "archive": "Вудочка Feima PREMACY",
+      "archive_slug": "вудочка-feima-premacy",
+      "image_count": 5,
+      "matched_kods": [
+        "2531",
+        "2532"
+      ],
+      "matched_file_count": 5,
+      "unmatched_file_count": 0,
+      "url_count": 5
+    },
+    {
+      "archive": "Вудочка NEW HUNTER",
+      "archive_slug": "вудочка-new-hunter",
+      "image_count": 4,
+      "matched_kods": [
+        "1877",
+        "1880",
+        "4071-600",
+        "4084",
+        "4095"
+      ],
+      "matched_file_count": 4,
+      "unmatched_file_count": 0,
+      "url_count": 4
+    },
+    {
+      "archive": "Вудочка Sport Niht",
+      "archive_slug": "вудочка-sport-niht",
+      "image_count": 4,
+      "matched_kods": [
+        "3277",
+        "3278"
+      ],
+      "matched_file_count": 4,
+      "unmatched_file_count": 0,
+      "url_count": 4
+    },
+    {
+      "archive": "Вудочка Titan",
+      "archive_slug": "вудочка-titan",
+      "image_count": 4,
+      "matched_kods": [
+        "4621",
+        "4622",
+        "4623"
+      ],
+      "matched_file_count": 4,
+      "unmatched_file_count": 0,
+      "url_count": 4
+    },
+    {
+      "archive": "Вудочка WEIDA",
+      "archive_slug": "вудочка-weida",
+      "image_count": 4,
+      "matched_kods": [
+        "1662",
+        "1663",
+        "2371"
+      ],
+      "matched_file_count": 4,
+      "unmatched_file_count": 0,
+      "url_count": 4
+    },
+    {
+      "archive": "Вудочка WEIDA ORION",
+      "archive_slug": "вудочка-weida-orion",
+      "image_count": 6,
+      "matched_kods": [
+        "4616",
+        "4617",
+        "4618"
+      ],
+      "matched_file_count": 6,
+      "unmatched_file_count": 0,
+      "url_count": 6
+    },
+    {
+      "archive": "Вудочка WEIDA ORION POLO",
+      "archive_slug": "вудочка-weida-orion-polo",
+      "image_count": 3,
+      "matched_kods": [
+        "1971",
+        "3047",
+        "3091"
+      ],
+      "matched_file_count": 3,
+      "unmatched_file_count": 0,
+      "url_count": 3
+    },
+    {
+      "archive": "Вудочка WEIDA TITAN",
+      "archive_slug": "вудочка-weida-titan",
+      "image_count": 3,
+      "matched_kods": [
+        "1886",
+        "1968",
+        "2939",
+        "3046"
+      ],
+      "matched_file_count": 3,
+      "unmatched_file_count": 0,
+      "url_count": 3
+    },
+    {
+      "archive": "Вудочка Джокер BOYA BU",
+      "archive_slug": "вудочка-джокер-boya-bu",
+      "image_count": 3,
+      "matched_kods": [
+        "1154",
+        "1155",
+        "1156",
+        "1157",
+        "3748"
+      ],
+      "matched_file_count": 3,
+      "unmatched_file_count": 0,
+      "url_count": 3
+    },
+    {
+      "archive": "Вудочка бк MIKADO PRINCESS",
+      "archive_slug": "вудочка-бк-mikado-princess",
+      "image_count": 3,
+      "matched_kods": [
+        "1235",
+        "1236",
+        "1237"
+      ],
+      "matched_file_count": 3,
+      "unmatched_file_count": 0,
+      "url_count": 3
+    },
+    {
+      "archive": "Карпове вудлище  Kyogi",
+      "archive_slug": "карпове-вудлище-kyogi",
+      "image_count": 6,
+      "matched_kods": [
+        "1262",
+        "1263",
+        "1264",
+        "1265",
+        "4735"
+      ],
+      "matched_file_count": 6,
+      "unmatched_file_count": 0,
+      "url_count": 6
+    },
+    {
+      "archive": "Пелетс насадочний",
+      "archive_slug": "пелетс-насадочний",
+      "image_count": 3,
+      "matched_kods": [
+        "4033",
+        "4034",
+        "4035"
+      ],
+      "matched_file_count": 3,
+      "unmatched_file_count": 0,
+      "url_count": 3
+    },
+    {
+      "archive": "Прикормка Anvi",
+      "archive_slug": "прикормка-anvi",
+      "image_count": 21,
+      "matched_kods": [
+        "10",
+        "1218",
+        "1220",
+        "2039",
+        "2040",
+        "2252",
+        "2510",
+        "2972",
+        "3037",
+        "3261",
+        "3262",
+        "3263",
+        "3359",
+        "3750",
+        "3751",
+        "3752",
+        "4",
+        "5",
+        "6",
+        "8",
+        "9"
+      ],
+      "matched_file_count": 21,
+      "unmatched_file_count": 0,
+      "url_count": 21
+    },
+    {
+      "archive": "Прикормка Fanatic",
+      "archive_slug": "прикормка-fanatic",
+      "image_count": 16,
+      "matched_kods": [
+        "1201",
+        "1202",
+        "1204",
+        "1205",
+        "3166",
+        "3818",
+        "3819",
+        "PRF2",
+        "PRF3",
+        "PRF4",
+        "PRF5",
+        "PRF7",
+        "PRF8",
+        "PRFB-KUK",
+        "PRFKONOP-MKH",
+        "PRFKRYL-MKH"
+      ],
+      "matched_file_count": 16,
+      "unmatched_file_count": 0,
+      "url_count": 16
+    },
+    {
+      "archive": "Прикормка RealFish",
+      "archive_slug": "прикормка-realfish",
+      "image_count": 16,
+      "matched_kods": [
+        "013590",
+        "013594",
+        "013596",
+        "013597",
+        "020721",
+        "1350",
+        "1351",
+        "1352",
+        "1353",
+        "1354",
+        "1355",
+        "2132",
+        "2134",
+        "2136",
+        "2215",
+        "374"
+      ],
+      "matched_file_count": 16,
+      "unmatched_file_count": 0,
+      "url_count": 16
+    },
+    {
+      "archive": "Спінінг Kalipso Navigator Pro 2",
+      "archive_slug": "спінінг-kalipso-navigator-pro-2",
+      "image_count": 5,
+      "matched_kods": [
+        "2006101",
+        "2006103",
+        "2368",
+        "2369",
+        "4158"
+      ],
+      "matched_file_count": 5,
+      "unmatched_file_count": 0,
+      "url_count": 5
+    },
+    {
+      "archive": "кекс",
+      "archive_slug": "кекс",
+      "image_count": 11,
+      "matched_kods": [
+        "2943",
+        "3079",
+        "3080",
+        "3081",
+        "3082",
+        "4018",
+        "4020",
+        "4021",
+        "4022",
+        "4028",
+        "4029"
+      ],
+      "matched_file_count": 11,
+      "unmatched_file_count": 0,
+      "url_count": 11
+    },
+    {
+      "archive": "інструменти",
+      "archive_slug": "інструменти",
+      "image_count": 19,
+      "matched_kods": [
+        "1665059",
+        "1665061",
+        "1665073",
+        "1926",
+        "2067",
+        "2118",
+        "2272",
+        "2293",
+        "3068",
+        "3217",
+        "3438",
+        "3745",
+        "405",
+        "ASBS-10",
+        "CPHBDK6"
+      ],
+      "matched_file_count": 19,
+      "unmatched_file_count": 0,
+      "url_count": 19
+    }
+  ],
+  "output_xlsx": "D:\\FISH\\fish-sync\\public\\horoshop_photo_import.xlsx",
+  "output_public_dir": "D:\\FISH\\fish-sync\\public\\photo-import"
+}

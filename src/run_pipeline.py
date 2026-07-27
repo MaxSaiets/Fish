@@ -176,6 +176,23 @@ def main() -> int:
                 report["steps"]["horoshop_sync"] = {"error": str(e)}
                 log_step("horoshop_sync", f"SKIPPED: {e}")
 
+        # 8. Auto-create new products on Horoshop
+        if not getattr(args, "skip_horoshop", False) and not getattr(args, "dry_run", False):
+            try:
+                import subprocess
+                cmd = [sys.executable, str(ROOT / "src" / "sync_content_playwright.py"), "--mode", "create"]
+                log_step("auto_create_products", f"Running: {' '.join(cmd)}")
+                res = subprocess.run(cmd, capture_output=True, text=True)
+                if res.returncode == 0:
+                    report["steps"]["auto_create_products"] = "OK"
+                    log_step("auto_create_products", "Done:\n" + res.stdout[-500:])
+                else:
+                    report["steps"]["auto_create_products"] = {"error": "Non-zero exit", "stderr": res.stderr}
+                    log_step("auto_create_products", f"FAILED:\n{res.stderr}")
+            except Exception as e:
+                report["steps"]["auto_create_products"] = {"error": str(e)}
+                log_step("auto_create_products", f"SKIPPED/FAILED: {e}")
+
         report["status"] = "ok"
     except Exception as e:
         report["status"] = "error"

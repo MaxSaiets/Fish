@@ -1,0 +1,21 @@
+{
+  "scanned": 273,
+  "archives_scanned": 28,
+  "archive_matched_files": 273,
+  "matched_files": 273,
+  "unmatched_files": 0,
+  "kods_with_photos": 491,
+  "total_kods_in_db": 7943,
+  "coverage_pct": 6.2,
+  "rows_updated": 0,
+  "branding_assets_detected": 1,
+  "category_assets_detected": 1,
+  "branding_asset_samples": [
+    "F:\\FISH_IMAGES\\лого.svg"
+  ],
+  "category_asset_samples": [
+    "F:\\FISH_IMAGES\\коропові набори.png"
+  ],
+  "unmatched_samples": [],
+  "dry_run": true
+}

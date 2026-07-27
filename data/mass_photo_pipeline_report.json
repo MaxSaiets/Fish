@@ -1,0 +1,18 @@
+{
+  "stats": {
+    "searched": 228,
+    "downloaded": 0,
+    "processed": 0,
+    "category_fallback": 0,
+    "uploaded": 0,
+    "search_fail": 0,
+    "download_fail": 0,
+    "process_fail": 0,
+    "upload_fail": 0
+  },
+  "total_done_all_runs": 0,
+  "search_failed_count": 0,
+  "upload_failed_count": 0,
+  "upload_failed_sample": [],
+  "search_failed_sample": []
+}

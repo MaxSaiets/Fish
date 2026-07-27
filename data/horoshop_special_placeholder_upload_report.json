@@ -1,0 +1,207 @@
+{
+  "articles_total": 35,
+  "uploaded": [
+    {
+      "article": "13160\\240",
+      "assign_success": true
+    },
+    {
+      "article": "15520\\400",
+      "assign_success": true
+    },
+    {
+      "article": "15530\\400",
+      "assign_success": true
+    },
+    {
+      "article": "2018007\\L",
+      "assign_success": true
+    },
+    {
+      "article": "30190\\240",
+      "assign_success": true
+    },
+    {
+      "article": "30210\\240",
+      "assign_success": true
+    },
+    {
+      "article": "5109-1\\0",
+      "assign_success": true
+    },
+    {
+      "article": "5109-2\\0",
+      "assign_success": true
+    },
+    {
+      "article": "5109-3\\0",
+      "assign_success": true
+    },
+    {
+      "article": "FO-3312 1\\0",
+      "assign_success": true
+    },
+    {
+      "article": "FO-3312 2\\0",
+      "assign_success": true
+    },
+    {
+      "article": "FO-3312 3\\0",
+      "assign_success": true
+    },
+    {
+      "article": "FO-3312 4\\0",
+      "assign_success": true
+    },
+    {
+      "article": "FO-3312 5\\0",
+      "assign_success": true
+    },
+    {
+      "article": "FO-3315 1\\0",
+      "assign_success": true
+    },
+    {
+      "article": "FO-3315 2\\0",
+      "assign_success": true
+    },
+    {
+      "article": "FO-3315 3\\0",
+      "assign_success": true
+    },
+    {
+      "article": "FO-3315 4\\0",
+      "assign_success": true
+    },
+    {
+      "article": "FO-3315 5\\0",
+      "assign_success": true
+    },
+    {
+      "article": "SW12T\\CHR",
+      "assign_success": true
+    }
+  ],
+  "failed": [
+    {
+      "article": "DJ#1/0-2G",
+      "reason": "check_failed",
+      "response": {
+        "success": false,
+        "message": "productNotFound"
+      }
+    },
+    {
+      "article": "DJ#1/0-3G",
+      "reason": "check_failed",
+      "response": {
+        "success": false,
+        "message": "productNotFound"
+      }
+    },
+    {
+      "article": "DJ#1/0-4G",
+      "reason": "check_failed",
+      "response": {
+        "success": false,
+        "message": "productNotFound"
+      }
+    },
+    {
+      "article": "DJ#1/0-5G",
+      "reason": "check_failed",
+      "response": {
+        "success": false,
+        "message": "productNotFound"
+      }
+    },
+    {
+      "article": "DJ#2/0-2G",
+      "reason": "check_failed",
+      "response": {
+        "success": false,
+        "message": "productNotFound"
+      }
+    },
+    {
+      "article": "DJ#2/0-3G",
+      "reason": "check_failed",
+      "response": {
+        "success": false,
+        "message": "productNotFound"
+      }
+    },
+    {
+      "article": "DJ#2/0-4G",
+      "reason": "check_failed",
+      "response": {
+        "success": false,
+        "message": "productNotFound"
+      }
+    },
+    {
+      "article": "DJ#2/0-5G",
+      "reason": "check_failed",
+      "response": {
+        "success": false,
+        "message": "productNotFound"
+      }
+    },
+    {
+      "article": "DJ#3/0-3G",
+      "reason": "check_failed",
+      "response": {
+        "success": false,
+        "message": "productNotFound"
+      }
+    },
+    {
+      "article": "DJ#3/0-4G",
+      "reason": "check_failed",
+      "response": {
+        "success": false,
+        "message": "productNotFound"
+      }
+    },
+    {
+      "article": "DJ#3/0-5.5G",
+      "reason": "check_failed",
+      "response": {
+        "success": false,
+        "message": "productNotFound"
+      }
+    },
+    {
+      "article": "DJ#3/0-5G",
+      "reason": "check_failed",
+      "response": {
+        "success": false,
+        "message": "productNotFound"
+      }
+    },
+    {
+      "article": "DJ#4/0-5.5G",
+      "reason": "check_failed",
+      "response": {
+        "success": false,
+        "message": "productNotFound"
+      }
+    },
+    {
+      "article": "DJ#4/0-5G",
+      "reason": "check_failed",
+      "response": {
+        "success": false,
+        "message": "productNotFound"
+      }
+    },
+    {
+      "article": "DJ#4/0-6.5G",
+      "reason": "check_failed",
+      "response": {
+        "success": false,
+        "message": "productNotFound"
+      }
+    }
+  ]
+}

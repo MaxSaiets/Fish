@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "pro-nas",
+    "status": 200,
+    "demo": false,
+    "chars": 14197,
+    "imgs": 5
+  },
+  {
+    "slug": "oplata-i-dostavka",
+    "status": 200,
+    "demo": false,
+    "chars": 14104,
+    "imgs": 5
+  },
+  {
+    "slug": "obmin-ta-povernennya",
+    "status": 200,
+    "demo": false,
+    "chars": 13671,
+    "imgs": 4
+  },
+  {
+    "slug": "kontaktna-informatsiya",
+    "status": 200,
+    "demo": false,
+    "chars": 13961,
+    "imgs": 4
+  },
+  {
+    "slug": "privacypolicy",
+    "status": 200,
+    "demo": false,
+    "chars": 14834,
+    "imgs": 3
+  },
+  {
+    "slug": "store-reviews",
+    "status": 200,
+    "demo": false,
+    "chars": 14345,
+    "imgs": 4
+  },
+  {
+    "slug": "blog",
+    "status": 200,
+    "demo": false,
+    "chars": 12969,
+    "imgs": 7
+  }
+]

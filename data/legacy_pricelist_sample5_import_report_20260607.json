@@ -1,0 +1,13 @@
+{
+  "status_code": 200,
+  "url": "https://vsedliarybalky.com.ua/adminLegacy/import/pricelist.php",
+  "response_file": "D:\\FISH\\fish-sync\\data\\legacy_pricelist_sample5_import_response_20260607.html",
+  "response_length": 19676,
+  "title": "Імпорт прайсу - vsedliarybalky.com.ua",
+  "has_import_price": true,
+  "has_vue_import_bundle": false,
+  "has_sample_article_3762": false,
+  "has_column_header_article": false,
+  "has_error_words": true,
+  "sanitized": true
+}

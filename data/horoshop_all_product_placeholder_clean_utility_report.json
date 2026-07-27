@@ -1,0 +1,29 @@
+{
+  "source_root": "public\\horoshop-image-utility-all-placeholders-valid",
+  "output_root": "public\\horoshop-image-utility-all-placeholders-clean",
+  "excluded_real_articles": 270,
+  "files_copied": 7006,
+  "batches": 15,
+  "sample": [
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#001@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#003@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#005@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#006@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#017@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#020@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#021@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#022 1.6@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#023@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#80164@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\00.01@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\00.07@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\00.10@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\00.17@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\0000006@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000003@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000005@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000006@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000008@gallery_common.jpg",
+    "public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000009@gallery_common.jpg"
+  ]
+}

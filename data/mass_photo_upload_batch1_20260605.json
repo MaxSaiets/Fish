@@ -1,0 +1,4574 @@
+{
+  "utility_root": "public\\mass-photo-utility",
+  "token_source": "admin-import-metadata",
+  "articles_total": 500,
+  "clean_gallery": true,
+  "dry_run": false,
+  "uploaded_articles": [
+    {
+      "article": "#001",
+      "file_count": 1,
+      "filenames": [
+        "#001@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "#003",
+      "file_count": 1,
+      "filenames": [
+        "#003@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "#005",
+      "file_count": 1,
+      "filenames": [
+        "#005@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "#006",
+      "file_count": 1,
+      "filenames": [
+        "#006@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "#020",
+      "file_count": 1,
+      "filenames": [
+        "#020@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "#017",
+      "file_count": 1,
+      "filenames": [
+        "#017@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "#021",
+      "file_count": 1,
+      "filenames": [
+        "#021@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "#022 1.6",
+      "file_count": 1,
+      "filenames": [
+        "#022 1.6@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "#023",
+      "file_count": 1,
+      "filenames": [
+        "#023@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "#80164",
+      "file_count": 1,
+      "filenames": [
+        "#80164@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "00.01",
+      "file_count": 1,
+      "filenames": [
+        "00.01@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "00.07",
+      "file_count": 1,
+      "filenames": [
+        "00.07@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "00.10",
+      "file_count": 1,
+      "filenames": [
+        "00.10@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "00.17",
+      "file_count": 1,
+      "filenames": [
+        "00.17@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "0000006",
+      "file_count": 1,
+      "filenames": [
+        "0000006@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000003",
+      "file_count": 1,
+      "filenames": [
+        "000003@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000005",
+      "file_count": 1,
+      "filenames": [
+        "000005@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000006",
+      "file_count": 1,
+      "filenames": [
+        "000006@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000008",
+      "file_count": 1,
+      "filenames": [
+        "000008@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000009",
+      "file_count": 1,
+      "filenames": [
+        "000009@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000015",
+      "file_count": 1,
+      "filenames": [
+        "000015@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000038",
+      "file_count": 1,
+      "filenames": [
+        "000038@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000149",
+      "file_count": 1,
+      "filenames": [
+        "000149@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000166",
+      "file_count": 1,
+      "filenames": [
+        "000166@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000189",
+      "file_count": 1,
+      "filenames": [
+        "000189@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000191",
+      "file_count": 1,
+      "filenames": [
+        "000191@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000192",
+      "file_count": 1,
+      "filenames": [
+        "000192@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000199",
+      "file_count": 1,
+      "filenames": [
+        "000199@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000200",
+      "file_count": 1,
+      "filenames": [
+        "000200@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000207",
+      "file_count": 1,
+      "filenames": [
+        "000207@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000256",
+      "file_count": 1,
+      "filenames": [
+        "000256@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000281",
+      "file_count": 1,
+      "filenames": [
+        "000281@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000283",
+      "file_count": 1,
+      "filenames": [
+        "000283@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000285",
+      "file_count": 1,
+      "filenames": [
+        "000285@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000286",
+      "file_count": 1,
+      "filenames": [
+        "000286@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000288",
+      "file_count": 1,
+      "filenames": [
+        "000288@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000307",
+      "file_count": 1,
+      "filenames": [
+        "000307@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000328",
+      "file_count": 1,
+      "filenames": [
+        "000328@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000341",
+      "file_count": 1,
+      "filenames": [
+        "000341@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000346",
+      "file_count": 1,
+      "filenames": [
+        "000346@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000349",
+      "file_count": 1,
+      "filenames": [
+        "000349@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "00037",
+      "file_count": 1,
+      "filenames": [
+        "00037@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "00041",
+      "file_count": 1,
+      "filenames": [
+        "00041@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000421",
+      "file_count": 1,
+      "filenames": [
+        "000421@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000422",
+      "file_count": 1,
+      "filenames": [
+        "000422@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "0004432",
+      "file_count": 1,
+      "filenames": [
+        "0004432@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "00045",
+      "file_count": 1,
+      "filenames": [
+        "00045@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000453",
+      "file_count": 1,
+      "filenames": [
+        "000453@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000495",
+      "file_count": 1,
+      "filenames": [
+        "000495@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000500",
+      "file_count": 1,
+      "filenames": [
+        "000500@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000554",
+      "file_count": 1,
+      "filenames": [
+        "000554@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000566",
+      "file_count": 1,
+      "filenames": [
+        "000566@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000594",
+      "file_count": 1,
+      "filenames": [
+        "000594@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000603",
+      "file_count": 1,
+      "filenames": [
+        "000603@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000622",
+      "file_count": 1,
+      "filenames": [
+        "000622@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000623",
+      "file_count": 1,
+      "filenames": [
+        "000623@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000624",
+      "file_count": 1,
+      "filenames": [
+        "000624@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000641",
+      "file_count": 1,
+      "filenames": [
+        "000641@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000642",
+      "file_count": 1,
+      "filenames": [
+        "000642@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000644",
+      "file_count": 1,
+      "filenames": [
+        "000644@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000662",
+      "file_count": 1,
+      "filenames": [
+        "000662@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000664",
+      "file_count": 1,
+      "filenames": [
+        "000664@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000674",
+      "file_count": 1,
+      "filenames": [
+        "000674@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000720",
+      "file_count": 1,
+      "filenames": [
+        "000720@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000723",
+      "file_count": 1,
+      "filenames": [
+        "000723@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000735",
+      "file_count": 1,
+      "filenames": [
+        "000735@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000736",
+      "file_count": 1,
+      "filenames": [
+        "000736@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000746",
+      "file_count": 1,
+      "filenames": [
+        "000746@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000792",
+      "file_count": 1,
+      "filenames": [
+        "000792@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000793",
+      "file_count": 1,
+      "filenames": [
+        "000793@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000798",
+      "file_count": 1,
+      "filenames": [
+        "000798@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000800",
+      "file_count": 1,
+      "filenames": [
+        "000800@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000834",
+      "file_count": 1,
+      "filenames": [
+        "000834@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000835",
+      "file_count": 1,
+      "filenames": [
+        "000835@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000836",
+      "file_count": 1,
+      "filenames": [
+        "000836@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000837",
+      "file_count": 1,
+      "filenames": [
+        "000837@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000838",
+      "file_count": 1,
+      "filenames": [
+        "000838@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000847",
+      "file_count": 1,
+      "filenames": [
+        "000847@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000849",
+      "file_count": 1,
+      "filenames": [
+        "000849@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000853",
+      "file_count": 1,
+      "filenames": [
+        "000853@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000856",
+      "file_count": 1,
+      "filenames": [
+        "000856@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000857",
+      "file_count": 1,
+      "filenames": [
+        "000857@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000858",
+      "file_count": 1,
+      "filenames": [
+        "000858@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000862",
+      "file_count": 1,
+      "filenames": [
+        "000862@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000863",
+      "file_count": 1,
+      "filenames": [
+        "000863@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000867",
+      "file_count": 1,
+      "filenames": [
+        "000867@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000901",
+      "file_count": 1,
+      "filenames": [
+        "000901@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000924",
+      "file_count": 1,
+      "filenames": [
+        "000924@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000967",
+      "file_count": 1,
+      "filenames": [
+        "000967@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000969",
+      "file_count": 1,
+      "filenames": [
+        "000969@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000973",
+      "file_count": 1,
+      "filenames": [
+        "000973@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "000974",
+      "file_count": 1,
+      "filenames": [
+        "000974@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "001",
+      "file_count": 1,
+      "filenames": [
+        "001@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "00127",
+      "file_count": 1,
+      "filenames": [
+        "00127@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "001BLN",
+      "file_count": 1,
+      "filenames": [
+        "001BLN@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "002",
+      "file_count": 1,
+      "filenames": [
+        "002@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "003",
+      "file_count": 1,
+      "filenames": [
+        "003@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "004",
+      "file_count": 1,
+      "filenames": [
+        "004@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "00405gr",
+      "file_count": 1,
+      "filenames": [
+        "00405gr@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "00410gr",
+      "file_count": 1,
+      "filenames": [
+        "00410gr@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "006",
+      "file_count": 1,
+      "filenames": [
+        "006@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "005",
+      "file_count": 1,
+      "filenames": [
+        "005@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "007",
+      "file_count": 1,
+      "filenames": [
+        "007@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "0071BLN",
+      "file_count": 1,
+      "filenames": [
+        "0071BLN@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "008",
+      "file_count": 1,
+      "filenames": [
+        "008@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "008R",
+      "file_count": 1,
+      "filenames": [
+        "008R@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "009542",
+      "file_count": 1,
+      "filenames": [
+        "009542@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "01-007-400",
+      "file_count": 1,
+      "filenames": [
+        "01-007-400@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "01.31",
+      "file_count": 1,
+      "filenames": [
+        "01.31@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "01.32",
+      "file_count": 1,
+      "filenames": [
+        "01.32@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "01.90",
+      "file_count": 1,
+      "filenames": [
+        "01.90@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "01.33",
+      "file_count": 1,
+      "filenames": [
+        "01.33@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "0120008",
+      "file_count": 1,
+      "filenames": [
+        "0120008@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "013591",
+      "file_count": 1,
+      "filenames": [
+        "013591@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "014293",
+      "file_count": 1,
+      "filenames": [
+        "014293@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "015498",
+      "file_count": 1,
+      "filenames": [
+        "015498@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "016R",
+      "file_count": 1,
+      "filenames": [
+        "016R@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "016900",
+      "file_count": 1,
+      "filenames": [
+        "016900@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "0170082",
+      "file_count": 1,
+      "filenames": [
+        "0170082@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "0199",
+      "file_count": 1,
+      "filenames": [
+        "0199@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "018-232",
+      "file_count": 1,
+      "filenames": [
+        "018-232@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "02-3",
+      "file_count": 1,
+      "filenames": [
+        "02-3@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "02.13",
+      "file_count": 1,
+      "filenames": [
+        "02.13@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "02.12",
+      "file_count": 1,
+      "filenames": [
+        "02.12@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "02.30",
+      "file_count": 1,
+      "filenames": [
+        "02.30@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "02.38",
+      "file_count": 1,
+      "filenames": [
+        "02.38@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "02.14",
+      "file_count": 1,
+      "filenames": [
+        "02.14@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "02.62",
+      "file_count": 1,
+      "filenames": [
+        "02.62@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "02.63",
+      "file_count": 1,
+      "filenames": [
+        "02.63@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "021453",
+      "file_count": 1,
+      "filenames": [
+        "021453@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "021454",
+      "file_count": 1,
+      "filenames": [
+        "021454@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "022595",
+      "file_count": 1,
+      "filenames": [
+        "022595@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "022757",
+      "file_count": 1,
+      "filenames": [
+        "022757@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "022760",
+      "file_count": 1,
+      "filenames": [
+        "022760@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "022763",
+      "file_count": 1,
+      "filenames": [
+        "022763@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "023-4",
+      "file_count": 1,
+      "filenames": [
+        "023-4@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "023-691",
+      "file_count": 1,
+      "filenames": [
+        "023-691@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "023248",
+      "file_count": 1,
+      "filenames": [
+        "023248@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "023247",
+      "file_count": 1,
+      "filenames": [
+        "023247@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "023252",
+      "file_count": 1,
+      "filenames": [
+        "023252@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "023249",
+      "file_count": 1,
+      "filenames": [
+        "023249@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "023251",
+      "file_count": 1,
+      "filenames": [
+        "023251@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "023253",
+      "file_count": 1,
+      "filenames": [
+        "023253@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "023255",
+      "file_count": 1,
+      "filenames": [
+        "023255@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "029BLN",
+      "file_count": 1,
+      "filenames": [
+        "029BLN@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "03-02--04 10g",
+      "file_count": 1,
+      "filenames": [
+        "03-02--04 10g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "03-02-04-10g",
+      "file_count": 1,
+      "filenames": [
+        "03-02-04-10g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "03-15-04-10g",
+      "file_count": 1,
+      "filenames": [
+        "03-15-04-10g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "03-16-02-04g",
+      "file_count": 1,
+      "filenames": [
+        "03-16-02-04g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "03-16-04-10g",
+      "file_count": 1,
+      "filenames": [
+        "03-16-04-10g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "03-2",
+      "file_count": 1,
+      "filenames": [
+        "03-2@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "03-23-02-04g",
+      "file_count": 1,
+      "filenames": [
+        "03-23-02-04g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "03-24-03-06g",
+      "file_count": 1,
+      "filenames": [
+        "03-24-03-06g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "03-25-03-06g",
+      "file_count": 1,
+      "filenames": [
+        "03-25-03-06g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "03-24-04-10g",
+      "file_count": 1,
+      "filenames": [
+        "03-24-04-10g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "03-25-04-10g",
+      "file_count": 1,
+      "filenames": [
+        "03-25-04-10g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "03-26-03-06g",
+      "file_count": 1,
+      "filenames": [
+        "03-26-03-06g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04-04-02-05g",
+      "file_count": 1,
+      "filenames": [
+        "04-04-02-05g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04-14-02-05g",
+      "file_count": 1,
+      "filenames": [
+        "04-14-02-05g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04-16-03-07g",
+      "file_count": 1,
+      "filenames": [
+        "04-16-03-07g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "03-26-04-10g",
+      "file_count": 1,
+      "filenames": [
+        "03-26-04-10g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04-17-03-007g",
+      "file_count": 1,
+      "filenames": [
+        "04-17-03-007g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04-17-04-10g",
+      "file_count": 1,
+      "filenames": [
+        "04-17-04-10g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04-18-02-05g",
+      "file_count": 1,
+      "filenames": [
+        "04-18-02-05g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04-18-03-07g",
+      "file_count": 1,
+      "filenames": [
+        "04-18-03-07g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04-18-04-10g",
+      "file_count": 1,
+      "filenames": [
+        "04-18-04-10g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04-19-03-07g",
+      "file_count": 1,
+      "filenames": [
+        "04-19-03-07g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04-19-04-10g",
+      "file_count": 1,
+      "filenames": [
+        "04-19-04-10g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04-20-02-05g",
+      "file_count": 1,
+      "filenames": [
+        "04-20-02-05g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04-20-03-07g",
+      "file_count": 1,
+      "filenames": [
+        "04-20-03-07g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04-20-04-10g",
+      "file_count": 1,
+      "filenames": [
+        "04-20-04-10g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04-22-04-10g",
+      "file_count": 1,
+      "filenames": [
+        "04-22-04-10g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04.19",
+      "file_count": 1,
+      "filenames": [
+        "04.19@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04.24",
+      "file_count": 1,
+      "filenames": [
+        "04.24@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04.20",
+      "file_count": 1,
+      "filenames": [
+        "04.20@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04.25",
+      "file_count": 1,
+      "filenames": [
+        "04.25@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04.26",
+      "file_count": 1,
+      "filenames": [
+        "04.26@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04.27",
+      "file_count": 1,
+      "filenames": [
+        "04.27@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04.72",
+      "file_count": 1,
+      "filenames": [
+        "04.72@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04054B",
+      "file_count": 1,
+      "filenames": [
+        "04054B@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "04.89",
+      "file_count": 1,
+      "filenames": [
+        "04.89@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "05-6",
+      "file_count": 1,
+      "filenames": [
+        "05-6@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "05.52",
+      "file_count": 1,
+      "filenames": [
+        "05.52@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "05.53",
+      "file_count": 1,
+      "filenames": [
+        "05.53@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "05.55",
+      "file_count": 1,
+      "filenames": [
+        "05.55@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "05.63",
+      "file_count": 1,
+      "filenames": [
+        "05.63@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "05.64",
+      "file_count": 1,
+      "filenames": [
+        "05.64@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "05.65",
+      "file_count": 1,
+      "filenames": [
+        "05.65@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "05.96",
+      "file_count": 1,
+      "filenames": [
+        "05.96@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "06.43",
+      "file_count": 1,
+      "filenames": [
+        "06.43@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "06.45",
+      "file_count": 1,
+      "filenames": [
+        "06.45@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "06.47",
+      "file_count": 1,
+      "filenames": [
+        "06.47@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "06.73",
+      "file_count": 1,
+      "filenames": [
+        "06.73@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "06.80",
+      "file_count": 1,
+      "filenames": [
+        "06.80@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "06.81",
+      "file_count": 1,
+      "filenames": [
+        "06.81@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "06.83",
+      "file_count": 1,
+      "filenames": [
+        "06.83@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "06.82",
+      "file_count": 1,
+      "filenames": [
+        "06.82@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "06.84",
+      "file_count": 1,
+      "filenames": [
+        "06.84@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "06.85",
+      "file_count": 1,
+      "filenames": [
+        "06.85@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "06140047",
+      "file_count": 1,
+      "filenames": [
+        "06140047@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "07-05-2+4-12g",
+      "file_count": 1,
+      "filenames": [
+        "07-05-2+4-12g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "07-06-0+2-05g",
+      "file_count": 1,
+      "filenames": [
+        "07-06-0+2-05g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "07-06-1+3-08g",
+      "file_count": 1,
+      "filenames": [
+        "07-06-1+3-08g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "07-13-1+3-08g",
+      "file_count": 1,
+      "filenames": [
+        "07-13-1+3-08g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "07-13-2+4-12g",
+      "file_count": 1,
+      "filenames": [
+        "07-13-2+4-12g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "07-14-2+4-12g",
+      "file_count": 1,
+      "filenames": [
+        "07-14-2+4-12g@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "07-4",
+      "file_count": 1,
+      "filenames": [
+        "07-4@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "07-5",
+      "file_count": 1,
+      "filenames": [
+        "07-5@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "090B",
+      "file_count": 1,
+      "filenames": [
+        "090B@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "090F",
+      "file_count": 1,
+      "filenames": [
+        "090F@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "090J",
+      "file_count": 1,
+      "filenames": [
+        "090J@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1",
+      "file_count": 1,
+      "filenames": [
+        "1@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1.5 #013",
+      "file_count": 1,
+      "filenames": [
+        "1.5 #013@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1.5 #016",
+      "file_count": 1,
+      "filenames": [
+        "1.5 #016@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1.5 #019",
+      "file_count": 1,
+      "filenames": [
+        "1.5 #019@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1.5 #08",
+      "file_count": 1,
+      "filenames": [
+        "1.5 #08@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1.5#01",
+      "file_count": 1,
+      "filenames": [
+        "1.5#01@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1.5#011",
+      "file_count": 1,
+      "filenames": [
+        "1.5#011@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1.5#010",
+      "file_count": 1,
+      "filenames": [
+        "1.5#010@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1.5#013",
+      "file_count": 1,
+      "filenames": [
+        "1.5#013@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1.5#02",
+      "file_count": 1,
+      "filenames": [
+        "1.5#02@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1.5#019",
+      "file_count": 1,
+      "filenames": [
+        "1.5#019@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1.5#03",
+      "file_count": 1,
+      "filenames": [
+        "1.5#03@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1.5#04",
+      "file_count": 1,
+      "filenames": [
+        "1.5#04@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1.5#05",
+      "file_count": 1,
+      "filenames": [
+        "1.5#05@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1.5#07",
+      "file_count": 1,
+      "filenames": [
+        "1.5#07@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "10-001A",
+      "file_count": 1,
+      "filenames": [
+        "10-001A@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1.6#08",
+      "file_count": 1,
+      "filenames": [
+        "1.6#08@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "10-068",
+      "file_count": 1,
+      "filenames": [
+        "10-068@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1000",
+      "file_count": 1,
+      "filenames": [
+        "1000@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "10-090",
+      "file_count": 1,
+      "filenames": [
+        "10-090@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1001",
+      "file_count": 1,
+      "filenames": [
+        "1001@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1002",
+      "file_count": 1,
+      "filenames": [
+        "1002@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "10020221",
+      "file_count": 1,
+      "filenames": [
+        "10020221@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "10020222",
+      "file_count": 1,
+      "filenames": [
+        "10020222@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1002121",
+      "file_count": 1,
+      "filenames": [
+        "1002121@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1002122",
+      "file_count": 1,
+      "filenames": [
+        "1002122@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1003",
+      "file_count": 1,
+      "filenames": [
+        "1003@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1004",
+      "file_count": 1,
+      "filenames": [
+        "1004@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1005",
+      "file_count": 1,
+      "filenames": [
+        "1005@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1006",
+      "file_count": 1,
+      "filenames": [
+        "1006@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "100635",
+      "file_count": 1,
+      "filenames": [
+        "100635@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1007",
+      "file_count": 1,
+      "filenames": [
+        "1007@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1009",
+      "file_count": 1,
+      "filenames": [
+        "1009@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1008",
+      "file_count": 1,
+      "filenames": [
+        "1008@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "100BLN",
+      "file_count": 1,
+      "filenames": [
+        "100BLN@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "100R",
+      "file_count": 1,
+      "filenames": [
+        "100R@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1010",
+      "file_count": 1,
+      "filenames": [
+        "1010@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1011",
+      "file_count": 1,
+      "filenames": [
+        "1011@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1013",
+      "file_count": 1,
+      "filenames": [
+        "1013@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1014",
+      "file_count": 1,
+      "filenames": [
+        "1014@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1012",
+      "file_count": 1,
+      "filenames": [
+        "1012@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1016",
+      "file_count": 1,
+      "filenames": [
+        "1016@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1017",
+      "file_count": 1,
+      "filenames": [
+        "1017@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1015",
+      "file_count": 1,
+      "filenames": [
+        "1015@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1018",
+      "file_count": 1,
+      "filenames": [
+        "1018@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "101BLN",
+      "file_count": 1,
+      "filenames": [
+        "101BLN@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1020",
+      "file_count": 1,
+      "filenames": [
+        "1020@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1019",
+      "file_count": 1,
+      "filenames": [
+        "1019@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "10206-500",
+      "file_count": 1,
+      "filenames": [
+        "10206-500@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "10205-600",
+      "file_count": 1,
+      "filenames": [
+        "10205-600@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "10206-600",
+      "file_count": 1,
+      "filenames": [
+        "10206-600@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1022",
+      "file_count": 1,
+      "filenames": [
+        "1022@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1021",
+      "file_count": 1,
+      "filenames": [
+        "1021@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1024",
+      "file_count": 1,
+      "filenames": [
+        "1024@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1025",
+      "file_count": 1,
+      "filenames": [
+        "1025@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1026",
+      "file_count": 1,
+      "filenames": [
+        "1026@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1027",
+      "file_count": 1,
+      "filenames": [
+        "1027@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1028",
+      "file_count": 1,
+      "filenames": [
+        "1028@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1029",
+      "file_count": 1,
+      "filenames": [
+        "1029@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "102R",
+      "file_count": 1,
+      "filenames": [
+        "102R@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1030",
+      "file_count": 1,
+      "filenames": [
+        "1030@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "10314-600",
+      "file_count": 1,
+      "filenames": [
+        "10314-600@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1032",
+      "file_count": 1,
+      "filenames": [
+        "1032@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "10325",
+      "file_count": 1,
+      "filenames": [
+        "10325@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1034",
+      "file_count": 1,
+      "filenames": [
+        "1034@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1033",
+      "file_count": 1,
+      "filenames": [
+        "1033@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1035",
+      "file_count": 1,
+      "filenames": [
+        "1035@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1036",
+      "file_count": 1,
+      "filenames": [
+        "1036@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1037",
+      "file_count": 1,
+      "filenames": [
+        "1037@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1038",
+      "file_count": 1,
+      "filenames": [
+        "1038@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1039",
+      "file_count": 1,
+      "filenames": [
+        "1039@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1039100",
+      "file_count": 1,
+      "filenames": [
+        "1039100@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1039101",
+      "file_count": 1,
+      "filenames": [
+        "1039101@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1039102",
+      "file_count": 1,
+      "filenames": [
+        "1039102@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1039103",
+      "file_count": 1,
+      "filenames": [
+        "1039103@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1039110",
+      "file_count": 1,
+      "filenames": [
+        "1039110@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1039111",
+      "file_count": 1,
+      "filenames": [
+        "1039111@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1040",
+      "file_count": 1,
+      "filenames": [
+        "1040@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "104",
+      "file_count": 1,
+      "filenames": [
+        "104@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1041",
+      "file_count": 1,
+      "filenames": [
+        "1041@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1042",
+      "file_count": 1,
+      "filenames": [
+        "1042@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1043",
+      "file_count": 1,
+      "filenames": [
+        "1043@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1044",
+      "file_count": 1,
+      "filenames": [
+        "1044@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1046",
+      "file_count": 1,
+      "filenames": [
+        "1046@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1045",
+      "file_count": 1,
+      "filenames": [
+        "1045@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1047",
+      "file_count": 1,
+      "filenames": [
+        "1047@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1048",
+      "file_count": 1,
+      "filenames": [
+        "1048@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1049",
+      "file_count": 1,
+      "filenames": [
+        "1049@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "105",
+      "file_count": 1,
+      "filenames": [
+        "105@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1051",
+      "file_count": 1,
+      "filenames": [
+        "1051@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1050",
+      "file_count": 1,
+      "filenames": [
+        "1050@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1052",
+      "file_count": 1,
+      "filenames": [
+        "1052@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1056",
+      "file_count": 1,
+      "filenames": [
+        "1056@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1057",
+      "file_count": 1,
+      "filenames": [
+        "1057@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1058",
+      "file_count": 1,
+      "filenames": [
+        "1058@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1059",
+      "file_count": 1,
+      "filenames": [
+        "1059@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "106",
+      "file_count": 1,
+      "filenames": [
+        "106@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1060",
+      "file_count": 1,
+      "filenames": [
+        "1060@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1062",
+      "file_count": 1,
+      "filenames": [
+        "1062@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1061",
+      "file_count": 1,
+      "filenames": [
+        "1061@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1063",
+      "file_count": 1,
+      "filenames": [
+        "1063@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1065",
+      "file_count": 1,
+      "filenames": [
+        "1065@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1064",
+      "file_count": 1,
+      "filenames": [
+        "1064@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1066",
+      "file_count": 1,
+      "filenames": [
+        "1066@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1068",
+      "file_count": 1,
+      "filenames": [
+        "1068@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1067",
+      "file_count": 1,
+      "filenames": [
+        "1067@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1069",
+      "file_count": 1,
+      "filenames": [
+        "1069@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1070",
+      "file_count": 1,
+      "filenames": [
+        "1070@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1071",
+      "file_count": 1,
+      "filenames": [
+        "1071@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1072",
+      "file_count": 1,
+      "filenames": [
+        "1072@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1073",
+      "file_count": 1,
+      "filenames": [
+        "1073@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1074",
+      "file_count": 1,
+      "filenames": [
+        "1074@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1075",
+      "file_count": 1,
+      "filenames": [
+        "1075@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "10750",
+      "file_count": 1,
+      "filenames": [
+        "10750@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1076",
+      "file_count": 1,
+      "filenames": [
+        "1076@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1077",
+      "file_count": 1,
+      "filenames": [
+        "1077@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1078",
+      "file_count": 1,
+      "filenames": [
+        "1078@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "108",
+      "file_count": 1,
+      "filenames": [
+        "108@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1079",
+      "file_count": 1,
+      "filenames": [
+        "1079@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "108-210",
+      "file_count": 1,
+      "filenames": [
+        "108-210@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "108-300",
+      "file_count": 1,
+      "filenames": [
+        "108-300@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "108-360",
+      "file_count": 1,
+      "filenames": [
+        "108-360@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1080",
+      "file_count": 1,
+      "filenames": [
+        "1080@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1081",
+      "file_count": 1,
+      "filenames": [
+        "1081@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1082",
+      "file_count": 1,
+      "filenames": [
+        "1082@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1083",
+      "file_count": 1,
+      "filenames": [
+        "1083@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1084",
+      "file_count": 1,
+      "filenames": [
+        "1084@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1085",
+      "file_count": 1,
+      "filenames": [
+        "1085@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1086",
+      "file_count": 1,
+      "filenames": [
+        "1086@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1087",
+      "file_count": 1,
+      "filenames": [
+        "1087@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1088",
+      "file_count": 1,
+      "filenames": [
+        "1088@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1089",
+      "file_count": 1,
+      "filenames": [
+        "1089@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "109",
+      "file_count": 1,
+      "filenames": [
+        "109@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1090",
+      "file_count": 1,
+      "filenames": [
+        "1090@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1091",
+      "file_count": 1,
+      "filenames": [
+        "1091@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1091BLN",
+      "file_count": 1,
+      "filenames": [
+        "1091BLN@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1092",
+      "file_count": 1,
+      "filenames": [
+        "1092@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1093",
+      "file_count": 1,
+      "filenames": [
+        "1093@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1094",
+      "file_count": 1,
+      "filenames": [
+        "1094@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1096",
+      "file_count": 1,
+      "filenames": [
+        "1096@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1095",
+      "file_count": 1,
+      "filenames": [
+        "1095@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1097",
+      "file_count": 1,
+      "filenames": [
+        "1097@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1098",
+      "file_count": 1,
+      "filenames": [
+        "1098@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1099",
+      "file_count": 1,
+      "filenames": [
+        "1099@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "110",
+      "file_count": 1,
+      "filenames": [
+        "110@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "110-22100",
+      "file_count": 1,
+      "filenames": [
+        "110-22100@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1100",
+      "file_count": 1,
+      "filenames": [
+        "1100@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "110-25100",
+      "file_count": 1,
+      "filenames": [
+        "110-25100@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1101",
+      "file_count": 1,
+      "filenames": [
+        "1101@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1101BLN",
+      "file_count": 1,
+      "filenames": [
+        "1101BLN@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1104",
+      "file_count": 1,
+      "filenames": [
+        "1104@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1102",
+      "file_count": 1,
+      "filenames": [
+        "1102@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1103",
+      "file_count": 1,
+      "filenames": [
+        "1103@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "11044BLN",
+      "file_count": 1,
+      "filenames": [
+        "11044BLN@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1105",
+      "file_count": 1,
+      "filenames": [
+        "1105@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1106",
+      "file_count": 1,
+      "filenames": [
+        "1106@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1108",
+      "file_count": 1,
+      "filenames": [
+        "1108@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1107",
+      "file_count": 1,
+      "filenames": [
+        "1107@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1109",
+      "file_count": 1,
+      "filenames": [
+        "1109@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1111",
+      "file_count": 1,
+      "filenames": [
+        "1111@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1110",
+      "file_count": 1,
+      "filenames": [
+        "1110@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1112",
+      "file_count": 1,
+      "filenames": [
+        "1112@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1113",
+      "file_count": 1,
+      "filenames": [
+        "1113@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1114",
+      "file_count": 1,
+      "filenames": [
+        "1114@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1115",
+      "file_count": 1,
+      "filenames": [
+        "1115@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1116",
+      "file_count": 1,
+      "filenames": [
+        "1116@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1117",
+      "file_count": 1,
+      "filenames": [
+        "1117@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1118",
+      "file_count": 1,
+      "filenames": [
+        "1118@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "111BLN",
+      "file_count": 1,
+      "filenames": [
+        "111BLN@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "112-3",
+      "file_count": 1,
+      "filenames": [
+        "112-3@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1120",
+      "file_count": 1,
+      "filenames": [
+        "1120@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "112007066",
+      "file_count": 1,
+      "filenames": [
+        "112007066@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1119",
+      "file_count": 1,
+      "filenames": [
+        "1119@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1121",
+      "file_count": 1,
+      "filenames": [
+        "1121@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1122",
+      "file_count": 1,
+      "filenames": [
+        "1122@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1123",
+      "file_count": 1,
+      "filenames": [
+        "1123@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1124",
+      "file_count": 1,
+      "filenames": [
+        "1124@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "11248",
+      "file_count": 1,
+      "filenames": [
+        "11248@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1126",
+      "file_count": 1,
+      "filenames": [
+        "1126@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1127",
+      "file_count": 1,
+      "filenames": [
+        "1127@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1128",
+      "file_count": 1,
+      "filenames": [
+        "1128@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1128-210",
+      "file_count": 1,
+      "filenames": [
+        "1128-210@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1128-240",
+      "file_count": 1,
+      "filenames": [
+        "1128-240@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1128-270",
+      "file_count": 1,
+      "filenames": [
+        "1128-270@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1128-300",
+      "file_count": 1,
+      "filenames": [
+        "1128-300@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1128-360",
+      "file_count": 1,
+      "filenames": [
+        "1128-360@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1129",
+      "file_count": 1,
+      "filenames": [
+        "1129@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "112BLN",
+      "file_count": 1,
+      "filenames": [
+        "112BLN@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1130",
+      "file_count": 1,
+      "filenames": [
+        "1130@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "113",
+      "file_count": 1,
+      "filenames": [
+        "113@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1131",
+      "file_count": 1,
+      "filenames": [
+        "1131@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1133",
+      "file_count": 1,
+      "filenames": [
+        "1133@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1134",
+      "file_count": 1,
+      "filenames": [
+        "1134@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1135",
+      "file_count": 1,
+      "filenames": [
+        "1135@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1136",
+      "file_count": 1,
+      "filenames": [
+        "1136@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1137",
+      "file_count": 1,
+      "filenames": [
+        "1137@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1138",
+      "file_count": 1,
+      "filenames": [
+        "1138@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1139",
+      "file_count": 1,
+      "filenames": [
+        "1139@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1140",
+      "file_count": 1,
+      "filenames": [
+        "1140@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1141",
+      "file_count": 1,
+      "filenames": [
+        "1141@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1142",
+      "file_count": 1,
+      "filenames": [
+        "1142@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1143",
+      "file_count": 1,
+      "filenames": [
+        "1143@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1144",
+      "file_count": 1,
+      "filenames": [
+        "1144@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1145",
+      "file_count": 1,
+      "filenames": [
+        "1145@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1146",
+      "file_count": 1,
+      "filenames": [
+        "1146@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1148",
+      "file_count": 1,
+      "filenames": [
+        "1148@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1149",
+      "file_count": 1,
+      "filenames": [
+        "1149@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1147",
+      "file_count": 1,
+      "filenames": [
+        "1147@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1150",
+      "file_count": 1,
+      "filenames": [
+        "1150@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1152",
+      "file_count": 1,
+      "filenames": [
+        "1152@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1151",
+      "file_count": 1,
+      "filenames": [
+        "1151@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1153",
+      "file_count": 1,
+      "filenames": [
+        "1153@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1159",
+      "file_count": 1,
+      "filenames": [
+        "1159@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "115BLN",
+      "file_count": 1,
+      "filenames": [
+        "115BLN@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1160",
+      "file_count": 1,
+      "filenames": [
+        "1160@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1161",
+      "file_count": 1,
+      "filenames": [
+        "1161@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1162",
+      "file_count": 1,
+      "filenames": [
+        "1162@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1163",
+      "file_count": 1,
+      "filenames": [
+        "1163@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1164",
+      "file_count": 1,
+      "filenames": [
+        "1164@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1166",
+      "file_count": 1,
+      "filenames": [
+        "1166@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1165",
+      "file_count": 1,
+      "filenames": [
+        "1165@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1167",
+      "file_count": 1,
+      "filenames": [
+        "1167@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1169",
+      "file_count": 1,
+      "filenames": [
+        "1169@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1168",
+      "file_count": 1,
+      "filenames": [
+        "1168@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "117",
+      "file_count": 1,
+      "filenames": [
+        "117@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1171",
+      "file_count": 1,
+      "filenames": [
+        "1171@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1170",
+      "file_count": 1,
+      "filenames": [
+        "1170@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1172",
+      "file_count": 1,
+      "filenames": [
+        "1172@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1173",
+      "file_count": 1,
+      "filenames": [
+        "1173@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1175",
+      "file_count": 1,
+      "filenames": [
+        "1175@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1176",
+      "file_count": 1,
+      "filenames": [
+        "1176@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1177",
+      "file_count": 1,
+      "filenames": [
+        "1177@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1178",
+      "file_count": 1,
+      "filenames": [
+        "1178@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1179",
+      "file_count": 1,
+      "filenames": [
+        "1179@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "118-2,5",
+      "file_count": 1,
+      "filenames": [
+        "118-2,5@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1180",
+      "file_count": 1,
+      "filenames": [
+        "1180@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1181",
+      "file_count": 1,
+      "filenames": [
+        "1181@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1182",
+      "file_count": 1,
+      "filenames": [
+        "1182@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1183",
+      "file_count": 1,
+      "filenames": [
+        "1183@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1184",
+      "file_count": 1,
+      "filenames": [
+        "1184@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1185",
+      "file_count": 1,
+      "filenames": [
+        "1185@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1186",
+      "file_count": 1,
+      "filenames": [
+        "1186@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1187",
+      "file_count": 1,
+      "filenames": [
+        "1187@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1188",
+      "file_count": 1,
+      "filenames": [
+        "1188@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1190",
+      "file_count": 1,
+      "filenames": [
+        "1190@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1189",
+      "file_count": 1,
+      "filenames": [
+        "1189@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1191",
+      "file_count": 1,
+      "filenames": [
+        "1191@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1193",
+      "file_count": 1,
+      "filenames": [
+        "1193@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1192",
+      "file_count": 1,
+      "filenames": [
+        "1192@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1194",
+      "file_count": 1,
+      "filenames": [
+        "1194@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1196",
+      "file_count": 1,
+      "filenames": [
+        "1196@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1195",
+      "file_count": 1,
+      "filenames": [
+        "1195@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1197",
+      "file_count": 1,
+      "filenames": [
+        "1197@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1198",
+      "file_count": 1,
+      "filenames": [
+        "1198@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1199",
+      "file_count": 1,
+      "filenames": [
+        "1199@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "12",
+      "file_count": 1,
+      "filenames": [
+        "12@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "12-014",
+      "file_count": 1,
+      "filenames": [
+        "12-014@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "12-019",
+      "file_count": 1,
+      "filenames": [
+        "12-019@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "12-20-003",
+      "file_count": 1,
+      "filenames": [
+        "12-20-003@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "12-101",
+      "file_count": 1,
+      "filenames": [
+        "12-101@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "12-20-004",
+      "file_count": 1,
+      "filenames": [
+        "12-20-004@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "12-21-003",
+      "file_count": 1,
+      "filenames": [
+        "12-21-003@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "12-23-003",
+      "file_count": 1,
+      "filenames": [
+        "12-23-003@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "12-21-004",
+      "file_count": 1,
+      "filenames": [
+        "12-21-004@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "12-26-003",
+      "file_count": 1,
+      "filenames": [
+        "12-26-003@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1200",
+      "file_count": 1,
+      "filenames": [
+        "1200@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "12-26-004",
+      "file_count": 1,
+      "filenames": [
+        "12-26-004@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1207",
+      "file_count": 1,
+      "filenames": [
+        "1207@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1203",
+      "file_count": 1,
+      "filenames": [
+        "1203@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1206",
+      "file_count": 1,
+      "filenames": [
+        "1206@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1208",
+      "file_count": 1,
+      "filenames": [
+        "1208@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1209",
+      "file_count": 1,
+      "filenames": [
+        "1209@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1219",
+      "file_count": 1,
+      "filenames": [
+        "1219@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "121001360",
+      "file_count": 1,
+      "filenames": [
+        "121001360@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "12200402",
+      "file_count": 1,
+      "filenames": [
+        "12200402@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1221",
+      "file_count": 1,
+      "filenames": [
+        "1221@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1222",
+      "file_count": 1,
+      "filenames": [
+        "1222@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1224",
+      "file_count": 1,
+      "filenames": [
+        "1224@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1225",
+      "file_count": 1,
+      "filenames": [
+        "1225@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "12245",
+      "file_count": 1,
+      "filenames": [
+        "12245@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "1226",
+      "file_count": 1,
+      "filenames": [
+        "1226@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    },
+    {
+      "article": "122626",
+      "file_count": 1,
+      "filenames": [
+        "122626@gallery_common.jpg"
+      ],
+      "status": "uploaded",
+      "assign_success": true
+    }
+  ],
+  "failed_articles": [
+    {
+      "article": "0",
+      "file_count": 13,
+      "filenames": [
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg",
+        "0@gallery_common.jpg"
+      ],
+      "status": "failed",
+      "reason": "check_failed",
+      "failed_checks": {
+        "0@gallery_common.jpg": {
+          "success": false,
+          "message": "productNotFound"
+        }
+      }
+    },
+    {
+      "article": "0-2G",
+      "file_count": 2,
+      "filenames": [
+        "0-2G@gallery_common.jpg",
+        "0-2G@gallery_common.jpg"
+      ],
+      "status": "failed",
+      "reason": "check_failed",
+      "failed_checks": {
+        "0-2G@gallery_common.jpg": {
+          "success": false,
+          "message": "productNotFound"
+        }
+      }
+    },
+    {
+      "article": "0-4G",
+      "file_count": 3,
+      "filenames": [
+        "0-4G@gallery_common.jpg",
+        "0-4G@gallery_common.jpg",
+        "0-4G@gallery_common.jpg"
+      ],
+      "status": "failed",
+      "reason": "check_failed",
+      "failed_checks": {
+        "0-4G@gallery_common.jpg": {
+          "success": false,
+          "message": "productNotFound"
+        }
+      }
+    },
+    {
+      "article": "0-3G",
+      "file_count": 3,
+      "filenames": [
+        "0-3G@gallery_common.jpg",
+        "0-3G@gallery_common.jpg",
+        "0-3G@gallery_common.jpg"
+      ],
+      "status": "failed",
+      "reason": "check_failed",
+      "failed_checks": {
+        "0-3G@gallery_common.jpg": {
+          "success": false,
+          "message": "productNotFound"
+        }
+      }
+    },
+    {
+      "article": "0-6.5G",
+      "file_count": 1,
+      "filenames": [
+        "0-6.5G@gallery_common.jpg"
+      ],
+      "status": "failed",
+      "reason": "check_failed",
+      "failed_checks": {
+        "0-6.5G@gallery_common.jpg": {
+          "success": false,
+          "message": "productNotFound"
+        }
+      }
+    },
+    {
+      "article": "0-5G",
+      "file_count": 4,
+      "filenames": [
+        "0-5G@gallery_common.jpg",
+        "0-5G@gallery_common.jpg",
+        "0-5G@gallery_common.jpg",
+        "0-5G@gallery_common.jpg"
+      ],
+      "status": "failed",
+      "reason": "check_failed",
+      "failed_checks": {
+        "0-5G@gallery_common.jpg": {
+          "success": false,
+          "message": "productNotFound"
+        }
+      }
+    },
+    {
+      "article": "0-5.5G",
+      "file_count": 2,
+      "filenames": [
+        "0-5.5G@gallery_common.jpg",
+        "0-5.5G@gallery_common.jpg"
+      ],
+      "status": "failed",
+      "reason": "check_failed",
+      "failed_checks": {
+        "0-5.5G@gallery_common.jpg": {
+          "success": false,
+          "message": "productNotFound"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+﻿status,import_header,nonempty_products,template_name,alias,type,id
+matched,Тип вудилища,753,Тип вудилища,typ_vudy,Рядок,6588
+matched,Тип насадки,1356,Тип насадки,typ_nasadky,Рядок,6589
+matched,Тип суміші,21,Тип суміші,typ_sumishi,Рядок,6590
+matched,Тип атрактанту,154,Тип атрактанту,typ_atraktantu,Рядок,6591
+matched,Тип,6449,Тип,typ,Рядок,6592
+matched,Підтип,177,Підтип,pidtyp,Рядок,6593
+matched,Форма,686,Форма,forma,Рядок,6621
+matched,Матеріал,4924,Матеріал,material,Рядок,6604
+matched,Плавучість,918,Плавучість,plavuchist,Рядок,6605
+matched,Довжина,957,Довжина,dovzhyna,Рядок,6594
+matched,Стрій,34,Стрій,striy,Рядок,6596
+matched,Діаметр,984,Діаметр,diametr,Рядок,6597
+matched,PE,66,PE,pe,Рядок,6599
+matched,Розривне навантаження,98,Розривне навантаження,rozryvne_nav,Рядок,6598
+matched,Розривне навантаження (lb),102,Розривне навантаження (lb),rozrivneNavantazhennjaLb,Рядок,6635
+matched,Об'єм,390,Об'єм,obem_r,Рядок,6609
+matched,Вага,2106,Вага,vaga,Рядок,6600
+matched,Розмір,1449,Розмір,rozmir_r,Рядок,6610
+matched,Підшипники,51,Підшипники,pdshipniki,Рядок,6644
+matched,Кількість в упаковці,554,Кількість в упаковці,kilkist_upak,Рядок,6601
+matched,Призначення,4504,Призначення,pryznachennya,Рядок,6602
+matched,Аромат,878,Аромат,aromat,Рядок,6603
+matched,Кастинг-тест,354,Кастинг-тест,casting_test,Рядок,6606
+matched,Глибина занурення,31,Глибина занурення,glibinaZanurennja,Рядок,6650
+matched,Аромат/склад,324,Аромат/склад,aromatsklad,Рядок,6643
+matched,Використання,22,Використання,vykory,Текстове поле,6777
+matched,Водонепроникність,21,Водонепроникність,vodon,Текстове поле,6776
+matched,Довговічність,2,Довговічність,dovgov,Текстове поле,6784
+matched,Живлення,14,Живлення,zhyvl,Текстове поле,6780
+matched,Застосування,13,Застосування,zastos,Текстове поле,6781
+matched,Колір,2918,Колір,kolr,Рядок,6614
+matched,Колір підсвічування,74,Колір підсвічування,kolrPdsvchuvannja,Рядок,6642
+matched,Консистенція,451,Консистенція,konsyst,Текстове поле,6778
+matched,Країна-виробник,5782,Країна-виробник,kranaVirobnik,Рядок,6613
+matched,Кріплення,51,Кріплення,krplennja,Рядок,6647
+matched,Кількість відділень,95,Кількість відділень,klkstVddlen,Рядок,6638
+matched,Кількість гачків,569,Кількість гачків,klkstGachkv,Рядок,6622
+matched,Кількість секцій,747,Кількість секцій,klkstSekcy,Рядок,6616
+matched,Максимальне навантаження,26,Максимальне навантаження,max_navant,Текстове поле,6775
+matched,Матеріал гачка,28,Матеріал гачка,mat_gacha,Текстове поле,6774
+matched,Матеріал корпусу,293,Матеріал корпусу,materalKorpusu,Рядок,6625
+matched,Матеріал повідця,83,Матеріал повідця,materalPovdcja,Рядок,6639
+matched,Передаточне число,289,Передаточне число,peredatochneChislo,Рядок,6627
+matched,Покриття,497,Покриття,pokrittja,Рядок,6623
+matched,Підходить для,19,Підходить для,pdhod,Вибір зі списку (Шаблон: Термін відвантаження зі складу),6795
+matched,Сезон,132,Сезон,sezon,Текстове поле,6782
+matched,Система гальма,292,Система гальма,sistemaGalma,Рядок,6628
+matched,Склад,118,Склад,sklad,Рядок,6636
+matched,Стиль,37,Стиль,stil,Рядок,6648
+matched,Сумісність,20,Сумісність,sumisn,Текстове поле,6779
+matched,Тип блешні,399,Тип блешні,tipBleshn,Рядок,6624
+matched,Тип воблера,229,Тип воблера,tipVoblera,Рядок,6632
+matched,Тип з'єднання секцій,92,Тип з'єднання секцій,tipZednannjaSekcy,Рядок,6637
+matched,Тип котушки,292,Тип котушки,tipKotushki,Рядок,6626
+matched,Тип кріплення,264,Тип кріплення,tipKrplennja,Рядок,6630
+matched,Тип повідця,78,Тип повідця,tipPovdcja,Рядок,6641
+matched,Тип приманки,851,Тип приманки,tipPrimanki,Рядок,6615
+matched,Тип пропускних кілець,645,Тип пропускних кілець,tipPropusknixKlec,Рядок,6620
+matched,Тип рукояті,741,Тип рукояті,tipRukojat,Рядок,6617
+matched,Тип хвоста,50,Тип хвоста,tipXvosta,Рядок,6646
+matched,Транспортна довжина,675,Транспортна довжина,transportnaDovzhina,Рядок,6619
+matched,Транспортна довжина (см),22,Транспортна довжина (см),transportnaDovzhinaSm,Рядок,6652
+matched,Упаковка,39,Упаковка,upakovka,Рядок,6649
+matched,Форма джиг-головки,28,Форма джиг-головки,formaDzhigGolovki,Рядок,6653
+missing_in_template,Ємність,2,,,,
+missing_in_template,Аромат/варіант,40,,,,
+missing_in_template,Вид,190,,,,
+missing_in_template,Вид монтажу,36,,,,
+missing_in_template,Висота,7,,,,
+missing_in_template,Витримує навантаження,1,,,,
+missing_in_template,Водостійкість,2,,,,
+missing_in_template,Відділення,1,,,,
+missing_in_template,Габарити,2,,,,
+missing_in_template,Гачки,2,,,,
+missing_in_template,Гачок,1,,,,
+missing_in_template,Голова,2,,,,
+missing_in_template,Гучність сигналу,1,,,,
+missing_in_template,Джерело живлення,24,,,,
+missing_in_template,Джерело світла,1,,,,
+missing_in_template,Довжина в розкладеному вигляді,1,,,,
+missing_in_template,Довжина в складеному вигляді,1,,,,
+missing_in_template,Довжина оснастки,1,,,,
+missing_in_template,Довжина поводка,6,,,,
+missing_in_template,Довжина рукоятки,1,,,,
+missing_in_template,Довжина ручки,4,,,,
+missing_in_template,Довжина шнура,1,,,,
+missing_in_template,Додаткові особливості,1,,,,
+missing_in_template,Додаткові функції,3,,,,
+missing_in_template,Діаметр голови,1,,,,
+missing_in_template,Діаметр кошика,1,,,,
+missing_in_template,Діаметр рами,1,,,,
+missing_in_template,Діаметр сітки,1,,,,
+missing_in_template,Діапазон температур,1,,,,
+missing_in_template,Запалювання,1,,,,
+missing_in_template,Застібка,8,,,,
+missing_in_template,Захист,2,,,,
+missing_in_template,Категорія,1,,,,
+missing_in_template,Клімат,4,,,,
+missing_in_template,Кліматичний режим,1,,,,
+missing_in_template,Кліматичні умови,1,,,,
+missing_in_template,Комплектація,144,,,,
+missing_in_template,Комфорт,1,,,,
+missing_in_template,Конструкція,76,,,,
+missing_in_template,Користування,1,,,,
+missing_in_template,Користувацька група,1,,,,
+missing_in_template,Кут,1,,,,
+missing_in_template,Кут нахилу,1,,,,
+missing_in_template,Кут освітлення,1,,,,
+missing_in_template,Кількість вудок,1,,,,
+missing_in_template,Кількість відводів,2,,,,
+missing_in_template,Кількість елементів,2,,,,
+missing_in_template,Кількість елементів у комплекті,2,,,,
+missing_in_template,Кількість застібок,2,,,,
+missing_in_template,Кількість конфорок,1,,,,
+missing_in_template,Кількість кріплень,1,,,,
+missing_in_template,Кількість кілець,1,,,,
+missing_in_template,Кількість місць,3,,,,
+missing_in_template,Кількість оснасток,2,,,,
+missing_in_template,Кількість поводків,1,,,,
+missing_in_template,Кількість полиць,10,,,,
+missing_in_template,Кількість предметів,5,,,,
+missing_in_template,Кількість пружин,4,,,,
+missing_in_template,Кількість підлокітників,1,,,,
+missing_in_template,Кількість режимів,7,,,,
+missing_in_template,Кількість частин,1,,,,
+missing_in_template,Кількість шипів,1,,,,
+missing_in_template,Кільця,1,,,,
+missing_in_template,Максимальна довжина,2,,,,
+missing_in_template,Матеріал бланка,741,,,,
+missing_in_template,Матеріал голови,1,,,,
+missing_in_template,Матеріал каркасу,1,,,,
+missing_in_template,Матеріал оббивки,2,,,,
+missing_in_template,Матеріал ручки,3,,,,
+missing_in_template,Матеріал сітки,6,,,,
+missing_in_template,Напруга,11,,,,
+missing_in_template,Номінал,9,,,,
+missing_in_template,Особливості,4,,,,
+missing_in_template,Особливість,5,,,,
+missing_in_template,Потужність,5,,,,
+missing_in_template,Підошва,1,,,,
+missing_in_template,Регулювання,1,,,,
+missing_in_template,Режими роботи,1,,,,
+missing_in_template,Розбірний,1,,,,
+missing_in_template,Розмір (мм),1,,,,
+missing_in_template,Розмір в розкладеному вигляді,1,,,,
+missing_in_template,Розмір в складеному вигляді,1,,,,
+missing_in_template,Розмір гачка,3,,,,
+missing_in_template,Розмір гачків,2,,,,
+missing_in_template,Розмір сітки,2,,,,
+missing_in_template,Розмір у складеному вигляді,1,,,,
+missing_in_template,Розмір частинок,2,,,,
+missing_in_template,Розміри в складеному вигляді,6,,,,
+missing_in_template,Ручка,2,,,,
+missing_in_template,Рік випуску,1,,,,
+missing_in_template,Світловий потік,3,,,,
+missing_in_template,Сегмент,304,,,,
+missing_in_template,Сезонність,2,,,,
+missing_in_template,Система,1,,,,
+missing_in_template,Складність,1,,,,
+missing_in_template,Смак,7,,,,
+missing_in_template,Спосіб використання,1,,,,
+missing_in_template,Спосіб зарядки,1,,,,
+missing_in_template,Стать,3,,,,
+missing_in_template,Ступінь вологості,1,,,,
+missing_in_template,Ступінь теплоізоляції,1,,,,
+missing_in_template,Ступінь тесту,1,,,,
+missing_in_template,Ступінь утеплення,2,,,,
+missing_in_template,Сфера використання,1,,,,
+missing_in_template,Сфера застосування,1,,,,
+missing_in_template,Сітка,6,,,,
+missing_in_template,Телескопічна,1,,,,
+missing_in_template,Телескопічний,2,,,,
+missing_in_template,Температурний режим,4,,,,
+missing_in_template,Теплоізоляція,2,,,,
+missing_in_template,Термін придатності,1,,,,
+missing_in_template,Технологія,1,,,,
+missing_in_template,Тип грузила,1,,,,
+missing_in_template,Тип живлення,1,,,,
+missing_in_template,Тип замка,1,,,,
+missing_in_template,Тип підошви,1,,,,
+missing_in_template,Тип товару,6,,,,
+missing_in_template,Умови використання,4,,,,
+missing_in_template,Утеплення,2,,,,
+missing_in_template,Фарбування,3,,,,
+missing_in_template,Фасування,2,,,,
+missing_in_template,Форм-фактор,2,,,,
+missing_in_template,Форма голови,2,,,,
+missing_in_template,Форма грузила,74,,,,
+missing_in_template,Форма рами,1,,,,
+missing_in_template,Форма упаковки,1,,,,
+missing_in_template,Формат,2,,,,
+missing_in_template,Час роботи,3,,,,
+missing_in_template,Чохол,1,,,,
+missing_in_template,Ширина,3,,,,
+missing_in_template,Ширина сітки,1,,,,
+missing_in_template,Яскравість,2,,,,

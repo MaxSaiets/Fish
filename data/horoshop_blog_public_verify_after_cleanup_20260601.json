@@ -1,0 +1,130 @@
+[
+  {
+    "id": 49,
+    "slug": "yak-vybraty-pershyi-spininh-dlia-richky-ta-ozera",
+    "status": 200,
+    "has_title": true,
+    "text_chars": 19058,
+    "image_count": 10
+  },
+  {
+    "id": 50,
+    "slug": "fider-dlia-pochatkivtsia-shcho-potribno-dlia-pershoi-rybolovli",
+    "status": 200,
+    "has_title": true,
+    "text_chars": 18775,
+    "image_count": 10
+  },
+  {
+    "id": 51,
+    "slug": "koropova-rybolovlia-bazove-osnashchennia-bez-zaivoho",
+    "status": 200,
+    "has_title": true,
+    "text_chars": 18683,
+    "image_count": 10
+  },
+  {
+    "id": 52,
+    "slug": "yak-pidibraty-prykormku-pid-karasia-liashcha-i-koropa",
+    "status": 200,
+    "has_title": true,
+    "text_chars": 18600,
+    "image_count": 10
+  },
+  {
+    "id": 58,
+    "slug": "yak-dohliadaty-za-kotushkoiu-pislia-rybolovli",
+    "status": 200,
+    "has_title": true,
+    "text_chars": 18992,
+    "image_count": 10
+  },
+  {
+    "id": 65,
+    "slug": "pelets-boily-i-pop-up-yak-sklasty-robochu-prohramu-nasadok",
+    "status": 200,
+    "has_title": true,
+    "text_chars": 19028,
+    "image_count": 10
+  },
+  {
+    "id": 66,
+    "slug": "hachky-dlia-rybolovli-forma-drit-zhalo-i-pravylnyi-rozmir",
+    "status": 200,
+    "has_title": true,
+    "text_chars": 19022,
+    "image_count": 10
+  },
+  {
+    "id": 67,
+    "slug": "volosin-shnur-i-fliuorokarbon-yak-vybraty-bez-pomylky",
+    "status": 200,
+    "has_title": true,
+    "text_chars": 19022,
+    "image_count": 10
+  },
+  {
+    "id": 68,
+    "slug": "pva-materialy-pakety-sitka-stiky-i-typovi-pomylky",
+    "status": 200,
+    "has_title": true,
+    "text_chars": 18986,
+    "image_count": 10
+  },
+  {
+    "id": 69,
+    "slug": "zymova-rybolovlia-sporiadzhennia-bezpeka-i-pidhotovka-do-lodu",
+    "status": 200,
+    "has_title": true,
+    "text_chars": 19024,
+    "image_count": 10
+  },
+  {
+    "id": 71,
+    "slug": "orhanaizery-korobky-ta-sumky-yak-navesty-poriadok-u-snastiakh",
+    "status": 200,
+    "has_title": true,
+    "text_chars": 19046,
+    "image_count": 10
+  },
+  {
+    "id": 72,
+    "slug": "samovyviz-chy-dostavka-yak-bezpechno-otrymaty-rybalski-tovary",
+    "status": 200,
+    "has_title": true,
+    "text_chars": 19038,
+    "image_count": 10
+  },
+  {
+    "id": 73,
+    "slug": "voblery-bleshni-i-sylikon-yak-pidibraty-prymanku-pid-khyzhaka",
+    "status": 200,
+    "has_title": true,
+    "text_chars": 19038,
+    "image_count": 10
+  },
+  {
+    "id": 74,
+    "slug": "montazhi-vertliuhy-i-hruzyla-dribnytsi-yaki-vplyvaiut-na-kliuvannia",
+    "status": 200,
+    "has_title": true,
+    "text_chars": 19062,
+    "image_count": 10
+  },
+  {
+    "id": 75,
+    "slug": "pidsaky-sadky-i-kukany-yak-zberehty-rybu-ta-snasti",
+    "status": 200,
+    "has_title": true,
+    "text_chars": 19002,
+    "image_count": 10
+  },
+  {
+    "id": 76,
+    "slug": "krisla-stoly-i-turystychne-sporiadzhennia-dlia-dovhoi-rybolovli",
+    "status": 200,
+    "has_title": true,
+    "text_chars": 19106,
+    "image_count": 10
+  }
+]

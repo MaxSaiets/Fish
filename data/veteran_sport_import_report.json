@@ -1,0 +1,30 @@
+{
+  "products_import": "D:\\FISH\\fish-sync\\public\\veteran_sport_import.xlsx",
+  "photo_import": "D:\\FISH\\fish-sync\\public\\veteran_sport_photo_import.xlsx",
+  "rows": [
+    {
+      "article": "VS-ABON-500",
+      "title": "Абонемент у клуб спортивного рибальства «Все для рибалки» 500 грн",
+      "price": 500,
+      "image_url": "https://vsedliarybalky.com.ua/images/editor/2/veteran_500.jpg"
+    },
+    {
+      "article": "VS-ABON-1000",
+      "title": "Абонемент у клуб спортивного рибальства «Все для рибалки» 1000 грн",
+      "price": 1000,
+      "image_url": "https://vsedliarybalky.com.ua/images/editor/9/veteran_1000.jpg"
+    },
+    {
+      "article": "VS-ABON-1500",
+      "title": "Абонемент у клуб спортивного рибальства «Все для рибалки» 1500 грн",
+      "price": 1500,
+      "image_url": "https://vsedliarybalky.com.ua/images/editor/6/veteran_1500.jpg"
+    },
+    {
+      "article": "VS-ABON-2000",
+      "title": "Абонемент у клуб спортивного рибальства «Все для рибалки» 2000 грн",
+      "price": 2000,
+      "image_url": "https://vsedliarybalky.com.ua/images/editor/10/veteran_2000.jpg"
+    }
+  ]
+}

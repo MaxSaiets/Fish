@@ -1,0 +1,14 @@
+{
+  "file": "D:\\FISH\\fish-sync\\public\\horoshop_import_sample_5_html.xls",
+  "rows": 5,
+  "columns": 206,
+  "format": "html-table-with-xls-extension",
+  "purpose": "safe legacy import preview only, not final mass import",
+  "articles": [
+    "3762",
+    "3759",
+    "4452",
+    "3760",
+    "3761"
+  ]
+}

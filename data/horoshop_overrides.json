@@ -1,0 +1,17 @@
+{
+  "products": {
+    "1885": {
+      "exclude": true,
+      "reason": "Suspicious numeric-only source name"
+    }
+  },
+  "brand_aliases": {
+    "foodie fish": "Foodie Fish",
+    "texnoкарп": "Технокарп",
+    "texnokarp": "Технокарп",
+    "carp epert": "Carp Expert"
+  },
+  "family_parent_overrides": {},
+  "article_parent_overrides": {},
+  "article_brand_overrides": {}
+}

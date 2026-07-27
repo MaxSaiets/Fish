@@ -1,0 +1,330 @@
+{
+  "utility_root": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-placeholders",
+  "metadata_dump": "D:\\FISH\\metadata-dump.md",
+  "articles_total": 40,
+  "clean_gallery": false,
+  "dry_run": true,
+  "uploaded_articles": [
+    {
+      "article": "2023025",
+      "file_count": 1,
+      "filenames": [
+        "2023025@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "2023004",
+      "file_count": 1,
+      "filenames": [
+        "2023004@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "2023011",
+      "file_count": 1,
+      "filenames": [
+        "2023011@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "2023020",
+      "file_count": 1,
+      "filenames": [
+        "2023020@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "232",
+      "file_count": 1,
+      "filenames": [
+        "232@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "220",
+      "file_count": 1,
+      "filenames": [
+        "220@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "221",
+      "file_count": 1,
+      "filenames": [
+        "221@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "233",
+      "file_count": 1,
+      "filenames": [
+        "233@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "234",
+      "file_count": 1,
+      "filenames": [
+        "234@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "260",
+      "file_count": 1,
+      "filenames": [
+        "260@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "259",
+      "file_count": 1,
+      "filenames": [
+        "259@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "261",
+      "file_count": 1,
+      "filenames": [
+        "261@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "262",
+      "file_count": 1,
+      "filenames": [
+        "262@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "280",
+      "file_count": 1,
+      "filenames": [
+        "280@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "283",
+      "file_count": 1,
+      "filenames": [
+        "283@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "284",
+      "file_count": 1,
+      "filenames": [
+        "284@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "285",
+      "file_count": 1,
+      "filenames": [
+        "285@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "286",
+      "file_count": 1,
+      "filenames": [
+        "286@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "287",
+      "file_count": 1,
+      "filenames": [
+        "287@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "288",
+      "file_count": 1,
+      "filenames": [
+        "288@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "289",
+      "file_count": 1,
+      "filenames": [
+        "289@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "290",
+      "file_count": 1,
+      "filenames": [
+        "290@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "291",
+      "file_count": 1,
+      "filenames": [
+        "291@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "292",
+      "file_count": 1,
+      "filenames": [
+        "292@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "293",
+      "file_count": 1,
+      "filenames": [
+        "293@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "341",
+      "file_count": 1,
+      "filenames": [
+        "341@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "342",
+      "file_count": 1,
+      "filenames": [
+        "342@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "343",
+      "file_count": 1,
+      "filenames": [
+        "343@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "345",
+      "file_count": 1,
+      "filenames": [
+        "345@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "344",
+      "file_count": 1,
+      "filenames": [
+        "344@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "391",
+      "file_count": 1,
+      "filenames": [
+        "391@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "4075",
+      "file_count": 1,
+      "filenames": [
+        "4075@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "5547318",
+      "file_count": 1,
+      "filenames": [
+        "5547318@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "75",
+      "file_count": 1,
+      "filenames": [
+        "75@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "76",
+      "file_count": 1,
+      "filenames": [
+        "76@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "78",
+      "file_count": 1,
+      "filenames": [
+        "78@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "77",
+      "file_count": 1,
+      "filenames": [
+        "77@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "79",
+      "file_count": 1,
+      "filenames": [
+        "79@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "A6006#9",
+      "file_count": 1,
+      "filenames": [
+        "A6006#9@gallery_common.jpg"
+      ],
+      "status": "validated"
+    },
+    {
+      "article": "H.BIL228",
+      "file_count": 1,
+      "filenames": [
+        "H.BIL228@gallery_common.jpg"
+      ],
+      "status": "validated"
+    }
+  ],
+  "failed_articles": []
+}

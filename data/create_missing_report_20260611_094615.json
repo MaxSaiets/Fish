@@ -1,0 +1,12 @@
+{
+ "started": "2026-06-11T09:46:14.891720",
+ "ok": 0,
+ "no_category": [],
+ "failed": [
+  {
+   "article": "000276",
+   "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  }
+ ],
+ "finished": "2026-06-11T09:46:15.131560"
+}

@@ -1,0 +1,104 @@
+{
+ "Країна-виробник": {
+  "count": 1,
+  "examples": [
+   "не вказано"
+  ],
+  "arts": [
+   "/kotushka-ruchka-dlia-katushky-z-knopkoiu-df-blister/"
+  ]
+ },
+ "Передаточне число": {
+  "count": 3,
+  "examples": [
+   "Залежить від моделі",
+   "Може варіюватись в залежності від моделі"
+  ],
+  "arts": [
+   "/kotushka-ruchka-dlia-katushky-z-knopkoiu-df-blister/",
+   "/kotushka-mifine-mars-4000f/",
+   "/kotushka-mifine-mars-4000f/"
+  ]
+ },
+ "Вага": {
+  "count": 2,
+  "examples": [
+   "приблизно 300 г",
+   "Залежить від варіанту"
+  ],
+  "arts": [
+   "/instrument-dlia-rybolovli-bahor-kolorova-plastykova-ruchka/",
+   "/hotovyi-montazh-montazh-korop-karas-dviinyk/"
+  ]
+ },
+ "Колір підсвічування": {
+  "count": 2,
+  "examples": [
+   "Не зазначено"
+  ],
+  "arts": [
+   "/batareika-kodak-6v/",
+   "/batareika-kodak-6v/"
+  ]
+ },
+ "Колір": {
+  "count": 1,
+  "examples": [
+   "Не зазначено"
+  ],
+  "arts": [
+   "/pelets-bounty-method-mix-4in1-belachan/"
+  ]
+ },
+ "Довжина": {
+  "count": 1,
+  "examples": [
+   "Залежить від варіанту"
+  ],
+  "arts": [
+   "/hotovyi-montazh-montazh-korop-karas-dviinyk/"
+  ]
+ },
+ "Діаметр": {
+  "count": 1,
+  "examples": [
+   "Залежить від варіанту"
+  ],
+  "arts": [
+   "/hotovyi-montazh-montazh-korop-karas-dviinyk/"
+  ]
+ },
+ "Розміри": {
+  "count": 2,
+  "examples": [
+   "295 x 200 x 150 мм"
+  ],
+  "arts": [
+   "/yashchyk-korobka-dlia-snastei-yashchyk-fishing-box-delux-295/",
+   "/yashchyk-korobka-dlia-snastei-yashchyk-fishing-box-delux-295/"
+  ]
+ },
+ "Модель": {
+  "count": 4,
+  "examples": [
+   "Коробка Carp Pro коропова велика комп. 6 короб.",
+   "Кораблик 40 Points GPS+ eхолот Rc baits Boat V030",
+   "Бур з адаптером під шурупокрут 130 мм"
+  ],
+  "arts": [
+   "/yashchyk-korobka-dlia-snastei-carp-pro-koropova-velyka-komp.-6-korob./",
+   "/instrument-dlia-rybolovli-bur-ice-attack-z-aaptorom-pid-shurupokrut-130mm-130-mm/",
+   "/rybalskyi-tovar-korablyk-40-points-gps-ekholot-rc-baits-boat-v030-12000mah-batterry/",
+   "/yashchyk-korobka-dlia-snastei-carp-pro-koropova-velyka-komp.-6-korob./"
+  ]
+ },
+ "Застосування": {
+  "count": 1,
+  "examples": [
+   "Риболовля на карпа та інших великих риб"
+  ],
+  "arts": [
+   "/pidsak-stul-kherabuna-perfect-koi-herabunafishing/"
+  ]
+ }
+}

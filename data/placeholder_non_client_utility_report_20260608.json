@@ -1,0 +1,173 @@
+{
+  "status": "complete",
+  "placeholder_root": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean",
+  "output_root": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility",
+  "real_upload_report": "D:\\FISH\\fish-sync\\data\\real_client_photo_upload_report_20260608.json",
+  "real_utility_report": "D:\\FISH\\fish-sync\\data\\real_client_photo_utility_report_20260608_filtered.json",
+  "real_client_articles_excluded": 270,
+  "blocked_articles_excluded": [
+    "2067"
+  ],
+  "excluded_articles_total": 271,
+  "prepared_placeholder_articles": 7006,
+  "prepared_placeholder_files": 7006,
+  "skipped_real_entries": 0,
+  "skipped_blocked_entries": 0,
+  "link_mode_counts": {
+    "hardlinked": 7006,
+    "copied": 0
+  },
+  "policy": "This package restores generated placeholder images for every product that does not have a confirmed local client photo. Confirmed real-client-photo articles are excluded so they keep their uploaded client images.",
+  "prepared_sample": [
+    {
+      "article": "#001",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#001@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\#001@gallery_common.jpg"
+    },
+    {
+      "article": "#003",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#003@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\#003@gallery_common.jpg"
+    },
+    {
+      "article": "#005",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#005@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\#005@gallery_common.jpg"
+    },
+    {
+      "article": "#006",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#006@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\#006@gallery_common.jpg"
+    },
+    {
+      "article": "#017",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#017@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\#017@gallery_common.jpg"
+    },
+    {
+      "article": "#020",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#020@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\#020@gallery_common.jpg"
+    },
+    {
+      "article": "#021",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#021@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\#021@gallery_common.jpg"
+    },
+    {
+      "article": "#022 1.6",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#022 1.6@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\#022 1.6@gallery_common.jpg"
+    },
+    {
+      "article": "#023",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#023@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\#023@gallery_common.jpg"
+    },
+    {
+      "article": "#80164",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\#80164@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\#80164@gallery_common.jpg"
+    },
+    {
+      "article": "00.01",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\00.01@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\00.01@gallery_common.jpg"
+    },
+    {
+      "article": "00.07",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\00.07@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\00.07@gallery_common.jpg"
+    },
+    {
+      "article": "00.10",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\00.10@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\00.10@gallery_common.jpg"
+    },
+    {
+      "article": "00.17",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\00.17@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\00.17@gallery_common.jpg"
+    },
+    {
+      "article": "0000006",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\0000006@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\0000006@gallery_common.jpg"
+    },
+    {
+      "article": "000003",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000003@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\000003@gallery_common.jpg"
+    },
+    {
+      "article": "000005",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000005@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\000005@gallery_common.jpg"
+    },
+    {
+      "article": "000006",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000006@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\000006@gallery_common.jpg"
+    },
+    {
+      "article": "000008",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000008@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\000008@gallery_common.jpg"
+    },
+    {
+      "article": "000009",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000009@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\000009@gallery_common.jpg"
+    },
+    {
+      "article": "000015",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000015@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\000015@gallery_common.jpg"
+    },
+    {
+      "article": "000038",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000038@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\000038@gallery_common.jpg"
+    },
+    {
+      "article": "000149",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000149@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\000149@gallery_common.jpg"
+    },
+    {
+      "article": "000166",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000166@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\000166@gallery_common.jpg"
+    },
+    {
+      "article": "000189",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000189@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\000189@gallery_common.jpg"
+    },
+    {
+      "article": "000191",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000191@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\000191@gallery_common.jpg"
+    },
+    {
+      "article": "000192",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000192@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\000192@gallery_common.jpg"
+    },
+    {
+      "article": "000199",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000199@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\000199@gallery_common.jpg"
+    },
+    {
+      "article": "000200",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000200@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\000200@gallery_common.jpg"
+    },
+    {
+      "article": "000207",
+      "source": "D:\\FISH\\fish-sync\\public\\horoshop-image-utility-all-placeholders-clean\\batch-001\\000207@gallery_common.jpg",
+      "target": "D:\\FISH\\fish-sync\\public\\placeholder-non-client-utility\\000207@gallery_common.jpg"
+    }
+  ]
+}

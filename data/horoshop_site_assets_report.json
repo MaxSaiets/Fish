@@ -1,0 +1,70 @@
+{
+  "base_url": "https://vsedliarybalky.com.ua",
+  "prepared": {
+    "logo": "D:\\FISH\\fish-sync\\public\\site-assets\\logo-vse-dlia-rybalky.svg",
+    "logo_tight_png": "D:\\FISH\\fish-sync\\public\\site-assets\\logo-vse-dlia-rybalky-tight.png",
+    "carp_sets": "D:\\FISH\\fish-sync\\public\\site-assets\\carp_sets_hero.jpg",
+    "veteran_500": "D:\\FISH\\fish-sync\\public\\site-assets\\veteran_500.jpg",
+    "veteran_1000": "D:\\FISH\\fish-sync\\public\\site-assets\\veteran_1000.jpg",
+    "veteran_1500": "D:\\FISH\\fish-sync\\public\\site-assets\\veteran_1500.jpg",
+    "veteran_2000": "D:\\FISH\\fish-sync\\public\\site-assets\\veteran_2000.jpg"
+  },
+  "uploads": {
+    "logo": {
+      "local_path": "D:\\FISH\\fish-sync\\public\\site-assets\\logo-vse-dlia-rybalky.svg",
+      "uri": "unsupported_image",
+      "response": {
+        "keyName": "file",
+        "uri": "unsupported_image"
+      }
+    },
+    "logo_tight_png": {
+      "local_path": "D:\\FISH\\fish-sync\\public\\site-assets\\logo-vse-dlia-rybalky-tight.png",
+      "uri": "https://vsedliarybalky.com.ua/images/editor/7/logo-vse-dlia-rybalky-tight.png",
+      "response": {
+        "keyName": "file",
+        "uri": "/content/images/editor/7/logo-vse-dlia-rybalky-tight.png"
+      }
+    },
+    "carp_sets": {
+      "local_path": "D:\\FISH\\fish-sync\\public\\site-assets\\carp_sets_hero.jpg",
+      "uri": "https://vsedliarybalky.com.ua/images/editor/1/carp_sets_hero.jpg",
+      "response": {
+        "keyName": "file",
+        "uri": "/content/images/editor/1/carp_sets_hero.jpg"
+      }
+    },
+    "veteran_500": {
+      "local_path": "D:\\FISH\\fish-sync\\public\\site-assets\\veteran_500.jpg",
+      "uri": "https://vsedliarybalky.com.ua/images/editor/8/veteran_500.jpg",
+      "response": {
+        "keyName": "file",
+        "uri": "/content/images/editor/8/veteran_500.jpg"
+      }
+    },
+    "veteran_1000": {
+      "local_path": "D:\\FISH\\fish-sync\\public\\site-assets\\veteran_1000.jpg",
+      "uri": "https://vsedliarybalky.com.ua/images/editor/5/veteran_1000.jpg",
+      "response": {
+        "keyName": "file",
+        "uri": "/content/images/editor/5/veteran_1000.jpg"
+      }
+    },
+    "veteran_1500": {
+      "local_path": "D:\\FISH\\fish-sync\\public\\site-assets\\veteran_1500.jpg",
+      "uri": "https://vsedliarybalky.com.ua/images/editor/3/veteran_1500.jpg",
+      "response": {
+        "keyName": "file",
+        "uri": "/content/images/editor/3/veteran_1500.jpg"
+      }
+    },
+    "veteran_2000": {
+      "local_path": "D:\\FISH\\fish-sync\\public\\site-assets\\veteran_2000.jpg",
+      "uri": "https://vsedliarybalky.com.ua/images/editor/5/veteran_2000.jpg",
+      "response": {
+        "keyName": "file",
+        "uri": "/content/images/editor/5/veteran_2000.jpg"
+      }
+    }
+  }
+}

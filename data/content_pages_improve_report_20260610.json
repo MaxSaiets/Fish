@@ -1,0 +1,51 @@
+{
+ "updated": [
+  {
+   "id": "927",
+   "title": "Про нас",
+   "status": "200",
+   "final_url": "https://vsedliarybalky.com.ua/adminLegacy/edit.php?id=927&parent=1&handler=4&checkcode=yamete_kudasai&showPages&"
+  },
+  {
+   "id": "686",
+   "title": "Контактна інформація",
+   "status": "200",
+   "final_url": "https://vsedliarybalky.com.ua/adminLegacy/edit.php?id=686&parent=1&handler=4&checkcode=yamete_kudasai&showPages&"
+  },
+  {
+   "id": "928",
+   "title": "Оплата і доставка",
+   "status": "200",
+   "final_url": "https://vsedliarybalky.com.ua/adminLegacy/edit.php?id=928&parent=1&handler=4&checkcode=yamete_kudasai&showPages&"
+  },
+  {
+   "id": "1053",
+   "title": "Відгуки про магазин",
+   "status": "200",
+   "final_url": "https://vsedliarybalky.com.ua/adminLegacy/edit.php?id=1053&parent=1&handler=4&checkcode=yamete_kudasai&showPages&"
+  }
+ ],
+ "verification": {
+  "pro-nas": {
+   "words": 1415,
+   "has_h1": true,
+   "has_phone": true
+  },
+  "kontaktna-informatsiya": {
+   "words": 1387,
+   "has_h1": true,
+   "has_phone": true
+  },
+  "oplata-i-dostavka": {
+   "words": 1422,
+   "has_h1": true,
+   "has_phone": true
+  },
+  "store-reviews": {
+   "words": 1374,
+   "has_h1": true,
+   "has_phone": true
+  }
+ },
+ "finished": "2026-06-10T23:21:38.754321"
+}

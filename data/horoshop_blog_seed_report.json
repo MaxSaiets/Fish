@@ -1,0 +1,149 @@
+{
+  "base_url": "https://vsedliarybalky.com.ua",
+  "created_or_checked": [
+    {
+      "title": "Як вибрати перший спінінг для річки та озера",
+      "slug": "yak-vybraty-pershyi-spininh-dlia-richky-ta-ozera/{id}",
+      "status": "200",
+      "final_url": "https://vsedliarybalky.com.ua/adminLegacy/extensions/dashboard.php",
+      "id": "37",
+      "url_fix": "200"
+    },
+    {
+      "title": "Фідер для початківця: що потрібно для першої риболовлі",
+      "slug": "fider-dlia-pochatkivtsia-shcho-potribno-dlia-pershoi-rybolovli/{id}",
+      "status": "200",
+      "final_url": "https://vsedliarybalky.com.ua/adminLegacy/extensions/dashboard.php",
+      "id": "38",
+      "url_fix": "200"
+    },
+    {
+      "title": "Коропова риболовля: базове оснащення без зайвого",
+      "slug": "koropova-rybolovlia-bazove-osnashchennia-bez-zaivoho/{id}",
+      "status": "200",
+      "final_url": "https://vsedliarybalky.com.ua/adminLegacy/extensions/dashboard.php",
+      "id": "39",
+      "url_fix": "200"
+    },
+    {
+      "title": "Як підібрати прикормку під карася, ляща і коропа",
+      "slug": "yak-pidibraty-prykormku-pid-karasia-liashcha-i-koropa/{id}",
+      "status": "200",
+      "final_url": "https://vsedliarybalky.com.ua/adminLegacy/extensions/dashboard.php",
+      "id": "40",
+      "url_fix": "200"
+    },
+    {
+      "title": "Пелетс, бойли і pop-up: у чому різниця",
+      "slug": "pelets-boily-i-pop-up-u-chomu-riznytsia",
+      "status": "200",
+      "final_url": "https://vsedliarybalky.com.ua/adminLegacy/extensions/dashboard.php",
+      "id": "53",
+      "url_fix": "200"
+    },
+    {
+      "title": "Гачки для риболовлі: як не помилитися з формою і розміром",
+      "slug": "hachky-dlia-rybolovli-yak-ne-pomylytysia-z-formoiu-i-rozmirom",
+      "status": "200",
+      "final_url": "https://vsedliarybalky.com.ua/adminLegacy/extensions/dashboard.php",
+      "id": "54",
+      "url_fix": "200"
+    },
+    {
+      "title": "Волосінь чи шнур: що краще для ваших умов",
+      "slug": "volosin-chy-shnur-shcho-krashche-dlia-vashykh-umov",
+      "status": "200",
+      "final_url": "https://vsedliarybalky.com.ua/adminLegacy/extensions/dashboard.php",
+      "id": "55",
+      "url_fix": "200"
+    },
+    {
+      "title": "PVA матеріали: коли вони реально потрібні",
+      "slug": "pva-materialy-koly-vony-realno-potribni",
+      "status": "200",
+      "final_url": "https://vsedliarybalky.com.ua/adminLegacy/extensions/dashboard.php",
+      "id": "56",
+      "url_fix": "200"
+    },
+    {
+      "title": "Зимова риболовля: що підготувати перед виходом на лід",
+      "slug": "zymova-rybolovlia-shcho-pidhotuvaty-pered-vykhodom-na-lid/{id}",
+      "status": "200",
+      "final_url": "https://vsedliarybalky.com.ua/adminLegacy/extensions/dashboard.php",
+      "id": "45",
+      "url_fix": "200"
+    },
+    {
+      "title": "Як доглядати за котушкою після риболовлі",
+      "slug": "yak-dohliadaty-za-kotushkoiu-pislia-rybolovli/{id}",
+      "status": "200",
+      "final_url": "https://vsedliarybalky.com.ua/adminLegacy/extensions/dashboard.php",
+      "id": "46",
+      "url_fix": "200"
+    },
+    {
+      "title": "Органайзери, коробки та сумки: порядок у снастях",
+      "slug": "orhanaizery-korobky-ta-sumky-poriadok-u-snastiakh",
+      "status": "200",
+      "final_url": "https://vsedliarybalky.com.ua/adminLegacy/extensions/dashboard.php",
+      "url_fix": "id_not_found"
+    },
+    {
+      "title": "Самовивіз чи доставка: як швидше отримати замовлення",
+      "slug": "samovyviz-chy-dostavka-yak-shvydshe-otrymaty-zamovlennia",
+      "status": "200",
+      "final_url": "https://vsedliarybalky.com.ua/adminLegacy/extensions/dashboard.php",
+      "url_fix": "id_not_found"
+    }
+  ],
+  "verification": {
+    "yak-vybraty-pershyi-spininh-dlia-richky-ta-ozera/{id}": {
+      "status_code": 404,
+      "has_title": false
+    },
+    "fider-dlia-pochatkivtsia-shcho-potribno-dlia-pershoi-rybolovli/{id}": {
+      "status_code": 404,
+      "has_title": false
+    },
+    "koropova-rybolovlia-bazove-osnashchennia-bez-zaivoho/{id}": {
+      "status_code": 404,
+      "has_title": false
+    },
+    "yak-pidibraty-prykormku-pid-karasia-liashcha-i-koropa/{id}": {
+      "status_code": 404,
+      "has_title": false
+    },
+    "pelets-boily-i-pop-up-u-chomu-riznytsia": {
+      "status_code": 200,
+      "has_title": true
+    },
+    "hachky-dlia-rybolovli-yak-ne-pomylytysia-z-formoiu-i-rozmirom": {
+      "status_code": 200,
+      "has_title": true
+    },
+    "volosin-chy-shnur-shcho-krashche-dlia-vashykh-umov": {
+      "status_code": 200,
+      "has_title": true
+    },
+    "pva-materialy-koly-vony-realno-potribni": {
+      "status_code": 200,
+      "has_title": true
+    },
+    "zymova-rybolovlia-shcho-pidhotuvaty-pered-vykhodom-na-lid/{id}": {
+      "status_code": 404,
+      "has_title": false
+    },
+    "yak-dohliadaty-za-kotushkoiu-pislia-rybolovli/{id}": {
+      "status_code": 404,
+      "has_title": false
+    },
+    "orhanaizery-korobky-ta-sumky-poriadok-u-snastiakh": {
+      "status_code": 200,
+      "has_title": true
+    },
+    "samovyviz-chy-dostavka-yak-shvydshe-otrymaty-zamovlennia": {
+      "status_code": 200,
+      "has_title": true
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "handler381_data": {
+    "url": "https://vsedliarybalky.com.ua/adminLegacy/data.php?handler=381&showPages",
+    "status": 200,
+    "file": "D:\\FISH\\fish-sync\\data\\admin_probe_handler381_data_20260607.html",
+    "length": 479060,
+    "title": "Товари - vsedliarybalky.com.ua",
+    "has_test_char": false,
+    "has_character_words": true,
+    "forms": 21,
+    "links_sample": [
+      "?handler=381&showPages&start=2",
+      "/adminLegacy/edit.php?id=1&parent=0&handler=4&checkcode=yamete_kudasai&showPages",
+      "/adminLegacy/edit.php?id=addnew&parent=1&handler=4&checkcode=yamete_kudasai&back=%2FadminLegacy%2Fdata.php%3Fhandler%3D4&showPages",
+      "/adminLegacy/edit.php?id=1&parent=0&handler=4&checkcode=yamete_kudasai&showPages",
+      "/adminLegacy/data.php?parent=97&handler=17&showPages",
+      "/adminLegacy/edit.php?id=addnew&parent=97&handler=4&checkcode=yamete_kudasai&back=%2FadminLegacy%2Fdata.php%3Fhandler%3D4&showPages",
+      "/adminLegacy/edit.php?id=97&parent=1&handler=4&checkcode=yamete_kudasai&showPages",
+      "/adminLegacy/data.php?parent=1234&handler=381&showPages",
+      "/adminLegacy/edit.php?id=addnew&parent=1234&handler=4&checkcode=yamete_kudasai&back=%2FadminLegacy%2Fdata.php%3Fhandler%3D4&showPages",
+      "/adminLegacy/edit.php?id=1234&parent=97&handler=4&checkcode=yamete_kudasai&showPages",
+      "/adminLegacy/data.php?parent=1083&handler=381&showPages",
+      "/adminLegacy/edit.php?id=addnew&parent=1083&handler=4&checkcode=yamete_kudasai&back=%2FadminLegacy%2Fdata.php%3Fhandler%3D4&showPages",
+      "/adminLegacy/edit.php?id=1083&parent=1234&handler=4&checkcode=yamete_kudasai&showPages",
+      "/adminLegacy/data.php?parent=1141&handler=381&showPages",
+      "/adminLegacy/edit.php?id=addnew&parent=1141&handler=4&checkcode=yamete_kudasai&back=%2FadminLegacy%2Fdata.php%3Fhandler%3D4&showPages",
+      "/adminLegacy/edit.php?id=1141&parent=1234&handler=4&checkcode=yamete_kudasai&showPages",
+      "/adminLegacy/data.php?parent=1138&handler=381&showPages",
+      "/adminLegacy/edit.php?id=addnew&parent=1138&handler=4&checkcode=yamete_kudasai&back=%2FadminLegacy%2Fdata.php%3Fhandler%3D4&showPages",
+      "/adminLegacy/edit.php?id=1138&parent=1234&handler=4&checkcode=yamete_kudasai&showPages",
+      "/adminLegacy/data.php?parent=1198&handler=381&showPages"
+    ],
+    "excerpt": "Товари - vsedliarybalky.com.ua horoshop v4 vsedliarybalky.com.ua ? Білінг Вийти uk ru en ro it bg hr el lt sl pl Завантаження Структура сайту 1–20 з 7311 Приховати модифікації Новий товар Vsedliarybalky ---- Каталог -------- Херабуна ------------ Вудилища махові ------------ Готові оснастки ------------ Тісто ------------ Аксесуари ------------ Підсак садок ------------ Стільці херабуна ------------ Поплавки ------------ Набори ------------ Поплавочниці та органайзери ------------ Гачки і повідки -------- Вудилища ------------ Коропові ------------ Фідерні ------------ Спінінгові ------------ Махові ------------ Болонські ------------ Запчастини та аксесуари для вудок -------- Котушки ------------ Коропові ------------ Фідерні ------------ Спінінгові ------------ Котушки архів ------------ Аксесуари до котушок ------------ Безінерційні котушки -------- Волосінь та шнури ------------ Волосінь ------------ Повідковий матеріал ------------ Шнури ------------ Флюорокарбон ------------ Гото"
+  },
+  "handler381_add": {
+    "url": "https://vsedliarybalky.com.ua/adminLegacy/edit.php?id=addnew&handler=381&checkcode=yamete_kudasai&showPages",
+    "status": 302,
+    "file": "D:\\FISH\\fish-sync\\data\\admin_probe_handler381_add_20260607.html",
+    "length": 0,
+    "title": "",
+    "has_test_char": false,
+    "has_character_words": false,
+    "forms": 0,
+    "links_sample": [],
+    "excerpt": ""
+  },
+  "template_product_add_parent97": {
+    "url": "https://vsedliarybalky.com.ua/adminLegacy/edit.php?id=addnew&parent=97&handler=381&checkcode=yamete_kudasai&showPages",
+    "status": 302,
+    "file": "D:\\FISH\\fish-sync\\data\\admin_probe_template_product_add_parent97_20260607.html",
+    "length": 0,
+    "title": "",
+    "has_test_char": false,
+    "has_character_words": false,
+    "forms": 0,
+    "links_sample": [],
+    "excerpt": ""
+  },
+  "settings_handlers": {
+    "url": "https://vsedliarybalky.com.ua/adminLegacy/data.php?handler=8&showPages",
+    "status": 200,
+    "file": "D:\\FISH\\fish-sync\\data\\admin_probe_settings_handlers_20260607.html",
+    "length": 98797,
+    "title": "Старт - vsedliarybalky.com.ua",
+    "has_test_char": false,
+    "has_character_words": false,
+    "forms": 14,
+    "links_sample": [
+      "/edit/data.php?handler=4",
+      "/edit/data.php?handler=17",
+      "/edit/data.php?handler=235",
+      "/adminLegacy/handlers/orders.php?new&back=%2FadminLegacy%2Fextensions%2Fdashboard.php"
+    ],
+    "excerpt": "Старт - vsedliarybalky.com.ua horoshop v4 vsedliarybalky.com.ua ? Білінг Вийти uk ru en ro it bg hr el lt sl pl Завантаження Старт Необходимо создавать товар внутри существующего раздела. Выберите для начала раздел. Невозможно создать товар в разделе \"Каталог\" с шаблоном \"КАТАЛОГ\". Смените шаблон для раздела. Доступ заборонено Гайд для початку роботи Закрити гайд Налаштуйте свій магазин за декілька простих кроків 5 з 7 задач виконанo Налаштуйте дизайн Для початку виберіть один із готових шаблонів дизайну в нашій галереї. Вибрати готовий шаблон Персоналізуйте обраний дизайн, щоб сайт бездоганно відображав ваш бренд та стиль. Редактор дизайну Загальні налаштування Легкі базові налаштування швидко перетворять демо-версію на ваш особистий магазин: Вкажіть назву та короткий опис магазину Завантажте логотип Вкажіть номери телефонів та месенджерів Додайте товари Якщо у вас є старий сайт чи файл з товарами від постачальника — ми з радістю допоможемо завантажити ваші товари на сайт. Підготуйте "
+  }
+}

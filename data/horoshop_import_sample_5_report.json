@@ -1,0 +1,50 @@
+{
+  "file": "D:\\FISH\\fish-sync\\public\\horoshop_import_sample_5.csv",
+  "rows": 5,
+  "columns": 206,
+  "delimiter": ";",
+  "encoding": "utf-8-sig",
+  "purpose": "safe legacy import preview only, not final mass import",
+  "products": [
+    {
+      "article": "3762",
+      "title": "Мікс ПВА - стіки Білочан Лосось (10стіків + Ліквіду) (50 мл)",
+      "category": "PVA матеріали та аксесуари / PVA матеріали",
+      "price": 175.0,
+      "presence": "В наявності",
+      "params_count": 5
+    },
+    {
+      "article": "3759",
+      "title": "Мікс ПВА - стіки Горох (10стіків + Ліквіду) (50 мл)",
+      "category": "PVA матеріали та аксесуари / PVA матеріали",
+      "price": 175.0,
+      "presence": "В наявності",
+      "params_count": 7
+    },
+    {
+      "article": "4452",
+      "title": "Мікс ПВА - стіки Кальмар Слива (10стіків + Ліквіду) (50 мл)",
+      "category": "PVA матеріали та аксесуари / PVA матеріали",
+      "price": 175.0,
+      "presence": "В наявності",
+      "params_count": 7
+    },
+    {
+      "article": "3760",
+      "title": "Мікс ПВА - стіки Кальмар Тигровий горіх (10стіків + Ліквіду) (50 мл)",
+      "category": "PVA матеріали та аксесуари / PVA матеріали",
+      "price": 175.0,
+      "presence": "В наявності",
+      "params_count": 7
+    },
+    {
+      "article": "3761",
+      "title": "Мікс ПВА - стіки Кальмар Чилі (10стіків + Ліквіду) (50 мл)",
+      "category": "PVA матеріали та аксесуари / PVA матеріали",
+      "price": 175.0,
+      "presence": "В наявності",
+      "params_count": 7
+    }
+  ]
+}

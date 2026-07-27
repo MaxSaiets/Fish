@@ -1,0 +1,734 @@
+{
+  "preview_file": "D:\\FISH\\fish-sync\\data\\legacy_pricelist_sample5_html_xls_import_response_20260607.html",
+  "total_headers": 206,
+  "available_options_count": 71,
+  "map_count": 10,
+  "skip_count": 196,
+  "blocked_count": 0,
+  "mapped_columns": [
+    {
+      "col": 0,
+      "header": "Артикул",
+      "target": "article",
+      "target_label": "Артикул [КАТАЛОГ]",
+      "status": "map",
+      "reason": "available_system_field"
+    },
+    {
+      "col": 1,
+      "header": "Назва(ua)",
+      "target": "title-_-3",
+      "target_label": "Название (ua) [КАТАЛОГ]",
+      "status": "map",
+      "reason": "available_system_field"
+    },
+    {
+      "col": 2,
+      "header": "Назва модифікації(ua)",
+      "target": "mod_title-_-3",
+      "target_label": "Название модификации (ua) [КАТАЛОГ]",
+      "status": "map",
+      "reason": "available_system_field"
+    },
+    {
+      "col": 3,
+      "header": "Розділ",
+      "target": "parent",
+      "target_label": "Раздел [КАТАЛОГ]",
+      "status": "map",
+      "reason": "available_system_field"
+    },
+    {
+      "col": 4,
+      "header": "Цена",
+      "target": "price",
+      "target_label": "Цена [КАТАЛОГ]",
+      "status": "map",
+      "reason": "available_system_field"
+    },
+    {
+      "col": 5,
+      "header": "Валюта",
+      "target": "currency",
+      "target_label": "Валюта [КАТАЛОГ]",
+      "status": "map",
+      "reason": "available_system_field"
+    },
+    {
+      "col": 6,
+      "header": "Відображати",
+      "target": "display_in_showcase",
+      "target_label": "Отображать [КАТАЛОГ]",
+      "status": "map",
+      "reason": "available_system_field"
+    },
+    {
+      "col": 7,
+      "header": "Наявність",
+      "target": "presence",
+      "target_label": "Наличие [КАТАЛОГ]",
+      "status": "map",
+      "reason": "available_system_field"
+    },
+    {
+      "col": 8,
+      "header": "Бренд",
+      "target": "brand",
+      "target_label": "Бренд [КАТАЛОГ]",
+      "status": "map",
+      "reason": "available_system_field"
+    },
+    {
+      "col": 9,
+      "header": "Опис товару(ua)",
+      "target": "description-_-3",
+      "target_label": "Описание товара (ua) [КАТАЛОГ]",
+      "status": "map",
+      "reason": "available_system_field"
+    }
+  ],
+  "blocked_columns": [],
+  "first_unmapped_characteristics": [
+    {
+      "col": 10,
+      "header": "Тип вудилища(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 11,
+      "header": "Тип насадки(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 12,
+      "header": "Тип суміші(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 13,
+      "header": "Тип атрактанту(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 14,
+      "header": "Тип(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 15,
+      "header": "Підтип(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 16,
+      "header": "Форма(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 17,
+      "header": "Матеріал(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 18,
+      "header": "Плавучість(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 19,
+      "header": "Довжина(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 20,
+      "header": "Стрій(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 21,
+      "header": "Діаметр(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 22,
+      "header": "PE(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 23,
+      "header": "Розривне навантаження(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 24,
+      "header": "Розривне навантаження (lb)(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 25,
+      "header": "Об'єм(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 26,
+      "header": "Вага(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 27,
+      "header": "Розмір(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 28,
+      "header": "Підшипники(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 29,
+      "header": "Кількість в упаковці(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 30,
+      "header": "Призначення(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 31,
+      "header": "Аромат(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 32,
+      "header": "Кастинг-тест(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 33,
+      "header": "Глибина занурення(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 34,
+      "header": "Ємність(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 35,
+      "header": "Аромат/варіант(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 36,
+      "header": "Аромат/склад(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 37,
+      "header": "Вид(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 38,
+      "header": "Вид монтажу(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 39,
+      "header": "Використання(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 40,
+      "header": "Висота(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 41,
+      "header": "Витримує навантаження(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 42,
+      "header": "Водонепроникність(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 43,
+      "header": "Водостійкість(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 44,
+      "header": "Відділення(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 45,
+      "header": "Габарити(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 46,
+      "header": "Гачки(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 47,
+      "header": "Гачок(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 48,
+      "header": "Голова(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 49,
+      "header": "Гучність сигналу(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 50,
+      "header": "Джерело живлення(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 51,
+      "header": "Джерело світла(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 52,
+      "header": "Довговічність(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 53,
+      "header": "Довжина в розкладеному вигляді(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 54,
+      "header": "Довжина в складеному вигляді(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 55,
+      "header": "Довжина оснастки(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 56,
+      "header": "Довжина поводка(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 57,
+      "header": "Довжина рукоятки(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 58,
+      "header": "Довжина ручки(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 59,
+      "header": "Довжина шнура(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 60,
+      "header": "Додаткові особливості(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 61,
+      "header": "Додаткові функції(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 62,
+      "header": "Діаметр голови(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 63,
+      "header": "Діаметр кошика(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 64,
+      "header": "Діаметр рами(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 65,
+      "header": "Діаметр сітки(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 66,
+      "header": "Діапазон температур(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 67,
+      "header": "Живлення(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 68,
+      "header": "Запалювання(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 69,
+      "header": "Застосування(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 70,
+      "header": "Застібка(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 71,
+      "header": "Захист(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 72,
+      "header": "Категорія(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 73,
+      "header": "Клімат(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 74,
+      "header": "Кліматичний режим(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 75,
+      "header": "Кліматичні умови(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 76,
+      "header": "Колір(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 77,
+      "header": "Колір підсвічування(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 78,
+      "header": "Комплектація(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 79,
+      "header": "Комфорт(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 80,
+      "header": "Консистенція(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 81,
+      "header": "Конструкція(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 82,
+      "header": "Користування(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 83,
+      "header": "Користувацька група(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 84,
+      "header": "Країна-виробник(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 85,
+      "header": "Кріплення(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 86,
+      "header": "Кут(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 87,
+      "header": "Кут нахилу(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 88,
+      "header": "Кут освітлення(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    },
+    {
+      "col": 89,
+      "header": "Кількість вудок(ua)",
+      "target": null,
+      "target_label": null,
+      "status": "skip",
+      "reason": "characteristic_or_unmapped"
+    }
+  ],
+  "important_note": "Legacy pricelist.php can update core catalog fields, but characteristic columns are not available in the dropdown except TEST_CHAR_DELETE. Do not final-import expecting characteristics to be created."
+}
