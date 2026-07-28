@@ -207,7 +207,8 @@ async def run_real_bot() -> None:
         kb = ReplyKeyboardMarkup(
             keyboard=[
                 [KeyboardButton(text="📊 Статистика"), KeyboardButton(text="⏭ Наступний товар")],
-                [KeyboardButton(text="🔄 Запустити синхронізацію")]
+                [KeyboardButton(text="🔄 Запустити синхронізацію")],
+                [KeyboardButton(text="📥 Оновити з GitHub")]
             ],
             resize_keyboard=True
         )
@@ -237,6 +238,29 @@ async def run_real_bot() -> None:
                 await msg.answer(f"✅ Успішно завершено!\n\nОстанні рядки логу:\n```\n{res.stdout[-1000:]}\n```", parse_mode="MarkdownV2")
             else:
                 await msg.answer(f"❌ Помилка!\n\n```\n{res.stderr[-1000:]}\n```", parse_mode="MarkdownV2")
+        except Exception as e:
+            await msg.answer(f"❌ Виняток: {e}")
+
+    @dp.message(F.text == "📥 Оновити з GitHub")
+    async def text_update_github(msg: Message):
+        if not is_admin(msg): return
+        await msg.answer("⏳ Завантажую оновлення з GitHub...")
+        import subprocess
+        try:
+            cmd = ["git", "pull", "origin", "main"]
+            res = await asyncio.to_thread(subprocess.run, cmd, capture_output=True, text=True, cwd=str(ROOT))
+            if res.returncode == 0:
+                out = res.stdout.strip()
+                if "Already up to date" in out:
+                    await msg.answer("✅ Система вже оновлена (Already up to date).")
+                else:
+                    # escape markdown
+                    safe_out = out.replace("`", "'")[-500:]
+                    await msg.answer(f"✅ Оновлено успішно:\n```\n{safe_out}\n```\n🔄 Перезапускаю бота...", parse_mode="MarkdownV2")
+                    os.execv(sys.executable, [sys.executable] + sys.argv)
+            else:
+                safe_err = res.stderr.replace("`", "'")[-1000:]
+                await msg.answer(f"❌ Помилка оновлення:\n```\n{safe_err}\n```", parse_mode="MarkdownV2")
         except Exception as e:
             await msg.answer(f"❌ Виняток: {e}")
 

@@ -79,6 +79,10 @@ Register-FishTask -Name "FishSyncFullPipeline" -Script "$WorkingDir\src\run_pipe
 $Trigger4 = New-ScheduledTaskTrigger -AtStartup
 Register-FishTask -Name "FishSyncServer" -Script "$WorkingDir\src\serve.py" -ArgsList "--port 8080" -Trigger $Trigger4
 
+# 5. Telegram Bot (ONSTART)
+$Trigger5 = New-ScheduledTaskTrigger -AtStartup
+Register-FishTask -Name "FishSyncBot" -Script "$WorkingDir\src\telegram_bot.py" -ArgsList "" -Trigger $Trigger5
+
 Write-Host ""
 Write-Host "=== УСІ ЗАВДАННЯ СТВОРЕНО УСПІШНО ===" -ForegroundColor Green
 Write-Host "Вони будуть виконуватись у фоні без 'чорних вікон'."
