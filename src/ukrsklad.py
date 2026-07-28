@@ -12,15 +12,20 @@ from __future__ import annotations
 import json
 import os
 import shutil
+import os
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
+from dotenv import load_dotenv
 
 # --- Шляхи (адаптовані під цю установку УкрСклад7) ----------------------------
 UKRSKLAD_DIR = Path(r"C:\Program Files (x86)\UkrSklad7")
 # fbclient.dll з УкрСкладу 32-bit, тому для 64-bit Python використовуємо
 # x64-збірку Firebird 3 embedded, скачану в tmp/fb3x64/
 FBCLIENT = Path(r"D:\FISH\fish-sync\tmp\fb3x64\fbclient.dll")
-LIVE_DB = Path(r"C:\ProgramData\UkrSklad7\db\Sklad.tcb")
+
+load_dotenv(Path(r"D:\FISH\fish-sync\.env"))
+_env_db = os.environ.get("UKRSKLAD_DB_PATH", r"C:\ProgramData\UkrSklad7\db\Sklad.tcb")
+LIVE_DB = Path(_env_db)
 SNAPSHOT_DIR = Path(r"D:\FISH\fish-sync\tmp")
 SNAPSHOT_DB = SNAPSHOT_DIR / "sklad_snapshot.fdb"
 
