@@ -259,7 +259,11 @@ async def run_real_bot() -> None:
                 else:
                     safe_out = out.replace("<", "&lt;").replace(">", "&gt;")[-500:]
                     await msg.answer(f"✅ Оновлено успішно:\n<pre>{safe_out}</pre>\n🔄 Перезапускаю бота...", parse_mode="HTML")
-                    os.execv(sys.executable, [sys.executable] + sys.argv)
+                    
+                    # Reliable restart for Windows
+                    import subprocess
+                    subprocess.Popen([sys.executable] + sys.argv, creationflags=0x00000008)
+                    os._exit(0)
             else:
                 safe_err = res.stderr.replace("<", "&lt;").replace(">", "&gt;")[-1000:]
                 await msg.answer(f"❌ Помилка оновлення:\n<pre>{safe_err}</pre>", parse_mode="HTML")
