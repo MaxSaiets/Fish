@@ -208,7 +208,7 @@ async def run_real_bot() -> None:
             keyboard=[
                 [KeyboardButton(text="📊 Статистика"), KeyboardButton(text="⏭ Наступний товар")],
                 [KeyboardButton(text="🔄 Запустити синхронізацію")],
-                [KeyboardButton(text="📥 Оновити з GitHub")]
+                [KeyboardButton(text="📥 Оновити систему та перезапустити"), KeyboardButton(text="🛑 Зупинити всі процеси")]
             ],
             resize_keyboard=True
         )
@@ -241,7 +241,7 @@ async def run_real_bot() -> None:
         except Exception as e:
             await msg.answer(f"❌ Виняток: {e}")
 
-    @dp.message(F.text == "📥 Оновити з GitHub")
+    @dp.message(F.text == "📥 Оновити систему та перезапустити")
     async def text_update_github(msg: Message):
         if not is_admin(msg): return
         await msg.answer("⏳ Завантажую оновлення з GitHub...")
@@ -263,6 +263,24 @@ async def run_real_bot() -> None:
                 await msg.answer(f"❌ Помилка оновлення:\n```\n{safe_err}\n```", parse_mode="MarkdownV2")
         except Exception as e:
             await msg.answer(f"❌ Виняток: {e}")
+
+    @dp.message(F.text == "🛑 Зупинити всі процеси")
+    async def text_stop_processes(msg: Message):
+        if not is_admin(msg): return
+        await msg.answer("⏳ Зупиняю всі фонові процеси (крім самого бота)...")
+        import subprocess
+        try:
+            # Kill all python processes except telegram_bot, and kill chrome
+            ps_script = (
+                "Get-WmiObject Win32_Process | "
+                "Where-Object { $_.CommandLine -match 'python' -and $_.CommandLine -notmatch 'telegram_bot' } | "
+                "Stop-Process -Force -ErrorAction SilentlyContinue; "
+                "Get-Process chrome, chromedriver -ErrorAction SilentlyContinue | Stop-Process -Force"
+            )
+            res = await asyncio.to_thread(subprocess.run, ["powershell", "-Command", ps_script], capture_output=True, text=True)
+            await msg.answer("✅ Усі фонові процеси синхронізації та браузери успішно зупинено!")
+        except Exception as e:
+            await msg.answer(f"❌ Помилка при зупинці: {e}")
 
     @dp.message(Command("stats"))
     async def cmd_stats(msg):
