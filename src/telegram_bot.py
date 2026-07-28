@@ -204,6 +204,22 @@ async def run_real_bot() -> None:
         if not is_admin(msg):
             return await msg.answer("⛔ Доступ заборонено")
         s = stats()
+        
+        # Build beautiful stats text
+        ai_draft = s.get("ai_draft", 0)
+        draft = s.get("draft", 0)
+        published = s.get("published", 0)
+        total = s.get("total", 0)
+        
+        stats_text = (
+            "📊 <b>Статистика товарів:</b>\n\n"
+            f"🤖 Очікують перевірки ШІ: <b>{ai_draft}</b>\n"
+            f"📝 Чорновики (без ШІ): <b>{draft}</b>\n"
+            f"✅ Опубліковано: <b>{published}</b>\n"
+            "————————————\n"
+            f"📦 Всього в базі: <b>{total}</b>"
+        )
+        
         kb = ReplyKeyboardMarkup(
             keyboard=[
                 [KeyboardButton(text="📊 Статистика"), KeyboardButton(text="⏭ Наступний товар")],
@@ -213,9 +229,9 @@ async def run_real_bot() -> None:
             resize_keyboard=True
         )
         await msg.answer(
-            f"👋 Вітаю, {msg.from_user.first_name}!\n\n"
-            f"Стат: {json.dumps(s, ensure_ascii=False)}",
-            reply_markup=kb
+            f"👋 Вітаю, {msg.from_user.first_name}!\n\n{stats_text}",
+            reply_markup=kb,
+            parse_mode="HTML"
         )
 
     @dp.message(F.text == "📊 Статистика")
@@ -291,8 +307,21 @@ async def run_real_bot() -> None:
     @dp.message(Command("stats"))
     async def cmd_stats(msg):
         if not is_admin(msg): return
-        s_json = json.dumps(stats(), ensure_ascii=False, indent=2)
-        await msg.answer(f"<pre>{s_json}</pre>", parse_mode="HTML")
+        s = stats()
+        ai_draft = s.get("ai_draft", 0)
+        draft = s.get("draft", 0)
+        published = s.get("published", 0)
+        total = s.get("total", 0)
+        
+        stats_text = (
+            "📊 <b>Статистика товарів:</b>\n\n"
+            f"🤖 Очікують перевірки ШІ: <b>{ai_draft}</b>\n"
+            f"📝 Чорновики (без ШІ): <b>{draft}</b>\n"
+            f"✅ Опубліковано: <b>{published}</b>\n"
+            "————————————\n"
+            f"📦 Всього в базі: <b>{total}</b>"
+        )
+        await msg.answer(stats_text, parse_mode="HTML")
 
     @dp.message(Command("pending"))
     async def cmd_pending(msg):
