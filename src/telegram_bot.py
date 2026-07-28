@@ -255,7 +255,9 @@ async def run_real_bot() -> None:
                 out_safe = res.stdout.replace("<", "&lt;").replace(">", "&gt;")[-1000:]
                 await msg.answer(f"✅ Успішно завершено!\n\nОстанні рядки логу:\n<pre>{out_safe}</pre>", parse_mode="HTML")
             else:
-                err_safe = res.stderr.replace("<", "&lt;").replace(">", "&gt;")[-1000:]
+                err_safe = res.stdout.replace("<", "&lt;").replace(">", "&gt;")[-1000:]
+                if not err_safe.strip():
+                    err_safe = res.stderr.replace("<", "&lt;").replace(">", "&gt;")[-1000:]
                 await msg.answer(f"❌ Помилка!\n\n<pre>{err_safe}</pre>", parse_mode="HTML")
         except Exception as e:
             await msg.answer(f"❌ Виняток: {e}")
