@@ -235,9 +235,11 @@ async def run_real_bot() -> None:
             cmd = [sys.executable, str(ROOT / "src" / "run_pipeline.py")]
             res = await asyncio.to_thread(subprocess.run, cmd, capture_output=True, text=True)
             if res.returncode == 0:
-                await msg.answer(f"✅ Успішно завершено!\n\nОстанні рядки логу:\n```\n{res.stdout[-1000:]}\n```", parse_mode="MarkdownV2")
+                out_safe = res.stdout.replace("<", "&lt;").replace(">", "&gt;")[-1000:]
+                await msg.answer(f"✅ Успішно завершено!\n\nОстанні рядки логу:\n<pre>{out_safe}</pre>", parse_mode="HTML")
             else:
-                await msg.answer(f"❌ Помилка!\n\n```\n{res.stderr[-1000:]}\n```", parse_mode="MarkdownV2")
+                err_safe = res.stderr.replace("<", "&lt;").replace(">", "&gt;")[-1000:]
+                await msg.answer(f"❌ Помилка!\n\n<pre>{err_safe}</pre>", parse_mode="HTML")
         except Exception as e:
             await msg.answer(f"❌ Виняток: {e}")
 
@@ -254,13 +256,12 @@ async def run_real_bot() -> None:
                 if "Already up to date" in out:
                     await msg.answer("✅ Система вже оновлена (Already up to date).")
                 else:
-                    # escape markdown
-                    safe_out = out.replace("`", "'")[-500:]
-                    await msg.answer(f"✅ Оновлено успішно:\n```\n{safe_out}\n```\n🔄 Перезапускаю бота...", parse_mode="MarkdownV2")
+                    safe_out = out.replace("<", "&lt;").replace(">", "&gt;")[-500:]
+                    await msg.answer(f"✅ Оновлено успішно:\n<pre>{safe_out}</pre>\n🔄 Перезапускаю бота...", parse_mode="HTML")
                     os.execv(sys.executable, [sys.executable] + sys.argv)
             else:
-                safe_err = res.stderr.replace("`", "'")[-1000:]
-                await msg.answer(f"❌ Помилка оновлення:\n```\n{safe_err}\n```", parse_mode="MarkdownV2")
+                safe_err = res.stderr.replace("<", "&lt;").replace(">", "&gt;")[-1000:]
+                await msg.answer(f"❌ Помилка оновлення:\n<pre>{safe_err}</pre>", parse_mode="HTML")
         except Exception as e:
             await msg.answer(f"❌ Виняток: {e}")
 
@@ -285,7 +286,8 @@ async def run_real_bot() -> None:
     @dp.message(Command("stats"))
     async def cmd_stats(msg):
         if not is_admin(msg): return
-        await msg.answer(f"```\n{json.dumps(stats(), ensure_ascii=False, indent=2)}\n```", parse_mode="MarkdownV2")
+        s_json = json.dumps(stats(), ensure_ascii=False, indent=2)
+        await msg.answer(f"<pre>{s_json}</pre>", parse_mode="HTML")
 
     @dp.message(Command("pending"))
     async def cmd_pending(msg):
