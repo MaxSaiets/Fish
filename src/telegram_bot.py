@@ -232,7 +232,8 @@ async def run_real_bot() -> None:
         await msg.answer("⏳ Запускаю повний цикл (pipeline). Це займе 1-2 хвилини...")
         import subprocess
         try:
-            cmd = [sys.executable, str(ROOT / "src" / "run_pipeline.py")]
+            py_exe = sys.executable.replace("pythonw.exe", "python.exe")
+            cmd = [py_exe, str(ROOT / "src" / "run_pipeline.py")]
             res = await asyncio.to_thread(subprocess.run, cmd, capture_output=True, text=True)
             if res.returncode == 0:
                 out_safe = res.stdout.replace("<", "&lt;").replace(">", "&gt;")[-1000:]
