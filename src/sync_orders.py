@@ -506,6 +506,27 @@ def load_env() -> dict[str, str]:
     return env
 
 
+def send_telegram_notification(text: str, env: dict[str, str]) -> None:
+    token = env.get("TELEGRAM_BOT_TOKEN")
+    admin_ids_str = env.get("TELEGRAM_ADMIN_IDS")
+    if not token or not admin_ids_str:
+        return
+
+    import urllib.request
+    import urllib.parse
+
+    admin_ids = [aid.strip() for aid in admin_ids_str.split(",") if aid.strip()]
+    for aid in admin_ids:
+        url = f"https://api.telegram.org/bot{token}/sendMessage"
+        data = urllib.parse.urlencode({"chat_id": aid, "text": text, "parse_mode": "HTML"}).encode("utf-8")
+        try:
+            req = urllib.request.Request(url, data=data)
+            with urllib.request.urlopen(req, timeout=10) as res:
+                pass
+        except Exception as e:
+            print(f"  [WARN] Failed to send Telegram notification to {aid}: {e}")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="Sync orders Horoshop -> UkrSklad")
     ap.add_argument("--dry-run", action="store_true", help="Do not write to DB")
@@ -580,6 +601,16 @@ def main() -> int:
 
     if not args.dry_run:
         save_processed(processed)
+
+    if success > 0 and not args.dry_run:
+        msg_lines = [f"🛒 <b>Нові замовлення синхронізовано!</b> ({success} шт.)\n"]
+        for order in new_orders:
+            if order.get("ukrsklad_result", {}).get("status") == "ok":
+                items_count = sum(i.get("qty", 1) for i in order.get("items", []))
+                msg_lines.append(f"• Замовлення <b>#{order['horoshop_id']}</b>")
+                msg_lines.append(f"👤 {order.get('customer', 'Без імені')} | 💰 {order.get('total', 0)} грн")
+                msg_lines.append(f"📦 Товарів: {items_count} шт.\n")
+        send_telegram_notification("\n".join(msg_lines), env)
 
     finished = datetime.now()
     report["status"] = "ok" if errors == 0 else "partial"
