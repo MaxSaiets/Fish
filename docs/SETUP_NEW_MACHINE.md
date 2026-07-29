@@ -32,10 +32,29 @@
    Завантажити: https://www.python.org/downloads/release/python-3110/
    При встановленні — обов'язково галочку **"Add python.exe to PATH"**.
 3. **Git for Windows**: https://git-scm.com/download/win
-4. **УкрСклад7** — має бути встановлений і налаштований так само, як на старому ноутбуці
-   (`C:\Program Files (x86)\UkrSklad7\`), з тією ж базою `C:\ProgramData\UkrSklad7\db\Sklad.tcb`.
-   Без цього не працюватиме синхронізація "УкрСклад → Horoshop" (але решта — робота з Horoshop
-   напряму — працюватиме і без УкрСкладу).
+4. **УкрСклад7** — має бути встановлений. Без нього не працюватиме синхронізація
+   "УкрСклад → Horoshop" (але решта — робота з Horoshop напряму — працюватиме).
+
+   ⚠️ **Шлях до бази РІЗНИЙ залежно від редакції** — на робочому ноуті магазину стоїть
+   клієнт-серверна версія (`UkrSklad7C` + `UkrSklad7S`), а не однокористувацька `UkrSklad7`.
+   Скрипт `src/ukrsklad.py` шукає базу автоматично (`find_live_db()`): перевіряє
+   `UkrSklad7S`, `UkrSklad7C`, `UkrSklad7` у `C:\ProgramData` (+ `D:\ProgramData`,
+   `C:\Users\Public`) і бере **найбільший** знайдений `Sklad.tcb` — бо в клієнта база
+   може бути порожньою заглушкою. **Нічого правити в коді не треба.**
+
+   Перевірити, що знайшлась правильна база:
+   ```
+   python -c "import sys; sys.path.insert(0,'src'); import ukrsklad as u; print(u.LIVE_DB, u.LIVE_DB.exists())"
+   ```
+   Якщо база лежить нестандартно — вказати шлях явно в `.env`:
+   ```
+   UKRSKLAD_DB_PATH=C:\ProgramData\UkrSklad7S\db\Sklad.tcb
+   ```
+   Знайти всі бази на диску вручну:
+   ```powershell
+   Get-ChildItem C:\ -Filter Sklad.tcb -Recurse -ErrorAction SilentlyContinue |
+     Select-Object FullName, @{N='MB';E={[math]::Round($_.Length/1MB,1)}}, LastWriteTime
+   ```
 
 ---
 
