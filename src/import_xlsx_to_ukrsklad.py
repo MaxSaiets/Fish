@@ -26,7 +26,7 @@ from catalog_rules import get_source_category, parse_product
 ROOT = Path(r"D:\FISH\fish-sync")
 PREVIEW_JSON = ROOT / "data" / "xlsx_import_preview.json"
 FBCLIENT = ROOT / "tmp" / "fb3x64" / "fbclient.dll"
-LIVE_DB = Path(r"C:\ProgramData\UkrSklad7\db\Sklad.tcb")
+from ukrsklad import LIVE_DB  # автовизначення UkrSklad7 / 7S / 7C (див. ukrsklad.py)
 SNAPSHOT_DB = ROOT / "tmp" / "sklad_snapshot.fdb"
 
 DEFAULT_HEADERS = [

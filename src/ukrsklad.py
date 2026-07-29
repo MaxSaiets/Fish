@@ -17,15 +17,70 @@ from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from dotenv import load_dotenv
 
-# --- Шляхи (адаптовані під цю установку УкрСклад7) ----------------------------
-UKRSKLAD_DIR = Path(r"C:\Program Files (x86)\UkrSklad7")
+# --- Шляхи --------------------------------------------------------------------
+# УкрСклад ставиться під різними іменами залежно від редакції:
+#   UkrSklad7   — однокористувацька
+#   UkrSklad7S  — серверна частина (саме вона тримає робочу базу)
+#   UkrSklad7C  — клієнтська частина
+# Тому шлях не хардкодимо, а шукаємо. Пріоритет: змінна UKRSKLAD_DB_PATH з .env,
+# далі — найбільший знайдений Sklad.tcb (у клієнта база може бути порожньою).
+_DATA_ROOTS = (r"C:\ProgramData", r"D:\ProgramData", r"C:\Users\Public")
+_PROG_ROOTS = (r"C:\Program Files (x86)", r"C:\Program Files",
+               r"D:\Program Files (x86)", r"D:\Program Files")
+_EDITIONS = ("UkrSklad7S", "UkrSklad7C", "UkrSklad7")
+
+
+def find_live_db() -> Path | None:
+    """Знаходить робочу базу УкрСкладу серед усіх варіантів установки."""
+    found: list[Path] = []
+    for root in _DATA_ROOTS:
+        base = Path(root)
+        if not base.is_dir():
+            continue
+        for edition in _EDITIONS:
+            for name in ("Sklad.tcb", "sklad.tcb"):
+                p = base / edition / "db" / name
+                if p.is_file():
+                    found.append(p)
+        # на випадок нестандартної назви теки (UkrSklad7_2, UkrSklad7Serv тощо)
+        try:
+            for d in base.glob("UkrSklad7*"):
+                p = d / "db" / "Sklad.tcb"
+                if p.is_file():
+                    found.append(p)
+        except OSError:
+            pass
+    if not found:
+        return None
+    # робоча база — найбільша (шаблон SkladEmp.tcb і клієнтські копії дрібніші)
+    return max(set(found), key=lambda p: p.stat().st_size)
+
+
+def find_ukrsklad_dir() -> Path | None:
+    for root in _PROG_ROOTS:
+        base = Path(root)
+        if not base.is_dir():
+            continue
+        for edition in _EDITIONS:
+            d = base / edition
+            if d.is_dir():
+                return d
+    return None
+
+
+load_dotenv(Path(r"D:\FISH\fish-sync\.env"))
+
+_env_db = os.environ.get("UKRSKLAD_DB_PATH", "").strip()
+if _env_db:
+    LIVE_DB = Path(_env_db)
+else:
+    LIVE_DB = find_live_db() or Path(r"C:\ProgramData\UkrSklad7\db\Sklad.tcb")
+
+UKRSKLAD_DIR = find_ukrsklad_dir() or Path(r"C:\Program Files (x86)\UkrSklad7")
+
 # fbclient.dll з УкрСкладу 32-bit, тому для 64-bit Python використовуємо
 # x64-збірку Firebird 3 embedded, скачану в tmp/fb3x64/
 FBCLIENT = Path(r"D:\FISH\fish-sync\tmp\fb3x64\fbclient.dll")
-
-load_dotenv(Path(r"D:\FISH\fish-sync\.env"))
-_env_db = os.environ.get("UKRSKLAD_DB_PATH", r"C:\ProgramData\UkrSklad7\db\Sklad.tcb")
-LIVE_DB = Path(_env_db)
 SNAPSHOT_DIR = Path(r"D:\FISH\fish-sync\tmp")
 SNAPSHOT_DB = SNAPSHOT_DIR / "sklad_snapshot.fdb"
 
