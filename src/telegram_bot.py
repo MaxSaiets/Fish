@@ -394,8 +394,8 @@ async def run_real_bot() -> None:
         try:
             await dp.start_polling(bot)
         except Exception as e:
-            print(f"Polling error: {e}. Retrying in 10 seconds...")
-            await asyncio.sleep(10)
+            print(f"Polling error: {e}. Retrying in 15 minutes...")
+            await asyncio.sleep(900)
 
 
 def main() -> None:
