@@ -51,8 +51,27 @@ def load_env() -> dict[str, str]:
 
 
 def load_tg() -> tuple[str, list[int]]:
-    cfg = json.loads(TG_CONFIG.read_text(encoding="utf-8"))
-    return cfg["token"], list(cfg.get("allowed_user_ids") or [])
+    """Токен і отримувачі.
+
+    ПРІОРИТЕТ — .env (TELEGRAM_BOT_TOKEN / TELEGRAM_ADMIN_IDS), бо саме звідти
+    бере токен сам бот. Раніше цей скрипт читав ЛИШЕ config.json, і коли там
+    лишився токен старого (відкликаного) бота, сповіщення про замовлення
+    мовчки не доходили: Telegram відповідав 'Unauthorized', а скрипт завершувався
+    успішно. Знайдено 31.07.2026 на живому тестовому замовленні.
+    config.json лишається запасним варіантом.
+    """
+    env = load_env()
+    token = (env.get("TELEGRAM_BOT_TOKEN") or "").strip()
+    ids = [int(x) for x in (env.get("TELEGRAM_ADMIN_IDS") or "").split(",") if x.strip().isdigit()]
+
+    if not token or not ids:
+        try:
+            cfg = json.loads(TG_CONFIG.read_text(encoding="utf-8"))
+            token = token or (cfg.get("token") or "").strip()
+            ids = ids or list(cfg.get("allowed_user_ids") or [])
+        except Exception:
+            pass
+    return token, ids
 
 
 def tg_send(token: str, chat_id: int, text: str) -> bool:
