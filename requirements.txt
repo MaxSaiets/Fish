@@ -1,0 +1,13 @@
+# fish-sync — залежності (Python 3.11)
+# Встановлення:  pip install -r requirements.txt
+#                playwright install chromium
+
+aiogram==3.13.1          # Telegram-бот
+fdb                      # Firebird/УкрСклад (потрібен tmp/fb3x64/fbclient.dll)
+requests                 # HTTP до Horoshop
+playwright               # автоматизація адмінки Horoshop
+python-dotenv            # .env
+Pillow                   # генерація банерів/зображень
+rapidfuzz                # зіставлення фото↔товар
+openpyxl                 # XLS-імпорти
+google-generativeai      # AI-описи (Gemini), опційно

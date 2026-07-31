@@ -37,9 +37,15 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-ROOT = Path(r"D:\FISH\fish-sync")
+ROOT = Path(__file__).resolve().parent.parent   # не хардкодимо D:\FISH — працює з будь-якої теки
 META_DB = ROOT / "data" / "meta_store.sqlite"
 load_dotenv(ROOT / ".env")
+
+sys.path.insert(0, str(ROOT / "src"))
+try:
+    import bot_dashboard  # реальна бізнес-статистика
+except Exception:  # pragma: no cover
+    bot_dashboard = None
 
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 ADMIN_IDS = {int(x) for x in os.environ.get("TELEGRAM_ADMIN_IDS", "").split(",") if x.strip().isdigit()}
@@ -90,6 +96,24 @@ def set_status(parent_key: str, status: str) -> bool:
         )
         conn.commit()
         return cur.rowcount > 0
+
+
+def build_stats_text() -> str:
+    """Головна статистика: реальні бізнес-метрики + черга модерації AI."""
+    parts = []
+    if bot_dashboard is not None:
+        try:
+            parts.append(bot_dashboard.dashboard_html())
+        except Exception as exc:  # не валимо бота через статистику
+            parts.append(f"⚠️ Дашборд недоступний: {exc}")
+    s = stats()
+    parts.append(
+        "\n🤖 <b>Черга AI-описів</b>\n"
+        f"   Чекають перевірки: <b>{s.get('ai_draft', 0)}</b>\n"
+        f"   Ще без опису: {s.get('draft', 0)}\n"
+        f"   Затверджено: {s.get('approved', 0)} · відхилено: {s.get('rejected', 0)}"
+    )
+    return "\n".join(parts)
 
 
 def format_model_card(parent_key: str) -> str:
@@ -203,26 +227,12 @@ async def run_real_bot() -> None:
     async def cmd_start(msg):
         if not is_admin(msg):
             return await msg.answer("⛔ Доступ заборонено")
-        s = stats()
-        
-        # Build beautiful stats text
-        ai_draft = s.get("ai_draft", 0)
-        draft = s.get("draft", 0)
-        published = s.get("published", 0)
-        total = s.get("total", 0)
-        
-        stats_text = (
-            "📊 <b>Статистика товарів:</b>\n\n"
-            f"🤖 Очікують перевірки ШІ: <b>{ai_draft}</b>\n"
-            f"📝 Чорновики (без ШІ): <b>{draft}</b>\n"
-            f"✅ Опубліковано: <b>{published}</b>\n"
-            "————————————\n"
-            f"📦 Всього в базі: <b>{total}</b>"
-        )
-        
+        stats_text = build_stats_text()
+
         kb = ReplyKeyboardMarkup(
             keyboard=[
-                [KeyboardButton(text="📊 Статистика"), KeyboardButton(text="⏭ Наступний товар")],
+                [KeyboardButton(text="📊 Статистика"), KeyboardButton(text="🏆 Топ продажів")],
+                [KeyboardButton(text="⚠️ Закінчилось з топу"), KeyboardButton(text="⏭ Наступний товар")],
                 [KeyboardButton(text="🔄 Запустити синхронізацію")],
                 [KeyboardButton(text="📥 Оновити систему та перезапустити"), KeyboardButton(text="🛑 Зупинити всі процеси")]
             ],
@@ -291,39 +301,60 @@ async def run_real_bot() -> None:
     @dp.message(F.text == "🛑 Зупинити всі процеси")
     async def text_stop_processes(msg: Message):
         if not is_admin(msg): return
-        await msg.answer("⏳ Зупиняю всі фонові процеси (крім самого бота)...")
+        await msg.answer("⏳ Зупиняю фонові процеси синхронізації...")
         import subprocess
         try:
-            # Kill all python processes except telegram_bot, and kill chrome
+            # ВАЖЛИВО: зупиняємо ТІЛЬКИ процеси цього проєкту.
+            # Стара версія била по будь-якому 'python' і по всьому Chrome —
+            # це вбивало сторонні боти користувача і його робочі вкладки браузера.
             ps_script = (
-                "Get-WmiObject Win32_Process | "
-                "Where-Object { $_.CommandLine -match 'python' -and $_.CommandLine -notmatch 'telegram_bot' } | "
-                "Stop-Process -Force -ErrorAction SilentlyContinue; "
-                "Get-Process chrome, chromedriver -ErrorAction SilentlyContinue | Stop-Process -Force"
+                "$killed = @(); "
+                "Get-CimInstance Win32_Process | Where-Object { "
+                "  $_.CommandLine -and $_.CommandLine -match 'fish-sync' "
+                "  -and $_.CommandLine -notmatch 'telegram_bot' } | ForEach-Object { "
+                "  $killed += ('{0} {1}' -f $_.ProcessId, $_.Name); "
+                "  Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue }; "
+                # headless-браузери Playwright — звичайний Chrome користувача НЕ чіпаємо
+                "Get-CimInstance Win32_Process | Where-Object { "
+                "  $_.CommandLine -and $_.CommandLine -match '--headless' } | ForEach-Object { "
+                "  $killed += ('{0} {1}' -f $_.ProcessId, $_.Name); "
+                "  Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue }; "
+                "if ($killed.Count -eq 0) { 'NONE' } else { $killed -join \"`n\" }"
             )
-            res = await asyncio.to_thread(subprocess.run, ["powershell", "-Command", ps_script], capture_output=True, text=True)
-            await msg.answer("✅ Усі фонові процеси синхронізації та браузери успішно зупинено!")
+            res = await asyncio.to_thread(
+                subprocess.run, ["powershell", "-NoProfile", "-Command", ps_script],
+                capture_output=True, text=True)
+            out = (res.stdout or "").strip()
+            if not out or out == "NONE":
+                await msg.answer("ℹ️ Активних процесів синхронізації не було — зупиняти нічого.")
+            else:
+                safe = out.replace("<", "&lt;").replace(">", "&gt;")[-800:]
+                n = len([x for x in out.splitlines() if x.strip()])
+                await msg.answer(
+                    f"✅ Зупинено процесів: <b>{n}</b>\n<pre>{safe}</pre>\n"
+                    "<i>Ваш звичайний Chrome і сторонні програми не чіпалися.</i>",
+                    parse_mode="HTML")
         except Exception as e:
             await msg.answer(f"❌ Помилка при зупинці: {e}")
 
     @dp.message(Command("stats"))
     async def cmd_stats(msg):
         if not is_admin(msg): return
-        s = stats()
-        ai_draft = s.get("ai_draft", 0)
-        draft = s.get("draft", 0)
-        published = s.get("published", 0)
-        total = s.get("total", 0)
-        
-        stats_text = (
-            "📊 <b>Статистика товарів:</b>\n\n"
-            f"🤖 Очікують перевірки ШІ: <b>{ai_draft}</b>\n"
-            f"📝 Чорновики (без ШІ): <b>{draft}</b>\n"
-            f"✅ Опубліковано: <b>{published}</b>\n"
-            "————————————\n"
-            f"📦 Всього в базі: <b>{total}</b>"
-        )
-        await msg.answer(stats_text, parse_mode="HTML")
+        await msg.answer(build_stats_text(), parse_mode="HTML")
+
+    @dp.message(F.text == "🏆 Топ продажів")
+    async def text_top_sales(msg: Message):
+        if not is_admin(msg): return
+        if bot_dashboard is None:
+            return await msg.answer("Модуль статистики недоступний.")
+        await msg.answer(bot_dashboard.top_sellers_html(7), parse_mode="HTML")
+
+    @dp.message(F.text == "⚠️ Закінчилось з топу")
+    async def text_stale_top(msg: Message):
+        if not is_admin(msg): return
+        if bot_dashboard is None:
+            return await msg.answer("Модуль статистики недоступний.")
+        await msg.answer(bot_dashboard.stale_top_html(10), parse_mode="HTML")
 
     @dp.message(Command("pending"))
     async def cmd_pending(msg):
@@ -343,14 +374,20 @@ async def run_real_bot() -> None:
             ]
         ])
 
+    async def send_next_card(target) -> None:
+        """Показати наступну картку. БЕЗ перевірки адміна — викликається вже після неї.
+        (Раніше callback-и звали cmd_next(call.message), а там from_user = сам бот,
+        тож перевірка не проходила і після approve/reject нічого не показувалось.)"""
+        rows = list_pending(limit=1)
+        if not rows:
+            return await target.answer("✅ Черга порожня — усе перевірено.")
+        pk = rows[0]["parent_key"]
+        await target.answer(format_model_card(pk), reply_markup=get_inline_kb(pk))
+
     @dp.message(Command("next"))
     async def cmd_next(msg):
         if not is_admin(msg): return
-        rows = list_pending(limit=1)
-        if not rows:
-            return await msg.answer("Нічого на модерації.")
-        pk = rows[0]["parent_key"]
-        await msg.answer(format_model_card(pk), reply_markup=get_inline_kb(pk))
+        await send_next_card(msg)
 
     async def parse_arg(msg) -> str:
         parts = msg.text.split(maxsplit=1)
@@ -369,7 +406,7 @@ async def run_real_bot() -> None:
         ok = set_status(pk, "approved")
         await call.message.edit_text(call.message.text + "\n\n✅ Затверджено!")
         await call.answer("Approved!")
-        await cmd_next(call.message)
+        await send_next_card(call.message)
 
     @dp.callback_query(F.data.startswith("reject:"))
     async def cb_reject(call: CallbackQuery):
@@ -378,7 +415,7 @@ async def run_real_bot() -> None:
         ok = set_status(pk, "rejected")
         await call.message.edit_text(call.message.text + "\n\n❌ Відхилено!")
         await call.answer("Rejected!")
-        await cmd_next(call.message)
+        await send_next_card(call.message)
 
     @dp.callback_query(F.data.startswith("regen:"))
     async def cb_regen(call: CallbackQuery):
@@ -387,7 +424,7 @@ async def run_real_bot() -> None:
         ok = set_status(pk, "draft")
         await call.message.edit_text(call.message.text + "\n\n🔄 Відправлено на перегенерацію!")
         await call.answer("Regen!")
-        await cmd_next(call.message)
+        await send_next_card(call.message)
 
     print("Bot started, polling...")
     while True:
