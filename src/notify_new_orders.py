@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
+r"""
 notify_new_orders.py — сповіщення в Telegram про НОВІ замовлення з сайту.
 
 Тягне замовлення з Horoshop тим самим робочим механізмом, що й sync_orders.py
