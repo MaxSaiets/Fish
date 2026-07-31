@@ -213,218 +213,399 @@ async def run_real_bot() -> None:
     try:
         from aiogram import Bot, Dispatcher, F
         from aiogram.filters import CommandStart, Command
-        from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
+        from aiogram.types import (Message, ReplyKeyboardMarkup, KeyboardButton,
+                                   InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery)
     except ImportError:
-        sys.exit("pip install aiogram==3.13.1")
+        sys.exit("pip install -r requirements.txt  (потрібен aiogram==3.13.1)")
 
     bot = Bot(BOT_TOKEN)
     dp = Dispatcher()
 
+    # Проста памʼять діалогу: {user_id: {"mode": ..., "photo": ...}}
+    state: dict[int, dict] = {}
+
     def is_admin(msg) -> bool:
         return not ADMIN_IDS or msg.from_user.id in ADMIN_IDS
 
+    # ─────────── клавіатури ───────────
+
+    MAIN_KB = ReplyKeyboardMarkup(
+        keyboard=[
+            [KeyboardButton(text="🛒 Замовлення"), KeyboardButton(text="🔎 Знайти товар")],
+            [KeyboardButton(text="📸 Що фоткати"), KeyboardButton(text="📊 Статистика")],
+            [KeyboardButton(text="⚙️ Ще")],
+        ],
+        resize_keyboard=True,
+    )
+    MORE_KB = ReplyKeyboardMarkup(
+        keyboard=[
+            [KeyboardButton(text="🩺 Перевірка системи"), KeyboardButton(text="🏆 Топ продажів")],
+            [KeyboardButton(text="⚠️ Закінчилось з топу"), KeyboardButton(text="🤖 AI-описи")],
+            [KeyboardButton(text="🔄 Синхронізація")],
+            [KeyboardButton(text="📥 Оновити бота"), KeyboardButton(text="🛑 Стоп процеси")],
+            [KeyboardButton(text="⬅️ Назад")],
+        ],
+        resize_keyboard=True,
+    )
+
+    def confirm_kb(action: str) -> InlineKeyboardMarkup:
+        return InlineKeyboardMarkup(inline_keyboard=[[
+            InlineKeyboardButton(text="✅ Так", callback_data=f"do:{action}"),
+            InlineKeyboardButton(text="✖️ Скасувати", callback_data="do:cancel"),
+        ]])
+
+    async def safe_answer(msg, text: str, **kw):
+        """Telegram не приймає >4096 символів."""
+        for i in range(0, len(text), 3900):
+            await msg.answer(text[i:i + 3900], **kw)
+
+    # ─────────── старт / довідка ───────────
+
     @dp.message(CommandStart())
-    async def cmd_start(msg):
+    async def cmd_start(msg: Message):
         if not is_admin(msg):
             return await msg.answer("⛔ Доступ заборонено")
-        stats_text = build_stats_text()
+        state.pop(msg.from_user.id, None)
+        await safe_answer(msg, f"👋 Вітаю, {msg.from_user.first_name}!\n\n" + build_stats_text(),
+                          reply_markup=MAIN_KB, parse_mode="HTML")
 
-        kb = ReplyKeyboardMarkup(
-            keyboard=[
-                [KeyboardButton(text="📊 Статистика"), KeyboardButton(text="🏆 Топ продажів")],
-                [KeyboardButton(text="⚠️ Закінчилось з топу"), KeyboardButton(text="⏭ Наступний товар")],
-                [KeyboardButton(text="🔄 Запустити синхронізацію")],
-                [KeyboardButton(text="📥 Оновити систему та перезапустити"), KeyboardButton(text="🛑 Зупинити всі процеси")]
-            ],
-            resize_keyboard=True
-        )
+    @dp.message(Command("help"))
+    async def cmd_help(msg: Message):
+        if not is_admin(msg): return
         await msg.answer(
-            f"👋 Вітаю, {msg.from_user.first_name}!\n\n{stats_text}",
-            reply_markup=kb,
-            parse_mode="HTML"
-        )
+            "<b>Що вміє бот</b>\n\n"
+            "🛒 <b>Замовлення</b> — нові замовлення з сайту\n"
+            "🔎 <b>Знайти товар</b> — пошук за назвою; надішліть артикул — покаже картку\n"
+            "📸 <b>Що фоткати</b> — черга товарів без фото\n"
+            "   ↳ надішліть фото, а в підпис — артикул, і воно одразу піде на сайт\n"
+            "📊 <b>Статистика</b> — стан магазину\n\n"
+            "⚙️ <b>Ще</b> — технічне: перевірка системи, синхронізація, оновлення бота\n\n"
+            "Команди: /start /help /stats /next /pending",
+            parse_mode="HTML")
 
-    @dp.message(F.text == "📊 Статистика")
-    async def text_stats(msg: Message):
-        await cmd_stats(msg)
-
-    @dp.message(F.text == "⏭ Наступний товар")
-    async def text_next(msg: Message):
-        await cmd_next(msg)
-
-    @dp.message(F.text == "🔄 Запустити синхронізацію")
-    async def text_run_sync(msg: Message):
+    @dp.message(F.text == "⚙️ Ще")
+    async def more_menu(msg: Message):
         if not is_admin(msg): return
-        await msg.answer("⏳ Запускаю повний цикл (pipeline). Це займе 1-2 хвилини...")
-        import subprocess
-        try:
-            py_exe = sys.executable.replace("pythonw.exe", "python.exe")
-            cmd = [py_exe, str(ROOT / "src" / "run_pipeline.py")]
-            res = await asyncio.to_thread(subprocess.run, cmd, capture_output=True, text=True)
-            if res.returncode == 0:
-                out_safe = res.stdout.replace("<", "&lt;").replace(">", "&gt;")[-1000:]
-                await msg.answer(f"✅ Успішно завершено!\n\nОстанні рядки логу:\n<pre>{out_safe}</pre>", parse_mode="HTML")
-            else:
-                err_safe = res.stdout.replace("<", "&lt;").replace(">", "&gt;")[-1000:]
-                if not err_safe.strip():
-                    err_safe = res.stderr.replace("<", "&lt;").replace(">", "&gt;")[-1000:]
-                await msg.answer(f"❌ Помилка!\n\n<pre>{err_safe}</pre>", parse_mode="HTML")
-        except Exception as e:
-            await msg.answer(f"❌ Виняток: {e}")
+        await msg.answer("⚙️ Технічне меню", reply_markup=MORE_KB)
 
-    @dp.message(F.text == "📥 Оновити систему та перезапустити")
-    async def text_update_github(msg: Message):
+    @dp.message(F.text == "⬅️ Назад")
+    async def back_menu(msg: Message):
         if not is_admin(msg): return
-        await msg.answer("⏳ Завантажую оновлення з GitHub...")
-        import subprocess
-        try:
-            cmd = ["git", "pull", "origin", "main"]
-            res = await asyncio.to_thread(subprocess.run, cmd, capture_output=True, text=True, cwd=str(ROOT))
-            if res.returncode == 0:
-                out = res.stdout.strip()
-                if "Already up to date" in out:
-                    await msg.answer("✅ Система вже оновлена (Already up to date).")
-                else:
-                    safe_out = out.replace("<", "&lt;").replace(">", "&gt;")[-500:]
-                    await msg.answer(f"✅ Оновлено успішно:\n<pre>{safe_out}</pre>\n🔄 Перезапускаю бота...", parse_mode="HTML")
-                    
-                    # Reliable restart for Windows
-                    import subprocess
-                    subprocess.Popen([sys.executable] + sys.argv, creationflags=0x00000008)
-                    os._exit(0)
-            else:
-                safe_err = res.stderr.replace("<", "&lt;").replace(">", "&gt;")[-1000:]
-                await msg.answer(f"❌ Помилка оновлення:\n<pre>{safe_err}</pre>", parse_mode="HTML")
-        except Exception as e:
-            await msg.answer(f"❌ Виняток: {e}")
+        state.pop(msg.from_user.id, None)
+        await msg.answer("Головне меню", reply_markup=MAIN_KB)
 
-    @dp.message(F.text == "🛑 Зупинити всі процеси")
-    async def text_stop_processes(msg: Message):
-        if not is_admin(msg): return
-        await msg.answer("⏳ Зупиняю фонові процеси синхронізації...")
-        import subprocess
-        try:
-            # ВАЖЛИВО: зупиняємо ТІЛЬКИ процеси цього проєкту.
-            # Стара версія била по будь-якому 'python' і по всьому Chrome —
-            # це вбивало сторонні боти користувача і його робочі вкладки браузера.
-            ps_script = (
-                "$killed = @(); "
-                "Get-CimInstance Win32_Process | Where-Object { "
-                "  $_.CommandLine -and $_.CommandLine -match 'fish-sync' "
-                "  -and $_.CommandLine -notmatch 'telegram_bot' } | ForEach-Object { "
-                "  $killed += ('{0} {1}' -f $_.ProcessId, $_.Name); "
-                "  Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue }; "
-                # headless-браузери Playwright — звичайний Chrome користувача НЕ чіпаємо
-                "Get-CimInstance Win32_Process | Where-Object { "
-                "  $_.CommandLine -and $_.CommandLine -match '--headless' } | ForEach-Object { "
-                "  $killed += ('{0} {1}' -f $_.ProcessId, $_.Name); "
-                "  Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue }; "
-                "if ($killed.Count -eq 0) { 'NONE' } else { $killed -join \"`n\" }"
-            )
-            res = await asyncio.to_thread(
-                subprocess.run, ["powershell", "-NoProfile", "-Command", ps_script],
-                capture_output=True, text=True)
-            out = (res.stdout or "").strip()
-            if not out or out == "NONE":
-                await msg.answer("ℹ️ Активних процесів синхронізації не було — зупиняти нічого.")
-            else:
-                safe = out.replace("<", "&lt;").replace(">", "&gt;")[-800:]
-                n = len([x for x in out.splitlines() if x.strip()])
-                await msg.answer(
-                    f"✅ Зупинено процесів: <b>{n}</b>\n<pre>{safe}</pre>\n"
-                    "<i>Ваш звичайний Chrome і сторонні програми не чіпалися.</i>",
-                    parse_mode="HTML")
-        except Exception as e:
-            await msg.answer(f"❌ Помилка при зупинці: {e}")
+    # ─────────── статистика ───────────
 
     @dp.message(Command("stats"))
-    async def cmd_stats(msg):
+    @dp.message(F.text == "📊 Статистика")
+    async def cmd_stats(msg: Message):
         if not is_admin(msg): return
-        await msg.answer(build_stats_text(), parse_mode="HTML")
+        await safe_answer(msg, build_stats_text(), parse_mode="HTML")
 
     @dp.message(F.text == "🏆 Топ продажів")
     async def text_top_sales(msg: Message):
         if not is_admin(msg): return
         if bot_dashboard is None:
             return await msg.answer("Модуль статистики недоступний.")
-        await msg.answer(bot_dashboard.top_sellers_html(7), parse_mode="HTML")
+        await safe_answer(msg, bot_dashboard.top_sellers_html(7), parse_mode="HTML")
 
     @dp.message(F.text == "⚠️ Закінчилось з топу")
     async def text_stale_top(msg: Message):
         if not is_admin(msg): return
         if bot_dashboard is None:
             return await msg.answer("Модуль статистики недоступний.")
-        await msg.answer(bot_dashboard.stale_top_html(10), parse_mode="HTML")
+        await safe_answer(msg, bot_dashboard.stale_top_html(10), parse_mode="HTML")
+
+    @dp.message(F.text == "🩺 Перевірка системи")
+    async def text_health(msg: Message):
+        if not is_admin(msg): return
+        await msg.answer("⏳ Перевіряю…")
+        try:
+            import bot_actions
+            res = await asyncio.to_thread(bot_actions.health_check)
+        except Exception as exc:
+            res = f"❌ Помилка перевірки: {exc}"
+        await safe_answer(msg, res, parse_mode="HTML")
+
+    # ─────────── замовлення ───────────
+
+    @dp.message(F.text == "🛒 Замовлення")
+    async def text_orders(msg: Message):
+        if not is_admin(msg): return
+        await msg.answer("⏳ Перевіряю нові замовлення на сайті (до хвилини)…")
+        import subprocess
+        try:
+            py = sys.executable.replace("pythonw.exe", "python.exe")
+            res = await asyncio.to_thread(
+                subprocess.run, [py, str(ROOT / "src" / "notify_new_orders.py"), "--days", "7"],
+                capture_output=True, text=True, timeout=300)
+            out = (res.stdout or res.stderr or "").strip()
+            tail = out.replace("<", "&lt;").replace(">", "&gt;")[-1500:]
+            if "Нових замовлень немає" in out:
+                await msg.answer("📭 Нових замовлень немає.\n\n"
+                                 "<i>Сповіщення про нові приходять автоматично кожні 10 хв.</i>",
+                                 parse_mode="HTML")
+            else:
+                await safe_answer(msg, f"🛒 <b>Замовлення</b>\n<pre>{tail}</pre>", parse_mode="HTML")
+        except Exception as exc:
+            await msg.answer(f"❌ Помилка: {exc}")
+
+    # ─────────── фото ───────────
+
+    @dp.message(F.text == "📸 Що фоткати")
+    async def text_photo_todo(msg: Message):
+        if not is_admin(msg): return
+        try:
+            import bot_actions
+            await safe_answer(msg, bot_actions.photo_todo_html(10), parse_mode="HTML")
+        except Exception as exc:
+            await msg.answer(f"❌ Помилка: {exc}")
+
+    @dp.message(F.photo)
+    async def handle_photo(msg: Message):
+        if not is_admin(msg): return
+        article = (msg.caption or "").strip().split()[0] if msg.caption else ""
+        tmp_dir = ROOT / "tmp" / "bot_incoming"
+        tmp_dir.mkdir(parents=True, exist_ok=True)
+        photo = msg.photo[-1]                      # найбільша якість
+        dest = tmp_dir / f"{photo.file_unique_id}.jpg"
+        await bot.download(photo, destination=dest)
+
+        if not article:
+            state[msg.from_user.id] = {"mode": "await_article", "photo": str(dest)}
+            return await msg.answer(
+                "📸 Фото отримано. Надішліть <b>артикул</b> товару, "
+                "щоб я залив його на сайт.\n<i>(або натисніть ⬅️ Назад щоб скасувати)</i>",
+                parse_mode="HTML")
+        await do_upload_photo(msg, article, str(dest))
+
+    async def do_upload_photo(msg: Message, article: str, path: str):
+        await msg.answer(f"⏳ Заливаю фото на товар <code>{article}</code>…", parse_mode="HTML")
+        try:
+            import bot_actions
+            ok, text = await asyncio.to_thread(
+                bot_actions.upload_photo_for_article, article, path, True)
+        except Exception as exc:
+            ok, text = False, f"Помилка: {exc}"
+        state.pop(msg.from_user.id, None)
+        if ok:
+            card = ""
+            try:
+                import bot_actions as ba
+                card = "\n\n" + ba.product_card_html(article)
+            except Exception:
+                pass
+            await safe_answer(msg, f"✅ {text}{card}", parse_mode="HTML")
+        else:
+            await msg.answer(f"❌ {text}")
+
+    # ─────────── пошук товару ───────────
+
+    @dp.message(F.text == "🔎 Знайти товар")
+    async def text_search_prompt(msg: Message):
+        if not is_admin(msg): return
+        state[msg.from_user.id] = {"mode": "await_query"}
+        await msg.answer("🔎 Надішліть назву або артикул товару.")
+
+    # ─────────── AI-описи (модерація) ───────────
+
+    @dp.message(F.text == "🤖 AI-описи")
+    @dp.message(Command("next"))
+    async def cmd_next(msg: Message):
+        if not is_admin(msg): return
+        await send_next_card(msg)
 
     @dp.message(Command("pending"))
-    async def cmd_pending(msg):
+    async def cmd_pending(msg: Message):
         if not is_admin(msg): return
         rows = list_pending()
-        text = "Чекає модерації:\n" + "\n".join(f"• {r['parent_key']} — {r['display_name']}" for r in rows)
-        await msg.answer(text or "Нічого нового.")
+        text = "Чекає модерації:\n" + "\n".join(
+            f"• {r['parent_key']} — {r['display_name']}" for r in rows)
+        await safe_answer(msg, text or "Нічого нового.")
 
     def get_inline_kb(parent_key: str):
         return InlineKeyboardMarkup(inline_keyboard=[
-            [
-                InlineKeyboardButton(text="✅ Approve", callback_data=f"approve:{parent_key}"),
-                InlineKeyboardButton(text="❌ Reject", callback_data=f"reject:{parent_key}"),
-            ],
-            [
-                InlineKeyboardButton(text="🔄 Regen", callback_data=f"regen:{parent_key}")
-            ]
+            [InlineKeyboardButton(text="✅ Затвердити", callback_data=f"approve:{parent_key}"),
+             InlineKeyboardButton(text="❌ Відхилити", callback_data=f"reject:{parent_key}")],
+            [InlineKeyboardButton(text="🔄 Перегенерувати", callback_data=f"regen:{parent_key}")],
         ])
 
     async def send_next_card(target) -> None:
-        """Показати наступну картку. БЕЗ перевірки адміна — викликається вже після неї.
-        (Раніше callback-и звали cmd_next(call.message), а там from_user = сам бот,
-        тож перевірка не проходила і після approve/reject нічого не показувалось.)"""
+        """Наступна картка. БЕЗ перевірки адміна — вона вже пройдена вище.
+        (Раніше callback звав cmd_next(call.message), де from_user = сам бот.)"""
         rows = list_pending(limit=1)
         if not rows:
             return await target.answer("✅ Черга порожня — усе перевірено.")
         pk = rows[0]["parent_key"]
         await target.answer(format_model_card(pk), reply_markup=get_inline_kb(pk))
 
-    @dp.message(Command("next"))
-    async def cmd_next(msg):
-        if not is_admin(msg): return
-        await send_next_card(msg)
-
-    async def parse_arg(msg) -> str:
-        parts = msg.text.split(maxsplit=1)
-        return parts[1].strip() if len(parts) > 1 else ""
-
     @dp.message(Command("show"))
-    async def cmd_show(msg):
+    async def cmd_show(msg: Message):
         if not is_admin(msg): return
-        pk = await parse_arg(msg)
+        parts = msg.text.split(maxsplit=1)
+        pk = parts[1].strip() if len(parts) > 1 else ""
         await msg.answer(format_model_card(pk), reply_markup=get_inline_kb(pk))
 
-    @dp.callback_query(F.data.startswith("approve:"))
-    async def cb_approve(call: CallbackQuery):
+    @dp.callback_query(F.data.startswith(("approve:", "reject:", "regen:")))
+    async def cb_moderate(call: CallbackQuery):
         if not is_admin(call): return
-        pk = call.data.split(":")[1]
-        ok = set_status(pk, "approved")
-        await call.message.edit_text(call.message.text + "\n\n✅ Затверджено!")
-        await call.answer("Approved!")
+        action, pk = call.data.split(":", 1)
+        status = {"approve": "approved", "reject": "rejected", "regen": "draft"}[action]
+        label = {"approve": "✅ Затверджено", "reject": "❌ Відхилено",
+                 "regen": "🔄 На перегенерацію"}[action]
+        set_status(pk, status)
+        try:
+            await call.message.edit_text((call.message.text or "") + f"\n\n{label}")
+        except Exception:
+            pass
+        await call.answer(label)
         await send_next_card(call.message)
 
-    @dp.callback_query(F.data.startswith("reject:"))
-    async def cb_reject(call: CallbackQuery):
-        if not is_admin(call): return
-        pk = call.data.split(":")[1]
-        ok = set_status(pk, "rejected")
-        await call.message.edit_text(call.message.text + "\n\n❌ Відхилено!")
-        await call.answer("Rejected!")
-        await send_next_card(call.message)
+    # ─────────── синхронізація ───────────
 
-    @dp.callback_query(F.data.startswith("regen:"))
-    async def cb_regen(call: CallbackQuery):
+    @dp.message(F.text == "🔄 Синхронізація")
+    async def text_sync_menu(msg: Message):
+        if not is_admin(msg): return
+        kb = InlineKeyboardMarkup(inline_keyboard=[
+            [InlineKeyboardButton(text="📦 Залишки та ціни", callback_data="do:sync_stock")],
+            [InlineKeyboardButton(text="🛒 Замовлення → УкрСклад", callback_data="do:sync_orders")],
+            [InlineKeyboardButton(text="🔁 Повний цикл (довго)", callback_data="do:pipeline")],
+        ])
+        await msg.answer(
+            "🔄 <b>Що синхронізувати?</b>\n\n"
+            "📦 <i>Залишки та ціни</i> — швидко, найчастіше потрібне\n"
+            "🛒 <i>Замовлення</i> — списати продане зі складу\n"
+            "🔁 <i>Повний цикл</i> — усе разом, 1–2 хв, пише на сайт",
+            reply_markup=kb, parse_mode="HTML")
+
+    async def run_script(msg, script: str, title: str, args: list[str] | None = None):
+        await msg.answer(f"⏳ {title}… Це може зайняти кілька хвилин.")
+        import subprocess
+        try:
+            py = sys.executable.replace("pythonw.exe", "python.exe")
+            cmd = [py, str(ROOT / "src" / script)] + (args or [])
+            res = await asyncio.to_thread(subprocess.run, cmd,
+                                          capture_output=True, text=True, timeout=1800)
+            out = (res.stdout or "").strip() or (res.stderr or "").strip()
+            safe = out.replace("<", "&lt;").replace(">", "&gt;")[-1200:]
+            mark = "✅ Готово" if res.returncode == 0 else "❌ Помилка"
+            await safe_answer(msg, f"{mark}\n<pre>{safe}</pre>", parse_mode="HTML")
+        except Exception as exc:
+            await msg.answer(f"❌ Виняток: {exc}")
+
+    # ─────────── небезпечні дії (з підтвердженням) ───────────
+
+    @dp.message(F.text == "📥 Оновити бота")
+    async def text_update(msg: Message):
+        if not is_admin(msg): return
+        await msg.answer("📥 Завантажити оновлення з GitHub і перезапустити бота?",
+                         reply_markup=confirm_kb("update"))
+
+    @dp.message(F.text == "🛑 Стоп процеси")
+    async def text_stop(msg: Message):
+        if not is_admin(msg): return
+        await msg.answer(
+            "🛑 Зупинити фонові процеси синхронізації?\n"
+            "<i>Ваш звичайний Chrome і сторонні програми не чіпатимуться.</i>",
+            reply_markup=confirm_kb("stop"), parse_mode="HTML")
+
+    @dp.callback_query(F.data.startswith("do:"))
+    async def cb_do(call: CallbackQuery):
         if not is_admin(call): return
-        pk = call.data.split(":")[1]
-        ok = set_status(pk, "draft")
-        await call.message.edit_text(call.message.text + "\n\n🔄 Відправлено на перегенерацію!")
-        await call.answer("Regen!")
-        await send_next_card(call.message)
+        action = call.data.split(":", 1)[1]
+        await call.answer()
+        msg = call.message
+
+        if action == "cancel":
+            return await msg.answer("Скасовано.")
+
+        if action == "sync_stock":
+            return await run_script(msg, "sync_stock_playwright.py", "Синхронізую залишки та ціни")
+        if action == "sync_orders":
+            return await run_script(msg, "sync_orders.py", "Забираю замовлення і списую зі складу")
+        if action == "pipeline":
+            return await run_script(msg, "run_pipeline.py", "Повний цикл синхронізації")
+
+        if action == "stop":
+            await msg.answer("⏳ Зупиняю фонові процеси…")
+            import subprocess
+            ps = (
+                "$k=@(); "
+                "Get-CimInstance Win32_Process | Where-Object { $_.CommandLine -and "
+                "$_.CommandLine -match 'fish-sync' -and $_.CommandLine -notmatch 'telegram_bot' } | "
+                "ForEach-Object { $k += ('{0} {1}' -f $_.ProcessId,$_.Name); "
+                "Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue }; "
+                "Get-CimInstance Win32_Process | Where-Object { $_.CommandLine -and "
+                "$_.CommandLine -match '--headless' } | ForEach-Object { "
+                "$k += ('{0} {1}' -f $_.ProcessId,$_.Name); "
+                "Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue }; "
+                "if ($k.Count -eq 0) { 'NONE' } else { $k -join \"`n\" }"
+            )
+            try:
+                res = await asyncio.to_thread(
+                    subprocess.run, ["powershell", "-NoProfile", "-Command", ps],
+                    capture_output=True, text=True, timeout=120)
+                out = (res.stdout or "").strip()
+                if not out or out == "NONE":
+                    await msg.answer("ℹ️ Активних процесів синхронізації не було.")
+                else:
+                    n = len([x for x in out.splitlines() if x.strip()])
+                    safe = out.replace("<", "&lt;").replace(">", "&gt;")[-800:]
+                    await msg.answer(f"✅ Зупинено: <b>{n}</b>\n<pre>{safe}</pre>",
+                                     parse_mode="HTML")
+            except Exception as exc:
+                await msg.answer(f"❌ Помилка: {exc}")
+            return
+
+        if action == "update":
+            await msg.answer("⏳ Завантажую оновлення з GitHub…")
+            import subprocess
+            try:
+                res = await asyncio.to_thread(
+                    subprocess.run, ["git", "pull", "origin", "main"],
+                    capture_output=True, text=True, cwd=str(ROOT), timeout=300)
+                out = (res.stdout or "").strip()
+                if res.returncode != 0:
+                    safe = (res.stderr or "").replace("<", "&lt;").replace(">", "&gt;")[-800:]
+                    return await msg.answer(f"❌ Помилка оновлення:\n<pre>{safe}</pre>",
+                                            parse_mode="HTML")
+                if "Already up to date" in out or "Вже оновлено" in out:
+                    return await msg.answer("✅ Уже остання версія.")
+                safe = out.replace("<", "&lt;").replace(">", "&gt;")[-600:]
+                await msg.answer(f"✅ Оновлено:\n<pre>{safe}</pre>\n🔄 Перезапускаюсь…",
+                                 parse_mode="HTML")
+                subprocess.Popen([sys.executable] + sys.argv, creationflags=0x00000008)
+                os._exit(0)
+            except Exception as exc:
+                await msg.answer(f"❌ Виняток: {exc}")
+            return
+
+    # ─────────── вільний текст (пошук / артикул / очікування) ───────────
+
+    @dp.message(F.text)
+    async def free_text(msg: Message):
+        if not is_admin(msg): return
+        text = (msg.text or "").strip()
+        st = state.get(msg.from_user.id) or {}
+
+        # чекаємо артикул для щойно надісланого фото
+        if st.get("mode") == "await_article" and st.get("photo"):
+            return await do_upload_photo(msg, text.split()[0], st["photo"])
+
+        if st.get("mode") == "await_query":
+            state.pop(msg.from_user.id, None)
+
+        try:
+            import bot_actions
+            # схоже на артикул — показуємо картку; інакше шукаємо
+            looks_like_article = len(text) <= 16 and " " not in text
+            out = (bot_actions.product_card_html(text) if looks_like_article
+                   else bot_actions.search_html(text))
+            if looks_like_article and out.startswith("❌"):
+                out = bot_actions.search_html(text)
+            await safe_answer(msg, out, parse_mode="HTML")
+        except Exception as exc:
+            await msg.answer(f"❌ Помилка: {exc}")
 
     print("Bot started, polling...")
     while True:
