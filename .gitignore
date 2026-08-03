@@ -25,3 +25,12 @@ setup_task_scheduler.ps1
 
 # Telegram токен — секрет, лишається локально
 src/telegram_bot/config.json
+
+# Runtime-журнали: пишуться на ноуті магазину під час роботи —
+# якщо вони в git, локальні зміни блокують git pull (авто-оновлення коду)
+data/notified_orders.json
+data/processed_orders.json
+data/notify_alerts_state.json
+data/bulk_char_progress.json
+data/bot_photo_uploads.json
+src/telegram_bot/.offset
