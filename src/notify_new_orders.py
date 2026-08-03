@@ -26,7 +26,7 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
-ROOT = Path(r"D:\FISH\fish-sync")
+ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "src"))
 
 import requests  # noqa: E402
@@ -35,6 +35,7 @@ import urllib3  # noqa: E402
 urllib3.disable_warnings()
 
 NOTIFIED_FILE = ROOT / "data" / "notified_orders.json"
+ALERTS_STATE = ROOT / "data" / "notify_alerts_state.json"
 TG_CONFIG = ROOT / "src" / "telegram_bot" / "config.json"
 
 
@@ -104,9 +105,9 @@ def save_notified(ids: set[str]) -> None:
                              encoding="utf-8")
 
 
-def format_order(o: dict, base: str) -> str:
+def format_order(o: dict, base: str, header: str = "НОВЕ ЗАМОВЛЕННЯ") -> str:
     import html as H
-    lines = [f"🎣 <b>НОВЕ ЗАМОВЛЕННЯ #{H.escape(str(o.get('horoshop_id','?')))}</b>"]
+    lines = [f"🎣 <b>{header} #{H.escape(str(o.get('horoshop_id','?')))}</b>"]
     if o.get("date"):
         lines.append(f"📅 {H.escape(str(o['date']))}")
     if o.get("customer"):
@@ -130,12 +131,94 @@ def format_order(o: dict, base: str) -> str:
     return "\n".join(lines)
 
 
+# ────────── автоалерти (топ-товар у нулі, застарілий синк) + тижневий звіт ──────────
+
+def _load_alerts_state() -> dict:
+    if ALERTS_STATE.exists():
+        try:
+            return json.loads(ALERTS_STATE.read_text(encoding="utf-8"))
+        except Exception:  # noqa: BLE001
+            return {}
+    return {}
+
+
+def _save_alerts_state(state: dict) -> None:
+    ALERTS_STATE.parent.mkdir(parents=True, exist_ok=True)
+    ALERTS_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def run_extra_alerts(token: str, recipients: list[int]) -> None:
+    """Разом із перевіркою замовлень (кожні 10 хв) шлемо:
+      1) алерт, коли ТОП-товар за виручкою впав у нуль (одноразово на товар);
+      2) алерт, якщо дані з УкрСкладу не оновлювались > 24 год (раз на добу);
+      3) тижневий звіт щопонеділка (раз на тиждень).
+    Стан — data/notify_alerts_state.json. Помилки тут не валять основний потік.
+    """
+    try:
+        import bot_dashboard
+    except Exception as exc:  # noqa: BLE001
+        print(f"  [alerts] bot_dashboard недоступний: {exc}")
+        return
+    state = _load_alerts_state()
+    today = datetime.now().strftime("%Y-%m-%d")
+
+    # 1) топ-товари, що впали в нуль
+    try:
+        stale = bot_dashboard.stale_top_sellers(limit=20)
+        known = set(state.get("stale_kods") or [])
+        fresh = [r for r in stale if r["kod"] not in known]
+        if fresh:
+            lines = ["🔻 <b>ТОП-ТОВАР ЗАКІНЧИВСЯ</b>",
+                     "<i>Продавався добре — тепер залишок 0. Варто замовити.</i>", ""]
+            for r in fresh[:15]:
+                lines.append(f"• <b>{r['name']}</b> · арт. {r['kod']} · було продано на {r['rev']:.0f} грн")
+            text = "\n".join(lines)
+            for uid in recipients:
+                tg_send(token, uid, text)
+            print(f"  [alerts] нових нулів по топу: {len(fresh)}")
+        state["stale_kods"] = [r["kod"] for r in stale]
+    except Exception as exc:  # noqa: BLE001
+        print(f"  [alerts] stale-top: {exc}")
+
+    # 2) синк не проходив > 24 год
+    try:
+        products = ROOT / "data" / "products.json"
+        if products.exists():
+            age_h = (datetime.now().timestamp() - products.stat().st_mtime) / 3600
+            if age_h > 24 and state.get("last_sync_alert") != today:
+                for uid in recipients:
+                    tg_send(token, uid,
+                            f"⚠️ <b>Синхронізація не працює</b>\n"
+                            f"Дані з УкрСкладу не оновлювались {age_h:.0f} год.\n"
+                            f"Перевір, чи ввімкнений ноутбук магазину і чи працюють задачі Планувальника.")
+                state["last_sync_alert"] = today
+                print(f"  [alerts] синк застарів: {age_h:.0f} год")
+    except Exception as exc:  # noqa: BLE001
+        print(f"  [alerts] sync-age: {exc}")
+
+    # 3) тижневий звіт щопонеділка
+    try:
+        week = datetime.now().strftime("%G-W%V")
+        if datetime.now().weekday() == 0 and state.get("last_weekly") != week:
+            report = "🗓 <b>ТИЖНЕВИЙ ЗВІТ</b>\n\n" + bot_dashboard.dashboard_html()
+            for uid in recipients:
+                tg_send(token, uid, report)
+            state["last_weekly"] = week
+            print("  [alerts] тижневий звіт надіслано")
+    except Exception as exc:  # noqa: BLE001
+        print(f"  [alerts] weekly: {exc}")
+
+    _save_alerts_state(state)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="Сповіщення про нові замовлення в Telegram")
     ap.add_argument("--days", type=int, default=3, help="За скільки днів дивитись замовлення")
     ap.add_argument("--seed", action="store_true",
                     help="Позначити поточні замовлення як надіслані БЕЗ сповіщень")
     ap.add_argument("--test", action="store_true", help="Надіслати тестове повідомлення й вийти")
+    ap.add_argument("--list", action="store_true", dest="list_only",
+                    help="Лише показати замовлення (для бота): без сповіщень і без запису в журнал")
     ap.add_argument("--headful", action="store_true")
     args = ap.parse_args()
 
@@ -165,6 +248,16 @@ def main() -> int:
                                      headful=args.headful)
     print(f"Знайдено замовлень: {len(orders)}")
 
+    if args.list_only:
+        # Режим для кнопки «🛒 Замовлення» в боті: показати, нічого не міняти.
+        if not orders:
+            print(f"📭 Замовлень за {args.days} дн немає.")
+            return 0
+        for o in orders:
+            print("===ORDER===")
+            print(format_order(o, base, header="ЗАМОВЛЕННЯ"))
+        return 0
+
     notified = load_notified()
     fresh = [o for o in orders if str(o.get("horoshop_id")) not in notified]
 
@@ -177,6 +270,7 @@ def main() -> int:
 
     if not fresh:
         print("Нових замовлень немає.")
+        run_extra_alerts(token, recipients)
         return 0
 
     sent = 0
@@ -192,6 +286,7 @@ def main() -> int:
             print(f"  ✅ сповіщено про #{o.get('horoshop_id')}")
     save_notified(notified)
     print(f"Надіслано сповіщень про {sent} нових замовлень.")
+    run_extra_alerts(token, recipients)
     return 0
 
 

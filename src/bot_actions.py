@@ -188,6 +188,82 @@ def photo_todo_html(limit: int = 10) -> str:
     return "\n".join(lines)
 
 
+def prepare_photo(src_path: str | Path) -> str:
+    """Готує фото до заливки: RGB JPEG, менша сторона ≥1000px (вимога Rozetka).
+
+    Telegram стискає фото до ~1280px по більшій стороні, тому менша сторона
+    часто < 1000 — акуратно масштабуємо вгору. Повертає шлях до готового файлу.
+    """
+    from PIL import Image
+
+    src = Path(src_path)
+    im = Image.open(src)
+    im = im.convert("RGB")
+    w, h = im.size
+    if min(w, h) < 1000:
+        scale = 1000 / min(w, h)
+        im = im.resize((round(w * scale), round(h * scale)), Image.LANCZOS)
+    out = src.with_name(src.stem + "_ready.jpg")
+    im.save(out, "JPEG", quality=90)
+    return str(out)
+
+
+# ────────────────────────── AI-ОПИСИ (пакетна модерація) ──────────────────────────
+
+def bulk_approve_stats() -> dict:
+    """Скільки ai_draft описів пройшли б фільтри якості (без запису)."""
+    return _bulk_approve(dry_run=True)
+
+
+def bulk_approve_ai() -> dict:
+    """Затверджує всі ai_draft, що проходять ті самі фільтри якості,
+    які застосовує рендер (has_suspicious_text / has_low_quality_description).
+    Неякісні лишаються в ai_draft на ручну перевірку. Оборотно (це лише статус)."""
+    return _bulk_approve(dry_run=False)
+
+
+def _bulk_approve(dry_run: bool) -> dict:
+    import sqlite3
+    import sys
+    sys.path.insert(0, str(ROOT / "src"))
+    from horoshop_catalog import has_low_quality_description, has_suspicious_text
+
+    conn = sqlite3.connect(ROOT / "data" / "meta_store.sqlite")
+    rows = conn.execute(
+        "SELECT parent_key, description_html FROM models WHERE status = 'ai_draft'"
+    ).fetchall()
+    good, bad = [], []
+    for pk, desc in rows:
+        desc = desc or ""
+        if desc and not has_suspicious_text(desc) and not has_low_quality_description(desc):
+            good.append(pk)
+        else:
+            bad.append(pk)
+    if not dry_run and good:
+        conn.executemany(
+            "UPDATE models SET status = 'approved', updated_at = CURRENT_TIMESTAMP "
+            "WHERE parent_key = ?",
+            [(pk,) for pk in good],
+        )
+        conn.commit()
+    conn.close()
+    return {"total": len(rows), "approved": len(good), "left": len(bad), "dry_run": dry_run}
+
+
+def bulk_approve_html(res: dict) -> str:
+    action = "пройшли б фільтри" if res["dry_run"] else "затверджено"
+    lines = [
+        "🤖 <b>Пакетне затвердження AI-описів</b>",
+        "",
+        f"Було в черзі: <b>{res['total']}</b>",
+        f"✅ Якісних ({action}): <b>{res['approved']}</b>",
+        f"⚠️ Лишилось на ручну перевірку: <b>{res['left']}</b>",
+    ]
+    if not res["dry_run"]:
+        lines += ["", "Описи підуть на сайт при наступному повному циклі синхронізації."]
+    return "\n".join(lines)
+
+
 # ────────────────────────── ПЕРЕВІРКА СИСТЕМИ ──────────────────────────
 
 def health_check() -> str:
@@ -294,6 +370,56 @@ def product_card_html(article: str) -> str:
         lines.append("")
         lines.append(f"🔗 {base}/catalog/{d['id']}/")
     return "\n".join(lines)
+
+
+def lowstock_html(threshold: int = 3, limit: int = 30) -> str:
+    import html as H
+    bk = _backend()
+    rows = bk.lowstock(threshold)[:limit]
+    if not rows:
+        return f"✅ Немає товарів із залишком ≤ {threshold}."
+    lines = [f"⚠️ <b>Малий залишок (≤ {threshold}) — {len(rows)}:</b>", ""]
+    for r in rows:
+        lines.append(f"• <code>{H.escape(str(r['article']))}</code> "
+                     f"{H.escape(str(r['title'] or '')[:40])} — залишилось <b>{r['qty']}</b>")
+    return "\n".join(lines)
+
+
+def recent_html(n: int = 12) -> str:
+    import html as H
+    bk = _backend()
+    rows = bk.recent_products(n)
+    if not rows:
+        return "Немає даних про останні додані."
+    lines = ["🆕 <b>Останні додані на сайт:</b>", ""]
+    for r in rows:
+        lines.append(f"• <code>{H.escape(str(r['article']))}</code> "
+                     f"{H.escape(str(r['title'] or '')[:42])} — {r['price']} грн")
+    return "\n".join(lines)
+
+
+def live_count_html() -> str:
+    bk = _backend()
+    n = bk.live_product_count()
+    return f"🌐 На сайті зараз: <b>{n}</b> товарів" if n else "⚠️ Не вдалося отримати кількість із сайту."
+
+
+def set_field_html(text: str, field: str) -> str:
+    """text = 'артикул значення'. field: 'price' | 'quantity'."""
+    import html as H
+    parts = text.split()
+    if len(parts) < 2:
+        return "Формат: <code>артикул значення</code>, напр. <code>1497 550</code>"
+    bk = _backend()
+    ok, m = bk.set_field(parts[0], field, parts[1])
+    return ("✅ " if ok else "❌ ") + H.escape(m)
+
+
+def _backend():
+    import sys
+    sys.path.insert(0, str(ROOT / "src" / "telegram_bot"))
+    import backend
+    return backend
 
 
 def search_html(query: str, limit: int = 8) -> str:

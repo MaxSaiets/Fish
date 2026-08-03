@@ -49,6 +49,9 @@ except Exception:  # pragma: no cover
 
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 ADMIN_IDS = {int(x) for x in os.environ.get("TELEGRAM_ADMIN_IDS", "").split(",") if x.strip().isdigit()}
+# Технічне меню («⚙️ Ще»): якщо TELEGRAM_TECH_IDS заданий — лише ці ID бачать
+# небезпечні кнопки (синк, оновлення, стоп). Порожній = усі адміни.
+TECH_IDS = {int(x) for x in os.environ.get("TELEGRAM_TECH_IDS", "").split(",") if x.strip().isdigit()}
 
 
 # ─────────── Бізнес-логіка (працює і в боті, і в симуляторі) ───────────
@@ -227,6 +230,9 @@ async def run_real_bot() -> None:
     def is_admin(msg) -> bool:
         return not ADMIN_IDS or msg.from_user.id in ADMIN_IDS
 
+    def is_tech(msg) -> bool:
+        return is_admin(msg) and (not TECH_IDS or msg.from_user.id in TECH_IDS)
+
     # ─────────── клавіатури ───────────
 
     MAIN_KB = ReplyKeyboardMarkup(
@@ -240,8 +246,10 @@ async def run_real_bot() -> None:
     MORE_KB = ReplyKeyboardMarkup(
         keyboard=[
             [KeyboardButton(text="🩺 Перевірка системи"), KeyboardButton(text="🏆 Топ продажів")],
-            [KeyboardButton(text="⚠️ Закінчилось з топу"), KeyboardButton(text="🤖 AI-описи")],
-            [KeyboardButton(text="🔄 Синхронізація")],
+            [KeyboardButton(text="⚠️ Закінчилось з топу"), KeyboardButton(text="⚠️ Малий залишок")],
+            [KeyboardButton(text="🆕 Останні додані"), KeyboardButton(text="🌐 На сайті")],
+            [KeyboardButton(text="✏️ Змінити ціну"), KeyboardButton(text="✏️ Змінити залишок")],
+            [KeyboardButton(text="🤖 AI-описи"), KeyboardButton(text="🔄 Синхронізація")],
             [KeyboardButton(text="📥 Оновити бота"), KeyboardButton(text="🛑 Стоп процеси")],
             [KeyboardButton(text="⬅️ Назад")],
         ],
@@ -274,18 +282,25 @@ async def run_real_bot() -> None:
         if not is_admin(msg): return
         await msg.answer(
             "<b>Що вміє бот</b>\n\n"
-            "🛒 <b>Замовлення</b> — нові замовлення з сайту\n"
+            "🛒 <b>Замовлення</b> — замовлення з сайту за 7 днів (списання зі складу — автоматичне)\n"
             "🔎 <b>Знайти товар</b> — пошук за назвою; надішліть артикул — покаже картку\n"
             "📸 <b>Що фоткати</b> — черга товарів без фото\n"
-            "   ↳ надішліть фото, а в підпис — артикул, і воно одразу піде на сайт\n"
+            "   ↳ надішліть фото (можна альбомом), у підпис — артикул, і вони підуть на сайт\n"
             "📊 <b>Статистика</b> — стан магазину\n\n"
-            "⚙️ <b>Ще</b> — технічне: перевірка системи, синхронізація, оновлення бота\n\n"
+            "⚙️ <b>Ще</b> — технічне: перевірка системи, малий залишок, останні додані, "
+            "живий лічильник, зміна ціни/залишку, AI-описи (в т.ч. пакетне затвердження), "
+            "синхронізація, оновлення бота\n\n"
+            "Автоматично приходять: нові замовлення (кожні 10 хв), алерт коли топ-товар "
+            "у нулі, алерт якщо синк не працює &gt;24 год, тижневий звіт щопонеділка.\n\n"
             "Команди: /start /help /stats /next /pending",
             parse_mode="HTML")
 
     @dp.message(F.text == "⚙️ Ще")
     async def more_menu(msg: Message):
-        if not is_admin(msg): return
+        if not is_tech(msg):
+            if is_admin(msg):
+                await msg.answer("⚙️ Технічне меню доступне лише адміністратору системи.")
+            return
         await msg.answer("⚙️ Технічне меню", reply_markup=MORE_KB)
 
     @dp.message(F.text == "⬅️ Назад")
@@ -332,21 +347,29 @@ async def run_real_bot() -> None:
     @dp.message(F.text == "🛒 Замовлення")
     async def text_orders(msg: Message):
         if not is_admin(msg): return
-        await msg.answer("⏳ Перевіряю нові замовлення на сайті (до хвилини)…")
+        await msg.answer("⏳ Читаю замовлення з сайту (до хвилини)…")
         import subprocess
         try:
             py = sys.executable.replace("pythonw.exe", "python.exe")
+            # --list: лише показати, БЕЗ сповіщень і без запису в журнал
             res = await asyncio.to_thread(
-                subprocess.run, [py, str(ROOT / "src" / "notify_new_orders.py"), "--days", "7"],
+                subprocess.run, [py, str(ROOT / "src" / "notify_new_orders.py"),
+                                 "--list", "--days", "7"],
                 capture_output=True, text=True, timeout=300)
-            out = (res.stdout or res.stderr or "").strip()
-            tail = out.replace("<", "&lt;").replace(">", "&gt;")[-1500:]
-            if "Нових замовлень немає" in out:
-                await msg.answer("📭 Нових замовлень немає.\n\n"
+            out = (res.stdout or "").strip()
+            if "===ORDER===" not in out:
+                await msg.answer("📭 Замовлень за 7 днів немає.\n\n"
                                  "<i>Сповіщення про нові приходять автоматично кожні 10 хв.</i>",
                                  parse_mode="HTML")
-            else:
-                await safe_answer(msg, f"🛒 <b>Замовлення</b>\n<pre>{tail}</pre>", parse_mode="HTML")
+                return
+            cards = [c.strip() for c in out.split("===ORDER===") if c.strip().startswith("🎣")]
+            await msg.answer(f"🛒 <b>Замовлення за 7 днів: {len(cards)}</b>", parse_mode="HTML")
+            for card in cards[:10]:
+                await safe_answer(msg, card, parse_mode="HTML")
+            if len(cards) > 10:
+                await msg.answer(f"… і ще {len(cards) - 10} (див. адмінку).")
+            await msg.answer("<i>Списання зі складу відбувається автоматично щогодини "
+                             "(або кнопкою 🔄 Синхронізація → Замовлення).</i>", parse_mode="HTML")
         except Exception as exc:
             await msg.answer(f"❌ Помилка: {exc}")
 
@@ -361,43 +384,104 @@ async def run_real_bot() -> None:
         except Exception as exc:
             await msg.answer(f"❌ Помилка: {exc}")
 
-    @dp.message(F.photo)
-    async def handle_photo(msg: Message):
-        if not is_admin(msg): return
-        article = (msg.caption or "").strip().split()[0] if msg.caption else ""
+    # Буфер альбомів: media_group_id -> {"photos": [...], "article": str, "task": Task}
+    # Telegram шле альбом окремими повідомленнями (підпис лише в одного) —
+    # збираємо їх ~3 с і заливаємо разом, інакше губились усі фото крім останнього.
+    albums: dict[str, dict] = {}
+
+    async def _download_incoming(msg: Message) -> str | None:
+        """Фото або зображення-документ → локальний файл. None = не зображення."""
         tmp_dir = ROOT / "tmp" / "bot_incoming"
         tmp_dir.mkdir(parents=True, exist_ok=True)
-        photo = msg.photo[-1]                      # найбільша якість
-        dest = tmp_dir / f"{photo.file_unique_id}.jpg"
-        await bot.download(photo, destination=dest)
+        if msg.photo:
+            photo = msg.photo[-1]                  # найбільша якість
+            dest = tmp_dir / f"{photo.file_unique_id}.jpg"
+            await bot.download(photo, destination=dest)
+            return str(dest)
+        doc = msg.document
+        if doc and (doc.mime_type or "").startswith("image/"):
+            suffix = Path(doc.file_name or "img.jpg").suffix or ".jpg"
+            dest = tmp_dir / f"{doc.file_unique_id}{suffix}"
+            await bot.download(doc, destination=dest)
+            return str(dest)
+        return None
+
+    async def _flush_album(mgid: str, msg: Message):
+        await asyncio.sleep(3)                     # чекаємо решту фото альбому
+        entry = albums.pop(mgid, None)
+        if not entry:
+            return
+        article = entry.get("article") or ""
+        photos = entry["photos"]
+        if not article:
+            state[msg.from_user.id] = {"mode": "await_article", "photos": photos}
+            return await msg.answer(
+                f"📸 Отримано {len(photos)} фото. Надішліть <b>артикул</b> товару, "
+                "щоб я залив їх на сайт.\n<i>(або натисніть ⬅️ Назад щоб скасувати)</i>",
+                parse_mode="HTML")
+        await do_upload_photos(msg, article, photos)
+
+    @dp.message(F.photo)
+    @dp.message(F.document)
+    async def handle_photo(msg: Message):
+        if not is_admin(msg): return
+        path = await _download_incoming(msg)
+        if path is None:
+            return await msg.answer("Я приймаю лише зображення (фото або файл-картинку).")
+        article = (msg.caption or "").strip().split()[0] if msg.caption else ""
+
+        if msg.media_group_id:                     # альбом — буферизуємо
+            mgid = str(msg.media_group_id)
+            entry = albums.setdefault(mgid, {"photos": [], "article": ""})
+            entry["photos"].append(path)
+            if article:
+                entry["article"] = article
+            if entry.get("task"):
+                entry["task"].cancel()
+            entry["task"] = asyncio.create_task(_flush_album(mgid, msg))
+            return
 
         if not article:
-            state[msg.from_user.id] = {"mode": "await_article", "photo": str(dest)}
+            state[msg.from_user.id] = {"mode": "await_article", "photos": [path]}
             return await msg.answer(
                 "📸 Фото отримано. Надішліть <b>артикул</b> товару, "
                 "щоб я залив його на сайт.\n<i>(або натисніть ⬅️ Назад щоб скасувати)</i>",
                 parse_mode="HTML")
-        await do_upload_photo(msg, article, str(dest))
+        await do_upload_photos(msg, article, [path])
 
-    async def do_upload_photo(msg: Message, article: str, path: str):
-        await msg.answer(f"⏳ Заливаю фото на товар <code>{article}</code>…", parse_mode="HTML")
+    async def do_upload_photos(msg: Message, article: str, paths: list[str]):
+        n = len(paths)
+        await msg.answer(f"⏳ Заливаю {n} фото на товар <code>{article}</code>…", parse_mode="HTML")
+        ok_count, last_err = 0, ""
         try:
             import bot_actions
-            ok, text = await asyncio.to_thread(
-                bot_actions.upload_photo_for_article, article, path, True)
+            for i, path in enumerate(paths):
+                try:
+                    ready = await asyncio.to_thread(bot_actions.prepare_photo, path)
+                except Exception:
+                    ready = path                   # ресайз не критичний — заливаємо як є
+                # перше фото замінює галерею (прибирає заглушку), решта — додаються
+                ok, text = await asyncio.to_thread(
+                    bot_actions.upload_photo_for_article, article, ready, i == 0)
+                if ok:
+                    ok_count += 1
+                else:
+                    last_err = text
         except Exception as exc:
-            ok, text = False, f"Помилка: {exc}"
+            last_err = f"Помилка: {exc}"
         state.pop(msg.from_user.id, None)
-        if ok:
+        if ok_count:
             card = ""
             try:
                 import bot_actions as ba
                 card = "\n\n" + ba.product_card_html(article)
             except Exception:
                 pass
-            await safe_answer(msg, f"✅ {text}{card}", parse_mode="HTML")
+            extra = f"\n⚠️ Не залилось: {n - ok_count} ({last_err})" if ok_count < n else ""
+            await safe_answer(msg, f"✅ Залито {ok_count} з {n} фото на товар "
+                                   f"<code>{article}</code>.{extra}{card}", parse_mode="HTML")
         else:
-            await msg.answer(f"❌ {text}")
+            await msg.answer(f"❌ {last_err or 'Не вдалося залити фото.'}")
 
     # ─────────── пошук товару ───────────
 
@@ -407,9 +491,72 @@ async def run_real_bot() -> None:
         state[msg.from_user.id] = {"mode": "await_query"}
         await msg.answer("🔎 Надішліть назву або артикул товару.")
 
+    # ─────────── каталог: залишки / останні / live-лічильник ───────────
+
+    async def _bot_action_answer(msg: Message, fn_name: str, *args):
+        """Виклик функції bot_actions у потоці + відповідь HTML."""
+        try:
+            import bot_actions
+            out = await asyncio.to_thread(getattr(bot_actions, fn_name), *args)
+        except Exception as exc:
+            out = f"❌ Помилка: {exc}"
+        await safe_answer(msg, out, parse_mode="HTML")
+
+    @dp.message(F.text == "⚠️ Малий залишок")
+    async def text_lowstock(msg: Message):
+        if not is_admin(msg): return
+        await msg.answer("⏳ Рахую…")
+        await _bot_action_answer(msg, "lowstock_html", 3)
+
+    @dp.message(F.text == "🆕 Останні додані")
+    async def text_recent(msg: Message):
+        if not is_admin(msg): return
+        await _bot_action_answer(msg, "recent_html", 12)
+
+    @dp.message(F.text == "🌐 На сайті")
+    async def text_live_count(msg: Message):
+        if not is_admin(msg): return
+        await msg.answer("⏳ Питаю сайт…")
+        await _bot_action_answer(msg, "live_count_html")
+
+    # ─────────── зміна ціни / залишку ───────────
+
+    @dp.message(F.text == "✏️ Змінити ціну")
+    async def text_setprice(msg: Message):
+        if not is_tech(msg): return
+        state[msg.from_user.id] = {"mode": "await_setprice"}
+        await msg.answer("✏️ Надішліть: <code>артикул нова_ціна</code>\n"
+                         "напр. <code>1497 550</code>", parse_mode="HTML")
+
+    @dp.message(F.text == "✏️ Змінити залишок")
+    async def text_setstock(msg: Message):
+        if not is_tech(msg): return
+        state[msg.from_user.id] = {"mode": "await_setstock"}
+        await msg.answer("✏️ Надішліть: <code>артикул кількість</code>\n"
+                         "напр. <code>1497 10</code>", parse_mode="HTML")
+
     # ─────────── AI-описи (модерація) ───────────
 
     @dp.message(F.text == "🤖 AI-описи")
+    async def text_ai_menu(msg: Message):
+        if not is_admin(msg): return
+        s = stats()
+        pending = s.get("ai_draft", 0)
+        if not pending:
+            return await msg.answer("✅ Черга AI-описів порожня.")
+        kb = InlineKeyboardMarkup(inline_keyboard=[
+            [InlineKeyboardButton(text="📝 Перевіряти по одному", callback_data="do:ai_next")],
+            [InlineKeyboardButton(text=f"⚡ Затвердити всі якісні ({pending} у черзі)",
+                                  callback_data="do:ai_bulk_ask")],
+        ])
+        await msg.answer(
+            f"🤖 <b>AI-описи: {pending} чекають перевірки</b>\n\n"
+            "Поки опис не затверджено — на сайті його НЕМАЄ (товар без опису).\n\n"
+            "📝 <i>По одному</i> — читати кожен і тапати ✅/❌\n"
+            "⚡ <i>Всі якісні</i> — автоматично затвердити ті, що проходять фільтри "
+            "якості (довжина, шаблонність, сміттєвий текст); сумнівні лишаться на ручну перевірку",
+            reply_markup=kb, parse_mode="HTML")
+
     @dp.message(Command("next"))
     async def cmd_next(msg: Message):
         if not is_admin(msg): return
@@ -519,6 +666,30 @@ async def run_real_bot() -> None:
         if action == "cancel":
             return await msg.answer("Скасовано.")
 
+        if action == "ai_next":
+            return await send_next_card(msg)
+
+        if action == "ai_bulk_ask":
+            try:
+                import bot_actions
+                res = await asyncio.to_thread(bot_actions.bulk_approve_stats)
+            except Exception as exc:
+                return await msg.answer(f"❌ Помилка: {exc}")
+            return await msg.answer(
+                bot_actions.bulk_approve_html(res) +
+                "\n\nЗатвердити? Це лише статус у локальній базі — "
+                "на сайт піде при наступному повному циклі.",
+                reply_markup=confirm_kb("ai_bulk"), parse_mode="HTML")
+
+        if action == "ai_bulk":
+            await msg.answer("⏳ Затверджую…")
+            try:
+                import bot_actions
+                res = await asyncio.to_thread(bot_actions.bulk_approve_ai)
+                return await msg.answer(bot_actions.bulk_approve_html(res), parse_mode="HTML")
+            except Exception as exc:
+                return await msg.answer(f"❌ Помилка: {exc}")
+
         if action == "sync_stock":
             return await run_script(msg, "sync_stock_playwright.py", "Синхронізую залишки та ціни")
         if action == "sync_orders":
@@ -574,7 +745,8 @@ async def run_real_bot() -> None:
                 safe = out.replace("<", "&lt;").replace(">", "&gt;")[-600:]
                 await msg.answer(f"✅ Оновлено:\n<pre>{safe}</pre>\n🔄 Перезапускаюсь…",
                                  parse_mode="HTML")
-                subprocess.Popen([sys.executable] + sys.argv, creationflags=0x00000008)
+                py = sys.executable.replace("pythonw.exe", "python.exe")
+                subprocess.Popen([py] + sys.argv, creationflags=0x00000008)
                 os._exit(0)
             except Exception as exc:
                 await msg.answer(f"❌ Виняток: {exc}")
@@ -588,9 +760,21 @@ async def run_real_bot() -> None:
         text = (msg.text or "").strip()
         st = state.get(msg.from_user.id) or {}
 
-        # чекаємо артикул для щойно надісланого фото
-        if st.get("mode") == "await_article" and st.get("photo"):
-            return await do_upload_photo(msg, text.split()[0], st["photo"])
+        # чекаємо артикул для щойно надісланих фото
+        if st.get("mode") == "await_article" and st.get("photos"):
+            return await do_upload_photos(msg, text.split()[0], st["photos"])
+
+        # чекаємо «артикул значення» для зміни ціни/залишку
+        if st.get("mode") in ("await_setprice", "await_setstock"):
+            field = "price" if st["mode"] == "await_setprice" else "quantity"
+            state.pop(msg.from_user.id, None)
+            await msg.answer("⏳ Зберігаю…")
+            try:
+                import bot_actions
+                out = await asyncio.to_thread(bot_actions.set_field_html, text, field)
+            except Exception as exc:
+                out = f"❌ Помилка: {exc}"
+            return await safe_answer(msg, out, parse_mode="HTML")
 
         if st.get("mode") == "await_query":
             state.pop(msg.from_user.id, None)
@@ -608,12 +792,15 @@ async def run_real_bot() -> None:
             await msg.answer(f"❌ Помилка: {exc}")
 
     print("Bot started, polling...")
+    delay = 30
     while True:
         try:
             await dp.start_polling(bot)
+            delay = 30                             # нормальне завершення — скинути backoff
         except Exception as e:
-            print(f"Polling error: {e}. Retrying in 15 minutes...")
-            await asyncio.sleep(900)
+            print(f"Polling error: {e}. Retrying in {delay}s...")
+            await asyncio.sleep(delay)
+            delay = min(delay * 2, 900)            # 30с → 1хв → … → макс 15хв
 
 
 def main() -> None:
