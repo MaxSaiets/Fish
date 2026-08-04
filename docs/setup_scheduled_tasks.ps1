@@ -25,11 +25,15 @@ if (-not $pythonPath) {
 }
 Write-Host "Знайдено Python: $pythonPath"
 
-$projectRoot = "D:\FISH\fish-sync"
-if (-not (Test-Path $projectRoot)) {
-    Write-Error "Проєкт не знайдено в $projectRoot. Перевірте розділ 0 SETUP_NEW_MACHINE.md (диски D:/F:)."
+# Корінь проєкту визначаємо від розташування скрипта (<проєкт>\docs), а не хардкодом —
+# інакше на машині з іншим шляхом доводиться правити цей файл локально, і така
+# правка згодом блокує git pull (саме це зламало кнопку оновлення 04.08.2026).
+$projectRoot = Split-Path -Parent $PSScriptRoot
+if (-not (Test-Path (Join-Path $projectRoot "src"))) {
+    Write-Error "Не схоже на корінь проєкту: $projectRoot (немає теки src)."
     exit 1
 }
+Write-Host "Корінь проєкту: $projectRoot"
 
 $settings = New-ScheduledTaskSettingsSet `
     -DisallowStartIfOnBatteries `

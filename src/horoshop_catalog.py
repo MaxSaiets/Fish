@@ -14,7 +14,7 @@ from catalog_rules import parse_product
 from feed_content import build_variant_title, resolve_description_html
 from horoshop_reset_seed_structure import PRODUCTS_JSON, SKIP_NAMES, STRUCTURE, map_product_to_target_path
 
-ROOT = Path(r"D:\FISH\fish-sync")
+ROOT = Path(__file__).resolve().parent.parent
 META_DB = ROOT / "data" / "meta_store.sqlite"
 OUT_XML = ROOT / "public" / "horoshop.xml"
 OVERRIDES_JSON = ROOT / "data" / "horoshop_overrides.json"
