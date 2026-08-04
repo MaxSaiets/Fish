@@ -35,3 +35,6 @@ data/bulk_char_progress.json
 data/bot_photo_uploads.json
 data/bot_admins.json
 src/telegram_bot/.offset
+
+# Копії локальних правок, які зробив self_update.py --force
+backup_local_*/

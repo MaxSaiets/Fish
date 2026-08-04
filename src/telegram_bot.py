@@ -291,9 +291,13 @@ async def run_real_bot() -> None:
         ]])
 
     async def safe_answer(msg, text: str, **kw):
-        """Telegram не приймає >4096 символів."""
-        for i in range(0, len(text), 3900):
-            await msg.answer(text[i:i + 3900], **kw)
+        """Telegram не приймає >4096 символів. Клавіатуру чіпляємо лише до
+        ОСТАННЬОЇ частини, інакше вона дублюється під кожним шматком."""
+        markup = kw.pop("reply_markup", None)
+        chunks = [text[i:i + 3900] for i in range(0, max(len(text), 1), 3900)] or [text]
+        for n, chunk in enumerate(chunks):
+            last = n == len(chunks) - 1
+            await msg.answer(chunk, **kw, **({"reply_markup": markup} if last and markup else {}))
 
     # ─────────── старт / довідка ───────────
 
@@ -804,17 +808,24 @@ async def run_real_bot() -> None:
                 await msg.answer(f"❌ Помилка: {exc}")
             return
 
-        if action == "update":
+        if action in ("update", "update_force"):
+            forced = action == "update_force"
             await msg.answer("⏳ Завантажую оновлення з GitHub…")
             try:
                 from self_update import update_code
-                res = await asyncio.to_thread(update_code)
+                res = await asyncio.to_thread(update_code, None, forced)
             except Exception as exc:
                 return await msg.answer(f"❌ Виняток: {exc}")
 
             body = (res.get("message") or "").replace("<", "&lt;").replace(">", "&gt;")
             if res["status"] == "error":
-                return await safe_answer(msg, f"❌ {body}", parse_mode="HTML")
+                # оновленню заважають локальні правки коду — пропонуємо зберегти їх і оновитись
+                kb2 = None
+                if not forced and "would be overwritten" in (res.get("message") or ""):
+                    kb2 = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(
+                        text="📦 Зберегти правки і все одно оновити",
+                        callback_data="do:update_force")]])
+                return await safe_answer(msg, f"❌ {body}", reply_markup=kb2, parse_mode="HTML")
             if res["status"] == "uptodate":
                 return await msg.answer(f"✅ {body}")
 
