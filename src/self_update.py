@@ -35,6 +35,7 @@ RUNTIME_FILES = [
     "data/notify_alerts_state.json",
     "data/bulk_char_progress.json",
     "data/bot_photo_uploads.json",
+    "data/bot_admins.json",
     "src/telegram_bot/.offset",
 ]
 

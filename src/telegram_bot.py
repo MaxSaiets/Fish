@@ -49,6 +49,26 @@ except Exception:  # pragma: no cover
 
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 ADMIN_IDS = {int(x) for x in os.environ.get("TELEGRAM_ADMIN_IDS", "").split(",") if x.strip().isdigit()}
+
+# Додаткові користувачі, яких видали ПРЯМО З ТЕЛЕФОНА (кнопка «👥 Доступ»).
+# Потрібно, щоб не лізти в .env на ноуті магазину заради одного ID.
+EXTRA_ADMINS_FILE = ROOT / "data" / "bot_admins.json"
+
+
+def load_extra_admins() -> dict[int, str]:
+    """{user_id: підпис}. Читається щоразу — зміни діють одразу, без перезапуску."""
+    try:
+        data = json.loads(EXTRA_ADMINS_FILE.read_text(encoding="utf-8"))
+        return {int(k): str(v) for k, v in data.items()}
+    except Exception:  # noqa: BLE001
+        return {}
+
+
+def save_extra_admins(users: dict[int, str]) -> None:
+    EXTRA_ADMINS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    EXTRA_ADMINS_FILE.write_text(
+        json.dumps({str(k): v for k, v in users.items()}, ensure_ascii=False, indent=1),
+        encoding="utf-8")
 # Технічне меню («⚙️ Ще»): якщо TELEGRAM_TECH_IDS заданий — лише ці ID бачать
 # небезпечні кнопки (синк, оновлення, стоп). Порожній = усі адміни.
 TECH_IDS = {int(x) for x in os.environ.get("TELEGRAM_TECH_IDS", "").split(",") if x.strip().isdigit()}
@@ -228,10 +248,17 @@ async def run_real_bot() -> None:
     state: dict[int, dict] = {}
 
     def is_admin(msg) -> bool:
-        return not ADMIN_IDS or msg.from_user.id in ADMIN_IDS
+        if not ADMIN_IDS:
+            return True
+        return msg.from_user.id in ADMIN_IDS or msg.from_user.id in load_extra_admins()
 
     def is_tech(msg) -> bool:
-        return is_admin(msg) and (not TECH_IDS or msg.from_user.id in TECH_IDS)
+        """Технічне меню — лише ті, хто в .env. Видані з телефона користувачі
+        (напр. Марина) отримують ТІЛЬКИ бізнес-кнопки."""
+        uid = msg.from_user.id
+        if TECH_IDS:
+            return uid in TECH_IDS
+        return not ADMIN_IDS or uid in ADMIN_IDS
 
     # ─────────── клавіатури ───────────
 
@@ -250,6 +277,7 @@ async def run_real_bot() -> None:
             [KeyboardButton(text="🆕 Останні додані"), KeyboardButton(text="🌐 На сайті")],
             [KeyboardButton(text="✏️ Змінити ціну"), KeyboardButton(text="✏️ Змінити залишок")],
             [KeyboardButton(text="🤖 AI-описи"), KeyboardButton(text="🔄 Синхронізація")],
+            [KeyboardButton(text="👥 Доступ")],
             [KeyboardButton(text="📥 Оновити бота"), KeyboardButton(text="🛑 Стоп процеси")],
             [KeyboardButton(text="⬅️ Назад")],
         ],
@@ -269,10 +297,18 @@ async def run_real_bot() -> None:
 
     # ─────────── старт / довідка ───────────
 
+    def access_denied_text(uid) -> str:
+        return (f"⛔ Доступ до бота закритий.\n\nВаш ID: <code>{uid}</code>\n"
+                "Передайте це число власнику — він додасть вас кнопкою «👥 Доступ».")
+
+    @dp.message(Command("whoami"))
+    async def cmd_whoami(msg: Message):
+        await msg.answer(f"Ваш Telegram ID: <code>{msg.from_user.id}</code>", parse_mode="HTML")
+
     @dp.message(CommandStart())
     async def cmd_start(msg: Message):
         if not is_admin(msg):
-            return await msg.answer("⛔ Доступ заборонено")
+            return await msg.answer(access_denied_text(msg.from_user.id), parse_mode="HTML")
         state.pop(msg.from_user.id, None)
         await safe_answer(msg, f"👋 Вітаю, {msg.from_user.first_name}!\n\n" + build_stats_text(),
                           reply_markup=MAIN_KB, parse_mode="HTML")
@@ -523,6 +559,30 @@ async def run_real_bot() -> None:
         await msg.answer("⏳ Питаю сайт…")
         await _bot_action_answer(msg, "live_count_html")
 
+    # ─────────── доступ до бота (без правки .env на ноуті) ───────────
+
+    @dp.message(F.text == "👥 Доступ")
+    async def text_access(msg: Message):
+        if not is_tech(msg): return
+        extra = load_extra_admins()
+        lines = ["👥 <b>Хто має доступ до бота</b>", ""]
+        for uid in sorted(ADMIN_IDS):
+            lines.append(f"• <code>{uid}</code> — власник системи (з .env, тут не змінити)")
+        for uid, note in extra.items():
+            lines.append(f"• <code>{uid}</code> — {html_escape(note)} (видано з телефона)")
+        if not ADMIN_IDS and not extra:
+            lines.append("⚠️ Список порожній — бот відкритий УСІМ.")
+        lines += ["", "Щоб дати доступ: людина пише боту, він покаже її ID, "
+                      "потім тут «➕ Додати»."]
+        kb = InlineKeyboardMarkup(inline_keyboard=[
+            [InlineKeyboardButton(text="➕ Додати людину", callback_data="do:access_add")],
+        ] + ([[InlineKeyboardButton(text="➖ Прибрати видану з телефона",
+                                    callback_data="do:access_del")]] if extra else []))
+        await safe_answer(msg, "\n".join(lines), reply_markup=kb, parse_mode="HTML")
+
+    def html_escape(s: str) -> str:
+        return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
     # ─────────── зміна ціни / залишку ───────────
 
     @dp.message(F.text == "✏️ Змінити ціну")
@@ -670,6 +730,18 @@ async def run_real_bot() -> None:
         if action == "cancel":
             return await msg.answer("Скасовано.")
 
+        if action == "access_add":
+            state[call.from_user.id] = {"mode": "await_admin_add"}
+            return await msg.answer(
+                "➕ Надішліть <b>ID</b> людини (можна з підписом):\n"
+                "<code>123456789 Марина</code>\n\n"
+                "<i>ID людина дізнається так: пише боту будь-що — він відповість "
+                "«Доступ заборонено» і покаже її ID.</i>", parse_mode="HTML")
+
+        if action == "access_del":
+            state[call.from_user.id] = {"mode": "await_admin_del"}
+            return await msg.answer("➖ Надішліть ID, якого прибрати зі списку.")
+
         if action == "ai_next":
             return await send_next_card(msg)
 
@@ -756,13 +828,41 @@ async def run_real_bot() -> None:
 
     @dp.message(F.text)
     async def free_text(msg: Message):
-        if not is_admin(msg): return
+        if not is_admin(msg):
+            return await msg.answer(access_denied_text(msg.from_user.id), parse_mode="HTML")
         text = (msg.text or "").strip()
         st = state.get(msg.from_user.id) or {}
 
         # чекаємо артикул для щойно надісланих фото
         if st.get("mode") == "await_article" and st.get("photos"):
             return await do_upload_photos(msg, text.split()[0], st["photos"])
+
+        # видача / відкликання доступу
+        if st.get("mode") in ("await_admin_add", "await_admin_del"):
+            mode = st["mode"]
+            state.pop(msg.from_user.id, None)
+            if not is_tech(msg):
+                return
+            parts = text.split(maxsplit=1)
+            if not parts[0].isdigit():
+                return await msg.answer("ID має бути числом. Спробуйте ще раз через «👥 Доступ».")
+            uid = int(parts[0])
+            users = load_extra_admins()
+            if mode == "await_admin_add":
+                if uid in ADMIN_IDS:
+                    return await msg.answer("Ця людина вже має доступ (з .env).")
+                users[uid] = (parts[1].strip() if len(parts) > 1 else "без підпису")[:40]
+                save_extra_admins(users)
+                return await msg.answer(
+                    f"✅ Доступ надано: <code>{uid}</code> — {html_escape(users[uid])}\n"
+                    "Діє одразу, перезапуск не потрібен. Технічне меню «⚙️ Ще» "
+                    "цій людині недоступне.", parse_mode="HTML")
+            if uid not in users:
+                return await msg.answer("Такого ID немає серед виданих із телефона. "
+                                        "Записані в .env звідси не прибрати.")
+            users.pop(uid)
+            save_extra_admins(users)
+            return await msg.answer(f"✅ Доступ відкликано: <code>{uid}</code>", parse_mode="HTML")
 
         # чекаємо «артикул значення» для зміни ціни/залишку
         if st.get("mode") in ("await_setprice", "await_setstock"):
