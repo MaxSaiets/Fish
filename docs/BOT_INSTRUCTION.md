@@ -191,9 +191,15 @@ python src\sync_orders.py --dry-run              # замовлення без �
 немає, тому один раз потрібна команда (перевірено на симуляції 04.08 — код
 оновився, журнал `["4","7"]` уцілів, правки збереглись):
 
-```bash
-cd D:\FISH\fish-sync && git fetch origin && git checkout origin/main -- src/self_update.py && python src\self_update.py --force
+Відкрити PowerShell і вставити **чотирма рядками** (не одним через `&&` —
+у стандартній Windows PowerShell 5.1 `&&` це синтаксична помилка):
+
+```powershell
+cd D:\FISH\fish-sync
+git fetch origin
+git checkout origin/main -- src/self_update.py
+python src\self_update.py --force
 ```
 
-Перша частина дістає ОДИН новий файл без злиття, друга — оновлює з бекапом.
+Третій рядок дістає ОДИН новий файл без злиття, четвертий — оновлює з бекапом.
 Далі все робиться кнопкою, ноутбук більше не потрібен.
