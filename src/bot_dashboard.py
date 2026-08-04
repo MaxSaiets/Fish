@@ -99,22 +99,9 @@ def orders_metrics() -> dict:
     }
 
 
-def sales_metrics(top_n: int = 5) -> dict:
-    sales = _load(SALES, [])
-    if not isinstance(sales, list) or not sales:
-        return {"positions": 0, "revenue": 0, "top": []}
-    revenue = sum(float(s.get("rev") or 0) for s in sales)
-    ranked = sorted(sales, key=lambda s: -float(s.get("rev") or 0))[:top_n]
-    top = [
-        {
-            "name": (s.get("name") or "?")[:38],
-            "kod": s.get("kod") or "",
-            "rev": float(s.get("rev") or 0),
-            "qty": float(s.get("qty") or 0),
-        }
-        for s in ranked
-    ]
-    return {"positions": len(sales), "revenue": revenue, "top": top}
+# Функцію sales_metrics() видалено 04.08.2026: бот більше не показує виручку
+# й обсяги продажів. Дані продажів використовуються ЛИШЕ як внутрішній критерій
+# пріоритету (які товари замовити / що фотографувати), самі цифри не виводяться.
 
 
 def stale_top_sellers(limit: int = 8) -> list[dict]:
@@ -128,12 +115,14 @@ def stale_top_sellers(limit: int = 8) -> list[dict]:
     }
     sales = _load(SALES, [])
     out = []
+    seen: set[str] = set()
     for s in sorted(sales, key=lambda x: -float(x.get("rev") or 0)):
         kod = str(s.get("kod") or "").strip()
-        if not kod or kod not in stock_by_kod:
+        if not kod or kod not in stock_by_kod or kod in seen:
             continue
         if stock_by_kod[kod] > 0:
             continue
+        seen.add(kod)
         out.append(
             {"kod": kod, "name": (s.get("name") or "?")[:38], "rev": float(s.get("rev") or 0)}
         )
@@ -169,7 +158,6 @@ def dashboard_html() -> str:
     cat = catalog_metrics()
     photo = photo_metrics()
     orders = orders_metrics()
-    sales = sales_metrics()
     health = sync_health()
 
     instock_pct = round(cat["instock"] * 100 / cat["total"], 1) if cat["total"] else 0
@@ -195,10 +183,6 @@ def dashboard_html() -> str:
         f"   Реальних: <b>{_num(photo['real'])}</b> ({photo['pct']}%)",
         f"   ⚠️ Заглушок: <b>{_num(photo['placeholder'])}</b>",
         "",
-        "💰 <b>Продажі за весь час</b>",
-        f"   Виручка: <b>{_num(sales['revenue'])} грн</b>",
-        f"   Позицій продавалось: {_num(sales['positions'])}",
-        "",
         "🔄 <b>Синхронізація</b>",
         f"   Дані з УкрСкладу: {health['products_age']}",
         f"   Останній повний цикл: {health['pipeline_when']} ({health['pipeline_status']})",
@@ -206,32 +190,26 @@ def dashboard_html() -> str:
     return "\n".join(lines)
 
 
-def top_sellers_html(n: int = 5) -> str:
-    s = sales_metrics(top_n=n)
-    if not s["top"]:
-        return "Даних про продажі немає."
-    lines = [f"🏆 <b>ТОП-{n} за виручкою (весь час)</b>", ""]
-    for i, t in enumerate(s["top"], 1):
-        lines.append(f"{i}. <b>{t['name']}</b>")
-        lines.append(f"    {_num(t['rev'])} грн · {_num(t['qty'])} шт · арт. {t['kod']}")
-    return "\n".join(lines)
-
-
 def stale_top_html(n: int = 8) -> str:
+    """Ходові товари з нульовим залишком.
+
+    Ранжування спирається на історію продажів УкрСкладу, але САМІ ЦИФРИ
+    (виручка, кількість проданого) НЕ виводяться — рішення Max 04.08.2026:
+    комерційні показники не мають світитися в Telegram.
+    """
     rows = stale_top_sellers(n)
     if not rows:
-        return "✅ Усі топ-товари в наявності."
-    lines = ["⚠️ <b>ТОП-ТОВАРИ, ЯКИХ НЕМАЄ В НАЯВНОСТІ</b>",
-             "<i>Продавались добре — зараз нульовий залишок</i>", ""]
+        return "✅ Усі ходові товари в наявності."
+    lines = ["⚠️ <b>ХОДОВІ ТОВАРИ, ЯКИХ НЕМАЄ В НАЯВНОСТІ</b>",
+             "<i>Добре продавались — зараз нульовий залишок. Варто замовити.</i>", ""]
     for i, r in enumerate(rows, 1):
-        lines.append(f"{i}. <b>{r['name']}</b>")
-        lines.append(f"    було продано на {_num(r['rev'])} грн · арт. {r['kod']}")
+        lines.append(f"{i}. <b>{r['name']}</b> · арт. <code>{r['kod']}</code>")
     return "\n".join(lines)
 
 
 if __name__ == "__main__":
-    print(dashboard_html().replace("<b>", "").replace("</b>", "").replace("<i>", "").replace("</i>", ""))
+    import re as _re
+    strip = lambda s: _re.sub(r"</?(?:b|i|code)>", "", s)  # noqa: E731
+    print(strip(dashboard_html()))
     print()
-    print(top_sellers_html().replace("<b>", "").replace("</b>", ""))
-    print()
-    print(stale_top_html().replace("<b>", "").replace("</b>", "").replace("<i>", "").replace("</i>", ""))
+    print(strip(stale_top_html()))

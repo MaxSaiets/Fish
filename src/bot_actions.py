@@ -161,7 +161,6 @@ def photo_todo(limit: int = 10) -> list[dict]:
             rows.append({
                 "article": art,
                 "name": (r.get("Назва") or "")[:42],
-                "revenue": r.get("Виручка") or r.get("Виручка,грн") or "",
                 "stock": r.get("Залишок") or "",
             })
             if len(rows) >= limit:
@@ -183,8 +182,8 @@ def photo_todo_html(limit: int = 10) -> str:
     ]
     for i, r in enumerate(rows, 1):
         lines.append(f"{i}. <code>{r['article']}</code> — {r['name']}")
-        if r["revenue"]:
-            lines.append(f"     продано на {r['revenue']} грн · залишок {r['stock']}")
+        if r["stock"]:
+            lines.append(f"     на складі: {r['stock']}")
     return "\n".join(lines)
 
 

@@ -168,10 +168,10 @@ def run_extra_alerts(token: str, recipients: list[int]) -> None:
         known = set(state.get("stale_kods") or [])
         fresh = [r for r in stale if r["kod"] not in known]
         if fresh:
-            lines = ["🔻 <b>ТОП-ТОВАР ЗАКІНЧИВСЯ</b>",
-                     "<i>Продавався добре — тепер залишок 0. Варто замовити.</i>", ""]
+            lines = ["🔻 <b>ХОДОВИЙ ТОВАР ЗАКІНЧИВСЯ</b>",
+                     "<i>Добре продавався — тепер залишок 0. Варто замовити.</i>", ""]
             for r in fresh[:15]:
-                lines.append(f"• <b>{r['name']}</b> · арт. {r['kod']} · було продано на {r['rev']:.0f} грн")
+                lines.append(f"• <b>{r['name']}</b> · арт. {r['kod']}")
             text = "\n".join(lines)
             for uid in recipients:
                 tg_send(token, uid, text)

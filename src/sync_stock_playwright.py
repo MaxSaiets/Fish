@@ -27,7 +27,7 @@ import traceback
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path(r"D:\FISH\fish-sync")
+ROOT = Path(__file__).resolve().parent.parent
 LOG_DIR = ROOT / "logs"
 TMP_DIR = ROOT / "tmp"
 sys.path.insert(0, str(ROOT / "src"))

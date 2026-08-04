@@ -27,7 +27,7 @@ import traceback
 from datetime import datetime, timedelta
 from pathlib import Path
 
-ROOT = Path(r"D:\FISH\fish-sync")
+ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 LOG_DIR = ROOT / "logs"
 PROCESSED_FILE = DATA_DIR / "processed_orders.json"

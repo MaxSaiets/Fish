@@ -71,12 +71,53 @@ function Set-FishTask {
     Enable-ScheduledTask -TaskName $Name | Out-Null
 }
 
+# Telegram-бот — окремі налаштування: він працює ПОСТІЙНО, тому
+# ExecutionTimeLimit має бути 0 (без ліміту), інакше Планувальник уб'є його
+# посеред дня. Батарея теж не має його зупиняти — Марина користується ботом
+# із ноутбука без розетки.
+function Set-BotTask {
+    $name = "FishSyncBot"
+    $wscript = "$env:SystemRoot\System32\wscript.exe"
+    $launchArgs = "//Nologo `"$projectRoot\docs\run_hidden.vbs`" `"src\telegram_bot.py`""
+    $action = New-ScheduledTaskAction -Execute $wscript -Argument $launchArgs -WorkingDirectory $projectRoot
+    $trigger = New-ScheduledTaskTrigger -AtLogOn
+    $botSettings = New-ScheduledTaskSettingsSet `
+        -StartWhenAvailable `
+        -MultipleInstances IgnoreNew `
+        -RestartCount 99 `
+        -RestartInterval (New-TimeSpan -Minutes 5) `
+        -ExecutionTimeLimit ([TimeSpan]::Zero)
+    if (Get-ScheduledTask -TaskName $name -ErrorAction SilentlyContinue) {
+        Set-ScheduledTask -TaskName $name -Action $action -Trigger $trigger -Settings $botSettings | Out-Null
+        Write-Host "Оновлено задачу: $name (автозапуск при вході, без таймліміту)"
+    } else {
+        Register-ScheduledTask -TaskName $name -Action $action -Trigger $trigger -Settings $botSettings -User $env:USERNAME | Out-Null
+        Write-Host "Створено задачу: $name (автозапуск при вході, без таймліміту)"
+    }
+    Enable-ScheduledTask -TaskName $name | Out-Null
+}
+
+# Старі задачі з setup_task_scheduler.ps1 дублюють нові (FishSyncOrders поруч із
+# HoroshopOrders_ToUkrSklad = замовлення можуть списатись ДВІЧІ). Вимикаємо.
+foreach ($legacy in @("FishSyncStock", "FishSyncOrders", "FishSyncFullPipeline", "FishSyncServer")) {
+    $t = Get-ScheduledTask -TaskName $legacy -ErrorAction SilentlyContinue
+    if ($t -and $t.State -ne "Disabled") {
+        Disable-ScheduledTask -TaskName $legacy | Out-Null
+        Write-Host "ВИМКНЕНО стару задачу-дублікат: $legacy" -ForegroundColor Yellow
+    }
+}
+
 $today = Get-Date
 Set-FishTask -Name "UkrSkladToHoroshop_StockSync" -ScriptRelPath "src\sync_stock_playwright.py" -IntervalHours 2 -StartTime ($today.Date.AddHours(3).AddMinutes(11))
 Set-FishTask -Name "HoroshopOrders_ToUkrSklad" -ScriptRelPath "src\sync_orders.py" -IntervalHours 1 -StartTime ($today.Date.AddHours(7).AddMinutes(5))
 # Сповіщення в Telegram про НОВІ замовлення — кожні 10 хв (потребує src\telegram_bot\config.json)
 Set-FishTask -Name "HoroshopOrders_TelegramNotify" -ScriptRelPath "src\notify_new_orders.py" -IntervalMinutes 10 -StartTime ($today.Date.AddHours(0).AddMinutes(2))
+Set-BotTask
 
 Write-Host ""
 Write-Host "Готово. Перевірка:"
-Get-ScheduledTask -TaskName "UkrSkladToHoroshop_StockSync", "HoroshopOrders_ToUkrSklad" | Select-Object TaskName, State
+Get-ScheduledTask -TaskName "UkrSkladToHoroshop_StockSync", "HoroshopOrders_ToUkrSklad", `
+    "HoroshopOrders_TelegramNotify", "FishSyncBot" -ErrorAction SilentlyContinue |
+    Select-Object TaskName, State
+Write-Host ""
+Write-Host "Повна перевірка ланцюга (нічого не змінює):  python src\diagnose.py"

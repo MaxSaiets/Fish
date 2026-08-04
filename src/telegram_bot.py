@@ -245,8 +245,8 @@ async def run_real_bot() -> None:
     )
     MORE_KB = ReplyKeyboardMarkup(
         keyboard=[
-            [KeyboardButton(text="🩺 Перевірка системи"), KeyboardButton(text="🏆 Топ продажів")],
-            [KeyboardButton(text="⚠️ Закінчилось з топу"), KeyboardButton(text="⚠️ Малий залишок")],
+            [KeyboardButton(text="🩺 Перевірка системи"), KeyboardButton(text="🧪 Діагностика")],
+            [KeyboardButton(text="⚠️ Треба замовити"), KeyboardButton(text="⚠️ Малий залишок")],
             [KeyboardButton(text="🆕 Останні додані"), KeyboardButton(text="🌐 На сайті")],
             [KeyboardButton(text="✏️ Змінити ціну"), KeyboardButton(text="✏️ Змінити залишок")],
             [KeyboardButton(text="🤖 AI-описи"), KeyboardButton(text="🔄 Синхронізація")],
@@ -317,19 +317,23 @@ async def run_real_bot() -> None:
         if not is_admin(msg): return
         await safe_answer(msg, build_stats_text(), parse_mode="HTML")
 
-    @dp.message(F.text == "🏆 Топ продажів")
-    async def text_top_sales(msg: Message):
-        if not is_admin(msg): return
-        if bot_dashboard is None:
-            return await msg.answer("Модуль статистики недоступний.")
-        await safe_answer(msg, bot_dashboard.top_sellers_html(7), parse_mode="HTML")
-
-    @dp.message(F.text == "⚠️ Закінчилось з топу")
+    @dp.message(F.text == "⚠️ Треба замовити")
     async def text_stale_top(msg: Message):
         if not is_admin(msg): return
         if bot_dashboard is None:
             return await msg.answer("Модуль статистики недоступний.")
         await safe_answer(msg, bot_dashboard.stale_top_html(10), parse_mode="HTML")
+
+    @dp.message(F.text == "🧪 Діагностика")
+    async def text_diagnose(msg: Message):
+        if not is_tech(msg): return
+        await msg.answer("⏳ Перевіряю весь ланцюг (до 2 хв)…")
+        try:
+            import diagnose
+            res = await asyncio.to_thread(diagnose.full_report_html)
+        except Exception as exc:
+            res = f"❌ Помилка діагностики: {exc}"
+        await safe_answer(msg, res, parse_mode="HTML")
 
     @dp.message(F.text == "🩺 Перевірка системи")
     async def text_health(msg: Message):
