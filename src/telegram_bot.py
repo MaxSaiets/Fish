@@ -734,27 +734,23 @@ async def run_real_bot() -> None:
 
         if action == "update":
             await msg.answer("⏳ Завантажую оновлення з GitHub…")
-            import subprocess
             try:
-                res = await asyncio.to_thread(
-                    subprocess.run, ["git", "pull", "origin", "main"],
-                    capture_output=True, text=True, cwd=str(ROOT), timeout=300)
-                out = (res.stdout or "").strip()
-                if res.returncode != 0:
-                    safe = (res.stderr or "").replace("<", "&lt;").replace(">", "&gt;")[-800:]
-                    return await msg.answer(f"❌ Помилка оновлення:\n<pre>{safe}</pre>",
-                                            parse_mode="HTML")
-                if "Already up to date" in out or "Вже оновлено" in out:
-                    return await msg.answer("✅ Уже остання версія.")
-                safe = out.replace("<", "&lt;").replace(">", "&gt;")[-600:]
-                await msg.answer(f"✅ Оновлено:\n<pre>{safe}</pre>\n🔄 Перезапускаюсь…",
-                                 parse_mode="HTML")
-                py = sys.executable.replace("pythonw.exe", "python.exe")
-                subprocess.Popen([py] + sys.argv, creationflags=0x00000008)
-                os._exit(0)
+                from self_update import update_code
+                res = await asyncio.to_thread(update_code)
             except Exception as exc:
-                await msg.answer(f"❌ Виняток: {exc}")
-            return
+                return await msg.answer(f"❌ Виняток: {exc}")
+
+            body = (res.get("message") or "").replace("<", "&lt;").replace(">", "&gt;")
+            if res["status"] == "error":
+                return await safe_answer(msg, f"❌ {body}", parse_mode="HTML")
+            if res["status"] == "uptodate":
+                return await msg.answer(f"✅ {body}")
+
+            await safe_answer(msg, f"✅ {body}\n\n🔄 Перезапускаюсь…", parse_mode="HTML")
+            import subprocess
+            py = sys.executable.replace("pythonw.exe", "python.exe")
+            subprocess.Popen([py] + sys.argv, cwd=str(ROOT), creationflags=0x00000008)
+            os._exit(0)
 
     # ─────────── вільний текст (пошук / артикул / очікування) ───────────
 
